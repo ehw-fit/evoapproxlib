@@ -9,7 +9,7 @@ Parameters of circuits
 ----------------------------
 
 | Circuit name | MAE | WCE | Download |
-| ----- |  ---- | ---- | --- | ---- | 
+| ------- |  ------- | ------- | ------- | ------- | 
 | cgp-evoapproxlib.08.mul8_CarrySaveArrayMultiplier_Using_RippleCarryAdder | 0.0 | 0 |  [Verilog](cgp-evoapproxlib.08.mul8_CarrySaveArrayMultiplier_Using_RippleCarryAdder.v) [C](cgp-evoapproxlib.08.mul8_CarrySaveArrayMultiplier_Using_RippleCarryAdder.c) |
 | cgp-approx14ep.08.mult8_cgp14ep_ep13107_wc10176_csamrca | 731.4 | 10176 |  [Verilog](cgp-approx14ep.08.mult8_cgp14ep_ep13107_wc10176_csamrca.v) [C](cgp-approx14ep.08.mult8_cgp14ep_ep13107_wc10176_csamrca.c) |
 | cgp-approx14ep.08.mult8_cgp14ep_ep19660_wc748_csamrca | 37.0 | 748 |  [Verilog](cgp-approx14ep.08.mult8_cgp14ep_ep19660_wc748_csamrca.v) [C](cgp-approx14ep.08.mult8_cgp14ep_ep19660_wc748_csamrca.c) |
