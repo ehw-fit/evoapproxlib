@@ -10,7 +10,8 @@ Parameters of circuits
 
 | Circuit name | MAE | WCE | EP | MRE | Download |
 | --- |  --- | --- | --- | --- | --- | 
-| mul12u_pwr_1_152_mre_00_0000 | 0.0 | 0 | 0.0 | 0.0 |  [Verilog](mul12u_pwr_1_152_mre_00_0000.v) [C](mul12u_pwr_1_152_mre_00_0000.c) |
+| mul12u_pwr_1_157_mre_00_0000 | 0.0 | 0 | 0.0 | 0.0 |  [Verilog](mul12u_pwr_1_157_mre_00_0000.v) [C](mul12u_pwr_1_157_mre_00_0000.c) |
+| mul12u_pwr_1_156_mre_00_0004 | 0.9 | 1 | 87.5 | 0.0003825478 |  [Verilog](mul12u_pwr_1_156_mre_00_0004.v) [C](mul12u_pwr_1_156_mre_00_0004.c) |
 | mul12u_pwr_1_142_mre_00_0019 | 4.25 | 17 | 68.75 | 0.0019121215 |  [Verilog](mul12u_pwr_1_142_mre_00_0019.v) [C](mul12u_pwr_1_142_mre_00_0019.c) |
 | mul12u_pwr_1_090_mre_00_0119 | 32.25 | 129 | 89.0625 | 0.0118528345 |  [Verilog](mul12u_pwr_1_090_mre_00_0119.v) [C](mul12u_pwr_1_090_mre_00_0119.c) |
 | mul12u_pwr_0_925_mre_00_1641 | 1184.25 | 4737 | 96.8627929688 | 0.1641052307 |  [Verilog](mul12u_pwr_0_925_mre_00_1641.v) [C](mul12u_pwr_0_925_mre_00_1641.c) |

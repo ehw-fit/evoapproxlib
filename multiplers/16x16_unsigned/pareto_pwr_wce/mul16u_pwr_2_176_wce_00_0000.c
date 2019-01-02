@@ -3,5 +3,5 @@
  * When used, please cite the following article: tbd 
  * This file is pareto optimal sub-set in the pdk45_pwr and wce% parameters
  ***/
- // internal reference: dc-composition.16.m16_m4_composed_wc_pwr_ar_0100
+ // internal reference: composition.16.m16_m4_composed_wc_pwr_ar_0100
 
