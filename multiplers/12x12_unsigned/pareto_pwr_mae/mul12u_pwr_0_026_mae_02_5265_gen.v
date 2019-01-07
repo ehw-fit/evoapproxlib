@@ -1,0 +1,124 @@
+/***
+* This code is a part of ApproxLib library (ehw.fit.vutbr.cz/approxlib) distributed under a XXXX public license.
+* When used, please cite the following article: tbd 
+* This file is pareto optimal sub-set in the pdk45_pwr and mae% parameters
+***/
+
+module mul12u_pwr_0_026_mae_02_5265(A, B, O);
+  input [11:0] A, B;
+  output [23:0] O;
+  wire n_1714, n_1715, n_36, n_42, n_37, n_1540, n_23, n_22, n_21, n_20;
+  wire n_27, n_26, n_25, n_24, n_1874, n_29, n_28, n_48, n_1548, n_1960;
+  wire n_1961, n_519, n_1880, n_2040, n_1380, n_518, n_244, n_1692, n_974, n_39;
+  wire n_38, n_2032, n_104, n_1626, n_1627, n_8, n_9, n_185, n_184, n_4;
+  wire n_5, n_6, n_7, n_0, n_1, n_2, n_3, n_30, n_31, n_32;
+  wire n_33, n_34, n_35, n_18, n_19, n_16, n_17, n_14, n_15, n_12;
+  wire n_13, n_10, n_11, n_45, n_1953, n_2041, n_2026, n_44, n_1795, n_43;
+  wire n_47, n_1866, n_1867, n_1693, n_46, n_1952, n_1706, n_1794, n_41, n_2033;
+  wire n_130, n_40;
+  assign n_0 = A[0];
+  assign n_1 = A[0];
+  assign n_2 = A[1];
+  assign n_3 = A[1];
+  assign n_4 = A[2];
+  assign n_5 = A[2];
+  assign n_6 = A[3];
+  assign n_7 = A[3];
+  assign n_8 = A[4];
+  assign n_9 = A[4];
+  assign n_10 = A[5];
+  assign n_11 = A[5];
+  assign n_12 = A[6];
+  assign n_13 = A[6];
+  assign n_14 = A[7];
+  assign n_15 = A[7];
+  assign n_16 = A[8];
+  assign n_17 = A[8];
+  assign n_18 = A[9];
+  assign n_19 = A[9];
+  assign n_20 = A[10];
+  assign n_21 = A[10];
+  assign n_22 = A[11];
+  assign n_23 = A[11];
+  assign n_24 = B[0];
+  assign n_25 = B[0];
+  assign n_26 = B[1];
+  assign n_27 = B[1];
+  assign n_28 = B[2];
+  assign n_29 = B[2];
+  assign n_30 = B[3];
+  assign n_31 = B[3];
+  assign n_32 = B[4];
+  assign n_33 = B[4];
+  assign n_34 = B[5];
+  assign n_35 = B[5];
+  assign n_36 = B[6];
+  assign n_37 = B[6];
+  assign n_38 = B[7];
+  assign n_39 = B[7];
+  assign n_40 = B[8];
+  assign n_41 = B[8];
+  assign n_42 = B[9];
+  assign n_43 = B[9];
+  assign n_44 = B[10];
+  assign n_45 = B[10];
+  assign n_46 = B[11];
+  assign n_47 = B[11];
+  assign n_48 = ~(n_2 & n_12);
+  assign n_104 = n_16;
+  assign n_130 = ~n_2;
+  assign n_184 = n_14 & n_44;
+  assign n_185 = n_184;
+  assign n_244 = n_2;
+  assign n_518 = ~n_14;
+  assign n_519 = n_518;
+  assign n_974 = n_2 & n_36;
+  assign n_1380 = n_22 & n_40;
+  assign n_1540 = n_20 & n_42;
+  assign n_1548 = n_22 & n_42;
+  assign n_1626 = n_1380 | n_1540;
+  assign n_1627 = n_1626;
+  assign n_1692 = ~(n_16 & n_44);
+  assign n_1693 = n_1692;
+  assign n_1706 = n_20 & n_44;
+  assign n_1714 = n_22 & n_44;
+  assign n_1715 = n_1714;
+  FAX1 tmp78(.YS(n_1794), .YC(n_1795), .A(n_1548), .B(n_1706), .C(n_1627));
+  assign n_1866 = n_18 & n_46;
+  assign n_1867 = n_1866;
+  assign n_1874 = n_20 & n_46;
+  assign n_1880 = n_22 & n_46;
+  FAX1 tmp83(.YS(n_1952), .YC(n_1953), .A(n_1794), .B(n_1866), .C(n_1867));
+  FAX1 tmp84(.YS(n_1960), .YC(n_1961), .A(n_1714), .B(n_1874), .C(n_1795));
+  assign n_2026 = n_1952;
+  HAX1 tmp86(.YS(n_2032), .YC(n_2033), .A(n_1960), .B(n_1953));
+  FAX1 tmp87(.YS(n_2040), .YC(n_2041), .A(n_1880), .B(n_1961), .C(n_2033));
+  assign O[0] = n_48;
+  assign O[1] = n_974;
+  assign O[2] = n_38;
+  assign O[3] = n_1952;
+  assign O[4] = n_10;
+  assign O[5] = n_130;
+  assign O[6] = n_519;
+  assign O[7] = n_8;
+  assign O[8] = n_34;
+  assign O[9] = n_44;
+  assign O[10] = n_38;
+  assign O[11] = n_0;
+  assign O[12] = n_1693;
+  assign O[13] = n_1706;
+  assign O[14] = n_519;
+  assign O[15] = n_244;
+  assign O[16] = n_185;
+  assign O[17] = n_44;
+  assign O[18] = n_1715;
+  assign O[19] = n_104;
+  assign O[20] = n_2026;
+  assign O[21] = n_2032;
+  assign O[22] = n_2040;
+  assign O[23] = n_2041;
+endmodule
+
+
+// internal reference: cgp-compare17.12.mul12u_pwr_0_026_mae_02_5265
+
