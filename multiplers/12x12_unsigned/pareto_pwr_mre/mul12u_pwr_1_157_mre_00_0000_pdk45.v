@@ -1,7 +1,7 @@
 /***
 * This code is a part of ApproxLib library (ehw.fit.vutbr.cz/approxlib) distributed under a XXXX public license.
 * When used, please cite the following article(s): V. Mrazek, Z. Vasicek and R. Hrbacek, "Role of circuit representation in evolutionary design of energy-efficient approximate circuits" in IET Computers & Digital Techniques, vol. 12, no. 4, pp. 139-149, 7 2018. doi: 10.1049/iet-cdt.2017.0188 
-* This file is pareto optimal sub-set with respect to the pwr and mre parameters
+* This file contains a circuit from a sub-set of pareto optimal circuits with respect to the pwr and mre parameters
 ***/
 
 module mul12u_pwr_1_157_mre_00_0000(A, B, O);
