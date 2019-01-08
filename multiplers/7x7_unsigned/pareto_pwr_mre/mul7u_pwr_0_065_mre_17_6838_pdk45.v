@@ -1,7 +1,7 @@
 /***
 * This code is a part of ApproxLib library (ehw.fit.vutbr.cz/approxlib) distributed under a XXXX public license.
 * When used, please cite the following article(s): V. Mrazek, S. S. Sarwar, L. Sekanina, Z. Vasicek and K. Roy, "Design of power-efficient approximate multipliers for approximate artificial neural networks," 2016 IEEE/ACM International Conference on Computer-Aided Design (ICCAD), Austin, TX, 2016, pp. 1-7. doi: 10.1145/2966986.2967021 
-* This file is pareto optimal sub-set in the pwr and mre parameters
+* This file is pareto optimal sub-set with respect to the pwr and mre parameters
 ***/
 
 // ../../../cgp.nn/res/7b_160129\csam_rca\e05.0\run.00347.txt
