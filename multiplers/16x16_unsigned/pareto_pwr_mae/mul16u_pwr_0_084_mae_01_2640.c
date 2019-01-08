@@ -1,12 +1,12 @@
 /***
- * This code is a part of ApproxLib library (ehw.fit.vutbr.cz/approxlib) distributed under a XXXX public license.
- * When used, please cite the following article: tbd 
- * This file is pareto optimal sub-set in the pdk45_pwr and mae% parameters
- ***/
-#include <stdint.h>
-#include <stdlib.h>
-
-uint64_t mult8_cgp14_wc2837_rcam(const uint64_t B,const uint64_t A)
+     * This code is a part of ApproxLib library (ehw.fit.vutbr.cz/approxlib) distributed under a XXXX public license.
+     * When used, please cite the following article: tbd 
+     * This file is pareto optimal sub-set in the pdk45_pwr and mae% parameters
+     ***/
+    #include <stdint.h>
+    #include <stdlib.h>
+    
+    uint64_t mult8_cgp14_wc2837_rcam(const uint64_t B,const uint64_t A)
 {
    uint64_t O, dout_118, dout_147, dout_153, dout_154, dout_163, dout_196, dout_199, dout_206, dout_207, dout_208, dout_231, dout_232, dout_236, dout_237, dout_238, dout_239, dout_240, dout_241, dout_242, dout_243, dout_244, dout_245, dout_250, dout_251, dout_252, dout_253, dout_272, dout_276, dout_277, dout_278, dout_279, dout_280, dout_281, dout_282, dout_283, dout_284, dout_285, dout_286, dout_287, dout_288, dout_289, dout_290, dout_294, dout_295, dout_296, dout_297, dout_298, dout_316, dout_317, dout_321, dout_322, dout_323, dout_324, dout_325, dout_326, dout_327, dout_328, dout_329, dout_330, dout_331, dout_332, dout_333, dout_334, dout_335;   int avg=0;
 

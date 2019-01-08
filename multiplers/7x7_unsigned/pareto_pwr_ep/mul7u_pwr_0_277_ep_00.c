@@ -1,12 +1,12 @@
 /***
- * This code is a part of ApproxLib library (ehw.fit.vutbr.cz/approxlib) distributed under a XXXX public license.
- * When used, please cite the following article: tbd 
- * This file is pareto optimal sub-set in the pdk45_pwr and ep% parameters
- ***/
-#include <stdint.h>
-#include <stdlib.h>
-
-uint64_t mul7u_pwr_0_277_ep_00(uint64_t a, uint64_t b) {
+     * This code is a part of ApproxLib library (ehw.fit.vutbr.cz/approxlib) distributed under a XXXX public license.
+     * When used, please cite the following article: tbd 
+     * This file is pareto optimal sub-set in the pdk45_pwr and ep% parameters
+     ***/
+    #include <stdint.h>
+    #include <stdlib.h>
+    
+    uint64_t mul7u_pwr_0_277_ep_00(uint64_t a, uint64_t b) {
   int wa[7];
   int wb[7];
   uint64_t y = 0;

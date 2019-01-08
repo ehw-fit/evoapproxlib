@@ -1,12 +1,12 @@
 /***
- * This code is a part of ApproxLib library (ehw.fit.vutbr.cz/approxlib) distributed under a XXXX public license.
- * When used, please cite the following article: tbd 
- * This file is pareto optimal sub-set in the pdk45_pwr and wce% parameters
- ***/
-#include <stdint.h>
-#include <stdlib.h>
-
-uint64_t mul8u_pwr_0_204_wce_00_6577(const uint64_t B,const uint64_t A)
+     * This code is a part of ApproxLib library (ehw.fit.vutbr.cz/approxlib) distributed under a XXXX public license.
+     * When used, please cite the following article: tbd 
+     * This file is pareto optimal sub-set in the pdk45_pwr and wce% parameters
+     ***/
+    #include <stdint.h>
+    #include <stdlib.h>
+    
+    uint64_t mul8u_pwr_0_204_wce_00_6577(const uint64_t B,const uint64_t A)
 {
    uint64_t O, dout_23, dout_31, dout_45, dout_51, dout_52, dout_53, dout_75, dout_84, dout_85, dout_87, dout_88, dout_93, dout_94, dout_95, dout_96, dout_117, dout_118, dout_122, dout_123, dout_124, dout_125, dout_126, dout_127, dout_128, dout_129, dout_130, dout_131, dout_134, dout_136, dout_137, dout_138, dout_139, dout_156, dout_160, dout_161, dout_162, dout_163, dout_164, dout_165, dout_166, dout_167, dout_168, dout_169, dout_170, dout_171, dout_172, dout_173, dout_174, dout_177, dout_178, dout_179, dout_180, dout_181, dout_182, dout_194, dout_195, dout_197, dout_198, dout_199, dout_200, dout_201, dout_202, dout_203, dout_204, dout_205, dout_206, dout_207, dout_208, dout_209, dout_210, dout_211, dout_212, dout_213, dout_214, dout_215, dout_216, dout_217, dout_220, dout_221, dout_222, dout_223, dout_224, dout_225, dout_227, dout_236, dout_237, dout_238, dout_239, dout_240, dout_241, dout_242, dout_243, dout_244, dout_245, dout_246, dout_247, dout_248, dout_249, dout_250, dout_251, dout_252, dout_253, dout_254, dout_255, dout_256, dout_257, dout_258, dout_259, dout_260, dout_261, dout_263, dout_264, dout_265, dout_266, dout_267, dout_268, dout_277, dout_279, dout_280, dout_281, dout_282, dout_283, dout_284, dout_285, dout_286, dout_287, dout_288, dout_289, dout_290, dout_291, dout_292, dout_293, dout_294, dout_295, dout_296, dout_297, dout_298, dout_299, dout_300, dout_301, dout_302, dout_303, dout_304, dout_305, dout_306, dout_307, dout_308, dout_309, dout_310, dout_311, dout_312, dout_313, dout_314, dout_315, dout_316, dout_317, dout_318, dout_319, dout_320, dout_322, dout_323, dout_324, dout_325, dout_326, dout_327, dout_328, dout_329, dout_330, dout_331, dout_332, dout_333, dout_335, dout_336, dout_339, dout_340, dout_341, dout_344, dout_345, dout_347, dout_348, dout_349, dout_350, dout_351, dout_352, dout_353, dout_354, dout_355, dout_356, dout_357, dout_358, dout_361, dout_362;   int avg=0;
 

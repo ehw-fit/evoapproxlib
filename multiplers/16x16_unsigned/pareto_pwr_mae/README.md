@@ -1,15 +1,15 @@
 
-Selected circuits
-===================
- - **Desired bitwidth**: XX
- - **Optimized for**: XX - YY
-
-
-Parameters of circuits
-----------------------------
-
-| Circuit name | MAE | WCE | EP | MRE | Download |
-| --- |  --- | --- | --- | --- | --- | 
+    Selected circuits
+    ===================
+     - **Bitwidth**: 16
+     - **Pareto filtration critera**: pwr - mae
+    
+    
+    Parameters of selected circuits
+    ----------------------------
+    
+    | Circuit name | MAE | WCE | EP | MRE | Download |
+    | --- |  --- | --- | --- | --- | --- | 
 | mul16u_pwr_2_202_mae_00_0000 | 0.0 | 0 | 0.0 | 0.0 |  [Verilog generic](mul16u_pwr_2_202_mae_00_0000_gen.v) [Verilog PDK45](mul16u_pwr_2_202_mae_00_0000_pdk45.v)  [C](mul16u_pwr_2_202_mae_00_0000.c) |
 | mul16u_pwr_2_188_mae_00_0000 | 1.3 | 4 | 64.0625 | 4.4393e-06 |  [Verilog generic](mul16u_pwr_2_188_mae_00_0000_gen.v) [Verilog PDK45](mul16u_pwr_2_188_mae_00_0000_pdk45.v)  [C](mul16u_pwr_2_188_mae_00_0000.c) |
 | mul16u_pwr_2_135_mae_00_0000 | 24.5 | 79 | 98.1231689453 | 7.13325e-05 |  [Verilog generic](mul16u_pwr_2_135_mae_00_0000_gen.v) [Verilog PDK45](mul16u_pwr_2_135_mae_00_0000_pdk45.v)  [C](mul16u_pwr_2_135_mae_00_0000.c) |
@@ -20,8 +20,8 @@ Parameters of circuits
 | mul16u_pwr_0_369_mae_00_1082 | 4646493.1 | 21730646 | 99.9999893596 | 4.3840632204 |  [Verilog generic](mul16u_pwr_0_369_mae_00_1082_gen.v) [Verilog PDK45](mul16u_pwr_0_369_mae_00_1082_pdk45.v)  [C](mul16u_pwr_0_369_mae_00_1082.c) |
 | mul16u_pwr_0_084_mae_01_2640 | 54290531.3 | 193116284 | 99.9999974621 | 421.415265997 |  [Verilog generic](mul16u_pwr_0_084_mae_01_2640_gen.v) [Verilog PDK45](mul16u_pwr_0_084_mae_01_2640_pdk45.v)  [C](mul16u_pwr_0_084_mae_01_2640.c) |
 | mul16u_pwr_0_000_mae_18_7492 | 805273600.3 | 3221094401 | 99.9969482422 | 87.9880436608 |  [Verilog generic](mul16u_pwr_0_000_mae_18_7492_gen.v) [Verilog PDK45](mul16u_pwr_0_000_mae_18_7492_pdk45.v)  [C](mul16u_pwr_0_000_mae_18_7492.c) |
-
-Parameters
---------------
-![Parameters figure](fig.png)
-         
+    
+    Parameters
+    --------------
+    ![Parameters figure](fig.png)
+             

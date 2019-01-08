@@ -1,12 +1,12 @@
 /***
- * This code is a part of ApproxLib library (ehw.fit.vutbr.cz/approxlib) distributed under a XXXX public license.
- * When used, please cite the following article: tbd 
- * This file is pareto optimal sub-set in the pdk45_pwr and wce% parameters
- ***/
-#include <stdint.h>
-#include <stdlib.h>
-
-uint64_t mul8u_pwr_0_034_wce_08_2092(const uint64_t B,const uint64_t A)
+     * This code is a part of ApproxLib library (ehw.fit.vutbr.cz/approxlib) distributed under a XXXX public license.
+     * When used, please cite the following article: tbd 
+     * This file is pareto optimal sub-set in the pdk45_pwr and wce% parameters
+     ***/
+    #include <stdint.h>
+    #include <stdlib.h>
+    
+    uint64_t mul8u_pwr_0_034_wce_08_2092(const uint64_t B,const uint64_t A)
 {
    uint64_t O, dout_138, dout_139, dout_171, dout_181, dout_182, dout_209, dout_213, dout_216, dout_224, dout_225, dout_247, dout_256, dout_257, dout_259, dout_265, dout_266, dout_267, dout_268, dout_293, dout_294, dout_295, dout_296, dout_297, dout_298, dout_299, dout_300, dout_301, dout_302, dout_303, dout_321, dout_322, dout_323, dout_324, dout_325, dout_326, dout_327, dout_328, dout_329, dout_330, dout_331, dout_332;   int avg=0;
 

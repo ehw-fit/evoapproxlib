@@ -1,9 +1,9 @@
 /***
-* This code is a part of ApproxLib library (ehw.fit.vutbr.cz/approxlib) distributed under a XXXX public license.
-* When used, please cite the following article: tbd 
-* This file is pareto optimal sub-set in the pdk45_pwr and mae% parameters
-***/
-
+    * This code is a part of ApproxLib library (ehw.fit.vutbr.cz/approxlib) distributed under a XXXX public license.
+    * When used, please cite the following article: tbd 
+    * This file is pareto optimal sub-set in the pwr and mae parameters
+    ***/
+    
 module mul8u_pwr_0_164_mae_00_2737 (
     A,
     B,

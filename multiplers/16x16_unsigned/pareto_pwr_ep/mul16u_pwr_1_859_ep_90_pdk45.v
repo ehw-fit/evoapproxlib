@@ -1,9 +1,9 @@
 /***
-* This code is a part of ApproxLib library (ehw.fit.vutbr.cz/approxlib) distributed under a XXXX public license.
-* When used, please cite the following article: tbd 
-* This file is pareto optimal sub-set in the pdk45_pwr and ep% parameters
-***/
-
+    * This code is a part of ApproxLib library (ehw.fit.vutbr.cz/approxlib) distributed under a XXXX public license.
+    * When used, please cite the following article: tbd 
+    * This file is pareto optimal sub-set in the pwr and ep parameters
+    ***/
+    
 //Broken Array Multiplier(bw=16,v=4,h=3)
 module mul16u_pwr_1_859_ep_90 ( A, B, O );
   input [15:0] A;

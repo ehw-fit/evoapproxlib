@@ -1,9 +1,9 @@
 /***
-* This code is a part of ApproxLib library (ehw.fit.vutbr.cz/approxlib) distributed under a XXXX public license.
-* When used, please cite the following article: tbd 
-* This file is pareto optimal sub-set in the pdk45_pwr and wce% parameters
-***/
-
+    * This code is a part of ApproxLib library (ehw.fit.vutbr.cz/approxlib) distributed under a XXXX public license.
+    * When used, please cite the following article: tbd 
+    * This file is pareto optimal sub-set in the pwr and wce parameters
+    ***/
+    
 module cmpmul8_so_3in_2out_wc_9753_18_wtmcsa(A, B, O);
   input [7:0] A, B;
   output [15:0] O;

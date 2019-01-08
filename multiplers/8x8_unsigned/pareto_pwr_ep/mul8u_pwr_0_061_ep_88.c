@@ -1,12 +1,12 @@
 /***
- * This code is a part of ApproxLib library (ehw.fit.vutbr.cz/approxlib) distributed under a XXXX public license.
- * When used, please cite the following article: tbd 
- * This file is pareto optimal sub-set in the pdk45_pwr and ep% parameters
- ***/
-#include <stdint.h>
-#include <stdlib.h>
-
-uint64_t mul8u_pwr_0_061_ep_88(const uint64_t B,const uint64_t A)
+     * This code is a part of ApproxLib library (ehw.fit.vutbr.cz/approxlib) distributed under a XXXX public license.
+     * When used, please cite the following article: tbd 
+     * This file is pareto optimal sub-set in the pdk45_pwr and ep% parameters
+     ***/
+    #include <stdint.h>
+    #include <stdlib.h>
+    
+    uint64_t mul8u_pwr_0_061_ep_88(const uint64_t B,const uint64_t A)
 {
    uint64_t O, dout_16, dout_17, dout_18, dout_19, dout_20, dout_21, dout_22, dout_23, dout_24, dout_25, dout_26, dout_27, dout_28, dout_29, dout_30, dout_31, dout_32, dout_33, dout_34, dout_35, dout_36, dout_37, dout_38, dout_39, dout_40, dout_41, dout_42, dout_43, dout_44, dout_45, dout_46, dout_47, dout_48, dout_49, dout_50, dout_51, dout_52, dout_53, dout_54, dout_55, dout_56, dout_57, dout_58, dout_59, dout_60, dout_62, dout_64, dout_65, dout_66, dout_67, dout_68, dout_69, dout_70, dout_71, dout_72, dout_73, dout_74, dout_75, dout_76, dout_77, dout_78, dout_79, dout_80, dout_82, dout_85, dout_87, dout_90, dout_92, dout_95, dout_97, dout_98, dout_100, dout_102, dout_105, dout_107, dout_110, dout_113, dout_114, dout_116, dout_119, dout_121, dout_124, dout_126, dout_129, dout_131, dout_134, dout_136, dout_139, dout_141, dout_146, dout_147, dout_153, dout_158, dout_163, dout_168, dout_183, dout_185, dout_187, dout_192, dout_195, dout_197, dout_200, dout_202, dout_205, dout_210, dout_212, dout_215, dout_218, dout_231, dout_236, dout_241, dout_246, dout_251, dout_254;   int avg=0;
 

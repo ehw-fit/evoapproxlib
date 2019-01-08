@@ -1,9 +1,9 @@
 /***
-* This code is a part of ApproxLib library (ehw.fit.vutbr.cz/approxlib) distributed under a XXXX public license.
-* When used, please cite the following article: tbd 
-* This file is pareto optimal sub-set in the pdk45_pwr and mre% parameters
-***/
-
+    * This code is a part of ApproxLib library (ehw.fit.vutbr.cz/approxlib) distributed under a XXXX public license.
+    * When used, please cite the following article: tbd 
+    * This file is pareto optimal sub-set in the pwr and mre parameters
+    ***/
+    
 //Truncated Multiplier(bw=16,k=15)
 module mul16u_pwr_0_000_mre_87_9880 ( A, B, O );
   input [15:0] A;
