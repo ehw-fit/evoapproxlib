@@ -1,8 +1,9 @@
 
 Selected circuits
 ===================
- - **Bitwidth**: 16
- - **Pareto filtration critera**: pwr - mae
+ - **Circuit**: 16-bit signed multiplier
+ - **Selection criteria**: pareto optimal sub-set wrt. pwr and mae parameters
+ - **References**: V. Mrazek, Z. Vasicek, L. Sekanina, H. Jiang and J. Han, "Scalable Construction of Approximate Multipliers With Formally Guaranteed Worst Case Error" in IEEE Transactions on Very Large Scale Integration (VLSI) Systems, vol. 26, no. 11, pp. 2572-2576, Nov. 2018. doi: 10.1109/TVLSI.2018.2856362, H. R. Mahdiani, A. Ahmadi, S. M. Fakhraie and C. Lucas, "Bio-Inspired Imprecise Computational Blocks for Efficient VLSI Implementation of Soft-Computing Applications" in IEEE Transactions on Circuits and Systems I: Regular Papers, vol. 57, no. 4, pp. 850-862, April 2010. doi: 10.1109/TCSI.2009.2027626
 
 
 Parameters of selected circuits
@@ -11,10 +12,9 @@ Parameters of selected circuits
 | Circuit name | MAE | WCE | EP | MRE | Download |
 | --- |  --- | --- | --- | --- | --- | 
 | mul16s_pwr_2_400_mae_00_0000 | 0.0 | 0 | 0.0 | 0.0 |  [Verilog generic](mul16s_pwr_2_400_mae_00_0000_gen.v) [Verilog PDK45](mul16s_pwr_2_400_mae_00_0000_pdk45.v)  [C](mul16s_pwr_2_400_mae_00_0000.c) |
-| mul16s_pwr_2_121_mae_00_0001 | 2304.2 | 9217 | 99.4140625 | 0.0265686136 |  [Verilog generic](mul16s_pwr_2_121_mae_00_0001_gen.v) [Verilog PDK45](mul16s_pwr_2_121_mae_00_0001_pdk45.v)  [C](mul16s_pwr_2_121_mae_00_0001.c) |
-| mul16s_pwr_1_143_mae_00_0047 | 202599.6 | 1179649 | 99.9878883362 | 1.9241269897 |  [Verilog generic](mul16s_pwr_1_143_mae_00_0047_gen.v) [Verilog PDK45](mul16s_pwr_1_143_mae_00_0047_pdk45.v)  [C](mul16s_pwr_1_143_mae_00_0047.c) |
-| mul16s_pwr_0_126_mae_00_5786 | 24849053.9333 | 129961983 | 99.9969258904 | 67.5122493158 |  [Verilog generic](mul16s_pwr_0_126_mae_00_5786_gen.v) [Verilog PDK45](mul16s_pwr_0_126_mae_00_5786_pdk45.v)  [C](mul16s_pwr_0_126_mae_00_5786.c) |
-| mul16s_pwr_0_000_mae_09_3748 | 402644991.9 | 1073741823 | 99.9969482422 | 3061.04794552 |  [Verilog generic](mul16s_pwr_0_000_mae_09_3748_gen.v) [Verilog PDK45](mul16s_pwr_0_000_mae_09_3748_pdk45.v)  [C](mul16s_pwr_0_000_mae_09_3748.c) |
+| mul16s_pwr_2_130_mae_00_0003 | 13653.33334 | 65535 | 74.9984741211 | 0.0340812749 |  [Verilog generic](mul16s_pwr_2_130_mae_00_0003_gen.v) [Verilog PDK45](mul16s_pwr_2_130_mae_00_0003_pdk45.v)  [C](mul16s_pwr_2_130_mae_00_0003.c) |
+| mul16s_pwr_1_483_mae_00_0020 | 87011.55577 | 458703 | 98.4348297119 | 0.2243367325 |  [Verilog generic](mul16s_pwr_1_483_mae_00_0020_gen.v) [Verilog PDK45](mul16s_pwr_1_483_mae_00_0020_pdk45.v)  [C](mul16s_pwr_1_483_mae_00_0020.c) |
+| mul16s_pwr_1_396_mae_00_0120 | 516096.0 | 2064384 | 98.435997963 | 1.061337539 |  [Verilog generic](mul16s_pwr_1_396_mae_00_0120_gen.v) [Verilog PDK45](mul16s_pwr_1_396_mae_00_0120_pdk45.v)  [C](mul16s_pwr_1_396_mae_00_0120.c) |
     
 Parameters
 --------------

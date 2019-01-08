@@ -1,8 +1,9 @@
 
 Selected circuits
 ===================
- - **Bitwidth**: 12
- - **Pareto filtration critera**: pwr - wce
+ - **Circuit**: 12-bit signed multiplier
+ - **Selection criteria**: pareto optimal sub-set wrt. pwr and wce parameters
+ - **References**: V. Mrazek, Z. Vasicek, L. Sekanina, H. Jiang and J. Han, "Scalable Construction of Approximate Multipliers With Formally Guaranteed Worst Case Error" in IEEE Transactions on Very Large Scale Integration (VLSI) Systems, vol. 26, no. 11, pp. 2572-2576, Nov. 2018. doi: 10.1109/TVLSI.2018.2856362, H. R. Mahdiani, A. Ahmadi, S. M. Fakhraie and C. Lucas, "Bio-Inspired Imprecise Computational Blocks for Efficient VLSI Implementation of Soft-Computing Applications" in IEEE Transactions on Circuits and Systems I: Regular Papers, vol. 57, no. 4, pp. 850-862, April 2010. doi: 10.1109/TCSI.2009.2027626
 
 
 Parameters of selected circuits
@@ -13,14 +14,11 @@ Parameters of selected circuits
 | mul12s_pwr_1_210_wce_00_0000 | 0.0 | 0 | 0.0 | 0.0 |  [Verilog generic](mul12s_pwr_1_210_wce_00_0000_gen.v) [Verilog PDK45](mul12s_pwr_1_210_wce_00_0000_pdk45.v)  [C](mul12s_pwr_1_210_wce_00_0000.c) |
 | mul12s_pwr_1_205_wce_00_0000 | 0.2 | 1 | 25.0 | 0.0004718265 |  [Verilog generic](mul12s_pwr_1_205_wce_00_0000_gen.v) [Verilog PDK45](mul12s_pwr_1_205_wce_00_0000_pdk45.v)  [C](mul12s_pwr_1_205_wce_00_0000.c) |
 | mul12s_pwr_1_200_wce_00_0000 | 1.2 | 5 | 50.0 | 0.0022855977 |  [Verilog generic](mul12s_pwr_1_200_wce_00_0000_gen.v) [Verilog PDK45](mul12s_pwr_1_200_wce_00_0000_pdk45.v)  [C](mul12s_pwr_1_200_wce_00_0000.c) |
-| mul12s_pwr_1_189_wce_00_0001 | 4.2 | 17 | 68.75 | 0.007582707 |  [Verilog generic](mul12s_pwr_1_189_wce_00_0001_gen.v) [Verilog PDK45](mul12s_pwr_1_189_wce_00_0001_pdk45.v)  [C](mul12s_pwr_1_189_wce_00_0001.c) |
-| mul12s_pwr_1_142_wce_00_0008 | 32.2 | 129 | 89.0625 | 0.0556570713 |  [Verilog generic](mul12s_pwr_1_142_wce_00_0008_gen.v) [Verilog PDK45](mul12s_pwr_1_142_wce_00_0008_pdk45.v)  [C](mul12s_pwr_1_142_wce_00_0008.c) |
-| mul12s_pwr_1_053_wce_00_0046 | 192.2 | 769 | 96.484375 | 0.325317619 |  [Verilog generic](mul12s_pwr_1_053_wce_00_0046_gen.v) [Verilog PDK45](mul12s_pwr_1_053_wce_00_0046_pdk45.v)  [C](mul12s_pwr_1_053_wce_00_0046.c) |
-| mul12s_pwr_0_869_wce_00_0443 | 1633.1 | 7425 | 98.4191894531 | 1.0153578942 |  [Verilog generic](mul12s_pwr_0_869_wce_00_0443_gen.v) [Verilog PDK45](mul12s_pwr_0_869_wce_00_0443_pdk45.v)  [C](mul12s_pwr_0_869_wce_00_0443.c) |
-| mul12s_pwr_0_549_wce_00_2686 | 8025.8 | 45057 | 99.8443603516 | 12.0633950813 |  [Verilog generic](mul12s_pwr_0_549_wce_00_2686_gen.v) [Verilog PDK45](mul12s_pwr_0_549_wce_00_2686_pdk45.v)  [C](mul12s_pwr_0_549_wce_00_2686.c) |
-| mul12s_pwr_0_200_wce_01_5144 | 47921.04906 | 254079 | 99.927520752 | 23.1513539381 |  [Verilog generic](mul12s_pwr_0_200_wce_01_5144_gen.v) [Verilog PDK45](mul12s_pwr_0_200_wce_01_5144_pdk45.v)  [C](mul12s_pwr_0_200_wce_01_5144.c) |
-| mul12s_pwr_0_057_wce_09_3506 | 299701.0 | 1568769 | 99.9506473541 | 184.40494911 |  [Verilog generic](mul12s_pwr_0_057_wce_09_3506_gen.v) [Verilog PDK45](mul12s_pwr_0_057_wce_09_3506_pdk45.v)  [C](mul12s_pwr_0_057_wce_09_3506.c) |
-| mul12s_pwr_0_000_wce_25_0000 | 1572351.9 | 4194303 | 99.951171875 | 1732.6494993 |  [Verilog generic](mul12s_pwr_0_000_wce_25_0000_gen.v) [Verilog PDK45](mul12s_pwr_0_000_wce_25_0000_pdk45.v)  [C](mul12s_pwr_0_000_wce_25_0000.c) |
+| mul12s_pwr_1_168_wce_00_0003 | 12.2 | 49 | 81.25 | 0.021448255 |  [Verilog generic](mul12s_pwr_1_168_wce_00_0003_gen.v) [Verilog PDK45](mul12s_pwr_1_168_wce_00_0003_pdk45.v)  [C](mul12s_pwr_1_168_wce_00_0003.c) |
+| mul12s_pwr_1_055_wce_00_0128 | 524.4 | 2145 | 90.6127929688 | 0.2463106352 |  [Verilog generic](mul12s_pwr_1_055_wce_00_0128_gen.v) [Verilog PDK45](mul12s_pwr_1_055_wce_00_0128_pdk45.v)  [C](mul12s_pwr_1_055_wce_00_0128.c) |
+| mul12s_pwr_0_948_wce_00_0370 | 1540.3 | 6209 | 92.1691894531 | 0.6485065647 |  [Verilog generic](mul12s_pwr_0_948_wce_00_0370_gen.v) [Verilog PDK45](mul12s_pwr_0_948_wce_00_0370_pdk45.v)  [C](mul12s_pwr_0_948_wce_00_0370.c) |
+| mul12s_pwr_0_579_wce_00_1706 | 5438.22567 | 28623 | 98.3947753906 | 2.6431979049 |  [Verilog generic](mul12s_pwr_0_579_wce_00_1706_gen.v) [Verilog PDK45](mul12s_pwr_0_579_wce_00_1706_pdk45.v)  [C](mul12s_pwr_0_579_wce_00_1706.c) |
+| mul12s_pwr_0_497_wce_00_7690 | 32256.0 | 129024 | 98.4134674072 | 12.7197691379 |  [Verilog generic](mul12s_pwr_0_497_wce_00_7690_gen.v) [Verilog PDK45](mul12s_pwr_0_497_wce_00_7690_pdk45.v)  [C](mul12s_pwr_0_497_wce_00_7690.c) |
     
 Parameters
 --------------

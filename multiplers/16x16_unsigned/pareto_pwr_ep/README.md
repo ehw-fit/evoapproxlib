@@ -1,8 +1,9 @@
 
 Selected circuits
 ===================
- - **Bitwidth**: 16
- - **Pareto filtration critera**: pwr - ep
+ - **Circuit**: 16-bit unsigned multiplier
+ - **Selection criteria**: pareto optimal sub-set wrt. pwr and ep parameters
+ - **References**: V. Mrazek, Z. Vasicek, L. Sekanina, H. Jiang and J. Han, "Scalable Construction of Approximate Multipliers With Formally Guaranteed Worst Case Error" in IEEE Transactions on Very Large Scale Integration (VLSI) Systems, vol. 26, no. 11, pp. 2572-2576, Nov. 2018. doi: 10.1109/TVLSI.2018.2856362, H. R. Mahdiani, A. Ahmadi, S. M. Fakhraie and C. Lucas, "Bio-Inspired Imprecise Computational Blocks for Efficient VLSI Implementation of Soft-Computing Applications" in IEEE Transactions on Circuits and Systems I: Regular Papers, vol. 57, no. 4, pp. 850-862, April 2010. doi: 10.1109/TCSI.2009.2027626
 
 
 Parameters of selected circuits

@@ -1,8 +1,9 @@
 
 Selected circuits
 ===================
- - **Bitwidth**: 8
- - **Pareto filtration critera**: pwr - ep
+ - **Circuit**: 8-bit unsigned multiplier
+ - **Selection criteria**: pareto optimal sub-set wrt. pwr and ep parameters
+ - **References**: V. Mrazek, R. Hrbacek, Z. Vasicek and L. Sekanina, "EvoApprox8b: Library of approximate adders and multipliers for circuit design and benchmarking of approximation methods". Design, Automation & Test in Europe Conference & Exhibition (DATE), 2017, Lausanne, 2017, pp. 258-261. doi: 10.23919/DATE.2017.7926993
 
 
 Parameters of selected circuits
@@ -19,7 +20,7 @@ Parameters of selected circuits
 | mul8u_pwr_0_254_ep_64 | 165.82373 | 1826 | 64.7338867188 | 1.9859357887 |  [Verilog generic](mul8u_pwr_0_254_ep_64_gen.v) [Verilog PDK45](mul8u_pwr_0_254_ep_64_pdk45.v)  [C](mul8u_pwr_0_254_ep_64.c) |
 | mul8u_pwr_0_189_ep_74 | 1011.25342 | 9124 | 74.9130249023 | 7.4580379643 |  [Verilog generic](mul8u_pwr_0_189_ep_74_gen.v) [Verilog PDK45](mul8u_pwr_0_189_ep_74_pdk45.v)  [C](mul8u_pwr_0_189_ep_74.c) |
 | mul8u_pwr_0_061_ep_88 | 3169.33789 | 32258 | 88.7115478516 | 15.6569060675 |  [Verilog generic](mul8u_pwr_0_061_ep_88_gen.v) [Verilog PDK45](mul8u_pwr_0_061_ep_88_pdk45.v)  [C](mul8u_pwr_0_061_ep_88.c) |
-| mul8u_pwr_0_000_ep_99 | 10765.26596 | 33411 | 99.9206542969 | 273.171936268 |  [Verilog generic](mul8u_pwr_0_000_ep_99_gen.v) [Verilog PDK45](mul8u_pwr_0_000_ep_99_pdk45.v)  [C](mul8u_pwr_0_000_ep_99.c) |
+| mul8u_pwr_0_000_ep_99 | 16256.25 | 65025 | 99.2202758789 | 100.0 |  [Verilog generic](mul8u_pwr_0_000_ep_99_gen.v) [Verilog PDK45](mul8u_pwr_0_000_ep_99_pdk45.v)  [C](mul8u_pwr_0_000_ep_99.c) |
     
 Parameters
 --------------

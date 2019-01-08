@@ -1,8 +1,9 @@
 
 Selected circuits
 ===================
- - **Bitwidth**: 11
- - **Pareto filtration critera**: pwr - mae
+ - **Circuit**: 11-bit unsigned multiplier
+ - **Selection criteria**: pareto optimal sub-set wrt. pwr and mae parameters
+ - **References**: V. Mrazek, S. S. Sarwar, L. Sekanina, Z. Vasicek and K. Roy, "Design of power-efficient approximate multipliers for approximate artificial neural networks," 2016 IEEE/ACM International Conference on Computer-Aided Design (ICCAD), Austin, TX, 2016, pp. 1-7. doi: 10.1145/2966986.2967021
 
 
 Parameters of selected circuits
@@ -11,14 +12,12 @@ Parameters of selected circuits
 | Circuit name | MAE | WCE | EP | MRE | Download |
 | --- |  --- | --- | --- | --- | --- | 
 | mul11u_pwr_0_930_mae_00_0000 | 0.0 | 0 | 0.0 | 0.0 |  [Verilog generic](mul11u_pwr_0_930_mae_00_0000_gen.v) [Verilog PDK45](mul11u_pwr_0_930_mae_00_0000_pdk45.v)  [C](mul11u_pwr_0_930_mae_00_0000.c) |
-| mul11u_pwr_0_690_mae_00_0186 | 778.46827 | 4455 | 99.6997594833 | 0.7711579881 |  [Verilog generic](mul11u_pwr_0_690_mae_00_0186_gen.v) [Verilog PDK45](mul11u_pwr_0_690_mae_00_0186_pdk45.v)  [C](mul11u_pwr_0_690_mae_00_0186.c) |
-| mul11u_pwr_0_637_mae_00_0388 | 1629.40986 | 8342 | 99.7320652008 | 1.3374605277 |  [Verilog generic](mul11u_pwr_0_637_mae_00_0388_gen.v) [Verilog PDK45](mul11u_pwr_0_637_mae_00_0388_pdk45.v)  [C](mul11u_pwr_0_637_mae_00_0388.c) |
-| mul11u_pwr_0_483_mae_00_0867 | 3635.32145 | 20860 | 99.8380184174 | 3.8375181669 |  [Verilog generic](mul11u_pwr_0_483_mae_00_0867_gen.v) [Verilog PDK45](mul11u_pwr_0_483_mae_00_0867_pdk45.v)  [C](mul11u_pwr_0_483_mae_00_0867.c) |
-| mul11u_pwr_0_367_mae_00_2508 | 10517.23153 | 41058 | 99.8795032501 | 10.0622115417 |  [Verilog generic](mul11u_pwr_0_367_mae_00_2508_gen.v) [Verilog PDK45](mul11u_pwr_0_367_mae_00_2508_pdk45.v)  [C](mul11u_pwr_0_367_mae_00_2508.c) |
-| mul11u_pwr_0_300_mae_00_3411 | 14306.13117 | 83411 | 99.8944282532 | 8.0970764444 |  [Verilog generic](mul11u_pwr_0_300_mae_00_3411_gen.v) [Verilog PDK45](mul11u_pwr_0_300_mae_00_3411_pdk45.v)  [C](mul11u_pwr_0_300_mae_00_3411.c) |
-| mul11u_pwr_0_208_mae_00_9095 | 38145.88022 | 204649 | 99.8986244202 | 36.0396990935 |  [Verilog generic](mul11u_pwr_0_208_mae_00_9095_gen.v) [Verilog PDK45](mul11u_pwr_0_208_mae_00_9095_pdk45.v)  [C](mul11u_pwr_0_208_mae_00_9095.c) |
-| mul11u_pwr_0_159_mae_01_9488 | 81738.52399 | 412975 | 99.9011039734 | 58.2859280171 |  [Verilog generic](mul11u_pwr_0_159_mae_01_9488_gen.v) [Verilog PDK45](mul11u_pwr_0_159_mae_01_9488_pdk45.v)  [C](mul11u_pwr_0_159_mae_01_9488.c) |
-| mul11u_pwr_0_084_mae_03_3411 | 140134.75906 | 588559 | 99.9018669128 | 62.9040345803 |  [Verilog generic](mul11u_pwr_0_084_mae_03_3411_gen.v) [Verilog PDK45](mul11u_pwr_0_084_mae_03_3411_pdk45.v)  [C](mul11u_pwr_0_084_mae_03_3411.c) |
+| mul11u_pwr_0_707_mae_00_0195 | 815.85285 | 4129 | 99.7128009796 | 0.7962511002 |  [Verilog generic](mul11u_pwr_0_707_mae_00_0195_gen.v) [Verilog PDK45](mul11u_pwr_0_707_mae_00_0195_pdk45.v)  [C](mul11u_pwr_0_707_mae_00_0195.c) |
+| mul11u_pwr_0_657_mae_00_0337 | 1414.09797 | 8386 | 99.8387336731 | 1.1457789785 |  [Verilog generic](mul11u_pwr_0_657_mae_00_0337_gen.v) [Verilog PDK45](mul11u_pwr_0_657_mae_00_0337_pdk45.v)  [C](mul11u_pwr_0_657_mae_00_0337.c) |
+| mul11u_pwr_0_517_mae_00_0903 | 3786.98589 | 19864 | 99.8664140701 | 3.0003151541 |  [Verilog generic](mul11u_pwr_0_517_mae_00_0903_gen.v) [Verilog PDK45](mul11u_pwr_0_517_mae_00_0903_pdk45.v)  [C](mul11u_pwr_0_517_mae_00_0903.c) |
+| mul11u_pwr_0_410_mae_00_1801 | 7554.73259 | 41617 | 99.8815536499 | 4.9595147171 |  [Verilog generic](mul11u_pwr_0_410_mae_00_1801_gen.v) [Verilog PDK45](mul11u_pwr_0_410_mae_00_1801_pdk45.v)  [C](mul11u_pwr_0_410_mae_00_1801.c) |
+| mul11u_pwr_0_311_mae_00_3835 | 16084.93175 | 83484 | 99.8914718628 | 9.1780422544 |  [Verilog generic](mul11u_pwr_0_311_mae_00_3835_gen.v) [Verilog PDK45](mul11u_pwr_0_311_mae_00_3835_pdk45.v)  [C](mul11u_pwr_0_311_mae_00_3835.c) |
+| mul11u_pwr_0_236_mae_01_1764 | 49343.2457 | 252964 | 99.9009847641 | 19.9511218423 |  [Verilog generic](mul11u_pwr_0_236_mae_01_1764_gen.v) [Verilog PDK45](mul11u_pwr_0_236_mae_01_1764_pdk45.v)  [C](mul11u_pwr_0_236_mae_01_1764.c) |
     
 Parameters
 --------------
