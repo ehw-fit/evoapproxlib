@@ -1,12 +1,12 @@
 /***
-     * This code is a part of ApproxLib library (ehw.fit.vutbr.cz/approxlib) distributed under a XXXX public license.
-     * When used, please cite the following article: tbd 
-     * This file is pareto optimal sub-set in the pdk45_pwr and mae% parameters
-     ***/
-    #include <stdint.h>
-    #include <stdlib.h>
-    
-    int16_t mul8s_pwr_0_167_mae_00_4892(int8_t A, int8_t B)
+* This code is a part of ApproxLib library (ehw.fit.vutbr.cz/approxlib) distributed under a XXXX public license.
+* When used, please cite the following article: tbd 
+* This file is pareto optimal sub-set in the pdk45_pwr and mae% parameters
+***/
+#include <stdint.h>
+#include <stdlib.h>
+
+int16_t mul8s_pwr_0_167_mae_00_4892(int8_t A, int8_t B)
 {
   int16_t P, P_;
   uint8_t tmp, C_3_5,C_3_7,C_4_4,C_4_5,C_4_6,C_4_7,C_5_3,C_5_4,C_5_5,C_5_6,C_5_7,C_6_2,C_6_3,C_6_4,C_6_5,C_6_6,C_6_7,C_7_1,C_7_2,C_7_3,C_7_4,C_7_5,C_7_6,C_7_7,C_8_1,C_8_2,C_8_3,C_8_4,C_8_5,C_8_6,C_8_7,S_1_7,S_2_6,S_3_5,S_3_6,S_3_7,S_4_4,S_4_5,S_4_6,S_4_7,S_5_3,S_5_4,S_5_5,S_5_6,S_5_7,S_6_2,S_6_3,S_6_4,S_6_5,S_6_6,S_6_7,S_7_1,S_7_2,S_7_3,S_7_4,S_7_5,S_7_6,S_7_7,S_8_0,S_8_1,S_8_2,S_8_3,S_8_4,S_8_5,S_8_6,S_8_7;

@@ -1,15 +1,15 @@
 
-    Selected circuits
-    ===================
-     - **Bitwidth**: 8
-     - **Pareto filtration critera**: pwr - mae
-    
-    
-    Parameters of selected circuits
-    ----------------------------
-    
-    | Circuit name | MAE | WCE | EP | MRE | Download |
-    | --- |  --- | --- | --- | --- | --- | 
+Selected circuits
+===================
+ - **Bitwidth**: 8
+ - **Pareto filtration critera**: pwr - mae
+
+
+Parameters of selected circuits
+----------------------------
+
+| Circuit name | MAE | WCE | EP | MRE | Download |
+| --- |  --- | --- | --- | --- | --- | 
 | mul8u_pwr_0_391_mae_00_0000 | 0.0 | 0 | 0.0 | 0.0 |  [Verilog generic](mul8u_pwr_0_391_mae_00_0000_gen.v) [Verilog PDK45](mul8u_pwr_0_391_mae_00_0000_pdk45.v)  [C](mul8u_pwr_0_391_mae_00_0000.c) |
 | mul8u_pwr_0_390_mae_00_0002 | 0.125 | 2 | 6.25 | 0.0052957238 |  [Verilog generic](mul8u_pwr_0_390_mae_00_0002_gen.v) [Verilog PDK45](mul8u_pwr_0_390_mae_00_0002_pdk45.v)  [C](mul8u_pwr_0_390_mae_00_0002.c) |
 | mul8u_pwr_0_380_mae_00_0014 | 0.90625 | 10 | 19.53125 | 0.0331777901 |  [Verilog generic](mul8u_pwr_0_380_mae_00_0014_gen.v) [Verilog PDK45](mul8u_pwr_0_380_mae_00_0014_pdk45.v)  [C](mul8u_pwr_0_380_mae_00_0014.c) |
@@ -20,7 +20,7 @@
 | mul8u_pwr_0_000_mae_08_0380 | 5267.7977 | 16513 | 99.7894287109 | 126.976937328 |  [Verilog generic](mul8u_pwr_0_000_mae_08_0380_gen.v) [Verilog PDK45](mul8u_pwr_0_000_mae_08_0380_pdk45.v)  [C](mul8u_pwr_0_000_mae_08_0380.c) |
 | mul8u_pwr_0_000_mae_16_4265 | 10765.26596 | 33411 | 99.9206542969 | 273.171936268 |  [Verilog generic](mul8u_pwr_0_000_mae_16_4265_gen.v) [Verilog PDK45](mul8u_pwr_0_000_mae_16_4265_pdk45.v)  [C](mul8u_pwr_0_000_mae_16_4265.c) |
     
-    Parameters
-    --------------
-    ![Parameters figure](fig.png)
+Parameters
+--------------
+![Parameters figure](fig.png)
              

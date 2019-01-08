@@ -1,12 +1,12 @@
 /***
-     * This code is a part of ApproxLib library (ehw.fit.vutbr.cz/approxlib) distributed under a XXXX public license.
-     * When used, please cite the following article: tbd 
-     * This file is pareto optimal sub-set in the pdk45_pwr and wce% parameters
-     ***/
-    #include <stdint.h>
-    #include <stdlib.h>
-    
-    uint16_t mul8s_pwr_0_301_wce_00_3891(uint8_t A, uint8_t B)
+* This code is a part of ApproxLib library (ehw.fit.vutbr.cz/approxlib) distributed under a XXXX public license.
+* When used, please cite the following article: tbd 
+* This file is pareto optimal sub-set in the pdk45_pwr and wce% parameters
+***/
+#include <stdint.h>
+#include <stdlib.h>
+
+uint16_t mul8s_pwr_0_301_wce_00_3891(uint8_t A, uint8_t B)
 {
  uint16_t O;
  uint8_t n162,O13,n85,O15,n38,n39,n88,O10,n290,n319,n95,O5,n36,n37,n349,n348,O11,n303,n341,O2,n343,n345,n117,n346,n132,n133,n228,n229,n136,n137,n134,n135,n222,n223,n138,n139,n226,n227,n224,O1,n160,n87,n327,n86,n316,n151,n231,O4,n325,n80,n235,n234,n237,n236,n81,n233,n83,n82,n200,n232,n239,n238,n320,n201,n169,n129,n128,n168,n334,n335,n127,n126,n330,n331,n332,n122,n89,O12,n64,n155,O6,n211,n317,n240,n98,n99,n245,n246,n247,n92,n93,n90,n91,n96,n97,n94,O0,n158,n159,n342,n329,n328,n150,n152,n153,n323,n322,n321,n157,n67,n66,n65,n333,n63,n62,n60,n284,n291,n307,n69,n230,n125,n175,n124,n301,n68,n173,n253,n252,n304,n257,n170,n255,n254,n121,O3,n171,n318,n120,n161,n149,n148,n123,n340,n143,n142,n310,n140,n147,n146,n145,n144,n74,n75,n76,n77,n70,n71,n72,n73,O9,n262,n339,n78,n79,n263,n338,n294,n178,n293,n261,n176,n177,n174,n306,n172,n300,n268,n269,n266,n267,n264,n265,n309,n308,n260,n179,n248,n131,n289,n326,n344,n49,n48,n286,n287,n280,n282,n283,n40,n43,n42,n45,n44,n47,O14,n250,n299,n251,O8,n298,n220,n256,n279,n278,n163,n221,n165,n164,n167,n166,n271,n270,n273,n272,n275,n274,n277,n276,n209,n324,n130,n225,n259,n315,n297,n296,n295,n258,n156,n292,n58,n59,n56,n57,n54,n55,n52,n53,n50,n51,n350,n314,n305,n351,n337,n198,n199,n106,n195,n196,n190,n191,n192,n193,n114,n116,n302,n110,n111,n112,n113,n204,n205,n206,n207,n118,n119,n202,n203,n219,n249,n218,n288,n100,n242,n285,O7,n312,n243,n313,n244,n208,n141,n214,n189,n188,n187,n186,n185,n184,n183,n182,n181,n180,n107,n194,n105,n104,n103,n102,n101,n217,n216,n215,n210,n213,n212,n109,n108;

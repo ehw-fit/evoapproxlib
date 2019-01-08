@@ -1,9 +1,9 @@
 /***
-    * This code is a part of ApproxLib library (ehw.fit.vutbr.cz/approxlib) distributed under a XXXX public license.
-    * When used, please cite the following article: tbd 
-    * This file is pareto optimal sub-set in the pwr and mae parameters
-    ***/
-    
+* This code is a part of ApproxLib library (ehw.fit.vutbr.cz/approxlib) distributed under a XXXX public license.
+* When used, please cite the following article: tbd 
+* This file is pareto optimal sub-set in the pwr and mae parameters
+***/
+
 //Broken Array Multiplier Signed(bw=8,v=4,h=0)
 module mul8s_pwr_0_391_mae_00_0186 ( A, B, O );
   input [7:0] A;

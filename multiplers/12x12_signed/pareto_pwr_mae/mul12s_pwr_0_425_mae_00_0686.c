@@ -1,12 +1,12 @@
 /***
-     * This code is a part of ApproxLib library (ehw.fit.vutbr.cz/approxlib) distributed under a XXXX public license.
-     * When used, please cite the following article: tbd 
-     * This file is pareto optimal sub-set in the pdk45_pwr and mae% parameters
-     ***/
-    #include <stdint.h>
-    #include <stdlib.h>
-    
-    uint32_t mul12s_pwr_0_425_mae_00_0686(uint16_t A, uint16_t B)
+* This code is a part of ApproxLib library (ehw.fit.vutbr.cz/approxlib) distributed under a XXXX public license.
+* When used, please cite the following article: tbd 
+* This file is pareto optimal sub-set in the pdk45_pwr and mae% parameters
+***/
+#include <stdint.h>
+#include <stdlib.h>
+
+uint32_t mul12s_pwr_0_425_mae_00_0686(uint16_t A, uint16_t B)
 {
  uint32_t O;
  uint8_t n449,O21,O14,O4,n85,n84,n87,n86,n81,n80,n83,n82,n402,n403,n400,n401,n406,n404,n405,n392,n393,n390,n391,n396,n397,n394,n395,n398,n399,n240,n241,n242,n243,n244,n245,n246,n247,n248,n249,n329,n328,n327,n326,n325,n324,n323,n322,n320,n424,n149,n148,n143,n142,n141,n140,n147,n146,n145,n144,n74,n75,n76,n77,n70,n71,n72,n73,n79,n448,O8,n446,n447,n444,n445,n442,n443,n440,n441,O1,n363,n362,n361,n360,n366,n365,n364,n369,n368,O17,O13,n189,n188,n187,n186,n185,n184,n183,n182,n181,n180,n219,n217,n216,n215,n214,n213,n212,n211,n210,O5,O2,n133,n130,n131,n136,n137,n134,n135,n138,n139,n409,n89,n407,n415,n414,n417,n416,n411,n410,n413,n412,n419,n418,n98,n99,n92,n93,n90,n91,n96,n97,n94,n95,n389,n388,n385,n384,n387,n386,n381,n380,n383,n382,n173,n253,n252,n251,n250,n257,n256,n255,n254,n259,n258,n318,n319,n312,n313,n310,n311,n316,n317,n314,n315,O9,O22,n176,n177,n174,n175,n172,O6,n170,n178,n179,O19,n459,n458,n451,n450,n453,n452,n455,n454,n457,n456,O12,n428,n429,n358,n359,n356,n425,n354,n355,n352,n353,n350,n351,O11,n228,n229,n222,n223,n220,n221,n226,n227,n224,n225,n370,n371,n271,n129,n128,n270,n125,n124,n127,n126,n121,n120,n123,n122,O16,n460,n461,n462,n464,n465,n466,n467,n468,n469,O3,n341,n340,n435,n342,n345,n344,n347,n430,n305,n304,n307,n306,n301,n300,n303,n302,n266,n267,n264,n265,n309,n308,n260,n261,n284,n285,n286,n287,n280,n281,n282,n283,n288,n289,n161,n160,n163,n162,n165,n164,n167,n166,n169,n168,n427,n58,n59,n56,n54,n55,n52,n53,n88,n421,n114,n115,n116,n117,n110,n111,n112,n113,n118,n119,O23,O7,n349,n348,n439,n437,n436,n343,n434,n433,n432,n431,n346,n235,n234,n237,n236,n231,n230,n233,n232,n239,n238,n482,n483,n480,n481,n338,n339,n334,n335,n336,n337,n330,n331,n332,n333,O20,O18,O0,n158,n159,n150,n151,n152,n153,n154,n155,n156,n157,n67,n66,n64,n63,n62,n61,n60,n69,n68,n268,O15,O10,n262,n263,n473,n472,n471,n470,n476,n475,n474,n479,n478,n279,n278,n372,n373,n374,n375,n376,n377,n378,n379,n273,n272,n275,n274,n277,n276,n357,n426,n297,n296,n295,n294,n293,n292,n291,n290,n420,n299,n298,n422,n423,n198,n199,n194,n195,n196,n197,n190,n191,n192,n193,n208,n209,n204,n205,n206,n207,n200,n201,n202,n203,n107,n106,n105,n104,n103,n102,n100,n109,n108;

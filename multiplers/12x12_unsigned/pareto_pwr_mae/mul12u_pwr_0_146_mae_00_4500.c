@@ -1,12 +1,12 @@
 /***
-     * This code is a part of ApproxLib library (ehw.fit.vutbr.cz/approxlib) distributed under a XXXX public license.
-     * When used, please cite the following article: tbd 
-     * This file is pareto optimal sub-set in the pdk45_pwr and mae% parameters
-     ***/
-    #include <stdint.h>
-    #include <stdlib.h>
-    
-    uint64_t mul12u_pwr_0_146_mae_00_4500(uint64_t a, uint64_t b) {
+* This code is a part of ApproxLib library (ehw.fit.vutbr.cz/approxlib) distributed under a XXXX public license.
+* When used, please cite the following article: tbd 
+* This file is pareto optimal sub-set in the pdk45_pwr and mae% parameters
+***/
+#include <stdint.h>
+#include <stdlib.h>
+
+uint64_t mul12u_pwr_0_146_mae_00_4500(uint64_t a, uint64_t b) {
   uint64_t o = 0;
   int n_1418=0, n_1365=0, n_458=0, n_703=0, n_1385=0, n_785=0, n_1049=0, n_787=0, n_43=0, n_1043=0;
   int n_789=0, n_1045=0, n_1047=0, n_1287=0, n_1285=0, n_1283=0, n_1281=0, n_145=0, n_1289=0, n_1502=0;

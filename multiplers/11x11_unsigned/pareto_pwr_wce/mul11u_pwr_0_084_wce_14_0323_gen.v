@@ -1,9 +1,9 @@
 /***
-    * This code is a part of ApproxLib library (ehw.fit.vutbr.cz/approxlib) distributed under a XXXX public license.
-    * When used, please cite the following article: tbd 
-    * This file is pareto optimal sub-set in the pwr and wce parameters
-    ***/
-    
+* This code is a part of ApproxLib library (ehw.fit.vutbr.cz/approxlib) distributed under a XXXX public license.
+* When used, please cite the following article: tbd 
+* This file is pareto optimal sub-set in the pwr and wce parameters
+***/
+
 // ../../../cgp.nn/res/11b_160129\wtm_rca\e15.0\run.00376.txt
 module mul11u_pwr_0_084_wce_14_0323(A, B, O);
   input [10:0] A, B;

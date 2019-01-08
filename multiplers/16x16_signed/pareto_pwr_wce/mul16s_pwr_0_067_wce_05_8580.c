@@ -1,12 +1,12 @@
 /***
-     * This code is a part of ApproxLib library (ehw.fit.vutbr.cz/approxlib) distributed under a XXXX public license.
-     * When used, please cite the following article: tbd 
-     * This file is pareto optimal sub-set in the pdk45_pwr and wce% parameters
-     ***/
-    #include <stdint.h>
-    #include <stdlib.h>
-    
-    uint32_t mul16s_pwr_0_067_wce_05_8580(uint16_t A, uint16_t B)
+* This code is a part of ApproxLib library (ehw.fit.vutbr.cz/approxlib) distributed under a XXXX public license.
+* When used, please cite the following article: tbd 
+* This file is pareto optimal sub-set in the pdk45_pwr and wce% parameters
+***/
+#include <stdint.h>
+#include <stdlib.h>
+
+uint32_t mul16s_pwr_0_067_wce_05_8580(uint16_t A, uint16_t B)
 {
  uint32_t Z;
  uint8_t Z8,Z12,Z28,Z23,n132,n133,n130,n131,Z0,n137,n134,n135,n139,Z15,Z24,n78,Z9,n85,n84,n87,n86,n81,n80,n83,n82,n89,n88,Z1,n129,n125,n124,n127,n126,n121,n120,n123,n122,Z6,Z10,Z19,n98,n99,n113,n93,n90,n91,n96,n97,n94,n95,Z7,n69,n68,Z22,Z18,Z13,n74,n75,n76,n71,n72,n73,Z16,n79,Z20,Z27,Z4,n136,Z29,Z5,Z11,Z21,Z14,Z31,Z25,n114,n115,n116,n117,n110,n112,n118,n119,Z2,n100,Z17,Z30,Z26,n107,n106,n105,n104,n103,n102,n101,Z3,n109,n108;

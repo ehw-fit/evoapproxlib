@@ -1,12 +1,12 @@
 /***
-     * This code is a part of ApproxLib library (ehw.fit.vutbr.cz/approxlib) distributed under a XXXX public license.
-     * When used, please cite the following article: tbd 
-     * This file is pareto optimal sub-set in the pdk45_pwr and wce% parameters
-     ***/
-    #include <stdint.h>
-    #include <stdlib.h>
-    
-    int16_t mul8s_pwr_0_024_wce_15_2359(int8_t A, int8_t B)
+* This code is a part of ApproxLib library (ehw.fit.vutbr.cz/approxlib) distributed under a XXXX public license.
+* When used, please cite the following article: tbd 
+* This file is pareto optimal sub-set in the pdk45_pwr and wce% parameters
+***/
+#include <stdint.h>
+#include <stdlib.h>
+
+int16_t mul8s_pwr_0_024_wce_15_2359(int8_t A, int8_t B)
 {
   int16_t P, P_;
   uint8_t tmp, C_6_5,C_6_7,C_7_4,C_7_5,C_7_6,C_7_7,C_8_4,C_8_5,C_8_6,C_8_7,S_4_7,S_5_6,S_6_5,S_6_6,S_6_7,S_7_4,S_7_5,S_7_6,S_7_7,S_8_3,S_8_4,S_8_5,S_8_6,S_8_7;
