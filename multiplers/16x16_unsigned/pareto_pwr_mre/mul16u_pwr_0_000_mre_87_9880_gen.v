@@ -4,18 +4,22 @@
 * This file contains a circuit from a sub-set of pareto optimal circuits with respect to the pwr and mre parameters
 ***/
 
-//Truncated Multiplier(bw=16,k=15)
-module mul16u_pwr_0_000_mre_87_9880 ( A, B, O );
-  input [15:0] A;
-  input [15:0] B;
-  output [31:0] O;
+//Behavioral model of 16-bit Truncated Multiplier
+//Truncated bits: 15
 
-  wire S_15_15,S_16_14;
+module mul16u_pwr_0_000_mre_87_9880(
+	A, 
+	B,
+	Z
+);
 
-  assign S_15_15 = (A[15] & B[15]);
-  assign S_16_14 = S_15_15;
-  assign O = {1'b0,S_16_14,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0};
+input [16-1:0] A;
+input [16-1:0] B;
+output [2*16-1:0] Z;
 
+wire [2*(16-15)-1:0] tmpZ;
+assign tmpZ = A[16-1:15] * B[16-1:15];
+assign Z = {tmpZ,{30{1'b0}}};
 endmodule
 
 
