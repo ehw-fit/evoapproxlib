@@ -10,17 +10,17 @@ Selected circuits
 Parameters of selected circuits
 ----------------------------
 
-| Circuit name | MAE | WCE | EP | MRE | MSE | Download |
+| Circuit name | MAE<sub>%</sub> | WCE<sub>%</sub> | EP<sub>%</sub> | MRE<sub>%</sub> | MSE | Download |
 | --- |  --- | --- | --- | --- | --- | --- | 
-| mul8u_pwr_0_391_mae_00_0000 | 0.00 % | 0 % | 0.00 % | 0.00 % | 0 |  [[Verilog<sub>generic</sub>](mul8u_pwr_0_391_mae_00_0000_gen.v)] [[Verilog<sub>PDK45</sub>](mul8u_pwr_0_391_mae_00_0000_pdk45.v)]  [[C](mul8u_pwr_0_391_mae_00_0000.c)] |
-| mul8u_pwr_0_390_mae_00_0002 | 0.00019 % | 0.0031 % | 6.25 % | 0.0053 % | 0.25 |  [[Verilog<sub>generic</sub>](mul8u_pwr_0_390_mae_00_0002_gen.v)] [[Verilog<sub>PDK45</sub>](mul8u_pwr_0_390_mae_00_0002_pdk45.v)]  [[C](mul8u_pwr_0_390_mae_00_0002.c)] |
-| mul8u_pwr_0_380_mae_00_0014 | 0.0014 % | 0.015 % | 19.53 % | 0.033 % | 5. |  [[Verilog<sub>generic</sub>](mul8u_pwr_0_380_mae_00_0014_gen.v)] [[Verilog<sub>PDK45</sub>](mul8u_pwr_0_380_mae_00_0014_pdk45.v)]  [[C](mul8u_pwr_0_380_mae_00_0014.c)] |
-| mul8u_pwr_0_360_mae_00_0076 | 0.0076 % | 0.064 % | 37.30 % | 0.15 % | 93 |  [[Verilog<sub>generic</sub>](mul8u_pwr_0_360_mae_00_0076_gen.v)] [[Verilog<sub>PDK45</sub>](mul8u_pwr_0_360_mae_00_0076_pdk45.v)]  [[C](mul8u_pwr_0_360_mae_00_0076.c)] |
-| mul8u_pwr_0_311_mae_00_0374 | 0.037 % | 0.12 % | 98.12 % | 1.25 % | 892 |  [[Verilog<sub>generic</sub>](mul8u_pwr_0_311_mae_00_0374_gen.v)] [[Verilog<sub>PDK45</sub>](mul8u_pwr_0_311_mae_00_0374_pdk45.v)]  [[C](mul8u_pwr_0_311_mae_00_0374.c)] |
-| mul8u_pwr_0_206_mae_00_1812 | 0.18 % | 0.79 % | 98.05 % | 4.16 % | 22286 |  [[Verilog<sub>generic</sub>](mul8u_pwr_0_206_mae_00_1812_gen.v)] [[Verilog<sub>PDK45</sub>](mul8u_pwr_0_206_mae_00_1812_pdk45.v)]  [[C](mul8u_pwr_0_206_mae_00_1812.c)] |
-| mul8u_pwr_0_084_mae_00_8859 | 0.89 % | 4.3 % | 98.74 % | 13.96 % | 543210 |  [[Verilog<sub>generic</sub>](mul8u_pwr_0_084_mae_00_8859_gen.v)] [[Verilog<sub>PDK45</sub>](mul8u_pwr_0_084_mae_00_8859_pdk45.v)]  [[C](mul8u_pwr_0_084_mae_00_8859.c)] |
-| mul8u_pwr_0_008_mae_04_8337 | 4.83 % | 19 % | 99.20 % | 44.00 % | 15608397 |  [[Verilog<sub>generic</sub>](mul8u_pwr_0_008_mae_04_8337_gen.v)] [[Verilog<sub>PDK45</sub>](mul8u_pwr_0_008_mae_04_8337_pdk45.v)]  [[C](mul8u_pwr_0_008_mae_04_8337.c)] |
-| mul8u_pwr_0_000_mae_24_8051 | 24.81 % | 99 % | 99.22 % | 100.00 % | 471649806 |  [[Verilog<sub>generic</sub>](mul8u_pwr_0_000_mae_24_8051_gen.v)] [[Verilog<sub>PDK45</sub>](mul8u_pwr_0_000_mae_24_8051_pdk45.v)]  [[C](mul8u_pwr_0_000_mae_24_8051.c)] |
+| mul8u_pwr_0_391_mae_00_0000 | 0.00 | 0 | 0.00 | 0.00 | 0 |  [[Verilog<sub>generic</sub>](mul8u_pwr_0_391_mae_00_0000_gen.v)] [[Verilog<sub>PDK45</sub>](mul8u_pwr_0_391_mae_00_0000_pdk45.v)]  [[C](mul8u_pwr_0_391_mae_00_0000.c)] |
+| mul8u_pwr_0_390_mae_00_0002 | 0.00019 | 0.0031 | 6.25 | 0.0053 | 0.25 |  [[Verilog<sub>generic</sub>](mul8u_pwr_0_390_mae_00_0002_gen.v)] [[Verilog<sub>PDK45</sub>](mul8u_pwr_0_390_mae_00_0002_pdk45.v)]  [[C](mul8u_pwr_0_390_mae_00_0002.c)] |
+| mul8u_pwr_0_380_mae_00_0014 | 0.0014 | 0.015 | 19.53 | 0.033 | 5.0 |  [[Verilog<sub>generic</sub>](mul8u_pwr_0_380_mae_00_0014_gen.v)] [[Verilog<sub>PDK45</sub>](mul8u_pwr_0_380_mae_00_0014_pdk45.v)]  [[C](mul8u_pwr_0_380_mae_00_0014.c)] |
+| mul8u_pwr_0_360_mae_00_0076 | 0.0076 | 0.064 | 37.30 | 0.15 | 93 |  [[Verilog<sub>generic</sub>](mul8u_pwr_0_360_mae_00_0076_gen.v)] [[Verilog<sub>PDK45</sub>](mul8u_pwr_0_360_mae_00_0076_pdk45.v)]  [[C](mul8u_pwr_0_360_mae_00_0076.c)] |
+| mul8u_pwr_0_311_mae_00_0374 | 0.037 | 0.12 | 98.12 | 1.25 | 892 |  [[Verilog<sub>generic</sub>](mul8u_pwr_0_311_mae_00_0374_gen.v)] [[Verilog<sub>PDK45</sub>](mul8u_pwr_0_311_mae_00_0374_pdk45.v)]  [[C](mul8u_pwr_0_311_mae_00_0374.c)] |
+| mul8u_pwr_0_206_mae_00_1812 | 0.18 | 0.79 | 98.05 | 4.16 | 22286 |  [[Verilog<sub>generic</sub>](mul8u_pwr_0_206_mae_00_1812_gen.v)] [[Verilog<sub>PDK45</sub>](mul8u_pwr_0_206_mae_00_1812_pdk45.v)]  [[C](mul8u_pwr_0_206_mae_00_1812.c)] |
+| mul8u_pwr_0_084_mae_00_8859 | 0.89 | 4.3 | 98.74 | 13.96 | 543210 |  [[Verilog<sub>generic</sub>](mul8u_pwr_0_084_mae_00_8859_gen.v)] [[Verilog<sub>PDK45</sub>](mul8u_pwr_0_084_mae_00_8859_pdk45.v)]  [[C](mul8u_pwr_0_084_mae_00_8859.c)] |
+| mul8u_pwr_0_008_mae_04_8337 | 4.83 | 19 | 99.20 | 44.00 | 15608397 |  [[Verilog<sub>generic</sub>](mul8u_pwr_0_008_mae_04_8337_gen.v)] [[Verilog<sub>PDK45</sub>](mul8u_pwr_0_008_mae_04_8337_pdk45.v)]  [[C](mul8u_pwr_0_008_mae_04_8337.c)] |
+| mul8u_pwr_0_000_mae_24_8051 | 24.81 | 99 | 99.22 | 100.00 | 471649806 |  [[Verilog<sub>generic</sub>](mul8u_pwr_0_000_mae_24_8051_gen.v)] [[Verilog<sub>PDK45</sub>](mul8u_pwr_0_000_mae_24_8051_pdk45.v)]  [[C](mul8u_pwr_0_000_mae_24_8051.c)] |
     
 Parameters
 --------------

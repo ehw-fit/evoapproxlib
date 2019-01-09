@@ -10,11 +10,11 @@ Selected circuits
 Parameters of selected circuits
 ----------------------------
 
-| Circuit name | MAE | WCE | EP | MRE | MSE | Download |
+| Circuit name | MAE<sub>%</sub> | WCE<sub>%</sub> | EP<sub>%</sub> | MRE<sub>%</sub> | MSE | Download |
 | --- |  --- | --- | --- | --- | --- | --- | 
-| mul11u_pwr_0_930_ep_00 | 0.00 % | 0 % | 0.00 % | 0.00 % | 0 |  [[Verilog<sub>generic</sub>](mul11u_pwr_0_930_ep_00_gen.v)] [[Verilog<sub>PDK45</sub>](mul11u_pwr_0_930_ep_00_pdk45.v)]  [[C](mul11u_pwr_0_930_ep_00.c)] |
-| mul11u_pwr_0_834_ep_98 | 0.10 % | 0.2 % | 98.28 % | 1.84 % | 28977591 |  [[Verilog<sub>generic</sub>](mul11u_pwr_0_834_ep_98_gen.v)] [[Verilog<sub>PDK45</sub>](mul11u_pwr_0_834_ep_98_pdk45.v)]  [[C](mul11u_pwr_0_834_ep_98.c)] |
-| mul11u_pwr_0_236_ep_99 | 1.18 % | 6. % | 99.90 % | 19.95 % | 3729088972 |  [[Verilog<sub>generic</sub>](mul11u_pwr_0_236_ep_99_gen.v)] [[Verilog<sub>PDK45</sub>](mul11u_pwr_0_236_ep_99_pdk45.v)]  [[C](mul11u_pwr_0_236_ep_99.c)] |
+| mul11u_pwr_0_930_ep_00 | 0.00 | 0 | 0.00 | 0.00 | 0 |  [[Verilog<sub>generic</sub>](mul11u_pwr_0_930_ep_00_gen.v)] [[Verilog<sub>PDK45</sub>](mul11u_pwr_0_930_ep_00_pdk45.v)]  [[C](mul11u_pwr_0_930_ep_00.c)] |
+| mul11u_pwr_0_834_ep_98 | 0.10 | 0.2 | 98.28 | 1.84 | 28977591 |  [[Verilog<sub>generic</sub>](mul11u_pwr_0_834_ep_98_gen.v)] [[Verilog<sub>PDK45</sub>](mul11u_pwr_0_834_ep_98_pdk45.v)]  [[C](mul11u_pwr_0_834_ep_98.c)] |
+| mul11u_pwr_0_236_ep_99 | 1.18 | 6.0 | 99.90 | 19.95 | 3729088972 |  [[Verilog<sub>generic</sub>](mul11u_pwr_0_236_ep_99_gen.v)] [[Verilog<sub>PDK45</sub>](mul11u_pwr_0_236_ep_99_pdk45.v)]  [[C](mul11u_pwr_0_236_ep_99.c)] |
     
 Parameters
 --------------
