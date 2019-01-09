@@ -1,10 +1,13 @@
 # EvoApproxLib
 ###### library of approximate arithmetic circuits
 This is a GitHub repository of LITE version of EvoApproxLib. The library consists of hardware models and software implementations of approximate circutits that can easily be applicable in arbitrary application. Web-based GUI and the full version can be found on [our websites](https://ehw.fit.vutbr.cz/evoapprox)
+
 ![Library usage](fig/library.png)
+
 ## Reference
 This library is licenced under [MIT licence](LICENCE.md). If you used the library in your research, please cite the following paper:
-   V. Mrazek, R. Hrbacek, Z. Vasicek and L. Sekanina, EvoApprox8b: Library of approximate adders and multipliers for circuit design and benchmarking of approximation methods. Design, Automation & Test in Europe Conference & Exhibition (DATE), 2017, Lausanne, 2017, pp. 258-261. doi: [10.23919/DATE.2017.7926993](https://dx.doi.org/10.23919/DATE.2017.7926993) 
+
+V. Mrazek, R. Hrbacek, Z. Vasicek and L. Sekanina, EvoApprox8b: Library of approximate adders and multipliers for circuit design and benchmarking of approximation methods. Design, Automation & Test in Europe Conference & Exhibition (DATE), 2017, Lausanne, 2017, pp. 258-261. doi: [10.23919/DATE.2017.7926993](https://dx.doi.org/10.23919/DATE.2017.7926993) 
 ```bibtex
 @INPROCEEDINGS{evoapprox16,
     author={V. Mrazek and R. Hrbacek and Z. Vasicek and L. Sekanina}, 
@@ -20,6 +23,11 @@ This library is licenced under [MIT licence](LICENCE.md). If you used the librar
 ```
 
 The library is based on following papers:
+  - V. Mrazek, S. S. Sarwar, L. Sekanina, Z. Vasicek and K. Roy, "Design of power-efficient approximate multipliers for approximate artificial neural networks," 2016 IEEE/ACM International Conference on Computer-Aided Design (ICCAD), Austin, TX, 2016, pp. 1-7. doi: [10.1145/2966986.2967021](https://dx.doi.org/10.1145/2966986.2967021)
+  - V. Mrazek, R. Hrbacek, Z. Vasicek and L. Sekanina, "EvoApprox8b: Library of approximate adders and multipliers for circuit design and benchmarking of approximation methods". Design, Automation & Test in Europe Conference & Exhibition (DATE), 2017, Lausanne, 2017, pp. 258-261. doi: [10.23919/DATE.2017.7926993](https://dx.doi.org/10.23919/DATE.2017.7926993)
+  - V. Mrazek, Z. Vasicek and R. Hrbacek, "Role of circuit representation in evolutionary design of energy-efficient approximate circuits" in IET Computers & Digital Techniques, vol. 12, no. 4, pp. 139-149, 7 2018. doi: [10.1049/iet](https://dx.doi.org/10.1049/iet)-cdt.2017.0188
+  - V. Mrazek, Z. Vasicek, L. Sekanina, H. Jiang and J. Han, "Scalable Construction of Approximate Multipliers With Formally Guaranteed Worst Case Error" in IEEE Transactions on Very Large Scale Integration (VLSI) Systems, vol. 26, no. 11, pp. 2572-2576, Nov. 2018. doi: [10.1109/TVLSI.2018.2856362](https://dx.doi.org/10.1109/TVLSI.2018.2856362)
+  - H. R. Mahdiani, A. Ahmadi, S. M. Fakhraie and C. Lucas, "Bio-Inspired Imprecise Computational Blocks for Efficient VLSI Implementation of Soft-Computing Applications" in IEEE Transactions on Circuits and Systems I: Regular Papers, vol. 57, no. 4, pp. 850-862, April 2010. doi: [10.1109/TCSI.2009.2027626](https://dx.doi.org/10.1109/TCSI.2009.2027626)
 ## Circuits
 ### Multipliers (unsigned)
  - 7-bit unsigned multiplier
