@@ -9,11 +9,11 @@ Parameters of selected circuits
 
 | Circuit name | MAE<sub>%</sub> | WCE<sub>%</sub> | EP<sub>%</sub> | MRE<sub>%</sub> | MSE | Download |
 | --- |  --- | --- | --- | --- | --- | --- | 
-| mul8s_pwr_0_425_ep_00 | 0.00 | 0.00 | 0.00 | 0.00 | 0 |   [[Verilog<sub>PDK45</sub>](mul8s_pwr_0_425_ep_00_pdk45.v)] [[C](mul8s_pwr_0_425_ep_00.c)] |
-| mul8s_pwr_0_369_ep_49 | 0.049 | 0.20 | 49.80 | 2.40 | 2731 |   [[Verilog<sub>PDK45</sub>](mul8s_pwr_0_369_ep_49_pdk45.v)] [[C](mul8s_pwr_0_369_ep_49.c)] |
-| mul8s_pwr_0_301_ep_74 | 0.081 | 0.39 | 74.61 | 4.41 | 5462 |   [[Verilog<sub>PDK45</sub>](mul8s_pwr_0_301_ep_74_pdk45.v)] [[C](mul8s_pwr_0_301_ep_74.c)] |
-| mul8s_pwr_0_237_ep_87 | 0.34 | 1.37 | 87.16 | 15.72 | 95576 |   [[Verilog<sub>PDK45</sub>](mul8s_pwr_0_237_ep_87_pdk45.v)] [[C](mul8s_pwr_0_237_ep_87.c)] |
-| mul8s_pwr_0_052_ep_98 | 3.08 | 12.30 | 98.05 | 135.77 | 72829.102e2 |   [[Verilog<sub>PDK45</sub>](mul8s_pwr_0_052_ep_98_pdk45.v)] [[C](mul8s_pwr_0_052_ep_98.c)] |
+| mul8s_E0F9 | 0.00 | 0.00 | 0.00 | 0.00 | 0 |   [[Verilog<sub>PDK45</sub>](mul8s_E0F9_pdk45.v)] [[C](mul8s_E0F9.c)] |
+| mul8s_E075 | 0.049 | 0.20 | 49.80 | 2.40 | 2731 |   [[Verilog<sub>PDK45</sub>](mul8s_E075_pdk45.v)] [[C](mul8s_E075.c)] |
+| mul8s_E1C8 | 0.081 | 0.39 | 74.61 | 4.41 | 5462 |   [[Verilog<sub>PDK45</sub>](mul8s_E1C8_pdk45.v)] [[C](mul8s_E1C8.c)] |
+| mul8s_E0CE | 0.34 | 1.37 | 87.16 | 15.72 | 95576 |   [[Verilog<sub>PDK45</sub>](mul8s_E0CE_pdk45.v)] [[C](mul8s_E0CE.c)] |
+| mul8s_E070 | 3.08 | 12.30 | 98.05 | 135.77 | 72829.102e2 |   [[Verilog<sub>PDK45</sub>](mul8s_E070_pdk45.v)] [[C](mul8s_E070.c)] |
     
 Parameters
 --------------

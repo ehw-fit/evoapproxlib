@@ -9,14 +9,14 @@ Parameters of selected circuits
 
 | Circuit name | MAE<sub>%</sub> | WCE<sub>%</sub> | EP<sub>%</sub> | MRE<sub>%</sub> | MSE | Download |
 | --- |  --- | --- | --- | --- | --- | --- | 
-| mul12s_pwr_1_210_mse_00_0000 | 0.00 | 0.00 | 0.00 | 0.00 | 0 |   [[Verilog<sub>PDK45</sub>](mul12s_pwr_1_210_mse_00_0000_pdk45.v)] [[C](mul12s_pwr_1_210_mse_00_0000.c)] |
-| mul12s_pwr_1_205_mse_00_2000 | 0.0000012 | 0.000006 | 25.00 | 0.00047 | 0.2 |   [[Verilog<sub>PDK45</sub>](mul12s_pwr_1_205_mse_00_2000_pdk45.v)] [[C](mul12s_pwr_1_205_mse_00_2000.c)] |
-| mul12s_pwr_1_200_mse_03_8000 | 0.0000072 | 0.00003 | 50.00 | 0.0023 | 3.8 |   [[Verilog<sub>PDK45</sub>](mul12s_pwr_1_200_mse_03_8000_pdk45.v)] [[C](mul12s_pwr_1_200_mse_03_8000.c)] |
-| mul12s_pwr_1_168_mse_248_2000 | 0.000073 | 0.00029 | 81.25 | 0.021 | 248 |   [[Verilog<sub>PDK45</sub>](mul12s_pwr_1_168_mse_248_2000_pdk45.v)] [[C](mul12s_pwr_1_168_mse_248_2000.c)] |
-| mul12s_pwr_1_055_mse_700070_2000 | 0.0031 | 0.013 | 90.61 | 0.25 | 700070 |   [[Verilog<sub>PDK45</sub>](mul12s_pwr_1_055_mse_700070_2000_pdk45.v)] [[C](mul12s_pwr_1_055_mse_700070_2000.c)] |
-| mul12s_pwr_0_756_mse_9786716_2500 | 0.014 | 0.073 | 93.71 | 1.17 | 97867.163e2 |   [[Verilog<sub>PDK45</sub>](mul12s_pwr_0_756_mse_9786716_2500_pdk45.v)] [[C](mul12s_pwr_0_756_mse_9786716_2500.c)] |
-| mul12s_pwr_0_579_mse_48933638_2500 | 0.032 | 0.17 | 98.39 | 2.64 | 48933.638e3 |   [[Verilog<sub>PDK45</sub>](mul12s_pwr_0_579_mse_48933638_2500_pdk45.v)] [[C](mul12s_pwr_0_579_mse_48933638_2500.c)] |
-| mul12s_pwr_0_497_mse_1864368350_1000 | 0.19 | 0.77 | 98.41 | 12.72 | 18643.684e5 |   [[Verilog<sub>PDK45</sub>](mul12s_pwr_0_497_mse_1864368350_1000_pdk45.v)] [[C](mul12s_pwr_0_497_mse_1864368350_1000.c)] |
+| mul12s_B09 | 0.00 | 0.00 | 0.00 | 0.00 | 0 |   [[Verilog<sub>PDK45</sub>](mul12s_B09_pdk45.v)] [[C](mul12s_B09.c)] |
+| mul12s_B0A | 0.0000012 | 0.000006 | 25.00 | 0.00047 | 0.2 |   [[Verilog<sub>PDK45</sub>](mul12s_B0A_pdk45.v)] [[C](mul12s_B0A.c)] |
+| mul12s_B0B | 0.0000072 | 0.00003 | 50.00 | 0.0023 | 3.8 |   [[Verilog<sub>PDK45</sub>](mul12s_B0B_pdk45.v)] [[C](mul12s_B0B.c)] |
+| mul12s_B0D | 0.000073 | 0.00029 | 81.25 | 0.021 | 248 |   [[Verilog<sub>PDK45</sub>](mul12s_B0D_pdk45.v)] [[C](mul12s_B0D.c)] |
+| mul12s_AFA | 0.0031 | 0.013 | 90.61 | 0.25 | 700070 |   [[Verilog<sub>PDK45</sub>](mul12s_AFA_pdk45.v)] [[C](mul12s_AFA.c)] |
+| mul12s_D96 | 0.014 | 0.073 | 93.71 | 1.17 | 97867.163e2 |   [[Verilog<sub>PDK45</sub>](mul12s_D96_pdk45.v)] [[C](mul12s_D96.c)] |
+| mul12s_D93 | 0.032 | 0.17 | 98.39 | 2.64 | 48933.638e3 |   [[Verilog<sub>PDK45</sub>](mul12s_D93_pdk45.v)] [[C](mul12s_D93.c)] |
+| mul12s_B6D | 0.19 | 0.77 | 98.41 | 12.72 | 18643.684e5 |   [[Verilog<sub>PDK45</sub>](mul12s_B6D_pdk45.v)] [[C](mul12s_B6D.c)] |
     
 Parameters
 --------------

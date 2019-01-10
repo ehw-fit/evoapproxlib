@@ -9,16 +9,16 @@ Parameters of selected circuits
 
 | Circuit name | MAE<sub>%</sub> | WCE<sub>%</sub> | EP<sub>%</sub> | MRE<sub>%</sub> | MSE | Download |
 | --- |  --- | --- | --- | --- | --- | --- | 
-| add12u_pwr_0_052_mae_00_0000 | 0.00 | 0.00 | 0.00 | 0.00 | 0 |   [[Verilog<sub>PDK45</sub>](add12u_pwr_0_052_mae_00_0000_pdk45.v)] [[C](add12u_pwr_0_052_mae_00_0000.c)] |
-| add12u_pwr_0_047_mae_00_0061 | 0.0061 | 0.012 | 50.00 | 0.017 | 0.5 |  [[Verilog<sub>generic</sub>](add12u_pwr_0_047_mae_00_0061_gen.v)]  [[C](add12u_pwr_0_047_mae_00_0061.c)] |
-| add12u_pwr_0_042_mae_00_0183 | 0.018 | 0.049 | 81.25 | 0.051 | 3.5 |   [[Verilog<sub>PDK45</sub>](add12u_pwr_0_042_mae_00_0183_pdk45.v)] [[C](add12u_pwr_0_042_mae_00_0183.c)] |
-| add12u_pwr_0_036_mae_00_0488 | 0.049 | 0.098 | 96.88 | 0.14 | 21 |   [[Verilog<sub>PDK45</sub>](add12u_pwr_0_036_mae_00_0488_pdk45.v)] [[C](add12u_pwr_0_036_mae_00_0488.c)] |
-| add12u_pwr_0_028_mae_00_1331 | 0.13 | 0.44 | 97.22 | 0.37 | 180 |  [[Verilog<sub>generic</sub>](add12u_pwr_0_028_mae_00_1331_gen.v)]  [[C](add12u_pwr_0_028_mae_00_1331.c)] |
-| add12u_pwr_0_021_mae_00_3906 | 0.39 | 0.78 | 99.95 | 1.08 | 1242 |   [[Verilog<sub>PDK45</sub>](add12u_pwr_0_021_mae_00_3906_pdk45.v)] [[C](add12u_pwr_0_021_mae_00_3906.c)] |
-| add12u_pwr_0_017_mae_00_7812 | 0.78 | 1.56 | 99.90 | 2.15 | 4990 |   [[Verilog<sub>PDK45</sub>](add12u_pwr_0_017_mae_00_7812_pdk45.v)] [[C](add12u_pwr_0_017_mae_00_7812.c)] |
-| add12u_pwr_0_008_mae_03_2007 | 3.20 | 7.71 | 99.91 | 8.54 | 92047 |  [[Verilog<sub>generic</sub>](add12u_pwr_0_008_mae_03_2007_gen.v)]  [[C](add12u_pwr_0_008_mae_03_2007.c)] |
-| add12u_pwr_0_003_mae_06_2500 | 6.25 | 12.50 | 100.00 | 16.24 | 325756 |   [[Verilog<sub>PDK45</sub>](add12u_pwr_0_003_mae_06_2500_pdk45.v)] [[C](add12u_pwr_0_003_mae_06_2500.c)] |
-| add12u_pwr_0_000_mae_12_5000 | 12.50 | 25.00 | 100.00 | 30.64 | 12997.08e2 |  [[Verilog<sub>generic</sub>](add12u_pwr_0_000_mae_12_5000_gen.v)]  [[C](add12u_pwr_0_000_mae_12_5000.c)] |
+| add12u_574 | 0.00 | 0.00 | 0.00 | 0.00 | 0 |   [[Verilog<sub>PDK45</sub>](add12u_574_pdk45.v)] [[C](add12u_574.c)] |
+| add12u_88C | 0.0061 | 0.012 | 50.00 | 0.017 | 0.5 |  [[Verilog<sub>generic</sub>](add12u_88C.v)]  [[C](add12u_88C.c)] |
+| add12u_4B7 | 0.018 | 0.049 | 81.25 | 0.051 | 3.5 |   [[Verilog<sub>PDK45</sub>](add12u_4B7_pdk45.v)] [[C](add12u_4B7.c)] |
+| add12u_767 | 0.049 | 0.098 | 96.88 | 0.14 | 21 |   [[Verilog<sub>PDK45</sub>](add12u_767_pdk45.v)] [[C](add12u_767.c)] |
+| add12u_3EC | 0.13 | 0.44 | 97.22 | 0.37 | 180 |  [[Verilog<sub>generic</sub>](add12u_3EC.v)]  [[C](add12u_3EC.c)] |
+| add12u_7A5 | 0.39 | 0.78 | 99.95 | 1.08 | 1242 |   [[Verilog<sub>PDK45</sub>](add12u_7A5_pdk45.v)] [[C](add12u_7A5.c)] |
+| add12u_FB8 | 0.78 | 1.56 | 99.90 | 2.15 | 4990 |   [[Verilog<sub>PDK45</sub>](add12u_FB8_pdk45.v)] [[C](add12u_FB8.c)] |
+| add12u_0A0 | 3.20 | 7.71 | 99.91 | 8.54 | 92047 |  [[Verilog<sub>generic</sub>](add12u_0A0.v)]  [[C](add12u_0A0.c)] |
+| add12u_6C0 | 6.25 | 12.50 | 100.00 | 16.24 | 325756 |   [[Verilog<sub>PDK45</sub>](add12u_6C0_pdk45.v)] [[C](add12u_6C0.c)] |
+| add12u_B42 | 12.50 | 25.00 | 100.00 | 30.62 | 13015.54e2 |  [[Verilog<sub>generic</sub>](add12u_B42.v)]  [[C](add12u_B42.c)] |
     
 Parameters
 --------------

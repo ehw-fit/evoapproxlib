@@ -9,12 +9,12 @@ Parameters of selected circuits
 
 | Circuit name | MAE<sub>%</sub> | WCE<sub>%</sub> | EP<sub>%</sub> | MRE<sub>%</sub> | MSE | Download |
 | --- |  --- | --- | --- | --- | --- | --- | 
-| mul12u_pwr_1_157_ep_00 | 0.00 | 0.00 | 0.00 | 0.00 | 0 |   [[Verilog<sub>PDK45</sub>](mul12u_pwr_1_157_ep_00_pdk45.v)] [[C](mul12u_pwr_1_157_ep_00.c)] |
-| mul12u_pwr_1_039_ep_49 | 0.0061 | 0.024 | 49.99 | 0.12 | 27951.787e2 |   [[Verilog<sub>PDK45</sub>](mul12u_pwr_1_039_ep_49_pdk45.v)] [[C](mul12u_pwr_1_039_ep_49.c)] |
-| mul12u_pwr_1_034_ep_62 | 0.0061 | 0.024 | 62.49 | 0.12 | 27962.037e2 |   [[Verilog<sub>PDK45</sub>](mul12u_pwr_1_034_ep_62_pdk45.v)] [[C](mul12u_pwr_1_034_ep_62.c)] |
-| mul12u_pwr_0_906_ep_74 | 0.018 | 0.073 | 74.98 | 0.32 | 19566.251e3 |   [[Verilog<sub>PDK45</sub>](mul12u_pwr_0_906_ep_74_pdk45.v)] [[C](mul12u_pwr_0_906_ep_74.c)] |
-| mul12u_pwr_0_790_ep_87 | 0.043 | 0.17 | 87.48 | 0.69 | 97831.256e3 |   [[Verilog<sub>PDK45</sub>](mul12u_pwr_0_790_ep_87_pdk45.v)] [[C](mul12u_pwr_0_790_ep_87.c)] |
-| mul12u_pwr_0_000_ep_99 | 18.74 | 74.95 | 99.95 | 87.98 | 15865.376e9 |  [[Verilog<sub>generic</sub>](mul12u_pwr_0_000_ep_99_gen.v)]  [[C](mul12u_pwr_0_000_ep_99.c)] |
+| mul12u_5BC | 0.00 | 0.00 | 0.00 | 0.00 | 0 |   [[Verilog<sub>PDK45</sub>](mul12u_5BC_pdk45.v)] [[C](mul12u_5BC.c)] |
+| mul12u_A68 | 0.0061 | 0.024 | 49.99 | 0.12 | 27951.787e2 |   [[Verilog<sub>PDK45</sub>](mul12u_A68_pdk45.v)] [[C](mul12u_A68.c)] |
+| mul12u_A67 | 0.0061 | 0.024 | 62.49 | 0.12 | 27962.037e2 |   [[Verilog<sub>PDK45</sub>](mul12u_A67_pdk45.v)] [[C](mul12u_A67.c)] |
+| mul12u_A87 | 0.018 | 0.073 | 74.98 | 0.32 | 19566.251e3 |   [[Verilog<sub>PDK45</sub>](mul12u_A87_pdk45.v)] [[C](mul12u_A87.c)] |
+| mul12u_B8E | 0.043 | 0.17 | 87.48 | 0.69 | 97831.256e3 |   [[Verilog<sub>PDK45</sub>](mul12u_B8E_pdk45.v)] [[C](mul12u_B8E.c)] |
+| mul12u_D85 | 18.74 | 74.95 | 99.95 | 87.98 | 15865.376e9 |  [[Verilog<sub>generic</sub>](mul12u_D85.v)]  [[C](mul12u_D85.c)] |
     
 Parameters
 --------------

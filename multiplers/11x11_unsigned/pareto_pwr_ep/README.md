@@ -9,9 +9,9 @@ Parameters of selected circuits
 
 | Circuit name | MAE<sub>%</sub> | WCE<sub>%</sub> | EP<sub>%</sub> | MRE<sub>%</sub> | MSE | Download |
 | --- |  --- | --- | --- | --- | --- | --- | 
-| mul11u_pwr_0_930_ep_00 | 0.00 | 0.00 | 0.00 | 0.00 | 0 |  [[Verilog<sub>generic</sub>](mul11u_pwr_0_930_ep_00_gen.v)]  [[C](mul11u_pwr_0_930_ep_00.c)] |
-| mul11u_pwr_0_834_ep_98 | 0.10 | 0.20 | 98.28 | 1.84 | 28977.591e3 |  [[Verilog<sub>generic</sub>](mul11u_pwr_0_834_ep_98_gen.v)]  [[C](mul11u_pwr_0_834_ep_98.c)] |
-| mul11u_pwr_0_236_ep_99 | 1.18 | 6.03 | 99.90 | 19.95 | 37290.89e5 |  [[Verilog<sub>generic</sub>](mul11u_pwr_0_236_ep_99_gen.v)]  [[C](mul11u_pwr_0_236_ep_99.c)] |
+| mul11u_001 | 0.00 | 0.00 | 0.00 | 0.00 | 0 |  [[Verilog<sub>generic</sub>](mul11u_001.v)]  [[C](mul11u_001.c)] |
+| mul11u_15A | 0.10 | 0.20 | 98.28 | 1.84 | 28977.591e3 |  [[Verilog<sub>generic</sub>](mul11u_15A.v)]  [[C](mul11u_15A.c)] |
+| mul11u_1CB | 1.18 | 6.03 | 99.90 | 19.95 | 37290.89e5 |  [[Verilog<sub>generic</sub>](mul11u_1CB.v)]  [[C](mul11u_1CB.c)] |
     
 Parameters
 --------------

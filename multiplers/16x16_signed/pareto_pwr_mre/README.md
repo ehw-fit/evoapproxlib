@@ -9,10 +9,10 @@ Parameters of selected circuits
 
 | Circuit name | MAE<sub>%</sub> | WCE<sub>%</sub> | EP<sub>%</sub> | MRE<sub>%</sub> | MSE | Download |
 | --- |  --- | --- | --- | --- | --- | --- | 
-| mul16s_pwr_2_400_mre_00_0000 | 0.00 | 0.00 | 0.00 | 0.00 | 0 |  [[Verilog<sub>generic</sub>](mul16s_pwr_2_400_mre_00_0000_gen.v)]  [[C](mul16s_pwr_2_400_mre_00_0000.c)] |
-| mul16s_pwr_2_124_mre_00_0524 | 0.00057 | 0.0023 | 92.19 | 0.052 | 12526.994e5 |   [[Verilog<sub>PDK45</sub>](mul16s_pwr_2_124_mre_00_0524_pdk45.v)] [[C](mul16s_pwr_2_124_mre_00_0524.c)] |
-| mul16s_pwr_1_483_mre_00_2243 | 0.002 | 0.011 | 98.43 | 0.22 | 12526.988e6 |   [[Verilog<sub>PDK45</sub>](mul16s_pwr_1_483_mre_00_2243_pdk45.v)] [[C](mul16s_pwr_1_483_mre_00_2243.c)] |
-| mul16s_pwr_1_396_mre_01_0613 | 0.012 | 0.048 | 98.44 | 1.06 | 47727.824e7 |   [[Verilog<sub>PDK45</sub>](mul16s_pwr_1_396_mre_01_0613_pdk45.v)] [[C](mul16s_pwr_1_396_mre_01_0613.c)] |
+| mul16s_4A2A | 0.00 | 0.00 | 0.00 | 0.00 | 0 |  [[Verilog<sub>generic</sub>](mul16s_4A2A.v)]  [[C](mul16s_4A2A.c)] |
+| mul16s_4685 | 0.00057 | 0.0023 | 92.19 | 0.052 | 12526.994e5 |   [[Verilog<sub>PDK45</sub>](mul16s_4685_pdk45.v)] [[C](mul16s_4685.c)] |
+| mul16s_4A60 | 0.002 | 0.011 | 98.43 | 0.22 | 12526.988e6 |   [[Verilog<sub>PDK45</sub>](mul16s_4A60_pdk45.v)] [[C](mul16s_4A60.c)] |
+| mul16s_4575 | 0.012 | 0.048 | 98.44 | 1.06 | 47727.824e7 |   [[Verilog<sub>PDK45</sub>](mul16s_4575_pdk45.v)] [[C](mul16s_4575.c)] |
     
 Parameters
 --------------

@@ -9,16 +9,16 @@ Parameters of selected circuits
 
 | Circuit name | MAE<sub>%</sub> | WCE<sub>%</sub> | EP<sub>%</sub> | MRE<sub>%</sub> | MSE | Download |
 | --- |  --- | --- | --- | --- | --- | --- | 
-| mul7u_pwr_0_277_mre_00_0000 | 0.00 | 0.00 | 0.00 | 0.00 | 0 |  [[Verilog<sub>generic</sub>](mul7u_pwr_0_277_mre_00_0000_gen.v)]  [[C](mul7u_pwr_0_277_mre_00_0000.c)] |
-| mul7u_pwr_0_252_mre_00_9761 | 0.03 | 0.092 | 82.61 | 0.98 | 40 |  [[Verilog<sub>generic</sub>](mul7u_pwr_0_252_mre_00_9761_gen.v)]  [[C](mul7u_pwr_0_252_mre_00_9761.c)] |
-| mul7u_pwr_0_235_mre_01_4440 | 0.051 | 0.19 | 87.35 | 1.44 | 115 |  [[Verilog<sub>generic</sub>](mul7u_pwr_0_235_mre_01_4440_gen.v)]  [[C](mul7u_pwr_0_235_mre_01_4440.c)] |
-| mul7u_pwr_0_207_mre_02_8449 | 0.12 | 0.49 | 92.60 | 2.84 | 613 |  [[Verilog<sub>generic</sub>](mul7u_pwr_0_207_mre_02_8449_gen.v)]  [[C](mul7u_pwr_0_207_mre_02_8449.c)] |
-| mul7u_pwr_0_180_mre_04_9072 | 0.23 | 0.96 | 96.04 | 4.91 | 2248 |  [[Verilog<sub>generic</sub>](mul7u_pwr_0_180_mre_04_9072_gen.v)]  [[C](mul7u_pwr_0_180_mre_04_9072.c)] |
-| mul7u_pwr_0_152_mre_08_2291 | 0.45 | 1.92 | 97.31 | 8.23 | 8544 |  [[Verilog<sub>generic</sub>](mul7u_pwr_0_152_mre_08_2291_gen.v)]  [[C](mul7u_pwr_0_152_mre_08_2291.c)] |
-| mul7u_pwr_0_123_mre_10_1233 | 0.46 | 1.93 | 97.53 | 10.12 | 8789 |  [[Verilog<sub>generic</sub>](mul7u_pwr_0_123_mre_10_1233_gen.v)]  [[C](mul7u_pwr_0_123_mre_10_1233.c)] |
-| mul7u_pwr_0_065_mre_17_6838 | 1.13 | 4.96 | 98.23 | 17.68 | 54027 |  [[Verilog<sub>generic</sub>](mul7u_pwr_0_065_mre_17_6838_gen.v)]  [[C](mul7u_pwr_0_065_mre_17_6838.c)] |
-| mul7u_pwr_0_019_mre_36_9782 | 3.63 | 14.44 | 98.41 | 36.98 | 573266 |  [[Verilog<sub>generic</sub>](mul7u_pwr_0_019_mre_36_9782_gen.v)]  [[C](mul7u_pwr_0_019_mre_36_9782.c)] |
-| mul7u_pwr_0_007_mre_46_8309 | 5.09 | 19.05 | 98.41 | 46.83 | 11107.118e2 |  [[Verilog<sub>generic</sub>](mul7u_pwr_0_007_mre_46_8309_gen.v)]  [[C](mul7u_pwr_0_007_mre_46_8309.c)] |
+| mul7u_035 | 0.00 | 0.00 | 0.00 | 0.00 | 0 |  [[Verilog<sub>generic</sub>](mul7u_035.v)]  [[C](mul7u_035.c)] |
+| mul7u_078 | 0.03 | 0.092 | 82.61 | 0.98 | 40 |  [[Verilog<sub>generic</sub>](mul7u_078.v)]  [[C](mul7u_078.c)] |
+| mul7u_1BB | 0.051 | 0.19 | 87.35 | 1.44 | 115 |  [[Verilog<sub>generic</sub>](mul7u_1BB.v)]  [[C](mul7u_1BB.c)] |
+| mul7u_0B8 | 0.12 | 0.49 | 92.60 | 2.84 | 613 |  [[Verilog<sub>generic</sub>](mul7u_0B8.v)]  [[C](mul7u_0B8.c)] |
+| mul7u_076 | 0.23 | 0.96 | 96.04 | 4.91 | 2248 |  [[Verilog<sub>generic</sub>](mul7u_076.v)]  [[C](mul7u_076.c)] |
+| mul7u_220 | 0.45 | 1.92 | 97.31 | 8.23 | 8544 |  [[Verilog<sub>generic</sub>](mul7u_220.v)]  [[C](mul7u_220.c)] |
+| mul7u_13B | 0.46 | 1.93 | 97.53 | 10.12 | 8789 |  [[Verilog<sub>generic</sub>](mul7u_13B.v)]  [[C](mul7u_13B.c)] |
+| mul7u_171 | 1.13 | 4.96 | 98.23 | 17.68 | 54027 |  [[Verilog<sub>generic</sub>](mul7u_171.v)]  [[C](mul7u_171.c)] |
+| mul7u_015 | 3.63 | 14.44 | 98.41 | 36.98 | 573266 |  [[Verilog<sub>generic</sub>](mul7u_015.v)]  [[C](mul7u_015.c)] |
+| mul7u_196 | 5.09 | 19.05 | 98.41 | 46.83 | 11107.118e2 |  [[Verilog<sub>generic</sub>](mul7u_196.v)]  [[C](mul7u_196.c)] |
     
 Parameters
 --------------
