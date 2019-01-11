@@ -9,16 +9,16 @@ Parameters of selected circuits
 
 | Circuit name | MAE<sub>%</sub> | WCE<sub>%</sub> | EP<sub>%</sub> | MRE<sub>%</sub> | MSE | Download |
 | --- |  --- | --- | --- | --- | --- | --- | 
-| mul16u_318C | 0.00 | 0.00 | 0.00 | 0.00 | 0 |   [[Verilog<sub>PDK45</sub>](mul16u_318C_pdk45.v)] [[C](mul16u_318C.c)] |
-| mul16u_2DA3 | 0.00000003 | 0.000000093 | 64.06 | 0.0000044 | 3.6 |   [[Verilog<sub>PDK45</sub>](mul16u_2DA3_pdk45.v)] [[C](mul16u_2DA3.c)] |
-| mul16u_28BA | 0.00000029 | 0.000001 | 91.60 | 0.000038 | 249 |   [[Verilog<sub>PDK45</sub>](mul16u_28BA_pdk45.v)] [[C](mul16u_28BA.c)] |
-| mul16u_2B91 | 0.000003 | 0.000012 | 99.11 | 0.00034 | 25453 |   [[Verilog<sub>PDK45</sub>](mul16u_2B91_pdk45.v)] [[C](mul16u_2B91.c)] |
-| mul16u_3DCE | 0.000026 | 0.00011 | 99.26 | 0.0024 | 20028.834e2 |   [[Verilog<sub>PDK45</sub>](mul16u_3DCE_pdk45.v)] [[C](mul16u_3DCE.c)] |
-| mul16u_40A0 | 0.000075 | 0.00042 | 99.84 | 0.0067 | 16238.254e3 |   [[Verilog<sub>PDK45</sub>](mul16u_40A0_pdk45.v)] [[C](mul16u_40A0.c)] |
-| mul16u_E39 | 0.0031 | 0.018 | 99.99 | 0.17 | 26871.835e6 |   [[Verilog<sub>PDK45</sub>](mul16u_E39_pdk45.v)] [[C](mul16u_E39.c)] |
-| mul16u_1C7B | 0.048 | 0.20 | 100.00 | 1.34 | 61508.569e8 |   [[Verilog<sub>PDK45</sub>](mul16u_1C7B_pdk45.v)] [[C](mul16u_1C7B.c)] |
-| mul16u_4A74 | 0.77 | 3.10 | 100.00 | 9.15 | 15436.2e11 |   [[Verilog<sub>PDK45</sub>](mul16u_4A74_pdk45.v)] [[C](mul16u_4A74.c)] |
-| mul16u_4A80 | 18.75 | 75.00 | 100.00 | 87.99 | 10407.645e14 |  [[Verilog<sub>generic</sub>](mul16u_4A80.v)]  [[C](mul16u_4A80.c)] |
+| mul16u_BMC | 0.00 | 0.00 | 0.00 | 0.00 | 0 |   [[Verilog<sub>PDK45</sub>](mul16u_BMC_pdk45.v)] [[C](mul16u_BMC.c)] |
+| mul16u_AQ1 | 0.00000003 | 0.000000093 | 64.06 | 0.0000044 | 3.6 |   [[Verilog<sub>PDK45</sub>](mul16u_AQ1_pdk45.v)] [[C](mul16u_AQ1.c)] |
+| mul16u_9JY | 0.00000029 | 0.000001 | 91.60 | 0.000038 | 249 |   [[Verilog<sub>PDK45</sub>](mul16u_9JY_pdk45.v)] [[C](mul16u_9JY.c)] |
+| mul16u_A7Z | 0.000003 | 0.000012 | 99.11 | 0.00034 | 25453 |   [[Verilog<sub>PDK45</sub>](mul16u_A7Z_pdk45.v)] [[C](mul16u_A7Z.c)] |
+| mul16u_EHF | 0.000026 | 0.00011 | 99.26 | 0.0024 | 20028.834e2 |   [[Verilog<sub>PDK45</sub>](mul16u_EHF_pdk45.v)] [[C](mul16u_EHF.c)] |
+| mul16u_F6B | 0.000075 | 0.00042 | 99.84 | 0.0067 | 16238.254e3 |   [[Verilog<sub>PDK45</sub>](mul16u_F6B_pdk45.v)] [[C](mul16u_F6B.c)] |
+| mul16u_3BB | 0.0031 | 0.018 | 99.99 | 0.17 | 26871.835e6 |   [[Verilog<sub>PDK45</sub>](mul16u_3BB_pdk45.v)] [[C](mul16u_3BB.c)] |
+| mul16u_6NY | 0.048 | 0.20 | 100.00 | 1.34 | 61508.569e8 |   [[Verilog<sub>PDK45</sub>](mul16u_6NY_pdk45.v)] [[C](mul16u_6NY.c)] |
+| mul16u_HGK | 0.77 | 3.10 | 100.00 | 9.15 | 15436.2e11 |   [[Verilog<sub>PDK45</sub>](mul16u_HGK_pdk45.v)] [[C](mul16u_HGK.c)] |
+| mul16u_HGY | 18.75 | 75.00 | 100.00 | 87.99 | 10407.645e14 |  [[Verilog<sub>generic</sub>](mul16u_HGY.v)]  [[C](mul16u_HGY.c)] |
     
 Parameters
 --------------

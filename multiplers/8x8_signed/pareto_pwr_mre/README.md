@@ -9,14 +9,14 @@ Parameters of selected circuits
 
 | Circuit name | MAE<sub>%</sub> | WCE<sub>%</sub> | EP<sub>%</sub> | MRE<sub>%</sub> | MSE | Download |
 | --- |  --- | --- | --- | --- | --- | --- | 
-| mul8s_E0F9 | 0.00 | 0.00 | 0.00 | 0.00 | 0 |   [[Verilog<sub>PDK45</sub>](mul8s_E0F9_pdk45.v)] [[C](mul8s_E0F9.c)] |
-| mul8s_E0FB | 0.0018 | 0.0076 | 50.00 | 0.28 | 3.8 |   [[Verilog<sub>PDK45</sub>](mul8s_E0FB_pdk45.v)] [[C](mul8s_E0FB.c)] |
-| mul8s_E0FC | 0.0064 | 0.026 | 68.75 | 0.90 | 34 |   [[Verilog<sub>PDK45</sub>](mul8s_E0FC_pdk45.v)] [[C](mul8s_E0FC.c)] |
-| mul8s_E079 | 0.056 | 0.25 | 84.18 | 3.64 | 2872 |   [[Verilog<sub>PDK45</sub>](mul8s_E079_pdk45.v)] [[C](mul8s_E079.c)] |
-| mul8s_E105 | 0.15 | 0.69 | 91.89 | 8.93 | 19690 |   [[Verilog<sub>PDK45</sub>](mul8s_E105_pdk45.v)] [[C](mul8s_E105.c)] |
-| mul8s_E1C4 | 0.23 | 1.16 | 93.16 | 12.26 | 38236 |   [[Verilog<sub>PDK45</sub>](mul8s_E1C4_pdk45.v)] [[C](mul8s_E1C4.c)] |
-| mul8s_E1A6 | 0.52 | 2.66 | 97.75 | 27.44 | 191238 |   [[Verilog<sub>PDK45</sub>](mul8s_E1A6_pdk45.v)] [[C](mul8s_E1A6.c)] |
-| mul8s_E070 | 3.08 | 12.30 | 98.05 | 135.77 | 72829.102e2 |   [[Verilog<sub>PDK45</sub>](mul8s_E070_pdk45.v)] [[C](mul8s_E070.c)] |
+| mul8s_1KV8 | 0.00 | 0.00 | 0.00 | 0.00 | 0 |   [[Verilog<sub>PDK45</sub>](mul8s_1KV8_pdk45.v)] [[C](mul8s_1KV8.c)] |
+| mul8s_1KVA | 0.0018 | 0.0076 | 50.00 | 0.28 | 3.8 |   [[Verilog<sub>PDK45</sub>](mul8s_1KVA_pdk45.v)] [[C](mul8s_1KVA.c)] |
+| mul8s_1KVB | 0.0064 | 0.026 | 68.75 | 0.90 | 34 |   [[Verilog<sub>PDK45</sub>](mul8s_1KVB_pdk45.v)] [[C](mul8s_1KVB.c)] |
+| mul8s_1KRC | 0.056 | 0.25 | 84.18 | 3.64 | 2872 |   [[Verilog<sub>PDK45</sub>](mul8s_1KRC_pdk45.v)] [[C](mul8s_1KRC.c)] |
+| mul8s_1KVL | 0.15 | 0.69 | 91.89 | 8.93 | 19690 |   [[Verilog<sub>PDK45</sub>](mul8s_1KVL_pdk45.v)] [[C](mul8s_1KVL.c)] |
+| mul8s_1L2D | 0.23 | 1.16 | 93.16 | 12.26 | 38236 |   [[Verilog<sub>PDK45</sub>](mul8s_1L2D_pdk45.v)] [[C](mul8s_1L2D.c)] |
+| mul8s_1L1G | 0.52 | 2.66 | 97.75 | 27.44 | 191238 |   [[Verilog<sub>PDK45</sub>](mul8s_1L1G_pdk45.v)] [[C](mul8s_1L1G.c)] |
+| mul8s_1KR3 | 3.08 | 12.30 | 98.05 | 135.77 | 72829.102e2 |   [[Verilog<sub>PDK45</sub>](mul8s_1KR3_pdk45.v)] [[C](mul8s_1KR3.c)] |
     
 Parameters
 --------------

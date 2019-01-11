@@ -9,15 +9,15 @@ Parameters of selected circuits
 
 | Circuit name | MAE<sub>%</sub> | WCE<sub>%</sub> | EP<sub>%</sub> | MRE<sub>%</sub> | MSE | Download |
 | --- |  --- | --- | --- | --- | --- | --- | 
-| add8u_206 | 0.00 | 0.00 | 0.00 | 0.00 | 0 |  [[Verilog<sub>generic</sub>](add8u_206.v)]  [[C](add8u_206.c)] |
-| add8u_1881 | 0.039 | 0.20 | 25.00 | 0.14 | 0.2 |   [[Verilog<sub>PDK45</sub>](add8u_1881_pdk45.v)] [[C](add8u_1881.c)] |
-| add8u_1871 | 0.16 | 0.59 | 43.75 | 0.40 | 1.5 |   [[Verilog<sub>PDK45</sub>](add8u_1871_pdk45.v)] [[C](add8u_1871.c)] |
-| add8u_1808 | 0.35 | 1.37 | 71.88 | 0.94 | 6.5 |   [[Verilog<sub>PDK45</sub>](add8u_1808_pdk45.v)] [[C](add8u_1808.c)] |
-| add8u_175A | 0.78 | 2.93 | 90.62 | 2.08 | 27 |   [[Verilog<sub>PDK45</sub>](add8u_175A_pdk45.v)] [[C](add8u_175A.c)] |
-| add8u_C7B | 1.64 | 4.30 | 96.88 | 4.57 | 100 |  [[Verilog<sub>generic</sub>](add8u_C7B.v)]  [[C](add8u_C7B.c)] |
-| add8u_235 | 3.40 | 9.96 | 98.44 | 9.24 | 432 |  [[Verilog<sub>generic</sub>](add8u_235.v)]  [[C](add8u_235.c)] |
-| add8u_0D0 | 10.10 | 37.50 | 99.41 | 22.52 | 4292 |  [[Verilog<sub>generic</sub>](add8u_0D0.v)]  [[C](add8u_0D0.c)] |
-| add8u_0C9 | 15.29 | 47.66 | 99.61 | 37.63 | 9126 |  [[Verilog<sub>generic</sub>](add8u_0C9.v)]  [[C](add8u_0C9.c)] |
+| add8u_0FP | 0.00 | 0.00 | 0.00 | 0.00 | 0 |  [[Verilog<sub>generic</sub>](add8u_0FP.v)]  [[C](add8u_0FP.c)] |
+| add8u_5R3 | 0.039 | 0.20 | 25.00 | 0.14 | 0.2 |   [[Verilog<sub>PDK45</sub>](add8u_5R3_pdk45.v)] [[C](add8u_5R3.c)] |
+| add8u_5QL | 0.16 | 0.59 | 43.75 | 0.40 | 1.5 |   [[Verilog<sub>PDK45</sub>](add8u_5QL_pdk45.v)] [[C](add8u_5QL.c)] |
+| add8u_5ME | 0.35 | 1.37 | 71.88 | 0.94 | 6.5 |   [[Verilog<sub>PDK45</sub>](add8u_5ME_pdk45.v)] [[C](add8u_5ME.c)] |
+| add8u_5G5 | 0.78 | 2.93 | 90.62 | 2.08 | 27 |   [[Verilog<sub>PDK45</sub>](add8u_5G5_pdk45.v)] [[C](add8u_5G5.c)] |
+| add8u_2XT | 1.64 | 4.30 | 96.88 | 4.57 | 100 |  [[Verilog<sub>generic</sub>](add8u_2XT.v)]  [[C](add8u_2XT.c)] |
+| add8u_0H4 | 3.40 | 9.96 | 98.44 | 9.24 | 432 |  [[Verilog<sub>generic</sub>](add8u_0H4.v)]  [[C](add8u_0H4.c)] |
+| add8u_06A | 10.10 | 37.50 | 99.41 | 22.52 | 4292 |  [[Verilog<sub>generic</sub>](add8u_06A.v)]  [[C](add8u_06A.c)] |
+| add8u_063 | 15.29 | 47.66 | 99.61 | 37.63 | 9126 |  [[Verilog<sub>generic</sub>](add8u_063.v)]  [[C](add8u_063.c)] |
     
 Parameters
 --------------

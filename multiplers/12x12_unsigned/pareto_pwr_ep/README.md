@@ -9,12 +9,12 @@ Parameters of selected circuits
 
 | Circuit name | MAE<sub>%</sub> | WCE<sub>%</sub> | EP<sub>%</sub> | MRE<sub>%</sub> | MSE | Download |
 | --- |  --- | --- | --- | --- | --- | --- | 
-| mul12u_5BC | 0.00 | 0.00 | 0.00 | 0.00 | 0 |   [[Verilog<sub>PDK45</sub>](mul12u_5BC_pdk45.v)] [[C](mul12u_5BC.c)] |
-| mul12u_A68 | 0.0061 | 0.024 | 49.99 | 0.12 | 27951.787e2 |   [[Verilog<sub>PDK45</sub>](mul12u_A68_pdk45.v)] [[C](mul12u_A68.c)] |
-| mul12u_A67 | 0.0061 | 0.024 | 62.49 | 0.12 | 27962.037e2 |   [[Verilog<sub>PDK45</sub>](mul12u_A67_pdk45.v)] [[C](mul12u_A67.c)] |
-| mul12u_A87 | 0.018 | 0.073 | 74.98 | 0.32 | 19566.251e3 |   [[Verilog<sub>PDK45</sub>](mul12u_A87_pdk45.v)] [[C](mul12u_A87.c)] |
-| mul12u_B8E | 0.043 | 0.17 | 87.48 | 0.69 | 97831.256e3 |   [[Verilog<sub>PDK45</sub>](mul12u_B8E_pdk45.v)] [[C](mul12u_B8E.c)] |
-| mul12u_D85 | 18.74 | 74.95 | 99.95 | 87.98 | 15865.376e9 |  [[Verilog<sub>generic</sub>](mul12u_D85.v)]  [[C](mul12u_D85.c)] |
+| mul12u_1BG | 0.00 | 0.00 | 0.00 | 0.00 | 0 |   [[Verilog<sub>PDK45</sub>](mul12u_1BG_pdk45.v)] [[C](mul12u_1BG.c)] |
+| mul12u_2EQ | 0.0061 | 0.024 | 49.99 | 0.12 | 27951.787e2 |   [[Verilog<sub>PDK45</sub>](mul12u_2EQ_pdk45.v)] [[C](mul12u_2EQ.c)] |
+| mul12u_2EP | 0.0061 | 0.024 | 62.49 | 0.12 | 27962.037e2 |   [[Verilog<sub>PDK45</sub>](mul12u_2EP_pdk45.v)] [[C](mul12u_2EP.c)] |
+| mul12u_2FN | 0.018 | 0.073 | 74.98 | 0.32 | 19566.251e3 |   [[Verilog<sub>PDK45</sub>](mul12u_2FN_pdk45.v)] [[C](mul12u_2FN.c)] |
+| mul12u_2PM | 0.043 | 0.17 | 87.48 | 0.69 | 97831.256e3 |   [[Verilog<sub>PDK45</sub>](mul12u_2PM_pdk45.v)] [[C](mul12u_2PM.c)] |
+| mul12u_35V | 18.74 | 74.95 | 99.95 | 87.98 | 15865.376e9 |  [[Verilog<sub>generic</sub>](mul12u_35V.v)]  [[C](mul12u_35V.c)] |
     
 Parameters
 --------------
