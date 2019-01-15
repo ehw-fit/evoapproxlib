@@ -92,13 +92,11 @@ module mul16u_GPF ( A, B, O );
 endmodule
 
 /* mod */
-
 module PDKGENHAX1( input A, input B, output YS, output YC );
     assign YS = A ^ B;
     assign YC = A & B;
 endmodule
 /* mod */
-
 module PDKGENFAX1( input A, input B, input C, output YS, output YC );
     assign YS = (A ^ B) ^ C;
     assign YC = (A & B) | (B & C) | (A & C);

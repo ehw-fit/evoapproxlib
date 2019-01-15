@@ -161,7 +161,6 @@ module add12u_13K(A, B, O);
 endmodule
 
 /* mod */
-
 module PDKGENHAX1( input A, input B, output YS, output YC );
     assign YS = A ^ B;
     assign YC = A & B;

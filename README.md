@@ -45,7 +45,7 @@ The library is a collection of circuits published in the following papers:
  - 16-bit unsigned adders
    - [Pareto optimal subset (MAE vs power)](adders/16_unsigned/pareto_pwr_mae/README.md) - 9 circuits
    - [Pareto optimal subset (WCE vs power)](adders/16_unsigned/pareto_pwr_wce/README.md) - 9 circuits
-   - [Pareto optimal subset (MRE vs power)](adders/16_unsigned/pareto_pwr_mre/README.md) - 9 circuits
+   - [Pareto optimal subset (MRE vs power)](adders/16_unsigned/pareto_pwr_mre/README.md) - 10 circuits
    - [Pareto optimal subset (EP vs power)](adders/16_unsigned/pareto_pwr_ep/README.md) - 7 circuits
    - [Pareto optimal subset (MSE vs power)](adders/16_unsigned/pareto_pwr_mse/README.md) - 9 circuits
 ### Multipliers (unsigned)

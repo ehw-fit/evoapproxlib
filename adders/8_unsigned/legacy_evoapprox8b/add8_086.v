@@ -83,12 +83,10 @@ endmodule
 
 
 /* mod */
-
 module PDKGENXOR2X1(input A, input B, output Y );
      assign Y = A ^ B;
 endmodule
 /* mod */
-
 module PDKGENFAX1( input A, input B, input C, output YS, output YC );
     assign YS = (A ^ B) ^ C;
     assign YC = (A & B) | (B & C) | (A & C);

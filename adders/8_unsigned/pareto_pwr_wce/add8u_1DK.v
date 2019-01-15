@@ -84,18 +84,15 @@ module add8u_1DK(A, B, O);
 endmodule
 
 /* mod */
-
 module PDKGENMUX2X1( input A, input B, input S, output Y );
     assign Y = (A & ~S) | (B & S);
 endmodule
 /* mod */
-
 module PDKGENHAX1( input A, input B, output YS, output YC );
     assign YS = A ^ B;
     assign YC = A & B;
 endmodule
 /* mod */
-
 module PDKGENFAX1( input A, input B, input C, output YS, output YC );
     assign YS = (A ^ B) ^ C;
     assign YC = (A & B) | (B & C) | (A & C);

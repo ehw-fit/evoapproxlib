@@ -79,12 +79,10 @@ endmodule
 
 
 /* mod */
-
 module PDKGENOAI21X1( input A, input B, input C, output Y );
     assign Y = ~((A | B) & C);
 endmodule
 /* mod */
-
 module PDKGENFAX1( input A, input B, input C, output YS, output YC );
     assign YS = (A ^ B) ^ C;
     assign YC = (A & B) | (B & C) | (A & C);

@@ -81,7 +81,6 @@ module add12u_3NY(A, B, O);
 endmodule
 
 /* mod */
-
 module PDKGENFAX1( input A, input B, input C, output YS, output YC );
     assign YS = (A ^ B) ^ C;
     assign YC = (A & B) | (B & C) | (A & C);

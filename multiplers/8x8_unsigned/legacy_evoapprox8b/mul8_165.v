@@ -211,49 +211,40 @@ endmodule
 
 
 /* mod */
-
 module PDKGENFAX1( input A, input B, input C, output YS, output YC );
     assign YS = (A ^ B) ^ C;
     assign YC = (A & B) | (B & C) | (A & C);
 endmodule
 /* mod */
-
 module PDKGENMUX2X1( input A, input B, input S, output Y );
     assign Y = (A & ~S) | (B & S);
 endmodule
 /* mod */
-
 module PDKGENHAX1( input A, input B, output YS, output YC );
     assign YS = A ^ B;
     assign YC = A & B;
 endmodule
 /* mod */
-
 module PDKGENNOR3X1(input A, input B, input C, output Y );
      assign Y = ~((A | B) | C);
 endmodule
 /* mod */
-
 module PDKGEPDKGENNAND2X1(input A, input B, output Y );
      assign Y = A & B;
 endmodule
 /* mod */
-
 module PDKGENNAND3X1(input A, input B, input C, output Y );
      assign Y = ~((A & B) & C);
 endmodule
 /* mod */
-
 module PDKGENBUFX2(input A, output Y );
      assign Y = A;
 endmodule
 /* mod */
-
 module PDKGENOR2X1(input A, input B, output Y );
      assign Y = A | B;
 endmodule
 /* mod */
-
 module PDKGENNAND2X1(input A, input B, output Y );
      assign Y = ~(A & B);
 endmodule
