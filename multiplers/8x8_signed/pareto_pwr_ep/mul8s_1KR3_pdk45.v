@@ -39,6 +39,3 @@ module mul8s_1KR3 ( A, B, O );
 
 endmodule
 
-
-// internal reference: truncation-bam.08.mul8s_1KR3
-

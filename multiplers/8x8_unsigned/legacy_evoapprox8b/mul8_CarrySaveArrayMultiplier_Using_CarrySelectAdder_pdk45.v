@@ -205,6 +205,3 @@ module mul8_CarrySaveArrayMultiplier_Using_CarrySelectAdder(A, B, O);
 endmodule
 
 
-
-// internal reference: cgp-evoapproxlib.08.mul8_CarrySaveArrayMultiplier_Using_CarrySelectAdder
-

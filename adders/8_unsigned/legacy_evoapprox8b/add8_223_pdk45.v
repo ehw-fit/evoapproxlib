@@ -89,6 +89,3 @@ module add8_223(A, B, O);
 endmodule
 
 
-
-// internal reference: cgp-evoapproxlib.08.add8_223
-

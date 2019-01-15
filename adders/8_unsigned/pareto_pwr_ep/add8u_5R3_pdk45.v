@@ -86,6 +86,3 @@ module add8u_5R3(A, B, O);
 endmodule
 
 
-
-// internal reference: cgp-evoapproxlib.08.add8u_5R3
-

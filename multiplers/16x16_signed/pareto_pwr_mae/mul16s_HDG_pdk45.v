@@ -271,6 +271,3 @@ module mul16s_HDG ( A, B, O );
 
 endmodule
 
-
-// internal reference: truncation-tm.16.mul16s_HDG
-

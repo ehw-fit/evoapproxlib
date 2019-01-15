@@ -91,6 +91,3 @@ module mul16u_GPF ( A, B, O );
 
 endmodule
 
-
-// internal reference: truncation-bam.16.mul16u_GPF
-

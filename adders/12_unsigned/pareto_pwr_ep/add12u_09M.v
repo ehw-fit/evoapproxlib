@@ -74,6 +74,3 @@ module add12u_09M(A, B, O);
   assign O[12] = sig_77 | sig_78;
 endmodule
 
-
-// internal reference: cgp-add-bdd.12.add12u_09M
-

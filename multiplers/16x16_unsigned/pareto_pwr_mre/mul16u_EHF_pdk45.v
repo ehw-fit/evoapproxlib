@@ -756,6 +756,3 @@ CLA32bit SUMO (.a(llhhlh_sum), .b(shifted_hl), .c_in(1'b0), .sum(O), .c_out());
 endmodule
 
 
-
-// internal reference: composition.16.m16_m4_composed_filt.wc_pwr_ar_0358
-

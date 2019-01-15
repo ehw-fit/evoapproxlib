@@ -60,6 +60,3 @@ module add8u_2XT(A, B, O);
   assign O[8] = n_193;
 endmodule
 
-
-// internal reference: cgp-compare17.08.add8u_2XT
-

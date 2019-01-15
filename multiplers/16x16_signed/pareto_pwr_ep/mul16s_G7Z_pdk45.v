@@ -272,6 +272,3 @@ module mul16s_G7Z ( A, B, O );
 
 endmodule
 
-
-// internal reference: truncation-bam.16.mul16s_G7Z
-

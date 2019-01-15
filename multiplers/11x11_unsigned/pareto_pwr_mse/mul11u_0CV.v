@@ -565,6 +565,3 @@ module mul11u_0CV(A, B, O);
   assign O[14] = O[0]; // default output
 endmodule
 
-
-// internal reference: cgp-nn-iccad16.11.mul11u_0CV
-

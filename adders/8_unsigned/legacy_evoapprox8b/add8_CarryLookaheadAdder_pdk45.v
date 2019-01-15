@@ -153,6 +153,3 @@ module add8_CarryLookaheadAdder(A, B, O);
 endmodule
 
 
-
-// internal reference: cgp-evoapproxlib.08.add8_CarryLookaheadAdder
-

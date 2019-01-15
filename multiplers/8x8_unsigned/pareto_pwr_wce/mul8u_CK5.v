@@ -320,6 +320,3 @@ assign O[0] = sig_295;
 endmodule
 
 
-
-// internal reference: cgp-approx14ep.08.mul8u_CK5
-

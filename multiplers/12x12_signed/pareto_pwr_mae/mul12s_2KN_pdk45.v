@@ -169,6 +169,3 @@ module mul12s_2KN ( A, B, O );
 
 endmodule
 
-
-// internal reference: truncation-bam.12.mul12s_2KN
-

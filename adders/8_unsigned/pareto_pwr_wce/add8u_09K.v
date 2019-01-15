@@ -28,6 +28,3 @@ module add8u_09K(A, B, O);
   assign O[5] = A[5]; // default output
 endmodule
 
-
-// internal reference: cgp-add-bdd.08.add8u_09K
-

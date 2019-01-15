@@ -323,6 +323,3 @@ module mul8_WallaceTreeMultiplier_Using_CarryLookaheadAdder(A, B, O);
 endmodule
 
 
-
-// internal reference: cgp-evoapproxlib.08.mul8_WallaceTreeMultiplier_Using_CarryLookaheadAdder
-

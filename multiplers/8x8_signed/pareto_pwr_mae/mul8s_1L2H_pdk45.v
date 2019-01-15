@@ -79,6 +79,3 @@ module mul8s_1L2H ( A, B, O );
 
 endmodule
 
-
-// internal reference: truncation-tm.08.mul8s_1L2H
-

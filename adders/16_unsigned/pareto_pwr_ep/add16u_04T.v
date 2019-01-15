@@ -85,6 +85,3 @@ module add16u_04T(A, B, O);
   assign O[16] = sig_105 | sig_106;
 endmodule
 
-
-// internal reference: cgp-add-bdd.16.add16u_04T
-

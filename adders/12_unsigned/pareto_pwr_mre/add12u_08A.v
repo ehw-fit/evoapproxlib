@@ -64,6 +64,3 @@ module add12u_08A(A, B, O);
   assign O[2] = B[2]; // default output
 endmodule
 
-
-// internal reference: cgp-add-bdd.12.add12u_08A
-

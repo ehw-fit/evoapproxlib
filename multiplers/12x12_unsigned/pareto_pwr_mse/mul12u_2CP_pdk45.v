@@ -117,6 +117,3 @@ module mul12u_2CP ( A, B, O );
 
 endmodule
 
-
-// internal reference: truncation-bam.12.mul12u_2CP
-

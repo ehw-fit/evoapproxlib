@@ -255,6 +255,3 @@ module mul16u_GPK ( A, B, O );
 
 endmodule
 
-
-// internal reference: truncation-bam.16.mul16u_GPK
-

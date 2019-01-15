@@ -69,6 +69,3 @@ module add12u_2PX(A, B, O);
   assign O[12] = n_419;
 endmodule
 
-
-// internal reference: cgp-compare17.12.add12u_2PX
-

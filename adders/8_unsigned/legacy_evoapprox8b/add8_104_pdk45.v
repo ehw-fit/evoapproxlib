@@ -115,6 +115,3 @@ module add8_104(A, B, O);
 endmodule
 
 
-
-// internal reference: cgp-evoapproxlib.08.add8_104
-

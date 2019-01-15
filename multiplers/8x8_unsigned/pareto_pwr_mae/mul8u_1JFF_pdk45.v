@@ -197,6 +197,3 @@ module mul8u_1JFF(A, B, O);
 endmodule
 
 
-
-// internal reference: cgp-evoapproxlib.08.mul8u_1JFF
-

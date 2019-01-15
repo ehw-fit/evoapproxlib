@@ -234,6 +234,3 @@ module mul16s_HFZ ( A, B, O );
 
 endmodule
 
-
-// internal reference: truncation-tm.16.mul16s_HFZ
-

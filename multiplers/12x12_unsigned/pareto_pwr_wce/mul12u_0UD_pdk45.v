@@ -350,6 +350,3 @@ module mul12u_0UD(A, B, O);
   assign O[23] = n_2041;
 endmodule
 
-
-// internal reference: cgp-compare17.12.mul12u_0UD
-

@@ -33,6 +33,3 @@ module mul7u_0CA(A, B, O);
   assign O[13] = O[6]; // default output
 endmodule
 
-
-// internal reference: cgp-nn-iccad16.07.mul7u_0CA
-

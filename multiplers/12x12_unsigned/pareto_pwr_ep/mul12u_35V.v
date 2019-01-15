@@ -24,6 +24,3 @@ assign tmpB = {B[12-1:11],{11{1'b0}}};
 assign Z = tmpA * tmpB;
 endmodule
 
-
-// internal reference: truncation-tm.12.mul12u_35V
-

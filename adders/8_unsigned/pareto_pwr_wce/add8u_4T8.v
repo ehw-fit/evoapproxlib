@@ -81,6 +81,3 @@ module add8u_4T8(A, B, O);
   assign O[8] = n_212;
 endmodule
 
-
-// internal reference: cgp-compare17.08.add8u_4T8
-

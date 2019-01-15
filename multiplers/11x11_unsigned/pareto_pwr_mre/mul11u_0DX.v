@@ -283,6 +283,3 @@ module mul11u_0DX(A, B, O);
   assign O[17] = O[11]; // default output
 endmodule
 
-
-// internal reference: cgp-nn-iccad16.11.mul11u_0DX
-

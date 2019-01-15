@@ -75,6 +75,3 @@ module add12u_2MB(A, B, O);
   assign O[12] = n_46;
 endmodule
 
-
-// internal reference: cgp-compare17.12.add12u_2MB
-

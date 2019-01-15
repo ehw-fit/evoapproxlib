@@ -305,6 +305,3 @@ module mul11u_0F3(A, B, O);
   assign O[21] = O[8] | sig_657;
 endmodule
 
-
-// internal reference: cgp-nn-iccad16.11.mul11u_0F3
-

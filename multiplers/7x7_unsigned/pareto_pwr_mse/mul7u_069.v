@@ -214,6 +214,3 @@ module mul7u_069(A, B, O);
   assign O[5] = O[4]; // default output
 endmodule
 
-
-// internal reference: cgp-nn-iccad16.07.mul7u_069
-

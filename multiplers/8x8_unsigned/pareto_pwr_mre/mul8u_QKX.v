@@ -94,6 +94,3 @@ assign O[0] = 1'b0;
 endmodule
 
 
-
-// internal reference: cgp-approx14ep.08.mul8u_QKX
-

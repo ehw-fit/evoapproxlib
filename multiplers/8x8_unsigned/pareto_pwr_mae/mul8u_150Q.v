@@ -345,6 +345,3 @@ assign O[0] = sig_16;
 endmodule
 
 
-
-// internal reference: cgp-approx14rewc.08.mul8u_150Q
-

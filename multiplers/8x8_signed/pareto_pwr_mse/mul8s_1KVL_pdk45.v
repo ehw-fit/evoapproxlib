@@ -68,6 +68,3 @@ module mul8s_1KVL ( A, B, O );
 
 endmodule
 
-
-// internal reference: truncation-bam.08.mul8s_1KVL
-

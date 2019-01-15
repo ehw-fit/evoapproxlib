@@ -252,6 +252,3 @@ module mul16s_GK2 ( A, B, O );
 
 endmodule
 
-
-// internal reference: truncation-bam.16.mul16s_GK2
-

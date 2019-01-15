@@ -45,6 +45,3 @@ module add8u_00Y(A, B, O);
   assign O[8] = sig_49 | sig_50;
 endmodule
 
-
-// internal reference: cgp-add-bdd.08.add8u_00Y
-

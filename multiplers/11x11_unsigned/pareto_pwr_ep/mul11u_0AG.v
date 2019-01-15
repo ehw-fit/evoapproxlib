@@ -666,6 +666,3 @@ module mul11u_0AG(A, B, O);
   assign O[21] = sig_656 | sig_657;
 endmodule
 
-
-// internal reference: cgp-nn-iccad16.11.mul11u_0AG
-

@@ -22,6 +22,3 @@ assign tmpZ = $signed(A[16-1:0]) * $signed(B[16-1:0]);
 assign Z = $signed(tmpZ);
 endmodule
 
-
-// internal reference: truncation-tm.16.mul16s_HEB
-

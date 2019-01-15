@@ -19,6 +19,3 @@ module add8u_063(A, B, O);
   assign O[8] = A[7]; // default output
 endmodule
 
-
-// internal reference: cgp-add-bdd.08.add8u_063
-

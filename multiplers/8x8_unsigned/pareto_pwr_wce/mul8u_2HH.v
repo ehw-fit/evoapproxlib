@@ -286,6 +286,3 @@ assign O[0] = sig_75;
 endmodule
 
 
-
-// internal reference: cgp-approx14.08.mul8u_2HH
-

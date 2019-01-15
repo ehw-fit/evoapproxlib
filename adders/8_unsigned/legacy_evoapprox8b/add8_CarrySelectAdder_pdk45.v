@@ -93,6 +93,3 @@ module add8_CarrySelectAdder(A, B, O);
 endmodule
 
 
-
-// internal reference: cgp-evoapproxlib.08.add8_CarrySelectAdder
-

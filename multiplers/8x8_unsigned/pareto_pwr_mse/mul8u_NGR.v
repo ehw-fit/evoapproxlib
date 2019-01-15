@@ -264,6 +264,3 @@ assign O[0] = sig_265;
 endmodule
 
 
-
-// internal reference: cgp-approx14ep.08.mul8u_NGR
-

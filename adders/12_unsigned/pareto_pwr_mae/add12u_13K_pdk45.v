@@ -160,6 +160,3 @@ module add12u_13K(A, B, O);
   assign O[12] = n_837;
 endmodule
 
-
-// internal reference: cgp-compare17.12.add12u_13K
-

@@ -221,6 +221,3 @@ assign O[0] = sig_177;
 endmodule
 
 
-
-// internal reference: cgp-approx14zr.08.mul8u_19DB
-

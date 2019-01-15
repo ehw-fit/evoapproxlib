@@ -118,6 +118,3 @@ module add8_HigherValencyTreeAdder_With_SklanskyArchitecture(A, B, O);
 endmodule
 
 
-
-// internal reference: cgp-evoapproxlib.08.add8_HigherValencyTreeAdder_With_SklanskyArchitecture
-

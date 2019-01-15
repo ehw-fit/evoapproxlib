@@ -79,6 +79,3 @@ module mul16u_HGK ( A, B, O );
 
 endmodule
 
-
-// internal reference: truncation-tm.16.mul16u_HGK
-

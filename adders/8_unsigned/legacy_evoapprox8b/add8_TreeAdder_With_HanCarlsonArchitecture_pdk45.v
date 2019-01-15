@@ -117,6 +117,3 @@ module add8_TreeAdder_With_HanCarlsonArchitecture(A, B, O);
 endmodule
 
 
-
-// internal reference: cgp-evoapproxlib.08.add8_TreeAdder_With_HanCarlsonArchitecture
-

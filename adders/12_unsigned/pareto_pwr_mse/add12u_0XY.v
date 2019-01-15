@@ -105,6 +105,3 @@ module add12u_0XY(A, B, O);
   assign O[12] = n_419;
 endmodule
 
-
-// internal reference: cgp-compare17.12.add12u_0XY
-

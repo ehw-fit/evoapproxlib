@@ -215,6 +215,3 @@ module mul8_076(A, B, O);
 endmodule
 
 
-
-// internal reference: cgp-evoapproxlib.08.mul8_076
-

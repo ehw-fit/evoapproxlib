@@ -22,6 +22,3 @@ assign tmpZ = A[16-1:15] * B[16-1:15];
 assign Z = {tmpZ,{30{1'b0}}};
 endmodule
 
-
-// internal reference: truncation-tm.16.mul16u_HGY
-

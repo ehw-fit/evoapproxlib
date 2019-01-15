@@ -130,6 +130,3 @@ module add8_HigherValencyTreeAdder_With_KoggeStoneArchitecture(A, B, O);
 endmodule
 
 
-
-// internal reference: cgp-evoapproxlib.08.add8_HigherValencyTreeAdder_With_KoggeStoneArchitecture
-

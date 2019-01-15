@@ -180,6 +180,3 @@ module mul8_383(A, B, O);
 endmodule
 
 
-
-// internal reference: cgp-evoapproxlib.08.mul8_383
-

@@ -273,6 +273,3 @@ module mul16s_G80 ( A, B, O );
 
 endmodule
 
-
-// internal reference: truncation-bam.16.mul16s_G80
-

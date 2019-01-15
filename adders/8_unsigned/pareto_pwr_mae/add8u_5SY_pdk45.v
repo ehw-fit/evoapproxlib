@@ -78,6 +78,3 @@ module add8u_5SY(A, B, O);
 endmodule
 
 
-
-// internal reference: cgp-evoapproxlib.08.add8u_5SY
-

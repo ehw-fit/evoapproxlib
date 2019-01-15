@@ -168,6 +168,3 @@ module mul7u_09J(A, B, O);
   assign O[13] = sig_267 | sig_268;
 endmodule
 
-
-// internal reference: cgp-nn-iccad16.07.mul7u_09J
-

@@ -61,6 +61,3 @@ module mul12u_35U ( A, B, O );
 
 endmodule
 
-
-// internal reference: truncation-tm.12.mul12u_35U
-

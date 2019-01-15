@@ -43,6 +43,3 @@ module add16u_0GK(A, B, O);
   assign O[11] = A[11]; // default output
 endmodule
 
-
-// internal reference: cgp-add-bdd.16.add16u_0GK
-

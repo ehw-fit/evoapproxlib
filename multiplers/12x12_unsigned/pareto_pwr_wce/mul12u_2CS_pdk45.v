@@ -61,6 +61,3 @@ module mul12u_2CS ( A, B, O );
 
 endmodule
 
-
-// internal reference: truncation-bam.12.mul12u_2CS
-

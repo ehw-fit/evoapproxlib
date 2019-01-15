@@ -83,6 +83,3 @@ module add8u_0FP(A, B, O);
   assign O[8] = n_213;
 endmodule
 
-
-// internal reference: cgp-compare17.08.add8u_0FP
-
