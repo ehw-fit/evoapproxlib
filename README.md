@@ -35,7 +35,6 @@ The library is a collection of circuits published in the following papers:
    - [Pareto optimal subset (MRE vs power)](adders/8_unsigned/pareto_pwr_mre/README.md) - 9 circuits
    - [Pareto optimal subset (EP vs power)](adders/8_unsigned/pareto_pwr_ep/README.md) - 8 circuits
    - [Pareto optimal subset (MSE vs power)](adders/8_unsigned/pareto_pwr_mse/README.md) - 11 circuits
-   - [evoapprox8b](adders/8_unsigned/legacy_evoapprox8b/README.md) - 486 circuits
  - 12-bit unsigned adders
    - [Pareto optimal subset (MAE vs power)](adders/12_unsigned/pareto_pwr_mae/README.md) - 10 circuits
    - [Pareto optimal subset (WCE vs power)](adders/12_unsigned/pareto_pwr_wce/README.md) - 10 circuits
@@ -61,7 +60,6 @@ The library is a collection of circuits published in the following papers:
    - [Pareto optimal subset (MRE vs power)](multiplers/8x8_unsigned/pareto_pwr_mre/README.md) - 7 circuits
    - [Pareto optimal subset (EP vs power)](multiplers/8x8_unsigned/pareto_pwr_ep/README.md) - 10 circuits
    - [Pareto optimal subset (MSE vs power)](multiplers/8x8_unsigned/pareto_pwr_mse/README.md) - 10 circuits
-   - [evoapprox8b](multiplers/8x8_unsigned/legacy_evoapprox8b/README.md) - 505 circuits
  - 11-bit unsigned multiplier
    - [Pareto optimal subset (MAE vs power)](multiplers/11x11_unsigned/pareto_pwr_mae/README.md) - 7 circuits
    - [Pareto optimal subset (WCE vs power)](multiplers/11x11_unsigned/pareto_pwr_wce/README.md) - 8 circuits

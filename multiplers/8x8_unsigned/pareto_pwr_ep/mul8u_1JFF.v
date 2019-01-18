@@ -3,18 +3,19 @@
 * When used, please cite the following article(s): V. Mrazek, R. Hrbacek, Z. Vasicek and L. Sekanina, "EvoApprox8b: Library of approximate adders and multipliers for circuit design and benchmarking of approximation methods". Design, Automation & Test in Europe Conference & Exhibition (DATE), 2017, Lausanne, 2017, pp. 258-261. doi: 10.23919/DATE.2017.7926993 
 * This file contains a circuit from a sub-set of pareto optimal circuits with respect to the pwr and ep parameters
 ***/
+// MAE% = 0.00 %
+// MAE = 0 
+// WCE% = 0.00 %
+// WCE = 0 
+// WCRE% = 0.00 %
+// EP% = 0.00 %
+// MRE% = 0.00 %
+// MSE = 0 
+// PDK45_PWR = 0.391 mW
+// PDK45_AREA = 709.6 um2
+// PDK45_DELAY = 1.43 ns
 
-// Library = cgp-evoapproxlib
-// Circuit = mul8u_1JFF.v
-// Area   (45) = 616.000000
-// Delay  (45) = 1.400000
-// Power  (45) = 0.390200
-// MAE = 0.000000
-// MSE = 0.000000
-// MRE = 0.000000 %
-// WCE = 0
-// WCRE = 0.000000 %
-// EP = 0.000000 %
+
 
 module mul8u_1JFF(A, B, O);
   input [7:0] A;

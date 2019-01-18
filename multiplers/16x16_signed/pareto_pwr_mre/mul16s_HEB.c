@@ -3,6 +3,17 @@
 * When used, please cite the following article(s): V. Mrazek, Z. Vasicek, L. Sekanina, H. Jiang and J. Han, "Scalable Construction of Approximate Multipliers With Formally Guaranteed Worst Case Error" in IEEE Transactions on Very Large Scale Integration (VLSI) Systems, vol. 26, no. 11, pp. 2572-2576, Nov. 2018. doi: 10.1109/TVLSI.2018.2856362 
 * This file contains a circuit from a sub-set of pareto optimal circuits with respect to the pwr and mre parameters
 ***/
+// MAE% = 0.00 %
+// MAE = 0 
+// WCE% = 0.00 %
+// WCE = 0 
+// WCRE% = 0.00 %
+// EP% = 0.00 %
+// MRE% = 0.00 %
+// MSE = 0 
+// PDK45_PWR = 2.400 mW
+// PDK45_AREA = 2614.0 um2
+// PDK45_DELAY = 3.05 ns
 #include <stdint.h>
 #include <stdlib.h>
 
@@ -1692,6 +1703,3 @@ uint32_t mul16s_HEB(uint16_t A, uint16_t B)
  Z = (Z0 << 0)|(Z1 << 1)|(Z2 << 2)|(Z3 << 3)|(Z4 << 4)|(Z5 << 5)|(Z6 << 6)|(Z7 << 7)|(Z8 << 8)|(Z9 << 9)|(Z10 << 10)|(Z11 << 11)|(Z12 << 12)|(Z13 << 13)|(Z14 << 14)|(Z15 << 15)|(Z16 << 16)|(Z17 << 17)|(Z18 << 18)|(Z19 << 19)|(Z20 << 20)|(Z21 << 21)|(Z22 << 22)|(Z23 << 23)|(Z24 << 24)|(Z25 << 25)|(Z26 << 26)|(Z27 << 27)|(Z28 << 28)|(Z29 << 29)|(Z30 << 30)|(Z31 << 31);
  return Z;
 }
-
-// internal reference: truncation-tm.16.trun16_tms00a
-

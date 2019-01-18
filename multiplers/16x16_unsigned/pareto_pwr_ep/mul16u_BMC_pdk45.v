@@ -3,18 +3,19 @@
 * When used, please cite the following article(s): V. Mrazek, Z. Vasicek, L. Sekanina, H. Jiang and J. Han, "Scalable Construction of Approximate Multipliers With Formally Guaranteed Worst Case Error" in IEEE Transactions on Very Large Scale Integration (VLSI) Systems, vol. 26, no. 11, pp. 2572-2576, Nov. 2018. doi: 10.1109/TVLSI.2018.2856362 
 * This file contains a circuit from a sub-set of pareto optimal circuits with respect to the pwr and ep parameters
 ***/
+// MAE% = 0.00 %
+// MAE = 0 
+// WCE% = 0.00 %
+// WCE = 0 
+// WCRE% = 0.00 %
+// EP% = 0.00 %
+// MRE% = 0.00 %
+// MSE = 0 
+// PDK45_PWR = 2.202 mW
+// PDK45_AREA = 3203.0 um2
+// PDK45_DELAY = 3.11 ns
 
-// Library = cgp-evoapproxlib
-// Circuit = mul8_364.v
-// Area   (45) = 618.000000
-// Delay  (45) = 1.420000
-// Power  (45) = 0.390700
-// MAE = 0.000000
-// MSE = 0.000000
-// MRE = 0.000000 %
-// WCE = 0
-// WCRE = 0.000000 %
-// EP = 0.000000 %
+
 
 module mul8_364(A, B, O);
   input [7:0] A;
@@ -198,7 +199,7 @@ module mul8_364(A, B, O);
 
 endmodule
 
-//Array Multiplier
+
 module trun8_tam00b ( A, B, O );
   input [7:0] A;
   input [7:0] B;
@@ -305,10 +306,7 @@ assign GGG[4]= g[19] | (p[19] & g[18])  | (p[19] & p[18] & g[17])  | (p[19] & p[
 assign GGG[5]= g[23] | (p[23] & g[22])  | (p[23] & p[22] & g[21])  | (p[23] & p[22] & p[21] & g[20]);
 assign GGG[6]= g[27] | (p[27] & g[26])  | (p[27] & p[26] & g[25])  | (p[27] & p[26] & p[25] & g[24]);
 assign GGG[7]= g[31] | (p[31] & g[30])  | (p[31] & p[30] & g[29])  | (p[31] & p[30] & p[29] & g[28]);
-
-
-
-assign CC[0] = c_in; //1'b0
+assign CC[0] = c_in;
 assign CC[1] = GGG[0]  |  PPP[0]&  CC[0];
 assign CC[2] = GGG[1]  |  PPP[1]&GGG[0]  |  PPP[1]&PPP[0]&  CC[0];
 assign CC[3] = GGG[2]  |  PPP[2]&GGG[1]  |  PPP[2]&PPP[1]&GGG[0]  |  PPP[2]&PPP[1]&PPP[0]&  CC[0];
@@ -317,10 +315,7 @@ assign CC[5] = GGG[4]  |  PPP[4]&GGG[3]  |  PPP[4]&PPP[3]&GGG[2]  |  PPP[4]&PPP[
 assign CC[6] = GGG[5]  |  PPP[5]&GGG[4]  |  PPP[5]&PPP[4]&GGG[3]  |  PPP[5]&PPP[4]&PPP[3]&GGG[2]  |  PPP[5]&PPP[4]&PPP[3]&PPP[2]&GGG[1] |  PPP[5]&PPP[4]&PPP[3]&PPP[2]&PPP[1]&GGG[0] |  PPP[5]&PPP[4]&PPP[3]&PPP[2]&PPP[1]&PPP[0]& CC[0];
 assign CC[7] = GGG[6]  | PPP[6]&GGG[5]  |  PPP[6]&PPP[5]&GGG[4]  |  PPP[6]&PPP[5]&PPP[4]&GGG[3]  |  PPP[6]&PPP[5]&PPP[4]&PPP[3]&GGG[2]  |  PPP[6]&PPP[5]&PPP[4]&PPP[3]&PPP[2]&GGG[1] |  PPP[6]&PPP[5]&PPP[4]&PPP[3]&PPP[2]&PPP[1]&GGG[0] |  PPP[6]&PPP[5]&PPP[4]&PPP[3]&PPP[2]&PPP[1]&PPP[0] & CC[0];
 assign CC[8] = GGG[7] | PPP[7]&GGG[6]  | PPP[7]&PPP[6]&GGG[5]  |  PPP[7]&PPP[6]&PPP[5]&GGG[4]  |  PPP[7]&PPP[6]&PPP[5]&PPP[4]&GGG[3]  |  PPP[7]&PPP[6]&PPP[5]&PPP[4]&PPP[3]&GGG[2]  |  PPP[7]&PPP[6]&PPP[5]&PPP[4]&PPP[3]&PPP[2]&GGG[1] |  PPP[7]&PPP[6]&PPP[5]&PPP[4]&PPP[3]&PPP[2]&PPP[1]&GGG[0] |  PPP[7]&PPP[6]&PPP[5]&PPP[4]&PPP[3]&PPP[2]&PPP[1]&PPP[0] & CC[0];
-
-
-
-cla_4bit cla4bit1(.aa(a  [3:0]),  .bb(b  [3:0]),  .cin(CC[0]),   .pp(p  [3:0]),  .gg(g  [3:0]),   .summ(sum  [3:0]));//a,b,cin,sum,PP,GG
+cla_4bit cla4bit1(.aa(a  [3:0]),  .bb(b  [3:0]),  .cin(CC[0]),   .pp(p  [3:0]),  .gg(g  [3:0]),   .summ(sum  [3:0]));
 cla_4bit cla4bit2(.aa(a  [7:4]),  .bb(b  [7:4]),  .cin(CC[1]),   .pp(p  [7:4]),  .gg(g  [7:4]),   .summ(sum  [7:4]));
 cla_4bit cla4bit3(.aa(a [11:8]),  .bb(b [11:8]),  .cin(CC[2]),   .pp(p [11:8]),  .gg(g [11:8]),   .summ(sum [11:8]));
 cla_4bit cla4bit4(.aa(a[15:12]),  .bb(b[15:12]),  .cin(CC[3]),   .pp(p[15:12]),  .gg(g[15:12]),   .summ(sum[15:12]));
@@ -332,8 +327,6 @@ cla_4bit cla4bit8(.aa(a[31:28]),  .bb(b[31:28]),  .cin(CC[7]),   .pp(p[31:28]), 
 assign c_out=CC[8];
 
 endmodule
-
-
 module cla_4bit(aa,bb,cin,summ,pp,gg);
 input  [3:0] aa,bb,pp,gg;  
 input cin;
@@ -346,12 +339,8 @@ wire [3:0] c;
    assign c[2] = gg[1] | (pp[1] & gg[0]) | (pp[1] & pp[0] & c[0]);
    assign c[3] = gg[2] | (pp[2] & gg[1]) | (pp[2] & pp[1] & gg[0])| (pp[2] & pp[1] & pp[0] & c[0]);
 
-   //assign c[4] = g[3] | (p[3] & g[2]) | (p[3] & p[2] & g[1])| (p[3] & p[2] & p[1] & g[0])| (p[3] & p[2] & p[1] & p[0] & cin);
-
-   assign summ[3:0] = pp[3:0]  ^  c[3:0];		//assign sum[3:0] = {1'b0, p[3:0]} ^ c[4:0];
-   
-
-endmodule // cla_4bit
+   assign summ[3:0] = pp[3:0]  ^  c[3:0];
+endmodule
 
 `timescale 1ns/100ps
 module mul16u_BMC ( input[15:0] A,
@@ -374,13 +363,9 @@ trun8_tam00b HxL (.A(A[MAX1:MIN1]), .B(B[MAX2:MIN2]), .O(hl));
 mul8_364 LxH (.A(A[MAX2:MIN2]), .B(B[MAX1:MIN1]), .O(lh));
 mul8_364 HxH (.A(A[MAX1:MIN1]), .B(B[MAX1:MIN1]), .O(hh));
 
-// shifting
-
 assign shifted_llhh = { hh, ll }; 
 assign shifted_lh = { {8{1'b0}}, lh, {8{1'b0}}}; 
-assign shifted_hl = { {8{1'b0}}, hl, {8{1'b0}}}; 
-
-// reduction
+assign shifted_hl = { {8{1'b0}}, hl, {8{1'b0}}};
 CLA32bit LLHHLH (.a(shifted_llhh), .b(shifted_lh), .c_in(1'b0), .sum(llhhlh_sum), .c_out());
 CLA32bit SUMO (.a(llhhlh_sum), .b(shifted_hl), .c_in(1'b0), .sum(O), .c_out());
 

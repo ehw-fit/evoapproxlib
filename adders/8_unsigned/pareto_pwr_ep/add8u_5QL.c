@@ -3,6 +3,17 @@
 * When used, please cite the following article(s): V. Mrazek, R. Hrbacek, Z. Vasicek and L. Sekanina, "EvoApprox8b: Library of approximate adders and multipliers for circuit design and benchmarking of approximation methods". Design, Automation & Test in Europe Conference & Exhibition (DATE), 2017, Lausanne, 2017, pp. 258-261. doi: 10.23919/DATE.2017.7926993 
 * This file contains a circuit from a sub-set of pareto optimal circuits with respect to the pwr and ep parameters
 ***/
+// MAE% = 0.16 %
+// MAE = 0.8 
+// WCE% = 0.59 %
+// WCE = 3.0 
+// WCRE% = 50.00 %
+// EP% = 43.75 %
+// MRE% = 0.40 %
+// MSE = 1.5 
+// PDK45_PWR = 0.024 mW
+// PDK45_AREA = 57.3 um2
+// PDK45_DELAY = 0.47 ns
 #include <stdint.h>
 #include <stdlib.h>
 
@@ -123,6 +134,3 @@ uint16_t add8u_5QL(uint8_t a, uint8_t b)
 
   return c;
 }
-
-// internal reference: cgp-evoapproxlib.08.add8_270
-

@@ -3,6 +3,17 @@
 * When used, please cite the following article(s): V. Mrazek, Z. Vasicek and R. Hrbacek, "Role of circuit representation in evolutionary design of energy-efficient approximate circuits" in IET Computers & Digital Techniques, vol. 12, no. 4, pp. 139-149, 7 2018. doi: 10.1049/iet-cdt.2017.0188 
 * This file contains a circuit from a sub-set of pareto optimal circuits with respect to the pwr and mse parameters
 ***/
+// MAE% = 0.10 %
+// MAE = 8.2 
+// WCE% = 0.24 %
+// WCE = 20 
+// WCRE% = 100.00 %
+// EP% = 96.88 %
+// MRE% = 0.28 %
+// MSE = 92 
+// PDK45_PWR = 0.031 mW
+// PDK45_AREA = 62.4 um2
+// PDK45_DELAY = 0.60 ns
 
 module add12u_0XY(A, B, O);
   input [11:0] A, B;

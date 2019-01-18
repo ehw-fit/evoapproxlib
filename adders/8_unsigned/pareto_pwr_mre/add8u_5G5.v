@@ -3,30 +3,24 @@
 * When used, please cite the following article(s): V. Mrazek, R. Hrbacek, Z. Vasicek and L. Sekanina, "EvoApprox8b: Library of approximate adders and multipliers for circuit design and benchmarking of approximation methods". Design, Automation & Test in Europe Conference & Exhibition (DATE), 2017, Lausanne, 2017, pp. 258-261. doi: 10.23919/DATE.2017.7926993 
 * This file contains a circuit from a sub-set of pareto optimal circuits with respect to the pwr and mre parameters
 ***/
+// MAE% = 0.78 %
+// MAE = 4.0 
+// WCE% = 2.93 %
+// WCE = 15 
+// WCRE% = 500.00 %
+// EP% = 90.62 %
+// MRE% = 2.08 %
+// MSE = 27 
+// PDK45_PWR = 0.014 mW
+// PDK45_AREA = 37.1 um2
+// PDK45_DELAY = 0.31 ns
 
-// Library = EvoApprox8b
-// Circuit = add8u_5G5
-// Area   (180) = 680
-// Delay  (180) = 1.400
-// Power  (180) = 151.50
-// Area   (45) = 54
-// Delay  (45) = 0.520
-// Power  (45) = 15.29
-// Nodes = 11
-// HD = 188544
-// MAE = 3.95312
-// MSE = 27.00000
-// MRE = 2.09 %
-// WCE = 15
-// WCRE = 600 %
-// EP = 90.6 %
 
 module add8u_5G5(A, B, O);
   input [7:0] A;
   input [7:0] B;
   output [8:0] O;
   wire [2031:0] N;
-
   assign N[0] = A[0];
   assign N[1] = A[0];
   assign N[2] = A[1];
@@ -59,7 +53,6 @@ module add8u_5G5(A, B, O);
   assign N[29] = B[6];
   assign N[30] = B[7];
   assign N[31] = B[7];
-
   XNPDKGEPDKGENNOR2X1 n36(.A(N[4]), .B(N[4]), .Y(N[36]));
   NPDKGEPDKGENNOR2X1 n52(.A(N[6]), .B(N[36]), .Y(N[52]));
   PDKGENBUFX2 n66(.A(N[52]), .Y(N[66]));
@@ -75,7 +68,6 @@ module add8u_5G5(A, B, O);
   PDKGENFAX1 n282(.A(N[10]), .B(N[26]), .C(N[233]), .YS(N[282]), .YC(N[283]));
   PDKGENFAX1 n332(.A(N[12]), .B(N[28]), .C(N[283]), .YS(N[332]), .YC(N[333]));
   PDKGENFAX1 n382(.A(N[14]), .B(N[30]), .C(N[333]), .YS(N[382]), .YC(N[383]));
-
   assign O[0] = N[4];
   assign O[1] = N[126];
   assign O[2] = N[127];
@@ -85,7 +77,6 @@ module add8u_5G5(A, B, O);
   assign O[6] = N[332];
   assign O[7] = N[382];
   assign O[8] = N[383];
-
 endmodule
 
 

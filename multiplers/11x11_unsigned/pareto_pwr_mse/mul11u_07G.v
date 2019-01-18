@@ -3,8 +3,19 @@
 * When used, please cite the following article(s): V. Mrazek, S. S. Sarwar, L. Sekanina, Z. Vasicek and K. Roy, "Design of power-efficient approximate multipliers for approximate artificial neural networks," 2016 IEEE/ACM International Conference on Computer-Aided Design (ICCAD), Austin, TX, 2016, pp. 1-7. doi: 10.1145/2966986.2967021 
 * This file contains a circuit from a sub-set of pareto optimal circuits with respect to the pwr and mse parameters
 ***/
+// MAE% = 0.019 %
+// MAE = 816 
+// WCE% = 0.098 %
+// WCE = 4129 
+// WCRE% = 2460.00 %
+// EP% = 99.71 %
+// MRE% = 0.80 %
+// MSE = 10360.917e2 
+// PDK45_PWR = 0.707 mW
+// PDK45_AREA = 1085.0 um2
+// PDK45_DELAY = 2.40 ns
 
-// ../../../cgp.nn/res/11b_160129\rcam\e00.1\run.00090.txt
+
 module mul11u_07G(A, B, O);
   input [10:0] A, B;
   output [21:0] O;

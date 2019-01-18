@@ -3,6 +3,17 @@
 * When used, please cite the following article(s): V. Mrazek, Z. Vasicek, L. Sekanina, H. Jiang and J. Han, "Scalable Construction of Approximate Multipliers With Formally Guaranteed Worst Case Error" in IEEE Transactions on Very Large Scale Integration (VLSI) Systems, vol. 26, no. 11, pp. 2572-2576, Nov. 2018. doi: 10.1109/TVLSI.2018.2856362 
 * This file contains a circuit from a sub-set of pareto optimal circuits with respect to the pwr and mre parameters
 ***/
+// MAE% = 0.77 %
+// MAE = 33259520 
+// WCE% = 3.10 %
+// WCE = 133038081 
+// WCRE% = 100.00 %
+// EP% = 100.00 %
+// MRE% = 9.15 %
+// MSE = 15436.2e11 
+// PDK45_PWR = 0.176 mW
+// PDK45_AREA = 385.8 um2
+// PDK45_DELAY = 1.01 ns
 #include <stdint.h>
 #include <stdlib.h>
 
@@ -142,6 +153,3 @@ uint32_t mul16u_HGK(uint16_t A, uint16_t B)
   P |= (S_16_15 & 1) << 31;
   return P;
 }
-
-// internal reference: truncation-tm.16.trun16_tam10a
-

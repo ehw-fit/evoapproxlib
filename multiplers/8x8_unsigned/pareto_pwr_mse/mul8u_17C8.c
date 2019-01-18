@@ -3,6 +3,17 @@
 * When used, please cite the following article(s): V. Mrazek, R. Hrbacek, Z. Vasicek and L. Sekanina, "EvoApprox8b: Library of approximate adders and multipliers for circuit design and benchmarking of approximation methods". Design, Automation & Test in Europe Conference & Exhibition (DATE), 2017, Lausanne, 2017, pp. 258-261. doi: 10.23919/DATE.2017.7926993 
 * This file contains a circuit from a sub-set of pareto optimal circuits with respect to the pwr and mse parameters
 ***/
+// MAE% = 7.41 %
+// MAE = 4858 
+// WCE% = 25.78 %
+// WCE = 16896 
+// WCRE% = 300.00 %
+// EP% = 99.21 %
+// MRE% = 57.81 %
+// MSE = 37660.75e3 
+// PDK45_PWR = 0.0019 mW
+// PDK45_AREA = 15.5 um2
+// PDK45_DELAY = 0.10 ns
 #include <stdint.h>
 #include <stdlib.h>
 
@@ -37,6 +48,3 @@ uint64_t mul8u_17C8(const uint64_t B,const uint64_t A)
    O |= (dout_268&1) << 15;
    return O;
 }
-
-// internal reference: cgp-approx14zr.08.mult8_cgp14zr_wc16896_csamcsa
-

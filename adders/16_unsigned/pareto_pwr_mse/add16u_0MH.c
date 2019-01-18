@@ -3,6 +3,17 @@
 * When used, please cite the following article(s):  
 * This file contains a circuit from a sub-set of pareto optimal circuits with respect to the pwr and mse parameters
 ***/
+// MAE% = 9.90 %
+// MAE = 12976 
+// WCE% = 34.18 %
+// WCE = 44805 
+// WCRE% = 6300.00 %
+// EP% = 100.00 %
+// MRE% = 22.35 %
+// MSE = 25358.103e4 
+// PDK45_PWR = 0.0041 mW
+// PDK45_AREA = 18.3 um2
+// PDK45_DELAY = 0.20 ns
 #include <stdint.h>
 #include <stdlib.h>
 
@@ -71,6 +82,3 @@ uint64_t add16u_0MH(uint64_t a, uint64_t b) {
   y |=  (sig_108 & 0x01) << 16; // default output
    return y;
 }
-
-// internal reference: cgp-add-bdd.16.bdd_bw_16_core_1_mae_013108_run_00004
-

@@ -3,30 +3,24 @@
 * When used, please cite the following article(s): V. Mrazek, R. Hrbacek, Z. Vasicek and L. Sekanina, "EvoApprox8b: Library of approximate adders and multipliers for circuit design and benchmarking of approximation methods". Design, Automation & Test in Europe Conference & Exhibition (DATE), 2017, Lausanne, 2017, pp. 258-261. doi: 10.23919/DATE.2017.7926993 
 * This file contains a circuit from a sub-set of pareto optimal circuits with respect to the pwr and ep parameters
 ***/
+// MAE% = 0.16 %
+// MAE = 0.8 
+// WCE% = 0.98 %
+// WCE = 5.0 
+// WCRE% = 50.00 %
+// EP% = 34.38 %
+// MRE% = 0.40 %
+// MSE = 2.5 
+// PDK45_PWR = 0.026 mW
+// PDK45_AREA = 63.8 um2
+// PDK45_DELAY = 0.47 ns
 
-// Library = EvoApprox8b
-// Circuit = add8u_5NQ
-// Area   (180) = 1680
-// Delay  (180) = 0.970
-// Power  (180) = 532.50
-// Area   (45) = 110
-// Delay  (45) = 0.390
-// Power  (45) = 43.02
-// Nodes = 35
-// HD = 73344
-// MAE = 0.75000
-// MSE = 2.50000
-// MRE = 0.40 %
-// WCE = 5
-// WCRE = 50 %
-// EP = 34.4 %
 
 module add8u_5NQ(A, B, O);
   input [7:0] A;
   input [7:0] B;
   output [8:0] O;
   wire [2031:0] N;
-
   assign N[0] = A[0];
   assign N[1] = A[0];
   assign N[2] = A[1];
@@ -59,7 +53,6 @@ module add8u_5NQ(A, B, O);
   assign N[29] = B[6];
   assign N[30] = B[7];
   assign N[31] = B[7];
-
   OR2X1 n32(.A(N[0]), .B(N[16]), .Y(N[32]));
   HAX1 n40(.A(N[2]), .B(N[18]), .YS(N[40]), .YC(N[41]));
   HAX1 n50(.A(N[4]), .B(N[20]), .YS(N[50]), .YC(N[51]));
@@ -103,7 +96,6 @@ module add8u_5NQ(A, B, O);
   HAX1 n404(.A(N[86]), .B(N[348]), .YS(N[404]), .YC(N[405]));
   HAX1 n412(.A(N[96]), .B(N[293]), .YS(N[412]), .YC(N[413]));
   OR2X1 n422(.A(N[97]), .B(N[413]), .Y(N[422]));
-
   assign O[0] = N[32];
   assign O[1] = N[40];
   assign O[2] = N[366];
@@ -113,7 +105,6 @@ module add8u_5NQ(A, B, O);
   assign O[6] = N[404];
   assign O[7] = N[412];
   assign O[8] = N[422];
-
 endmodule
 
 

@@ -3,6 +3,17 @@
 * When used, please cite the following article(s): V. Mrazek, Z. Vasicek and R. Hrbacek, "Role of circuit representation in evolutionary design of energy-efficient approximate circuits" in IET Computers & Digital Techniques, vol. 12, no. 4, pp. 139-149, 7 2018. doi: 10.1049/iet-cdt.2017.0188 
 * This file contains a circuit from a sub-set of pareto optimal circuits with respect to the pwr and mae parameters
 ***/
+// MAE% = 0.13 %
+// MAE = 11 
+// WCE% = 0.44 %
+// WCE = 36 
+// WCRE% = 1500.00 %
+// EP% = 97.22 %
+// MRE% = 0.37 %
+// MSE = 180 
+// PDK45_PWR = 0.028 mW
+// PDK45_AREA = 61.5 um2
+// PDK45_DELAY = 0.55 ns
 #include <stdint.h>
 #include <stdlib.h>
 
@@ -99,6 +110,3 @@ uint64_t add12u_0XE(uint64_t a, uint64_t b) {
   o |= (n_418 & 0x01) << 12;
   return o;
 }
-
-// internal reference: cgp-compare17.12.cmpadd12_so_2in_1out_wc_41_2_talfa
-

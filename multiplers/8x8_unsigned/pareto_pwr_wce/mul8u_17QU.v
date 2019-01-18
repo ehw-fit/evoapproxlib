@@ -3,6 +3,17 @@
 * When used, please cite the following article(s): V. Mrazek, R. Hrbacek, Z. Vasicek and L. Sekanina, "EvoApprox8b: Library of approximate adders and multipliers for circuit design and benchmarking of approximation methods". Design, Automation & Test in Europe Conference & Exhibition (DATE), 2017, Lausanne, 2017, pp. 258-261. doi: 10.23919/DATE.2017.7926993 
 * This file contains a circuit from a sub-set of pareto optimal circuits with respect to the pwr and wce parameters
 ***/
+// MAE% = 8.01 %
+// MAE = 5249 
+// WCE% = 27.24 %
+// WCE = 17853 
+// WCRE% = 300.00 %
+// EP% = 99.22 %
+// MRE% = 59.69 %
+// MSE = 42811.074e3 
+// PDK45_PWR = 0.0017 mW
+// PDK45_AREA = 13.1 um2
+// PDK45_DELAY = 0.10 ns
 
 module mul8u_17QU (
     A,
@@ -16,12 +27,12 @@ output [15:0] O;
 
 wire sig_71,sig_79,sig_293,sig_338,sig_340,sig_345;
 
-assign sig_71 = B[6] & A[7]; //1 
-assign sig_79 = B[7] & A[7]; //2 
-assign sig_293 = A[6] | A[7]; //3 
-assign sig_338 = sig_293 & B[7]; //4 
-assign sig_340 = A[6] & B[5]; //5 
-assign sig_345 = sig_79 ^ sig_338; //6 
+assign sig_71 = B[6] & A[7];
+assign sig_79 = B[7] & A[7];
+assign sig_293 = A[6] | A[7];
+assign sig_338 = sig_293 & B[7];
+assign sig_340 = A[6] & B[5];
+assign sig_345 = sig_79 ^ sig_338;
 
 assign O[15] = sig_79;
 assign O[14] = sig_345;

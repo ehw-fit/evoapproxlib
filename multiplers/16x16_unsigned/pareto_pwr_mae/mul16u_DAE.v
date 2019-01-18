@@ -3,6 +3,17 @@
 * When used, please cite the following article(s): V. Mrazek, Z. Vasicek, L. Sekanina, H. Jiang and J. Han, "Scalable Construction of Approximate Multipliers With Formally Guaranteed Worst Case Error" in IEEE Transactions on Very Large Scale Integration (VLSI) Systems, vol. 26, no. 11, pp. 2572-2576, Nov. 2018. doi: 10.1109/TVLSI.2018.2856362 
 * This file contains a circuit from a sub-set of pareto optimal circuits with respect to the pwr and mae parameters
 ***/
+// MAE% = 0.0000045 %
+// MAE = 195 
+// WCE% = 0.000021 %
+// WCE = 907 
+// WCRE% = 100.00 %
+// EP% = 98.71 %
+// MRE% = 0.0005 %
+// MSE = 58920 
+// PDK45_PWR = 1.952 mW
+// PDK45_AREA = 2800.8 um2
+// PDK45_DELAY = 2.79 ns
 
 module mult8_cgp14zr_wc907_rcam (
     A,
@@ -22,137 +33,137 @@ wire sig_274,sig_275,sig_276,sig_277,sig_278,sig_279,sig_280,sig_281,sig_282,sig
 wire sig_295,sig_296,sig_297,sig_298,sig_306,sig_307,sig_311,sig_312,sig_313,sig_314,sig_315,sig_316,sig_317,sig_318,sig_319,sig_320,sig_321,sig_322,sig_323,sig_324;
 wire sig_325,sig_326,sig_327,sig_328,sig_329,sig_330,sig_331,sig_332,sig_333,sig_334,sig_335;
 
-assign sig_65 = B[7] & A[1]; //1 
-assign sig_72 = B[6] & A[2]; //2 
-assign sig_73 = B[7] & A[2]; //3 
-assign sig_101 = B[5] | B[6]; //4 
-assign sig_102 = B[5] & sig_72; //5 
-assign sig_106 = sig_65 ^ sig_73; //6 
-assign sig_107 = sig_65 & A[2]; //7 
-assign sig_108 = B[7] & sig_102; //8 
-assign sig_109 = sig_106 ^ sig_102; //9 
-assign sig_110 = sig_107 | sig_108; //10 
-assign sig_116 = sig_101 & A[3]; //11 
-assign sig_117 = B[6] & A[3]; //12 
-assign sig_118 = B[7] & A[3]; //13 
-assign sig_146 = sig_109 ^ sig_117; //14 
-assign sig_148 = sig_106 & sig_116; //15 
-assign sig_149 = sig_146 ^ sig_116; //16 
-assign sig_150 = sig_117 | sig_148; //17 
-assign sig_151 = sig_110 ^ sig_118; //18 
-assign sig_152 = sig_107 & A[3]; //19 
-assign sig_153 = sig_118 & sig_150; //20 
-assign sig_154 = sig_151 ^ sig_150; //21 
-assign sig_155 = sig_152 | sig_153; //22 
-assign sig_160 = B[4] & A[4]; //23 
-assign sig_161 = B[5] & A[4]; //24 
-assign sig_162 = B[6] & A[4]; //25 
-assign sig_163 = B[7] & A[4]; //26 
-assign sig_186 = sig_149 ^ sig_161; //27 
-assign sig_187 = sig_149 & sig_161; //28 
-assign sig_188 = sig_186 & sig_160; //29 
-assign sig_189 = sig_186 ^ sig_160; //30 
-assign sig_190 = sig_187 | sig_188; //31 
-assign sig_191 = sig_154 ^ sig_162; //32 
-assign sig_192 = sig_154 & sig_162; //33 
-assign sig_193 = sig_191 & sig_190; //34 
-assign sig_194 = sig_191 ^ sig_190; //35 
-assign sig_195 = sig_192 | sig_193; //36 
-assign sig_196 = sig_155 ^ sig_163; //37 
-assign sig_197 = sig_155 & A[4]; //38 
-assign sig_198 = B[7] & sig_195; //39 
-assign sig_199 = sig_196 ^ sig_195; //40 
-assign sig_200 = sig_197 | sig_198; //41 
-assign sig_203 = B[2] & A[6]; //42 
-assign sig_205 = B[4] & A[5]; //43 
-assign sig_206 = B[5] & A[5]; //44 
-assign sig_207 = B[6] & A[5]; //45 
-assign sig_208 = B[7] & A[5]; //46 
-assign sig_222 = B[3] & A[5]; //47 
-assign sig_226 = sig_189 ^ sig_205; //48 
-assign sig_227 = sig_189 & sig_205; //49 
-assign sig_228 = sig_226 & sig_222; //50 
-assign sig_229 = sig_226 ^ sig_222; //51 
-assign sig_230 = sig_227 | sig_228; //52 
-assign sig_231 = sig_194 ^ sig_206; //53 
-assign sig_232 = sig_194 & sig_206; //54 
-assign sig_233 = sig_231 & sig_230; //55 
-assign sig_234 = sig_231 ^ sig_230; //56 
-assign sig_235 = sig_232 | sig_233; //57 
-assign sig_236 = sig_199 ^ sig_207; //58 
-assign sig_237 = sig_199 & sig_207; //59 
-assign sig_238 = sig_236 & sig_235; //60 
-assign sig_239 = sig_236 ^ sig_235; //61 
-assign sig_240 = sig_237 | sig_238; //62 
-assign sig_241 = sig_200 ^ sig_208; //63 
-assign sig_242 = sig_200 & A[5]; //64 
-assign sig_243 = sig_208 & sig_240; //65 
-assign sig_244 = sig_241 ^ sig_240; //66 
-assign sig_245 = sig_242 | sig_243; //67 
-assign sig_249 = B[3] & A[6]; //68 
-assign sig_250 = B[4] & A[6]; //69 
-assign sig_251 = B[5] & A[6]; //70 
-assign sig_252 = B[6] & A[6]; //71 
-assign sig_253 = B[7] & A[6]; //72 
-assign sig_266 = sig_229 ^ sig_249; //73 
-assign sig_267 = sig_229 & sig_249; //74 
-assign sig_268 = sig_266 & sig_203; //75 
-assign sig_269 = sig_266 ^ sig_203; //76 
-assign sig_270 = sig_267 | sig_268; //77 
-assign sig_271 = sig_234 ^ sig_250; //78 
-assign sig_272 = sig_234 & sig_250; //79 
-assign sig_273 = sig_271 & sig_270; //80 
-assign sig_274 = sig_271 ^ sig_270; //81 
-assign sig_275 = sig_272 | sig_273; //82 
-assign sig_276 = sig_239 ^ sig_251; //83 
-assign sig_277 = sig_239 & sig_251; //84 
-assign sig_278 = sig_276 & sig_275; //85 
-assign sig_279 = sig_276 ^ sig_275; //86 
-assign sig_280 = sig_277 | sig_278; //87 
-assign sig_281 = sig_244 ^ sig_252; //88 
-assign sig_282 = sig_244 & sig_252; //89 
-assign sig_283 = sig_281 & sig_280; //90 
-assign sig_284 = sig_281 ^ sig_280; //91 
-assign sig_285 = sig_282 | sig_283; //92 
-assign sig_286 = sig_245 ^ sig_253; //93 
-assign sig_287 = sig_245 & A[6]; //94 
-assign sig_288 = B[7] & sig_285; //95 
-assign sig_289 = sig_286 ^ sig_285; //96 
-assign sig_290 = sig_287 | sig_288; //97 
-assign sig_292 = B[1] & A[7]; //98 
-assign sig_293 = B[2] & A[7]; //99 
-assign sig_294 = B[3] & A[7]; //100 
-assign sig_295 = B[4] & A[7]; //101 
-assign sig_296 = B[5] & A[7]; //102 
-assign sig_297 = B[6] & A[7]; //103 
-assign sig_298 = B[7] & A[7]; //104 
-assign sig_306 = sig_269 ^ sig_293; //105 
-assign sig_307 = sig_269 & sig_293; //106 
-assign sig_311 = sig_274 ^ sig_294; //107 
-assign sig_312 = sig_274 & sig_294; //108 
-assign sig_313 = sig_311 & sig_307; //109 
-assign sig_314 = sig_311 ^ sig_307; //110 
-assign sig_315 = sig_312 | sig_313; //111 
-assign sig_316 = sig_279 ^ sig_295; //112 
-assign sig_317 = sig_279 & sig_295; //113 
-assign sig_318 = sig_316 & sig_315; //114 
-assign sig_319 = sig_316 ^ sig_315; //115 
-assign sig_320 = sig_317 | sig_318; //116 
-assign sig_321 = sig_284 ^ sig_296; //117 
-assign sig_322 = sig_284 & sig_296; //118 
-assign sig_323 = sig_321 & sig_320; //119 
-assign sig_324 = sig_321 ^ sig_320; //120 
-assign sig_325 = sig_322 | sig_323; //121 
-assign sig_326 = sig_289 ^ sig_297; //122 
-assign sig_327 = sig_289 & sig_297; //123 
-assign sig_328 = sig_326 & sig_325; //124 
-assign sig_329 = sig_326 ^ sig_325; //125 
-assign sig_330 = sig_327 | sig_328; //126 
-assign sig_331 = sig_290 ^ sig_298; //127 
-assign sig_332 = sig_290 & A[7]; //128 
-assign sig_333 = B[7] & sig_330; //129 
-assign sig_334 = sig_331 ^ sig_330; //130 
-assign sig_335 = sig_332 | sig_333; //131 
+assign sig_65 = B[7] & A[1];
+assign sig_72 = B[6] & A[2];
+assign sig_73 = B[7] & A[2];
+assign sig_101 = B[5] | B[6];
+assign sig_102 = B[5] & sig_72;
+assign sig_106 = sig_65 ^ sig_73;
+assign sig_107 = sig_65 & A[2];
+assign sig_108 = B[7] & sig_102;
+assign sig_109 = sig_106 ^ sig_102;
+assign sig_110 = sig_107 | sig_108;
+assign sig_116 = sig_101 & A[3];
+assign sig_117 = B[6] & A[3];
+assign sig_118 = B[7] & A[3];
+assign sig_146 = sig_109 ^ sig_117;
+assign sig_148 = sig_106 & sig_116;
+assign sig_149 = sig_146 ^ sig_116;
+assign sig_150 = sig_117 | sig_148;
+assign sig_151 = sig_110 ^ sig_118;
+assign sig_152 = sig_107 & A[3];
+assign sig_153 = sig_118 & sig_150;
+assign sig_154 = sig_151 ^ sig_150;
+assign sig_155 = sig_152 | sig_153;
+assign sig_160 = B[4] & A[4];
+assign sig_161 = B[5] & A[4];
+assign sig_162 = B[6] & A[4];
+assign sig_163 = B[7] & A[4];
+assign sig_186 = sig_149 ^ sig_161;
+assign sig_187 = sig_149 & sig_161;
+assign sig_188 = sig_186 & sig_160;
+assign sig_189 = sig_186 ^ sig_160;
+assign sig_190 = sig_187 | sig_188;
+assign sig_191 = sig_154 ^ sig_162;
+assign sig_192 = sig_154 & sig_162;
+assign sig_193 = sig_191 & sig_190;
+assign sig_194 = sig_191 ^ sig_190;
+assign sig_195 = sig_192 | sig_193;
+assign sig_196 = sig_155 ^ sig_163;
+assign sig_197 = sig_155 & A[4];
+assign sig_198 = B[7] & sig_195;
+assign sig_199 = sig_196 ^ sig_195;
+assign sig_200 = sig_197 | sig_198;
+assign sig_203 = B[2] & A[6];
+assign sig_205 = B[4] & A[5];
+assign sig_206 = B[5] & A[5];
+assign sig_207 = B[6] & A[5];
+assign sig_208 = B[7] & A[5];
+assign sig_222 = B[3] & A[5];
+assign sig_226 = sig_189 ^ sig_205;
+assign sig_227 = sig_189 & sig_205;
+assign sig_228 = sig_226 & sig_222;
+assign sig_229 = sig_226 ^ sig_222;
+assign sig_230 = sig_227 | sig_228;
+assign sig_231 = sig_194 ^ sig_206;
+assign sig_232 = sig_194 & sig_206;
+assign sig_233 = sig_231 & sig_230;
+assign sig_234 = sig_231 ^ sig_230;
+assign sig_235 = sig_232 | sig_233;
+assign sig_236 = sig_199 ^ sig_207;
+assign sig_237 = sig_199 & sig_207;
+assign sig_238 = sig_236 & sig_235;
+assign sig_239 = sig_236 ^ sig_235;
+assign sig_240 = sig_237 | sig_238;
+assign sig_241 = sig_200 ^ sig_208;
+assign sig_242 = sig_200 & A[5];
+assign sig_243 = sig_208 & sig_240;
+assign sig_244 = sig_241 ^ sig_240;
+assign sig_245 = sig_242 | sig_243;
+assign sig_249 = B[3] & A[6];
+assign sig_250 = B[4] & A[6];
+assign sig_251 = B[5] & A[6];
+assign sig_252 = B[6] & A[6];
+assign sig_253 = B[7] & A[6];
+assign sig_266 = sig_229 ^ sig_249;
+assign sig_267 = sig_229 & sig_249;
+assign sig_268 = sig_266 & sig_203;
+assign sig_269 = sig_266 ^ sig_203;
+assign sig_270 = sig_267 | sig_268;
+assign sig_271 = sig_234 ^ sig_250;
+assign sig_272 = sig_234 & sig_250;
+assign sig_273 = sig_271 & sig_270;
+assign sig_274 = sig_271 ^ sig_270;
+assign sig_275 = sig_272 | sig_273;
+assign sig_276 = sig_239 ^ sig_251;
+assign sig_277 = sig_239 & sig_251;
+assign sig_278 = sig_276 & sig_275;
+assign sig_279 = sig_276 ^ sig_275;
+assign sig_280 = sig_277 | sig_278;
+assign sig_281 = sig_244 ^ sig_252;
+assign sig_282 = sig_244 & sig_252;
+assign sig_283 = sig_281 & sig_280;
+assign sig_284 = sig_281 ^ sig_280;
+assign sig_285 = sig_282 | sig_283;
+assign sig_286 = sig_245 ^ sig_253;
+assign sig_287 = sig_245 & A[6];
+assign sig_288 = B[7] & sig_285;
+assign sig_289 = sig_286 ^ sig_285;
+assign sig_290 = sig_287 | sig_288;
+assign sig_292 = B[1] & A[7];
+assign sig_293 = B[2] & A[7];
+assign sig_294 = B[3] & A[7];
+assign sig_295 = B[4] & A[7];
+assign sig_296 = B[5] & A[7];
+assign sig_297 = B[6] & A[7];
+assign sig_298 = B[7] & A[7];
+assign sig_306 = sig_269 ^ sig_293;
+assign sig_307 = sig_269 & sig_293;
+assign sig_311 = sig_274 ^ sig_294;
+assign sig_312 = sig_274 & sig_294;
+assign sig_313 = sig_311 & sig_307;
+assign sig_314 = sig_311 ^ sig_307;
+assign sig_315 = sig_312 | sig_313;
+assign sig_316 = sig_279 ^ sig_295;
+assign sig_317 = sig_279 & sig_295;
+assign sig_318 = sig_316 & sig_315;
+assign sig_319 = sig_316 ^ sig_315;
+assign sig_320 = sig_317 | sig_318;
+assign sig_321 = sig_284 ^ sig_296;
+assign sig_322 = sig_284 & sig_296;
+assign sig_323 = sig_321 & sig_320;
+assign sig_324 = sig_321 ^ sig_320;
+assign sig_325 = sig_322 | sig_323;
+assign sig_326 = sig_289 ^ sig_297;
+assign sig_327 = sig_289 & sig_297;
+assign sig_328 = sig_326 & sig_325;
+assign sig_329 = sig_326 ^ sig_325;
+assign sig_330 = sig_327 | sig_328;
+assign sig_331 = sig_290 ^ sig_298;
+assign sig_332 = sig_290 & A[7];
+assign sig_333 = B[7] & sig_330;
+assign sig_334 = sig_331 ^ sig_330;
+assign sig_335 = sig_332 | sig_333;
 
 assign O[15] = sig_335;
 assign O[14] = sig_334;
@@ -173,7 +184,7 @@ assign O[0] = sig_249;
 
 endmodule
 
-//Array Multiplier
+
 module trun8_tam00b ( A, B, O );
   input [7:0] A;
   input [7:0] B;
@@ -249,17 +260,7 @@ module trun8_tam00b ( A, B, O );
   assign O = {S_8_7,S_8_6,S_8_5,S_8_4,S_8_3,S_8_2,S_8_1,S_8_0,S_7_0,S_6_0,S_5_0,S_4_0,S_3_0,S_2_0,S_1_0,S_0_0};
 
 endmodule
-// Library = cgp-evoapproxlib
-// Circuit = mul8_364.v
-// Area   (45) = 618.000000
-// Delay  (45) = 1.420000
-// Power  (45) = 0.390700
-// MAE = 0.000000
-// MSE = 0.000000
-// MRE = 0.000000 %
-// WCE = 0
-// WCRE = 0.000000 %
-// EP = 0.000000 %
+
 
 module mul8_364(A, B, O);
   input [7:0] A;
@@ -474,10 +475,7 @@ assign GGG[4]= g[19] | (p[19] & g[18])  | (p[19] & p[18] & g[17])  | (p[19] & p[
 assign GGG[5]= g[23] | (p[23] & g[22])  | (p[23] & p[22] & g[21])  | (p[23] & p[22] & p[21] & g[20]);
 assign GGG[6]= g[27] | (p[27] & g[26])  | (p[27] & p[26] & g[25])  | (p[27] & p[26] & p[25] & g[24]);
 assign GGG[7]= g[31] | (p[31] & g[30])  | (p[31] & p[30] & g[29])  | (p[31] & p[30] & p[29] & g[28]);
-
-
-
-assign CC[0] = c_in; //1'b0
+assign CC[0] = c_in;
 assign CC[1] = GGG[0]  |  PPP[0]&  CC[0];
 assign CC[2] = GGG[1]  |  PPP[1]&GGG[0]  |  PPP[1]&PPP[0]&  CC[0];
 assign CC[3] = GGG[2]  |  PPP[2]&GGG[1]  |  PPP[2]&PPP[1]&GGG[0]  |  PPP[2]&PPP[1]&PPP[0]&  CC[0];
@@ -486,10 +484,7 @@ assign CC[5] = GGG[4]  |  PPP[4]&GGG[3]  |  PPP[4]&PPP[3]&GGG[2]  |  PPP[4]&PPP[
 assign CC[6] = GGG[5]  |  PPP[5]&GGG[4]  |  PPP[5]&PPP[4]&GGG[3]  |  PPP[5]&PPP[4]&PPP[3]&GGG[2]  |  PPP[5]&PPP[4]&PPP[3]&PPP[2]&GGG[1] |  PPP[5]&PPP[4]&PPP[3]&PPP[2]&PPP[1]&GGG[0] |  PPP[5]&PPP[4]&PPP[3]&PPP[2]&PPP[1]&PPP[0]& CC[0];
 assign CC[7] = GGG[6]  | PPP[6]&GGG[5]  |  PPP[6]&PPP[5]&GGG[4]  |  PPP[6]&PPP[5]&PPP[4]&GGG[3]  |  PPP[6]&PPP[5]&PPP[4]&PPP[3]&GGG[2]  |  PPP[6]&PPP[5]&PPP[4]&PPP[3]&PPP[2]&GGG[1] |  PPP[6]&PPP[5]&PPP[4]&PPP[3]&PPP[2]&PPP[1]&GGG[0] |  PPP[6]&PPP[5]&PPP[4]&PPP[3]&PPP[2]&PPP[1]&PPP[0] & CC[0];
 assign CC[8] = GGG[7] | PPP[7]&GGG[6]  | PPP[7]&PPP[6]&GGG[5]  |  PPP[7]&PPP[6]&PPP[5]&GGG[4]  |  PPP[7]&PPP[6]&PPP[5]&PPP[4]&GGG[3]  |  PPP[7]&PPP[6]&PPP[5]&PPP[4]&PPP[3]&GGG[2]  |  PPP[7]&PPP[6]&PPP[5]&PPP[4]&PPP[3]&PPP[2]&GGG[1] |  PPP[7]&PPP[6]&PPP[5]&PPP[4]&PPP[3]&PPP[2]&PPP[1]&GGG[0] |  PPP[7]&PPP[6]&PPP[5]&PPP[4]&PPP[3]&PPP[2]&PPP[1]&PPP[0] & CC[0];
-
-
-
-cla_4bit cla4bit1(.aa(a  [3:0]),  .bb(b  [3:0]),  .cin(CC[0]),   .pp(p  [3:0]),  .gg(g  [3:0]),   .summ(sum  [3:0]));//a,b,cin,sum,PP,GG
+cla_4bit cla4bit1(.aa(a  [3:0]),  .bb(b  [3:0]),  .cin(CC[0]),   .pp(p  [3:0]),  .gg(g  [3:0]),   .summ(sum  [3:0]));
 cla_4bit cla4bit2(.aa(a  [7:4]),  .bb(b  [7:4]),  .cin(CC[1]),   .pp(p  [7:4]),  .gg(g  [7:4]),   .summ(sum  [7:4]));
 cla_4bit cla4bit3(.aa(a [11:8]),  .bb(b [11:8]),  .cin(CC[2]),   .pp(p [11:8]),  .gg(g [11:8]),   .summ(sum [11:8]));
 cla_4bit cla4bit4(.aa(a[15:12]),  .bb(b[15:12]),  .cin(CC[3]),   .pp(p[15:12]),  .gg(g[15:12]),   .summ(sum[15:12]));
@@ -501,8 +496,6 @@ cla_4bit cla4bit8(.aa(a[31:28]),  .bb(b[31:28]),  .cin(CC[7]),   .pp(p[31:28]), 
 assign c_out=CC[8];
 
 endmodule
-
-
 module cla_4bit(aa,bb,cin,summ,pp,gg);
 input  [3:0] aa,bb,pp,gg;  
 input cin;
@@ -515,12 +508,8 @@ wire [3:0] c;
    assign c[2] = gg[1] | (pp[1] & gg[0]) | (pp[1] & pp[0] & c[0]);
    assign c[3] = gg[2] | (pp[2] & gg[1]) | (pp[2] & pp[1] & gg[0])| (pp[2] & pp[1] & pp[0] & c[0]);
 
-   //assign c[4] = g[3] | (p[3] & g[2]) | (p[3] & p[2] & g[1])| (p[3] & p[2] & p[1] & g[0])| (p[3] & p[2] & p[1] & p[0] & cin);
-
-   assign summ[3:0] = pp[3:0]  ^  c[3:0];		//assign sum[3:0] = {1'b0, p[3:0]} ^ c[4:0];
-   
-
-endmodule // cla_4bit
+   assign summ[3:0] = pp[3:0]  ^  c[3:0];
+endmodule
 
 `timescale 1ns/100ps
 module mul16u_DAE ( input[15:0] A,
@@ -543,13 +532,9 @@ mul8_364 HxL (.A(A[MAX1:MIN1]), .B(B[MAX2:MIN2]), .O(hl));
 trun8_tam00b LxH (.A(A[MAX2:MIN2]), .B(B[MAX1:MIN1]), .O(lh));
 trun8_tam00b HxH (.A(A[MAX1:MIN1]), .B(B[MAX1:MIN1]), .O(hh));
 
-// shifting
-
 assign shifted_llhh = { hh, ll }; 
 assign shifted_lh = { {8{1'b0}}, lh, {8{1'b0}}}; 
-assign shifted_hl = { {8{1'b0}}, hl, {8{1'b0}}}; 
-
-// reduction
+assign shifted_hl = { {8{1'b0}}, hl, {8{1'b0}}};
 CLA32bit LLHHLH (.a(shifted_llhh), .b(shifted_lh), .c_in(1'b0), .sum(llhhlh_sum), .c_out());
 CLA32bit SUMO (.a(llhhlh_sum), .b(shifted_hl), .c_in(1'b0), .sum(O), .c_out());
 

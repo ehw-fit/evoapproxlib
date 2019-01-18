@@ -3,8 +3,19 @@
 * When used, please cite the following article(s):  
 * This file contains a circuit from a sub-set of pareto optimal circuits with respect to the pwr and wce parameters
 ***/
+// MAE% = 0.05 %
+// MAE = 65 
+// WCE% = 0.13 %
+// WCE = 175 
+// WCRE% = 100.00 %
+// EP% = 99.71 %
+// MRE% = 0.14 %
+// MSE = 5632 
+// PDK45_PWR = 0.036 mW
+// PDK45_AREA = 73.7 um2
+// PDK45_DELAY = 0.68 ns
 
-// bdd_sift/bw_16/conf_core_0_mae_000066/run.00003.chr
+
 module add16u_09P(A, B, O);
   input [15:0] A, B;
   output [16:0] O;
@@ -53,12 +64,12 @@ module add16u_09P(A, B, O);
   assign sig_106 = sig_104 & sig_103;
   assign O[15] = sig_104 ^ sig_103;
   assign O[16] = sig_105 | sig_106;
-  assign O[1] = B[6]; // default output
-  assign O[2] = B[7]; // default output
-  assign O[3] = B[8]; // default output
-  assign O[4] = A[6]; // default output
-  assign O[5] = B[12]; // default output
-  assign O[6] = B[6]; // default output
-  assign O[7] = B[7]; // default output
+  assign O[1] = B[6];
+  assign O[2] = B[7];
+  assign O[3] = B[8];
+  assign O[4] = A[6];
+  assign O[5] = B[12];
+  assign O[6] = B[6];
+  assign O[7] = B[7];
 endmodule
 

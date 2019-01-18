@@ -3,8 +3,19 @@
 * When used, please cite the following article(s):  
 * This file contains a circuit from a sub-set of pareto optimal circuits with respect to the pwr and ep parameters
 ***/
+// MAE% = 0.00061 %
+// MAE = 0.8 
+// WCE% = 0.0031 %
+// WCE = 4.0 
+// WCRE% = 50.00 %
+// EP% = 18.75 %
+// MRE% = 0.0016 %
+// MSE = 3.0 
+// PDK45_PWR = 0.069 mW
+// PDK45_AREA = 144.5 um2
+// PDK45_DELAY = 1.11 ns
 
-// bdd_sift/bw_16/conf_core_0_ep_0.20/run.00002.chr
+
 module add16u_0DF(A, B, O);
   input [15:0] A, B;
   output [16:0] O;

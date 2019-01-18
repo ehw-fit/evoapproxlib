@@ -3,6 +3,17 @@
 * When used, please cite the following article(s): V. Mrazek, S. S. Sarwar, L. Sekanina, Z. Vasicek and K. Roy, "Design of power-efficient approximate multipliers for approximate artificial neural networks," 2016 IEEE/ACM International Conference on Computer-Aided Design (ICCAD), Austin, TX, 2016, pp. 1-7. doi: 10.1145/2966986.2967021 
 * This file contains a circuit from a sub-set of pareto optimal circuits with respect to the pwr and mae parameters
 ***/
+// MAE% = 0.00 %
+// MAE = 0 
+// WCE% = 0.00 %
+// WCE = 0 
+// WCRE% = 0.00 %
+// EP% = 0.00 %
+// MRE% = 0.00 %
+// MSE = 0 
+// PDK45_PWR = 0.930 mW
+// PDK45_AREA = 1340.8 um2
+// PDK45_DELAY = 2.08 ns
 #include <stdint.h>
 #include <stdlib.h>
 
@@ -694,6 +705,3 @@ uint64_t mul11u_001(uint64_t a, uint64_t b) {
   y |=  (sig_659 & 0x01) << 21; // default output
    return y;
 }
-
-// internal reference: cgp-nn-iccad16.11.cgpnn_mul11_e00_0_00008_csamrca
-

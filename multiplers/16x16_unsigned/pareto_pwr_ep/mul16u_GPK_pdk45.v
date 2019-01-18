@@ -3,8 +3,19 @@
 * When used, please cite the following article(s): V. Mrazek, Z. Vasicek, L. Sekanina, H. Jiang and J. Han, "Scalable Construction of Approximate Multipliers With Formally Guaranteed Worst Case Error" in IEEE Transactions on Very Large Scale Integration (VLSI) Systems, vol. 26, no. 11, pp. 2572-2576, Nov. 2018. doi: 10.1109/TVLSI.2018.2856362 
 * This file contains a circuit from a sub-set of pareto optimal circuits with respect to the pwr and ep parameters
 ***/
+// MAE% = 0.0011 %
+// MAE = 49152 
+// WCE% = 0.0046 %
+// WCE = 196609 
+// WCRE% = 100.00 %
+// EP% = 81.25 %
+// MRE% = 0.027 %
+// MSE = 50107.788e5 
+// PDK45_PWR = 2.039 mW
+// PDK45_AREA = 2507.9 um2
+// PDK45_DELAY = 2.95 ns
 
-//Broken Array Multiplier(bw=16,v=3,h=2)
+
 module mul16u_GPK ( A, B, O );
   input [15:0] A;
   input [15:0] B;
