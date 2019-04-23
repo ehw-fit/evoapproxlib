@@ -2,3 +2,5 @@
 .*.swp
 .*.swo
 .vscode
+
+__pycache__
