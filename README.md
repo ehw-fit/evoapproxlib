@@ -7,18 +7,18 @@ This is a GitHub repository of EvoApproxLib LITE version. The library consists o
 ## Reference
 This library is licenced under [MIT licence](LICENCE.md). If you use the library in your research, please refer the following paper:
 
-V. Mrazek, R. Hrbacek, Z. Vasicek and L. Sekanina, EvoApprox8b: Library of approximate adders and multipliers for circuit design and benchmarking of approximation methods. Design, Automation & Test in Europe Conference & Exhibition (DATE), 2017, Lausanne, 2017, pp. 258-261. doi: [10.23919/DATE.2017.7926993](https://dx.doi.org/10.23919/DATE.2017.7926993) 
+V. Mrazek, R. Hrbacek, Z. Vasicek and L. Sekanina, EvoApprox8b: Library of approximate adders and multipliers for circuit design and benchmarking of approximation methods. Design, Automation & Test in Europe Conference & Exhibition (DATE), 2017, Lausanne, 2017, pp. 258-261. doi: [10.23919/DATE.2017.7926993](https://dx.doi.org/10.23919/DATE.2017.7926993)
 ```bibtex
 @INPROCEEDINGS{evoapprox16,
-    author={V. Mrazek and R. Hrbacek and Z. Vasicek and L. Sekanina}, 
-    booktitle={Design, Automation Test in Europe Conference Exhibition (DATE), 2017}, 
-    title={EvoApprox8b: Library of approximate adders and multipliers for circuit design and benchmarking of approximation methods}, 
-    year={2017}, 
-    volume={}, 
-    number={}, 
-    pages={258-261}, 
-    doi={10.23919/DATE.2017.7926993}, 
-    ISSN={1558-1101}, 
+    author={V. Mrazek and R. Hrbacek and Z. Vasicek and L. Sekanina},
+    booktitle={Design, Automation Test in Europe Conference Exhibition (DATE), 2017},
+    title={EvoApprox8b: Library of approximate adders and multipliers for circuit design and benchmarking of approximation methods},
+    year={2017},
+    volume={},
+    number={},
+    pages={258-261},
+    doi={10.23919/DATE.2017.7926993},
+    ISSN={1558-1101},
     month={March},}
 ```
 
@@ -27,6 +27,53 @@ The library is a collection of circuits published in the following papers:
   - V. Mrazek, R. Hrbacek, Z. Vasicek and L. Sekanina, "EvoApprox8b: Library of approximate adders and multipliers for circuit design and benchmarking of approximation methods". Design, Automation & Test in Europe Conference & Exhibition (DATE), 2017, Lausanne, 2017, pp. 258-261. doi: [10.23919/DATE.2017.7926993](https://dx.doi.org/10.23919/DATE.2017.7926993)
   - V. Mrazek, S. S. Sarwar, L. Sekanina, Z. Vasicek and K. Roy, "Design of power-efficient approximate multipliers for approximate artificial neural networks," 2016 IEEE/ACM International Conference on Computer-Aided Design (ICCAD), Austin, TX, 2016, pp. 1-7. doi: [10.1145/2966986.2967021](https://dx.doi.org/10.1145/2966986.2967021)
   - V. Mrazek, Z. Vasicek, L. Sekanina, H. Jiang and J. Han, "Scalable Construction of Approximate Multipliers With Formally Guaranteed Worst Case Error" in IEEE Transactions on Very Large Scale Integration (VLSI) Systems, vol. 26, no. 11, pp. 2572-2576, Nov. 2018. doi: [10.1109/TVLSI.2018.2856362](https://dx.doi.org/10.1109/TVLSI.2018.2856362)
+
+## Usage in Python
+To use the models from Python, it is possible to generate and compile binary extensions using cython.
+
+
+1. Make sure cython is installed
+```bash
+pip install --user cython
+```
+
+2. Generate cython sources (creates `cython` directory):
+```bash
+./make_pyx.py
+```
+
+3. Compile and install binary extensions (`*.so` on linux, `*.pyd` on Windows):
+```bash
+cd cython
+python3 setup.py build_ext
+python3 setup.py install --user
+```
+
+4. Finally, the extension can be used in a Python script as follows:
+```python
+import evoapproxlib as eal
+
+e = 0
+for i in range(0, 2**8):
+    for j in range(0, 2**8):
+        e += abs(eal.add8u_0FP.add(i, j) - (i+j))
+
+print('MAE calculated', e / (2**(2*8)))
+print('MAE from lib', eal.add8u_0FP.MAE)
+```
+
+Each circuit is implemented as single binary module, providing the `calc(a, b)` function and various paremeters. The `evoapproxlib` module also contains dictionaries `eal.adders` and `eal.multipliers` with references to all circuits, grouped by their data type, for easier iteration:
+
+```python
+import evoapproxlib as eal
+
+for name, module in eal.adders['8_unsigned'].items():
+    print(name, module.MAE, module.WCE)
+
+for name, module in eal.multiplers['16x16_signed'].items():
+    print(name, module.MAE, module.WCE)
+```
+
 ## Circuits
 ### Adders (unsigned)
  - 8-bit unsigned adders
