@@ -32,12 +32,14 @@ def make_setup_args():
     #return dict(script_args=["--verbose"])
 '''
 
-def find_func(c_file):
+def find_func(name, c_file):
     with open(c_file) as fp:
         contents = fp.read()
-        m = re.search(r'\n.+\)\s*\{', contents)
-        if m:
-            return re.sub(r'\)\s*\{$', ')', m.group(0)).strip()
+
+    name = re.escape(name)
+    m = re.search('\n.+\s' + name + r'\s*\(.+\)\s*\{', contents)
+    if m:
+        return re.sub(r'\)\s*\{$', ')', m.group(0)).strip()
 
 def alias_func(func):
     return re.sub(r'^([a-zA-Z0-9_]+)\s+([a-zA-Z0-9_]+)', r'\1 c_\2 "\2" ', func)
@@ -47,6 +49,8 @@ def main():
     modules = {}
 
     root = pathlib.Path(sys.argv[1]) if len(sys.argv) > 1 else pathlib.Path.cwd()
+    target = root / 'cython/'
+    target.mkdir(exist_ok=True)
 
     subdirs = itertools.chain(
         (x for x in (root / 'adders').iterdir() if x.is_dir()),
@@ -59,28 +63,28 @@ def main():
             name = re.sub('\.c$', '', path.name)
             modules[name] = path
 
-        basename = f'{str(subdir.parent)}_{subdir.name}'
+        basename = f'{subdir.parent.name}_{subdir.name}'
 
-        with open(basename + '.pyx', 'w') as pyx:
+        with open(target / (basename + '.pyx'), 'w') as pyx:
             pyx.write('from libc.stdint cimport *\n')
             pyx.write('\n')
             pyx.write('modules = {}\n')
             pyx.write('\n')
             pyx.write('cdef extern:\n')
 
-            for name, path in modules.items():
-                pyx.write(f'    ' + alias_func(find_func(path)) + '\n')
+            for name, path in sorted(modules.items()):
+                pyx.write(f'    ' + alias_func(find_func(name, path)) + '\n')
 
-            for name, path in modules.items():
+            for name, path in sorted(modules.items()):
                 pyx.write('\n')
                 pyx.write(f'# from {path.relative_to(root)}\n')
                 pyx.write(f'cpdef int {name}(int a, int b):\n')
                 pyx.write(f'    return c_{name}(a, b)\n')
                 pyx.write(f'modules[{name!r}] = {name}\n')
 
-        with open(basename + '.pyxbld', 'w') as pyxbld:
+        with open(target / (basename + '.pyxbld'), 'w') as pyxbld:
             pyxbld.write('sources = [\n')
-            pyxbld.write(''.join(f'    {str(path.relative_to(root))!r},\n' for path in modules.values()))
+            pyxbld.write(''.join(f'    {str(pathlib.Path("..") / path.relative_to(root))!r},\n' for path in modules.values()))
             pyxbld.write(']\n')
 
             pyxbld.write(dedent('''
