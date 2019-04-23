@@ -7,28 +7,30 @@ import itertools
 from textwrap import dedent
 
 
-PYX_TPL = '''
-from libc.stdint cimport *
+INIT_PY = '''"""
+EvoApproxLib
+~~~~~~~~~~~~
 
-cdef extern:
-    uint16_t {name}(uint8_t A, uint8_t B)
+The basic library of approximate circuits
 
+:copyright: Evolvable hardware group, Faculty of information technology, Bozetechova 2, Brno 612 66, Czech Republic
+:license: MIT
+"""
 
-cpdef int mul(int a,int b):
-    return {name}(a,b)
-'''
+CITATION = \'\'\'
+@INPROCEEDINGS{evoapprox16,
+    author={V. Mrazek and R. Hrbacek and Z. Vasicek and L. Sekanina},
+    booktitle={Design, Automation Test in Europe Conference Exhibition (DATE), 2017},
+    title={EvoApprox8b: Library of approximate adders and multipliers for circuit design and benchmarking of approximation methods},
+    year={2017},
+    volume={},
+    number={},
+    pages={258-261},
+    doi={10.23919/DATE.2017.7926993},
+    ISSN={1558-1101},
+    month={March},}
+\'\'\'
 
-PYXBLD_TPL = '''
-def make_ext(modname, pyxfilename):
-    from distutils.extension import Extension
-    ext = Extension(name = modname,
-        sources=["{path}",pyxfilename],
-    )
-    return ext
-
-def make_setup_args():
-    return dict()
-    #return dict(script_args=["--verbose"])
 '''
 
 def find_func(name, c_file):
@@ -36,12 +38,26 @@ def find_func(name, c_file):
         contents = fp.read()
 
     name = re.escape(name)
-    m = re.search('\n.+\s' + name + r'\s*\(.+\)\s*\{', contents)
+    m = re.search(r'\n.+\s' + name + r'\s*\(.+\)\s*\{', contents)
     if m:
         return re.sub(r'\)\s*\{$', ')', m.group(0)).strip()
 
 def alias_func(func):
     return re.sub(r'^([a-zA-Z0-9_]+)\s+([a-zA-Z0-9_]+)', r'\1 c_\2 "\2" ', func)
+
+def get_params(c_file):
+    params = {}
+    with open(c_file) as fp:
+        for line in fp:
+            if line.startswith('// '):
+                m = re.match(r'// ([0-9A-Z_]+)(%)?\s*=\s*([0-9.e]+)', line)
+                if m:
+                    name = m.group(1)
+                    value = float(m.group(3))
+                    if m.group(2):  # has percent
+                        name = name + '_PERCENT'
+                    params[name] = value
+    return params
 
 
 def main():
@@ -51,54 +67,88 @@ def main():
     target = root / 'cython/'
     target.mkdir(exist_ok=True)
 
+    ext_root = target / 'evoapproxlib'
+    ext_root.mkdir(exist_ok=True)
+    with open(ext_root / '__init__.py', 'w') as init_py:
+        init_py.write(INIT_PY)
+
     subdirs = itertools.chain(
         (x for x in (root / 'adders').iterdir() if x.is_dir()),
         (x for x in (root / 'multiplers').iterdir() if x.is_dir()),
     )
 
+    setup_ext_modules = []
+    submodules = []
+    circuits = {}
+
     for subdir in subdirs:
         modules = {}
+
+        if subdir.parent.name not in circuits:
+            circuits[subdir.parent.name] = {}
+        circuits[subdir.parent.name][subdir.name] = {}
+
         for path in subdir.glob('*/*.c'):
-            name = re.sub('\.c$', '', path.name)
-            modules[name] = path
+            name = re.sub(r'\.c$', '', path.name)
+            modules[name] = (subdir, path)
 
-        basename = f'{subdir.parent.name}_{subdir.name}'
+        for name, (subdir, path) in modules.items():
+            basename = f'{subdir.parent.name}_{subdir.name}_{name}'
+            pyxfile = target / (basename + '.pyx')
+            circuits[subdir.parent.name][subdir.name][name] = name
 
-        with open(target / (basename + '.pyx'), 'w') as pyx:
-            pyx.write('from libc.stdint cimport *\n')
-            pyx.write('\n')
-            pyx.write('modules = {}\n')
-            pyx.write('\n')
-            pyx.write('cdef extern:\n')
-
-            for name, path in sorted(modules.items()):
-                pyx.write(f'    ' + alias_func(find_func(name, path)) + '\n')
-
-            for name, path in sorted(modules.items()):
-                pyx.write('\n')
+            with open(pyxfile, 'w') as pyx:
                 pyx.write(f'# from {path.relative_to(root)}\n')
-                pyx.write(f'cpdef int {name}(int a, int b):\n')
+                pyx.write('from libc.stdint cimport *\n')
+                pyx.write('\n')
+                pyx.write('cdef extern:\n')
+                pyx.write(f'    ' + alias_func(find_func(name, path)) + '\n')
+                pyx.write('\n')
+                for param_name, param_value in get_params(path).items():
+                    pyx.write(f'{param_name} = {param_value!r}\n')
+                pyx.write('\n')
+                pyx.write(f'cpdef int calc(int a, int b):\n')
                 pyx.write(f'    return c_{name}(a, b)\n')
-                pyx.write(f'modules[{name!r}] = {name}\n')
 
-        with open(target / (basename + '.pyxbld'), 'w') as pyxbld:
-            pyxbld.write('sources = [\n')
-            pyxbld.write(''.join(f'    {str(pathlib.Path("..") / path.relative_to(root))!r},\n' for path in modules.values()))
-            pyxbld.write(']\n')
+            ext = f'    Extension(name={"evoapproxlib." + name!r}, sources=[\n'
+            ext += f'        {str(pathlib.Path("..") / path.relative_to(root))!r},\n'
+            ext += f'        {pyxfile.name!r},\n'
+            ext += '    ]),\n'
+            setup_ext_modules.append(ext)
 
-            pyxbld.write(dedent('''
-                def make_ext(modname, pyxfilename):
-                    from distutils.extension import Extension
-                    ext = Extension(
-                        name=modname,
-                        sources=(sources + [pyxfilename]),
-                    )
-                    return ext
+            submodules.append(name)
 
-                def make_setup_args():
-                    return dict()
-                    #return dict(script_args=["--verbose"])
-            '''))
+    with open(ext_root / '__init__.py', 'w') as init_py:
+        init_py.write(INIT_PY)
+        init_py.write(f'\n')
+
+        for name in submodules:
+            init_py.write(f'from . import {name}\n')
+
+        for group, contents in circuits.items():
+            init_py.write(f'{group} = ' + '{\n')
+            for subgroup, names in contents.items():
+                init_py.write(f'    {subgroup!r}: ' + '{\n')
+                for name in names:
+                    init_py.write(f'        {name!r}: {name},\n')
+                init_py.write('    },\n')
+            init_py.write('}\n')
+
+    with open(target / 'setup.py', 'w') as setup:
+        setup.write('from distutils.core import setup\n')
+        setup.write('from distutils.extension import Extension\n')
+        setup.write('from Cython.Distutils import build_ext\n')
+        setup.write('\n')
+        setup.write('ext_modules = [\n')
+        setup.write(''.join(setup_ext_modules))
+        setup.write(']\n')
+        setup.write('\n')
+        setup.write('setup(\n')
+        setup.write('    name = "evoApproxLib",\n')
+        setup.write('    packages = ["evoapproxlib"],\n')
+        setup.write('    cmdclass = {"build_ext": build_ext},\n')
+        setup.write('    ext_modules = ext_modules\n')
+        setup.write(')\n')
 
 if __name__ == "__main__":
     main()
