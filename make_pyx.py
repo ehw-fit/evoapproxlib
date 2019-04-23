@@ -83,19 +83,23 @@ def main():
 
     for subdir in subdirs:
         modules = {}
+        main_group = subdir.parent.name
+        if main_group == 'multiplers':
+            # fix typo
+            main_group = 'multipliers'
 
-        if subdir.parent.name not in circuits:
-            circuits[subdir.parent.name] = {}
-        circuits[subdir.parent.name][subdir.name] = {}
+        if main_group not in circuits:
+            circuits[main_group] = {}
+        circuits[main_group][subdir.name] = {}
 
         for path in subdir.glob('*/*.c'):
             name = re.sub(r'\.c$', '', path.name)
             modules[name] = (subdir, path)
 
         for name, (subdir, path) in modules.items():
-            basename = f'{subdir.parent.name}_{subdir.name}_{name}'
+            basename = f'{main_group}_{subdir.name}_{name}'
             pyxfile = target / (basename + '.pyx')
-            circuits[subdir.parent.name][subdir.name][name] = name
+            circuits[main_group][subdir.name][name] = name
 
             with open(pyxfile, 'w') as pyx:
                 pyx.write(f'# from {path.relative_to(root)}\n')
