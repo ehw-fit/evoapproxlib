@@ -56,7 +56,7 @@ import evoapproxlib as eal
 e = 0
 for i in range(0, 2**8):
     for j in range(0, 2**8):
-        e += abs(eal.add8u_0FP.add(i, j) - (i+j))
+        e += abs(eal.add8u_0FP.calc(i, j) - (i+j))
 
 print('MAE calculated', e / (2**(2*8)))
 print('MAE from lib', eal.add8u_0FP.MAE)
