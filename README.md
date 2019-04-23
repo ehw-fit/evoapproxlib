@@ -39,7 +39,7 @@ pip install --user cython
 
 2. Generate cython sources (creates `cython` directory):
 ```bash
-./make_cython.py
+python3 make_cython.py
 ```
 
 3. Compile and install binary extensions (`*.so` on linux, `*.pyd` on Windows):
