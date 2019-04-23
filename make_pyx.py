@@ -5,7 +5,6 @@ import sys
 import pathlib
 import itertools
 from textwrap import dedent
-from Cython.Build import cythonize
 
 
 PYX_TPL = '''
