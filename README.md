@@ -5,7 +5,7 @@ This is a GitHub repository of EvoApproxLib LITE version. The library consists o
 ![Library usage](fig/library.png)
 
 ## Reference
-This library is licenced under [MIT licence](LICENCE.md). If you use the library in your research, please refer the following paper:
+This library is licenced under [MIT licence](LICENSE.md). If you use the library in your research, please refer the following paper:
 
 V. Mrazek, R. Hrbacek, Z. Vasicek and L. Sekanina, EvoApprox8b: Library of approximate adders and multipliers for circuit design and benchmarking of approximation methods. Design, Automation & Test in Europe Conference & Exhibition (DATE), 2017, Lausanne, 2017, pp. 258-261. doi: [10.23919/DATE.2017.7926993](https://dx.doi.org/10.23919/DATE.2017.7926993)
 ```bibtex
