@@ -53,7 +53,7 @@ module add8u_5ME(A, B, O);
   assign N[29] = B[6];
   assign N[30] = B[7];
   assign N[31] = B[7];
-  XNPDKGENOR2X1 n48(.A(N[4]), .B(N[4]), .Y(N[48]));
+  PDKGENXNOR2X1 n48(.A(N[4]), .B(N[4]), .Y(N[48]));
   PDKGENOR2X1 n82(.A(N[2]), .B(N[18]), .Y(N[82]));
   PDKGENOR2X1 n132(.A(N[4]), .B(N[20]), .Y(N[132]));
   PDKGENHAX1 n182(.A(N[6]), .B(N[22]), .YS(N[182]), .YC(N[183]));

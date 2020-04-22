@@ -55,7 +55,7 @@ module add8u_5EZ(A, B, O);
   assign N[31] = B[7];
   PDKGENHAX1 n32(.A(N[28]), .B(N[12]), .YS(N[32]), .YC(N[33]));
   PDKGENOR2X1 n36(.A(N[24]), .B(N[8]), .Y(N[36]));
-  XNPDKGENOR2X1 n42(.A(N[2]), .B(N[2]), .Y(N[42]));
+  PDKGENXNOR2X1 n42(.A(N[2]), .B(N[2]), .Y(N[42]));
   assign N[43] = N[42];
   PDKGENHAX1 n62(.A(N[6]), .B(N[22]), .YS(N[62]), .YC(N[63]));
   PDKGENHAX1 n72(.A(N[8]), .B(N[24]), .YS(N[72]), .YC(N[73]));

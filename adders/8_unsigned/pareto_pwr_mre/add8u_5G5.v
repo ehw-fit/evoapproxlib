@@ -53,8 +53,8 @@ module add8u_5G5(A, B, O);
   assign N[29] = B[6];
   assign N[30] = B[7];
   assign N[31] = B[7];
-  XNPDKGEPDKGENNOR2X1 n36(.A(N[4]), .B(N[4]), .Y(N[36]));
-  NPDKGEPDKGENNOR2X1 n52(.A(N[6]), .B(N[36]), .Y(N[52]));
+  PDKGENXNOR2X1 n36(.A(N[4]), .B(N[4]), .Y(N[36]));
+  PDKGENNOR2X1 n52(.A(N[6]), .B(N[36]), .Y(N[52]));
   PDKGENBUFX2 n66(.A(N[52]), .Y(N[66]));
   PDKGENBUFX2 n74(.A(N[66]), .Y(N[74]));
   assign N[75] = N[74];
@@ -62,7 +62,7 @@ module add8u_5G5(A, B, O);
   assign N[79] = N[78];
   PDKGENINVX1 n126(.A(N[79]), .Y(N[126]));
   assign N[127] = N[126];
-  PDKGEPDKGENNOR2X1 n182(.A(N[6]), .B(N[22]), .Y(N[182]));
+  PDKGENOR2X1 n182(.A(N[6]), .B(N[22]), .Y(N[182]));
   assign N[183] = N[182];
   PDKGENFAX1 n232(.A(N[8]), .B(N[24]), .C(N[78]), .YS(N[232]), .YC(N[233]));
   PDKGENFAX1 n282(.A(N[10]), .B(N[26]), .C(N[233]), .YS(N[282]), .YC(N[283]));
@@ -81,7 +81,7 @@ endmodule
 
 
 /* mod */
-module PDKGEPDKGENNOR2X1(input A, input B, output Y );
+module PDKGENOR2X1(input A, input B, output Y );
      assign Y = A | B;
 endmodule
 /* mod */
