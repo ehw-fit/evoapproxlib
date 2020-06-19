@@ -1082,12 +1082,12 @@
       "references": []
      }
     ], 
-    "description": "8-bit unsigned adders (with overflow)", 
+    "description": "8-bit signed adders (with overflow)", 
     "folder": "adders/8_signed", 
     "items": 43
    }
   ], 
-  "description": "Adders (signed, with overflow)", 
+  "description": "Adders (signed)", 
   "folder": "adders", 
   "id": 3, 
   "items": 43
@@ -2247,7 +2247,7 @@
       "references": []
      }
     ], 
-    "description": "8-bit unsigned adders (no overflow)", 
+    "description": "8-bit signed adders (no overflow)", 
     "folder": "adders/8_signed_extended", 
     "items": 46
    }, 
@@ -3380,12 +3380,12 @@
       "references": []
      }
     ], 
-    "description": "9-bit unsigned adders (no overflow)", 
+    "description": "9-bit signed adders (no overflow)", 
     "folder": "adders/9_signed_extended", 
     "items": 45
    }
   ], 
-  "description": "Adders (signed, no overflow)", 
+  "description": "Adders (signed)", 
   "folder": "adders", 
   "id": 4, 
   "items": 91
