@@ -1084,7 +1084,9 @@
             ], 
             "description": "8-bit signed adders (with overflow)", 
             "folder": "adders/8_signed", 
-            "items": 43
+            "items": 43,
+            "signed": true,
+            "output_bitwidth": 8
            },   
       {
        "bitwidth": 8, 
@@ -2241,7 +2243,9 @@
        ], 
        "description": "8-bit signed adders (no overflow)", 
        "folder": "adders/8_signed_extended", 
-       "items": 46
+       "items": 46,
+       "signed": true,
+       "output_bitwidth": 9       
       }, 
       {
        "bitwidth": 9, 
@@ -3374,13 +3378,15 @@
        ], 
        "description": "9-bit signed adders (no overflow)", 
        "folder": "adders/9_signed_extended", 
-       "items": 45
+       "items": 45,
+       "signed": true,
+       "output_bitwidth": 10       
       }
      ], 
      "description": "Adders (signed)", 
      "folder": "adders", 
      "id": 4, 
-     "items": 91
+     "items": 134
     }, 
     {
      "datasets": [
