@@ -6,6 +6,3397 @@
     "datasets": [
      {
       "description": "Pareto optimal subset (MAE vs power)", 
+      "figure": "adders/8_signed/pareto_pwr_mae/fig.png", 
+      "folder": "adders/8_signed/pareto_pwr_mae", 
+      "instances": [
+       {
+        "files": [
+         {
+          "file": "add8s_83C.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add8s_83C.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add8s_83C", 
+        "params": {
+         "area": "70.4", 
+         "delay": "0.65", 
+         "ep%": "0.00", 
+         "mae%": "0.00", 
+         "mre%": "0.00", 
+         "pwr": "0.034", 
+         "wce%": "0.00", 
+         "wcre%": "0.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add8s_83N.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add8s_83N.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add8s_83N", 
+        "params": {
+         "area": "74.1", 
+         "delay": "0.62", 
+         "ep%": "12.50", 
+         "mae%": "0.039", 
+         "mre%": "1.29", 
+         "pwr": "0.033", 
+         "wce%": "0.39", 
+         "wcre%": "100.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add8s_7TG.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add8s_7TG.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add8s_7TG", 
+        "params": {
+         "area": "64.8", 
+         "delay": "0.64", 
+         "ep%": "50.00", 
+         "mae%": "0.098", 
+         "mre%": "2.60", 
+         "pwr": "0.033", 
+         "wce%": "0.20", 
+         "wcre%": "100.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add8s_7XE.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add8s_7XE.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add8s_7XE", 
+        "params": {
+         "area": "68.0", 
+         "delay": "0.69", 
+         "ep%": "75.00", 
+         "mae%": "0.29", 
+         "mre%": "8.47", 
+         "pwr": "0.031", 
+         "wce%": "0.59", 
+         "wcre%": "300.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add8s_7T6.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add8s_7T6.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add8s_7T6", 
+        "params": {
+         "area": "64.8", 
+         "delay": "0.57", 
+         "ep%": "87.50", 
+         "mae%": "0.51", 
+         "mre%": "13.61", 
+         "pwr": "0.029", 
+         "wce%": "1.37", 
+         "wcre%": "400.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add8s_6EQ.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add8s_6EQ.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add8s_6EQ", 
+        "params": {
+         "area": "54.4", 
+         "delay": "0.49", 
+         "ep%": "90.92", 
+         "mae%": "1.29", 
+         "mre%": "15.46", 
+         "pwr": "0.024", 
+         "wce%": "5.08", 
+         "wcre%": "400.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add8s_6FQ.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add8s_6FQ.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add8s_6FQ", 
+        "params": {
+         "area": "42.2", 
+         "delay": "0.44", 
+         "ep%": "95.33", 
+         "mae%": "2.62", 
+         "mre%": "27.78", 
+         "pwr": "0.019", 
+         "wce%": "10.16", 
+         "wcre%": "700.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add8s_70S.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add8s_70S.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add8s_70S", 
+        "params": {
+         "area": "31.4", 
+         "delay": "0.27", 
+         "ep%": "97.84", 
+         "mae%": "5.04", 
+         "mre%": "49.43", 
+         "pwr": "0.013", 
+         "wce%": "17.58", 
+         "wcre%": "1650.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add8s_7PP.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add8s_7PP.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add8s_7PP", 
+        "params": {
+         "area": "0.0", 
+         "delay": "0.00", 
+         "ep%": "99.48", 
+         "mae%": "11.11", 
+         "mre%": "99.98", 
+         "pwr": "0.000", 
+         "wce%": "25.00", 
+         "wcre%": "200.00"
+        }, 
+        "references": []
+       }
+      ], 
+      "license": "The MIT License", 
+      "references": []
+     }, 
+     {
+      "description": "Pareto optimal subset (WCE vs power)", 
+      "figure": "adders/8_signed/pareto_pwr_wce/fig.png", 
+      "folder": "adders/8_signed/pareto_pwr_wce", 
+      "instances": [
+       {
+        "files": [
+         {
+          "file": "add8s_83C.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add8s_83C.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add8s_83C", 
+        "params": {
+         "area": "70.4", 
+         "delay": "0.65", 
+         "ep%": "0.00", 
+         "mae%": "0.00", 
+         "mre%": "0.00", 
+         "pwr": "0.034", 
+         "wce%": "0.00", 
+         "wcre%": "0.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add8s_7TG.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add8s_7TG.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add8s_7TG", 
+        "params": {
+         "area": "64.8", 
+         "delay": "0.64", 
+         "ep%": "50.00", 
+         "mae%": "0.098", 
+         "mre%": "2.60", 
+         "pwr": "0.033", 
+         "wce%": "0.20", 
+         "wcre%": "100.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add8s_7XE.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add8s_7XE.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add8s_7XE", 
+        "params": {
+         "area": "68.0", 
+         "delay": "0.69", 
+         "ep%": "75.00", 
+         "mae%": "0.29", 
+         "mre%": "8.47", 
+         "pwr": "0.031", 
+         "wce%": "0.59", 
+         "wcre%": "300.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add8s_80T.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add8s_80T.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add8s_80T", 
+        "params": {
+         "area": "74.1", 
+         "delay": "0.61", 
+         "ep%": "71.88", 
+         "mae%": "0.47", 
+         "mre%": "11.01", 
+         "pwr": "0.030", 
+         "wce%": "1.17", 
+         "wcre%": "200.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add8s_6FC.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add8s_6FC.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add8s_6FC", 
+        "params": {
+         "area": "55.8", 
+         "delay": "0.51", 
+         "ep%": "83.20", 
+         "mae%": "0.70", 
+         "mre%": "8.59", 
+         "pwr": "0.027", 
+         "wce%": "1.95", 
+         "wcre%": "300.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add8s_6QC.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add8s_6QC.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add8s_6QC", 
+        "params": {
+         "area": "46.9", 
+         "delay": "0.43", 
+         "ep%": "94.40", 
+         "mae%": "1.68", 
+         "mre%": "22.33", 
+         "pwr": "0.022", 
+         "wce%": "3.91", 
+         "wcre%": "800.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add8s_6YE.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add8s_6YE.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add8s_6YE", 
+        "params": {
+         "area": "38.0", 
+         "delay": "0.35", 
+         "ep%": "97.20", 
+         "mae%": "3.20", 
+         "mre%": "39.40", 
+         "pwr": "0.017", 
+         "wce%": "7.03", 
+         "wcre%": "1500.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add8s_6NS.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add8s_6NS.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add8s_6NS", 
+        "params": {
+         "area": "46.5", 
+         "delay": "0.23", 
+         "ep%": "98.65", 
+         "mae%": "5.94", 
+         "mre%": "74.21", 
+         "pwr": "0.013", 
+         "wce%": "14.06", 
+         "wcre%": "2700.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add8s_7PP.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add8s_7PP.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add8s_7PP", 
+        "params": {
+         "area": "0.0", 
+         "delay": "0.00", 
+         "ep%": "99.48", 
+         "mae%": "11.11", 
+         "mre%": "99.98", 
+         "pwr": "0.000", 
+         "wce%": "25.00", 
+         "wcre%": "200.00"
+        }, 
+        "references": []
+       }
+      ], 
+      "license": "The MIT License", 
+      "references": []
+     }, 
+     {
+      "description": "Pareto optimal subset (MRE vs power)", 
+      "figure": "adders/8_signed/pareto_pwr_mre/fig.png", 
+      "folder": "adders/8_signed/pareto_pwr_mre", 
+      "instances": [
+       {
+        "files": [
+         {
+          "file": "add8s_83C.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add8s_83C.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add8s_83C", 
+        "params": {
+         "area": "70.4", 
+         "delay": "0.65", 
+         "ep%": "0.00", 
+         "mae%": "0.00", 
+         "mre%": "0.00", 
+         "pwr": "0.034", 
+         "wce%": "0.00", 
+         "wcre%": "0.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add8s_6FR.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add8s_6FR.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add8s_6FR", 
+        "params": {
+         "area": "67.1", 
+         "delay": "0.60", 
+         "ep%": "37.30", 
+         "mae%": "0.20", 
+         "mre%": "1.48", 
+         "pwr": "0.032", 
+         "wce%": "0.78", 
+         "wcre%": "66.67"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add8s_6XL.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add8s_6XL.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add8s_6XL", 
+        "params": {
+         "area": "63.8", 
+         "delay": "0.63", 
+         "ep%": "77.83", 
+         "mae%": "0.55", 
+         "mre%": "7.00", 
+         "pwr": "0.030", 
+         "wce%": "1.56", 
+         "wcre%": "200.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add8s_704.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add8s_704.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add8s_704", 
+        "params": {
+         "area": "54.4", 
+         "delay": "0.49", 
+         "ep%": "88.98", 
+         "mae%": "1.09", 
+         "mre%": "12.68", 
+         "pwr": "0.024", 
+         "wce%": "5.08", 
+         "wcre%": "400.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add8s_6UC.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add8s_6UC.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add8s_6UC", 
+        "params": {
+         "area": "51.2", 
+         "delay": "0.44", 
+         "ep%": "94.39", 
+         "mae%": "2.23", 
+         "mre%": "23.64", 
+         "pwr": "0.020", 
+         "wce%": "7.81", 
+         "wcre%": "800.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add8s_6PA.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add8s_6PA.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add8s_6PA", 
+        "params": {
+         "area": "40.8", 
+         "delay": "0.38", 
+         "ep%": "96.91", 
+         "mae%": "3.83", 
+         "mre%": "33.04", 
+         "pwr": "0.017", 
+         "wce%": "11.72", 
+         "wcre%": "850.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add8s_6T8.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add8s_6T8.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add8s_6T8", 
+        "params": {
+         "area": "26.8", 
+         "delay": "0.17", 
+         "ep%": "98.52", 
+         "mae%": "9.14", 
+         "mre%": "67.56", 
+         "pwr": "0.0063", 
+         "wce%": "27.34", 
+         "wcre%": "3300.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add8s_6HF.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add8s_6HF.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add8s_6HF", 
+        "params": {
+         "area": "0.0", 
+         "delay": "0.00", 
+         "ep%": "99.48", 
+         "mae%": "22.23", 
+         "mre%": "99.98", 
+         "pwr": "0.000", 
+         "wce%": "50.00", 
+         "wcre%": "200.00"
+        }, 
+        "references": []
+       }
+      ], 
+      "license": "The MIT License", 
+      "references": []
+     }, 
+     {
+      "description": "Pareto optimal subset (EP vs power)", 
+      "figure": "adders/8_signed/pareto_pwr_ep/fig.png", 
+      "folder": "adders/8_signed/pareto_pwr_ep", 
+      "instances": [
+       {
+        "files": [
+         {
+          "file": "add8s_83C.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add8s_83C.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add8s_83C", 
+        "params": {
+         "area": "70.4", 
+         "delay": "0.65", 
+         "ep%": "0.00", 
+         "mae%": "0.00", 
+         "mre%": "0.00", 
+         "pwr": "0.034", 
+         "wce%": "0.00", 
+         "wcre%": "0.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add8s_83N.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add8s_83N.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add8s_83N", 
+        "params": {
+         "area": "74.1", 
+         "delay": "0.62", 
+         "ep%": "12.50", 
+         "mae%": "0.039", 
+         "mre%": "1.29", 
+         "pwr": "0.033", 
+         "wce%": "0.39", 
+         "wcre%": "100.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add8s_6YG.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add8s_6YG.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add8s_6YG", 
+        "params": {
+         "area": "75.6", 
+         "delay": "0.38", 
+         "ep%": "46.35", 
+         "mae%": "2.89", 
+         "mre%": "39.10", 
+         "pwr": "0.031", 
+         "wce%": "6.25", 
+         "wcre%": "1600.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add8s_7YK.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add8s_7YK.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add8s_7YK", 
+        "params": {
+         "area": "71.8", 
+         "delay": "0.44", 
+         "ep%": "54.43", 
+         "mae%": "7.60", 
+         "mre%": "150.85", 
+         "pwr": "0.030", 
+         "wce%": "25.00", 
+         "wcre%": "6400.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add8s_6S5.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add8s_6S5.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add8s_6S5", 
+        "params": {
+         "area": "63.4", 
+         "delay": "0.53", 
+         "ep%": "71.48", 
+         "mae%": "0.78", 
+         "mre%": "9.74", 
+         "pwr": "0.028", 
+         "wce%": "2.34", 
+         "wcre%": "300.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add8s_70Z.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add8s_70Z.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add8s_70Z", 
+        "params": {
+         "area": "57.7", 
+         "delay": "0.45", 
+         "ep%": "85.42", 
+         "mae%": "22.38", 
+         "mre%": "146.36", 
+         "pwr": "0.020", 
+         "wce%": "50.00", 
+         "wcre%": "6200.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add8s_6HF.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add8s_6HF.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add8s_6HF", 
+        "params": {
+         "area": "0.0", 
+         "delay": "0.00", 
+         "ep%": "99.48", 
+         "mae%": "22.23", 
+         "mre%": "99.98", 
+         "pwr": "0.000", 
+         "wce%": "50.00", 
+         "wcre%": "200.00"
+        }, 
+        "references": []
+       }
+      ], 
+      "license": "The MIT License", 
+      "references": []
+     }, 
+     {
+      "description": "Pareto optimal subset (MSE vs power)", 
+      "figure": "adders/8_signed/pareto_pwr_mse/fig.png", 
+      "folder": "adders/8_signed/pareto_pwr_mse", 
+      "instances": [
+       {
+        "files": [
+         {
+          "file": "add8s_83C.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add8s_83C.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add8s_83C", 
+        "params": {
+         "area": "70.4", 
+         "delay": "0.65", 
+         "ep%": "0.00", 
+         "mae%": "0.00", 
+         "mre%": "0.00", 
+         "pwr": "0.034", 
+         "wce%": "0.00", 
+         "wcre%": "0.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add8s_6FR.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add8s_6FR.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add8s_6FR", 
+        "params": {
+         "area": "67.1", 
+         "delay": "0.60", 
+         "ep%": "37.30", 
+         "mae%": "0.20", 
+         "mre%": "1.48", 
+         "pwr": "0.032", 
+         "wce%": "0.78", 
+         "wcre%": "66.67"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add8s_6QJ.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add8s_6QJ.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add8s_6QJ", 
+        "params": {
+         "area": "60.5", 
+         "delay": "0.62", 
+         "ep%": "79.44", 
+         "mae%": "0.59", 
+         "mre%": "7.44", 
+         "pwr": "0.029", 
+         "wce%": "1.95", 
+         "wcre%": "300.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add8s_6UN.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add8s_6UN.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add8s_6UN", 
+        "params": {
+         "area": "57.3", 
+         "delay": "0.53", 
+         "ep%": "87.50", 
+         "mae%": "0.94", 
+         "mre%": "11.76", 
+         "pwr": "0.025", 
+         "wce%": "2.73", 
+         "wcre%": "400.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add8s_6TN.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add8s_6TN.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add8s_6TN", 
+        "params": {
+         "area": "56.8", 
+         "delay": "0.48", 
+         "ep%": "94.56", 
+         "mae%": "1.84", 
+         "mre%": "19.71", 
+         "pwr": "0.022", 
+         "wce%": "5.08", 
+         "wcre%": "400.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add8s_6YE.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add8s_6YE.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add8s_6YE", 
+        "params": {
+         "area": "38.0", 
+         "delay": "0.35", 
+         "ep%": "97.20", 
+         "mae%": "3.20", 
+         "mre%": "39.40", 
+         "pwr": "0.017", 
+         "wce%": "7.03", 
+         "wcre%": "1500.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add8s_70S.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add8s_70S.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add8s_70S", 
+        "params": {
+         "area": "31.4", 
+         "delay": "0.27", 
+         "ep%": "97.84", 
+         "mae%": "5.04", 
+         "mre%": "49.43", 
+         "pwr": "0.013", 
+         "wce%": "17.58", 
+         "wcre%": "1650.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add8s_70F.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add8s_70F.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add8s_70F", 
+        "params": {
+         "area": "35.7", 
+         "delay": "0.35", 
+         "ep%": "98.32", 
+         "mae%": "8.24", 
+         "mre%": "68.05", 
+         "pwr": "0.0099", 
+         "wce%": "27.34", 
+         "wcre%": "3300.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add8s_6R6.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add8s_6R6.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add8s_6R6", 
+        "params": {
+         "area": "18.8", 
+         "delay": "0.20", 
+         "ep%": "99.22", 
+         "mae%": "14.41", 
+         "mre%": "202.19", 
+         "pwr": "0.0039", 
+         "wce%": "42.19", 
+         "wcre%": "6500.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add8s_6HF.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add8s_6HF.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add8s_6HF", 
+        "params": {
+         "area": "0.0", 
+         "delay": "0.00", 
+         "ep%": "99.48", 
+         "mae%": "22.23", 
+         "mre%": "99.98", 
+         "pwr": "0.000", 
+         "wce%": "50.00", 
+         "wcre%": "200.00"
+        }, 
+        "references": []
+       }
+      ], 
+      "license": "The MIT License", 
+      "references": []
+     }
+    ], 
+    "description": "8-bit unsigned adders (with overflow)", 
+    "folder": "adders/8_signed", 
+    "items": 43
+   }
+  ], 
+  "description": "Adders (signed, with overflow)", 
+  "folder": "adders", 
+  "id": 3, 
+  "items": 43
+ }, 
+ {
+  "datasets": [
+   {
+    "bitwidth": 8, 
+    "datasets": [
+     {
+      "description": "Pareto optimal subset (MAE vs power)", 
+      "figure": "adders/8_signed_extended/pareto_pwr_mae/fig.png", 
+      "folder": "adders/8_signed_extended/pareto_pwr_mae", 
+      "instances": [
+       {
+        "files": [
+         {
+          "file": "add8se_7A2.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add8se_7A2.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add8se_7A2", 
+        "params": {
+         "area": "74.6", 
+         "delay": "0.63", 
+         "ep%": "0.00", 
+         "mae%": "0.00", 
+         "mre%": "0.00", 
+         "pwr": "0.035", 
+         "wce%": "0.00", 
+         "wcre%": "0.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add8se_7C9.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add8se_7C9.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add8se_7C9", 
+        "params": {
+         "area": "78.4", 
+         "delay": "0.60", 
+         "ep%": "12.50", 
+         "mae%": "0.039", 
+         "mre%": "1.00", 
+         "pwr": "0.034", 
+         "wce%": "0.39", 
+         "wcre%": "100.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add8se_72D.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add8se_72D.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add8se_72D", 
+        "params": {
+         "area": "65.7", 
+         "delay": "0.55", 
+         "ep%": "62.40", 
+         "mae%": "0.14", 
+         "mre%": "2.88", 
+         "pwr": "0.030", 
+         "wce%": "0.39", 
+         "wcre%": "100.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add8se_7LN.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add8se_7LN.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add8se_7LN", 
+        "params": {
+         "area": "59.1", 
+         "delay": "0.47", 
+         "ep%": "62.50", 
+         "mae%": "0.23", 
+         "mre%": "4.89", 
+         "pwr": "0.026", 
+         "wce%": "0.59", 
+         "wcre%": "200.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add8se_7J7.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add8se_7J7.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add8se_7J7", 
+        "params": {
+         "area": "52.6", 
+         "delay": "0.39", 
+         "ep%": "84.38", 
+         "mae%": "0.41", 
+         "mre%": "8.19", 
+         "pwr": "0.021", 
+         "wce%": "1.37", 
+         "wcre%": "350.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add8se_7GE.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add8se_7GE.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add8se_7GE", 
+        "params": {
+         "area": "43.6", 
+         "delay": "0.35", 
+         "ep%": "93.36", 
+         "mae%": "0.86", 
+         "mre%": "15.04", 
+         "pwr": "0.019", 
+         "wce%": "2.73", 
+         "wcre%": "550.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add8se_7EB.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add8se_7EB.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add8se_7EB", 
+        "params": {
+         "area": "34.7", 
+         "delay": "0.27", 
+         "ep%": "96.78", 
+         "mae%": "1.78", 
+         "mre%": "26.88", 
+         "pwr": "0.014", 
+         "wce%": "5.86", 
+         "wcre%": "1150.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add8se_7F3.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add8se_7F3.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add8se_7F3", 
+        "params": {
+         "area": "26.8", 
+         "delay": "0.22", 
+         "ep%": "98.44", 
+         "mae%": "3.44", 
+         "mre%": "82.31", 
+         "pwr": "0.010", 
+         "wce%": "8.79", 
+         "wcre%": "4100.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add8se_74Q.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add8se_74Q.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add8se_74Q", 
+        "params": {
+         "area": "16.4", 
+         "delay": "0.16", 
+         "ep%": "99.56", 
+         "mae%": "6.56", 
+         "mre%": "148.60", 
+         "pwr": "0.0049", 
+         "wce%": "17.97", 
+         "wcre%": "7300.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add8se_7NX.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add8se_7NX.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add8se_7NX", 
+        "params": {
+         "area": "2.3", 
+         "delay": "0.05", 
+         "ep%": "99.98", 
+         "mae%": "12.46", 
+         "mre%": "250.03", 
+         "pwr": "0.00037", 
+         "wce%": "25.00", 
+         "wcre%": "7000.00"
+        }, 
+        "references": []
+       }
+      ], 
+      "license": "The MIT License", 
+      "references": []
+     }, 
+     {
+      "description": "Pareto optimal subset (WCE vs power)", 
+      "figure": "adders/8_signed_extended/pareto_pwr_wce/fig.png", 
+      "folder": "adders/8_signed_extended/pareto_pwr_wce", 
+      "instances": [
+       {
+        "files": [
+         {
+          "file": "add8se_7A2.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add8se_7A2.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add8se_7A2", 
+        "params": {
+         "area": "74.6", 
+         "delay": "0.63", 
+         "ep%": "0.00", 
+         "mae%": "0.00", 
+         "mre%": "0.00", 
+         "pwr": "0.035", 
+         "wce%": "0.00", 
+         "wcre%": "0.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add8se_76K.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add8se_76K.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add8se_76K", 
+        "params": {
+         "area": "66.6", 
+         "delay": "0.60", 
+         "ep%": "50.00", 
+         "mae%": "0.098", 
+         "mre%": "2.28", 
+         "pwr": "0.033", 
+         "wce%": "0.20", 
+         "wcre%": "100.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add8se_71R.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add8se_71R.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add8se_71R", 
+        "params": {
+         "area": "61.5", 
+         "delay": "0.51", 
+         "ep%": "68.75", 
+         "mae%": "0.18", 
+         "mre%": "3.65", 
+         "pwr": "0.029", 
+         "wce%": "0.39", 
+         "wcre%": "100.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add8se_74M.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add8se_74M.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add8se_74M", 
+        "params": {
+         "area": "51.2", 
+         "delay": "0.46", 
+         "ep%": "87.50", 
+         "mae%": "0.43", 
+         "mre%": "9.14", 
+         "pwr": "0.024", 
+         "wce%": "0.98", 
+         "wcre%": "500.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add8se_726.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add8se_726.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add8se_726", 
+        "params": {
+         "area": "47.9", 
+         "delay": "0.39", 
+         "ep%": "90.53", 
+         "mae%": "0.68", 
+         "mre%": "13.74", 
+         "pwr": "0.020", 
+         "wce%": "1.56", 
+         "wcre%": "600.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add8se_7FV.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add8se_7FV.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add8se_7FV", 
+        "params": {
+         "area": "43.6", 
+         "delay": "0.35", 
+         "ep%": "95.70", 
+         "mae%": "1.09", 
+         "mre%": "21.05", 
+         "pwr": "0.019", 
+         "wce%": "2.73", 
+         "wcre%": "800.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add8se_7DA.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add8se_7DA.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add8se_7DA", 
+        "params": {
+         "area": "33.3", 
+         "delay": "0.29", 
+         "ep%": "99.22", 
+         "mae%": "1.91", 
+         "mre%": "44.92", 
+         "pwr": "0.015", 
+         "wce%": "4.49", 
+         "wcre%": "2200.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add8se_7HZ.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add8se_7HZ.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add8se_7HZ", 
+        "params": {
+         "area": "28.6", 
+         "delay": "0.22", 
+         "ep%": "98.44", 
+         "mae%": "3.30", 
+         "mre%": "66.81", 
+         "pwr": "0.011", 
+         "wce%": "8.20", 
+         "wcre%": "3300.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add8se_7B7.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add8se_7B7.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add8se_7B7", 
+        "params": {
+         "area": "18.3", 
+         "delay": "0.17", 
+         "ep%": "99.68", 
+         "mae%": "6.13", 
+         "mre%": "125.41", 
+         "pwr": "0.0056", 
+         "wce%": "12.50", 
+         "wcre%": "4600.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add8se_7NX.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add8se_7NX.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add8se_7NX", 
+        "params": {
+         "area": "2.3", 
+         "delay": "0.05", 
+         "ep%": "99.98", 
+         "mae%": "12.46", 
+         "mre%": "250.03", 
+         "pwr": "0.00037", 
+         "wce%": "25.00", 
+         "wcre%": "7000.00"
+        }, 
+        "references": []
+       }
+      ], 
+      "license": "The MIT License", 
+      "references": []
+     }, 
+     {
+      "description": "Pareto optimal subset (MRE vs power)", 
+      "figure": "adders/8_signed_extended/pareto_pwr_mre/fig.png", 
+      "folder": "adders/8_signed_extended/pareto_pwr_mre", 
+      "instances": [
+       {
+        "files": [
+         {
+          "file": "add8se_7A2.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add8se_7A2.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add8se_7A2", 
+        "params": {
+         "area": "74.6", 
+         "delay": "0.63", 
+         "ep%": "0.00", 
+         "mae%": "0.00", 
+         "mre%": "0.00", 
+         "pwr": "0.035", 
+         "wce%": "0.00", 
+         "wcre%": "0.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add8se_7C9.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add8se_7C9.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add8se_7C9", 
+        "params": {
+         "area": "78.4", 
+         "delay": "0.60", 
+         "ep%": "12.50", 
+         "mae%": "0.039", 
+         "mre%": "1.00", 
+         "pwr": "0.034", 
+         "wce%": "0.39", 
+         "wcre%": "100.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add8se_76K.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add8se_76K.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add8se_76K", 
+        "params": {
+         "area": "66.6", 
+         "delay": "0.60", 
+         "ep%": "50.00", 
+         "mae%": "0.098", 
+         "mre%": "2.28", 
+         "pwr": "0.033", 
+         "wce%": "0.20", 
+         "wcre%": "100.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add8se_7LN.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add8se_7LN.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add8se_7LN", 
+        "params": {
+         "area": "59.1", 
+         "delay": "0.47", 
+         "ep%": "62.50", 
+         "mae%": "0.23", 
+         "mre%": "4.89", 
+         "pwr": "0.026", 
+         "wce%": "0.59", 
+         "wcre%": "200.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add8se_7J7.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add8se_7J7.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add8se_7J7", 
+        "params": {
+         "area": "52.6", 
+         "delay": "0.39", 
+         "ep%": "84.38", 
+         "mae%": "0.41", 
+         "mre%": "8.19", 
+         "pwr": "0.021", 
+         "wce%": "1.37", 
+         "wcre%": "350.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add8se_76P.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add8se_76P.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add8se_76P", 
+        "params": {
+         "area": "41.3", 
+         "delay": "0.31", 
+         "ep%": "93.75", 
+         "mae%": "1.11", 
+         "mre%": "18.02", 
+         "pwr": "0.016", 
+         "wce%": "3.71", 
+         "wcre%": "750.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add8se_7JG.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add8se_7JG.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add8se_7JG", 
+        "params": {
+         "area": "30.5", 
+         "delay": "0.19", 
+         "ep%": "98.13", 
+         "mae%": "3.26", 
+         "mre%": "39.43", 
+         "pwr": "0.011", 
+         "wce%": "11.52", 
+         "wcre%": "306.25"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add8se_7N1.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add8se_7N1.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add8se_7N1", 
+        "params": {
+         "area": "10.8", 
+         "delay": "0.09", 
+         "ep%": "99.22", 
+         "mae%": "8.32", 
+         "mre%": "75.00", 
+         "pwr": "0.002", 
+         "wce%": "25.00", 
+         "wcre%": "6350.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add8se_7NX.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add8se_7NX.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add8se_7NX", 
+        "params": {
+         "area": "2.3", 
+         "delay": "0.05", 
+         "ep%": "99.98", 
+         "mae%": "12.46", 
+         "mre%": "250.03", 
+         "pwr": "0.00037", 
+         "wce%": "25.00", 
+         "wcre%": "7000.00"
+        }, 
+        "references": []
+       }
+      ], 
+      "license": "The MIT License", 
+      "references": []
+     }, 
+     {
+      "description": "Pareto optimal subset (EP vs power)", 
+      "figure": "adders/8_signed_extended/pareto_pwr_ep/fig.png", 
+      "folder": "adders/8_signed_extended/pareto_pwr_ep", 
+      "instances": [
+       {
+        "files": [
+         {
+          "file": "add8se_7A2.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add8se_7A2.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add8se_7A2", 
+        "params": {
+         "area": "74.6", 
+         "delay": "0.63", 
+         "ep%": "0.00", 
+         "mae%": "0.00", 
+         "mre%": "0.00", 
+         "pwr": "0.035", 
+         "wce%": "0.00", 
+         "wcre%": "0.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add8se_7C9.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add8se_7C9.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add8se_7C9", 
+        "params": {
+         "area": "78.4", 
+         "delay": "0.60", 
+         "ep%": "12.50", 
+         "mae%": "0.039", 
+         "mre%": "1.00", 
+         "pwr": "0.034", 
+         "wce%": "0.39", 
+         "wcre%": "100.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add8se_71L.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add8se_71L.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add8se_71L", 
+        "params": {
+         "area": "75.1", 
+         "delay": "0.54", 
+         "ep%": "25.00", 
+         "mae%": "0.098", 
+         "mre%": "1.81", 
+         "pwr": "0.033", 
+         "wce%": "0.39", 
+         "wcre%": "200.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add8se_78P.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add8se_78P.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add8se_78P", 
+        "params": {
+         "area": "65.2", 
+         "delay": "0.51", 
+         "ep%": "50.00", 
+         "mae%": "0.20", 
+         "mre%": "4.15", 
+         "pwr": "0.030", 
+         "wce%": "0.39", 
+         "wcre%": "200.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add8se_7LN.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add8se_7LN.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add8se_7LN", 
+        "params": {
+         "area": "59.1", 
+         "delay": "0.47", 
+         "ep%": "62.50", 
+         "mae%": "0.23", 
+         "mre%": "4.89", 
+         "pwr": "0.026", 
+         "wce%": "0.59", 
+         "wcre%": "200.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add8se_7MD.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add8se_7MD.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add8se_7MD", 
+        "params": {
+         "area": "50.2", 
+         "delay": "0.39", 
+         "ep%": "87.50", 
+         "mae%": "0.59", 
+         "mre%": "12.13", 
+         "pwr": "0.021", 
+         "wce%": "1.37", 
+         "wcre%": "700.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add8se_7NX.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add8se_7NX.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add8se_7NX", 
+        "params": {
+         "area": "2.3", 
+         "delay": "0.05", 
+         "ep%": "99.98", 
+         "mae%": "12.46", 
+         "mre%": "250.03", 
+         "pwr": "0.00037", 
+         "wce%": "25.00", 
+         "wcre%": "7000.00"
+        }, 
+        "references": []
+       }
+      ], 
+      "license": "The MIT License", 
+      "references": []
+     }, 
+     {
+      "description": "Pareto optimal subset (MSE vs power)", 
+      "figure": "adders/8_signed_extended/pareto_pwr_mse/fig.png", 
+      "folder": "adders/8_signed_extended/pareto_pwr_mse", 
+      "instances": [
+       {
+        "files": [
+         {
+          "file": "add8se_7A2.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add8se_7A2.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add8se_7A2", 
+        "params": {
+         "area": "74.6", 
+         "delay": "0.63", 
+         "ep%": "0.00", 
+         "mae%": "0.00", 
+         "mre%": "0.00", 
+         "pwr": "0.035", 
+         "wce%": "0.00", 
+         "wcre%": "0.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add8se_71R.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add8se_71R.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add8se_71R", 
+        "params": {
+         "area": "61.5", 
+         "delay": "0.51", 
+         "ep%": "68.75", 
+         "mae%": "0.18", 
+         "mre%": "3.65", 
+         "pwr": "0.029", 
+         "wce%": "0.39", 
+         "wcre%": "100.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add8se_7LN.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add8se_7LN.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add8se_7LN", 
+        "params": {
+         "area": "59.1", 
+         "delay": "0.47", 
+         "ep%": "62.50", 
+         "mae%": "0.23", 
+         "mre%": "4.89", 
+         "pwr": "0.026", 
+         "wce%": "0.59", 
+         "wcre%": "200.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add8se_7J7.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add8se_7J7.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add8se_7J7", 
+        "params": {
+         "area": "52.6", 
+         "delay": "0.39", 
+         "ep%": "84.38", 
+         "mae%": "0.41", 
+         "mre%": "8.19", 
+         "pwr": "0.021", 
+         "wce%": "1.37", 
+         "wcre%": "350.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add8se_7GE.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add8se_7GE.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add8se_7GE", 
+        "params": {
+         "area": "43.6", 
+         "delay": "0.35", 
+         "ep%": "93.36", 
+         "mae%": "0.86", 
+         "mre%": "15.04", 
+         "pwr": "0.019", 
+         "wce%": "2.73", 
+         "wcre%": "550.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add8se_76Z.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add8se_76Z.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add8se_76Z", 
+        "params": {
+         "area": "39.0", 
+         "delay": "0.31", 
+         "ep%": "96.09", 
+         "mae%": "1.50", 
+         "mre%": "29.08", 
+         "pwr": "0.016", 
+         "wce%": "3.52", 
+         "wcre%": "1400.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add8se_7B2.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add8se_7B2.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add8se_7B2", 
+        "params": {
+         "area": "32.4", 
+         "delay": "0.24", 
+         "ep%": "97.41", 
+         "mae%": "2.27", 
+         "mre%": "37.77", 
+         "pwr": "0.012", 
+         "wce%": "7.23", 
+         "wcre%": "1650.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add8se_7ND.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add8se_7ND.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add8se_7ND", 
+        "params": {
+         "area": "27.2", 
+         "delay": "0.17", 
+         "ep%": "98.00", 
+         "mae%": "4.00", 
+         "mre%": "57.79", 
+         "pwr": "0.0068", 
+         "wce%": "13.09", 
+         "wcre%": "3150.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add8se_7LR.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add8se_7LR.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add8se_7LR", 
+        "params": {
+         "area": "16.4", 
+         "delay": "0.16", 
+         "ep%": "99.55", 
+         "mae%": "6.70", 
+         "mre%": "99.00", 
+         "pwr": "0.0049", 
+         "wce%": "24.02", 
+         "wcre%": "3300.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add8se_7NX.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add8se_7NX.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add8se_7NX", 
+        "params": {
+         "area": "2.3", 
+         "delay": "0.05", 
+         "ep%": "99.98", 
+         "mae%": "12.46", 
+         "mre%": "250.03", 
+         "pwr": "0.00037", 
+         "wce%": "25.00", 
+         "wcre%": "7000.00"
+        }, 
+        "references": []
+       }
+      ], 
+      "license": "The MIT License", 
+      "references": []
+     }
+    ], 
+    "description": "8-bit unsigned adders (no overflow)", 
+    "folder": "adders/8_signed_extended", 
+    "items": 46
+   }, 
+   {
+    "bitwidth": 9, 
+    "datasets": [
+     {
+      "description": "Pareto optimal subset (MAE vs power)", 
+      "figure": "adders/9_signed_extended/pareto_pwr_mae/fig.png", 
+      "folder": "adders/9_signed_extended/pareto_pwr_mae", 
+      "instances": [
+       {
+        "files": [
+         {
+          "file": "add9se_07Y.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add9se_07Y.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add9se_07Y", 
+        "params": {
+         "area": "83.5", 
+         "delay": "0.71", 
+         "ep%": "0.00", 
+         "mae%": "0.00", 
+         "mre%": "0.00", 
+         "pwr": "0.039", 
+         "wce%": "0.00", 
+         "wcre%": "0.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add9se_09H.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add9se_09H.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add9se_09H", 
+        "params": {
+         "area": "74.6", 
+         "delay": "0.63", 
+         "ep%": "62.45", 
+         "mae%": "0.068", 
+         "mre%": "1.64", 
+         "pwr": "0.035", 
+         "wce%": "0.20", 
+         "wcre%": "100.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add9se_014.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add9se_014.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add9se_014", 
+        "params": {
+         "area": "68.0", 
+         "delay": "0.55", 
+         "ep%": "78.12", 
+         "mae%": "0.14", 
+         "mre%": "3.25", 
+         "pwr": "0.031", 
+         "wce%": "0.39", 
+         "wcre%": "400.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add9se_0DX.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add9se_0DX.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add9se_0DX", 
+        "params": {
+         "area": "59.1", 
+         "delay": "0.47", 
+         "ep%": "84.38", 
+         "mae%": "0.23", 
+         "mre%": "5.20", 
+         "pwr": "0.025", 
+         "wce%": "0.68", 
+         "wcre%": "350.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add9se_0CU.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add9se_0CU.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add9se_0CU", 
+        "params": {
+         "area": "54.9", 
+         "delay": "0.39", 
+         "ep%": "92.58", 
+         "mae%": "0.51", 
+         "mre%": "10.51", 
+         "pwr": "0.021", 
+         "wce%": "1.46", 
+         "wcre%": "800.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add9se_09M.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add9se_09M.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add9se_09M", 
+        "params": {
+         "area": "46.0", 
+         "delay": "0.35", 
+         "ep%": "96.88", 
+         "mae%": "0.91", 
+         "mre%": "15.90", 
+         "pwr": "0.019", 
+         "wce%": "3.03", 
+         "wcre%": "850.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add9se_0A3.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add9se_0A3.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add9se_0A3", 
+        "params": {
+         "area": "34.7", 
+         "delay": "0.27", 
+         "ep%": "98.39", 
+         "mae%": "1.82", 
+         "mre%": "26.55", 
+         "pwr": "0.014", 
+         "wce%": "6.05", 
+         "wcre%": "1800.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add9se_080.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add9se_080.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add9se_080", 
+        "params": {
+         "area": "24.4", 
+         "delay": "0.23", 
+         "ep%": "99.21", 
+         "mae%": "3.66", 
+         "mre%": "44.90", 
+         "pwr": "0.010", 
+         "wce%": "12.30", 
+         "wcre%": "4000.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add9se_0DV.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add9se_0DV.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add9se_0DV", 
+        "params": {
+         "area": "14.1", 
+         "delay": "0.13", 
+         "ep%": "99.53", 
+         "mae%": "7.19", 
+         "mre%": "69.54", 
+         "pwr": "0.0046", 
+         "wce%": "24.80", 
+         "wcre%": "7000.00"
+        }, 
+        "references": []
+       }
+      ], 
+      "license": "The MIT License", 
+      "references": []
+     }, 
+     {
+      "description": "Pareto optimal subset (WCE vs power)", 
+      "figure": "adders/9_signed_extended/pareto_pwr_wce/fig.png", 
+      "folder": "adders/9_signed_extended/pareto_pwr_wce", 
+      "instances": [
+       {
+        "files": [
+         {
+          "file": "add9se_07Y.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add9se_07Y.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add9se_07Y", 
+        "params": {
+         "area": "83.5", 
+         "delay": "0.71", 
+         "ep%": "0.00", 
+         "mae%": "0.00", 
+         "mre%": "0.00", 
+         "pwr": "0.039", 
+         "wce%": "0.00", 
+         "wcre%": "0.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add9se_0CG.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add9se_0CG.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add9se_0CG", 
+        "params": {
+         "area": "75.6", 
+         "delay": "0.68", 
+         "ep%": "50.00", 
+         "mae%": "0.049", 
+         "mre%": "1.27", 
+         "pwr": "0.037", 
+         "wce%": "0.098", 
+         "wcre%": "100.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add9se_077.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add9se_077.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add9se_077", 
+        "params": {
+         "area": "65.7", 
+         "delay": "0.55", 
+         "ep%": "87.50", 
+         "mae%": "0.15", 
+         "mre%": "3.42", 
+         "pwr": "0.030", 
+         "wce%": "0.29", 
+         "wcre%": "200.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add9se_0A8.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add9se_0A8.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add9se_0A8", 
+        "params": {
+         "area": "60.1", 
+         "delay": "0.54", 
+         "ep%": "87.50", 
+         "mae%": "0.21", 
+         "mre%": "5.17", 
+         "pwr": "0.029", 
+         "wce%": "0.49", 
+         "wcre%": "500.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add9se_0C1.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add9se_0C1.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add9se_0C1", 
+        "params": {
+         "area": "56.8", 
+         "delay": "0.47", 
+         "ep%": "92.19", 
+         "mae%": "0.36", 
+         "mre%": "7.73", 
+         "pwr": "0.025", 
+         "wce%": "0.98", 
+         "wcre%": "600.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add9se_07J.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add9se_07J.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add9se_07J", 
+        "params": {
+         "area": "47.9", 
+         "delay": "0.39", 
+         "ep%": "98.83", 
+         "mae%": "0.73", 
+         "mre%": "16.69", 
+         "pwr": "0.020", 
+         "wce%": "1.56", 
+         "wcre%": "1000.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add9se_056.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add9se_056.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add9se_056", 
+        "params": {
+         "area": "39.0", 
+         "delay": "0.31", 
+         "ep%": "99.12", 
+         "mae%": "1.52", 
+         "mre%": "34.40", 
+         "pwr": "0.016", 
+         "wce%": "3.52", 
+         "wcre%": "2300.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add9se_07G.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add9se_07G.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add9se_07G", 
+        "params": {
+         "area": "30.0", 
+         "delay": "0.24", 
+         "ep%": "99.92", 
+         "mae%": "3.07", 
+         "mre%": "71.05", 
+         "pwr": "0.011", 
+         "wce%": "6.25", 
+         "wcre%": "3400.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add9se_0BB.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add9se_0BB.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add9se_0BB", 
+        "params": {
+         "area": "18.3", 
+         "delay": "0.17", 
+         "ep%": "99.92", 
+         "mae%": "6.16", 
+         "mre%": "142.15", 
+         "pwr": "0.0056", 
+         "wce%": "13.09", 
+         "wcre%": "7400.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add9se_0DV.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add9se_0DV.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add9se_0DV", 
+        "params": {
+         "area": "14.1", 
+         "delay": "0.13", 
+         "ep%": "99.53", 
+         "mae%": "7.19", 
+         "mre%": "69.54", 
+         "pwr": "0.0046", 
+         "wce%": "24.80", 
+         "wcre%": "7000.00"
+        }, 
+        "references": []
+       }
+      ], 
+      "license": "The MIT License", 
+      "references": []
+     }, 
+     {
+      "description": "Pareto optimal subset (MRE vs power)", 
+      "figure": "adders/9_signed_extended/pareto_pwr_mre/fig.png", 
+      "folder": "adders/9_signed_extended/pareto_pwr_mre", 
+      "instances": [
+       {
+        "files": [
+         {
+          "file": "add9se_07Y.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add9se_07Y.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add9se_07Y", 
+        "params": {
+         "area": "83.5", 
+         "delay": "0.71", 
+         "ep%": "0.00", 
+         "mae%": "0.00", 
+         "mre%": "0.00", 
+         "pwr": "0.039", 
+         "wce%": "0.00", 
+         "wcre%": "0.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add9se_0CG.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add9se_0CG.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add9se_0CG", 
+        "params": {
+         "area": "75.6", 
+         "delay": "0.68", 
+         "ep%": "50.00", 
+         "mae%": "0.049", 
+         "mre%": "1.27", 
+         "pwr": "0.037", 
+         "wce%": "0.098", 
+         "wcre%": "100.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add9se_079.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add9se_079.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add9se_079", 
+        "params": {
+         "area": "69.9", 
+         "delay": "0.55", 
+         "ep%": "78.12", 
+         "mae%": "0.13", 
+         "mre%": "2.92", 
+         "pwr": "0.031", 
+         "wce%": "0.29", 
+         "wcre%": "200.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add9se_0DX.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add9se_0DX.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add9se_0DX", 
+        "params": {
+         "area": "59.1", 
+         "delay": "0.47", 
+         "ep%": "84.38", 
+         "mae%": "0.23", 
+         "mre%": "5.20", 
+         "pwr": "0.025", 
+         "wce%": "0.68", 
+         "wcre%": "350.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add9se_0CU.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add9se_0CU.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add9se_0CU", 
+        "params": {
+         "area": "54.9", 
+         "delay": "0.39", 
+         "ep%": "92.58", 
+         "mae%": "0.51", 
+         "mre%": "10.51", 
+         "pwr": "0.021", 
+         "wce%": "1.46", 
+         "wcre%": "800.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add9se_0AD.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add9se_0AD.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add9se_0AD", 
+        "params": {
+         "area": "43.6", 
+         "delay": "0.31", 
+         "ep%": "97.44", 
+         "mae%": "1.11", 
+         "mre%": "20.67", 
+         "pwr": "0.017", 
+         "wce%": "3.42", 
+         "wcre%": "2600.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add9se_0AY.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add9se_0AY.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add9se_0AY", 
+        "params": {
+         "area": "34.3", 
+         "delay": "0.24", 
+         "ep%": "98.61", 
+         "mae%": "2.15", 
+         "mre%": "38.51", 
+         "pwr": "0.012", 
+         "wce%": "6.84", 
+         "wcre%": "6500.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add9se_0DV.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add9se_0DV.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add9se_0DV", 
+        "params": {
+         "area": "14.1", 
+         "delay": "0.13", 
+         "ep%": "99.53", 
+         "mae%": "7.19", 
+         "mre%": "69.54", 
+         "pwr": "0.0046", 
+         "wce%": "24.80", 
+         "wcre%": "7000.00"
+        }, 
+        "references": []
+       }
+      ], 
+      "license": "The MIT License", 
+      "references": []
+     }, 
+     {
+      "description": "Pareto optimal subset (EP vs power)", 
+      "figure": "adders/9_signed_extended/pareto_pwr_ep/fig.png", 
+      "folder": "adders/9_signed_extended/pareto_pwr_ep", 
+      "instances": [
+       {
+        "files": [
+         {
+          "file": "add9se_07Y.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add9se_07Y.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add9se_07Y", 
+        "params": {
+         "area": "83.5", 
+         "delay": "0.71", 
+         "ep%": "0.00", 
+         "mae%": "0.00", 
+         "mre%": "0.00", 
+         "pwr": "0.039", 
+         "wce%": "0.00", 
+         "wcre%": "0.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add9se_00E.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add9se_00E.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add9se_00E", 
+        "params": {
+         "area": "85.9", 
+         "delay": "0.63", 
+         "ep%": "12.50", 
+         "mae%": "0.049", 
+         "mre%": "0.87", 
+         "pwr": "0.039", 
+         "wce%": "0.39", 
+         "wcre%": "100.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add9se_028.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add9se_028.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add9se_028", 
+        "params": {
+         "area": "92.0", 
+         "delay": "0.47", 
+         "ep%": "28.91", 
+         "mae%": "0.22", 
+         "mre%": "5.32", 
+         "pwr": "0.037", 
+         "wce%": "0.78", 
+         "wcre%": "800.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add9se_087.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add9se_087.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add9se_087", 
+        "params": {
+         "area": "91.5", 
+         "delay": "0.63", 
+         "ep%": "37.50", 
+         "mae%": "0.12", 
+         "mre%": "2.71", 
+         "pwr": "0.036", 
+         "wce%": "0.39", 
+         "wcre%": "400.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add9se_0DG.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add9se_0DG.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add9se_0DG", 
+        "params": {
+         "area": "77.0", 
+         "delay": "0.40", 
+         "ep%": "50.00", 
+         "mae%": "1.56", 
+         "mre%": "36.60", 
+         "pwr": "0.034", 
+         "wce%": "3.12", 
+         "wcre%": "3200.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add9se_05G.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add9se_05G.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add9se_05G", 
+        "params": {
+         "area": "78.8", 
+         "delay": "0.39", 
+         "ep%": "76.56", 
+         "mae%": "0.47", 
+         "mre%": "9.87", 
+         "pwr": "0.028", 
+         "wce%": "1.56", 
+         "wcre%": "800.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add9se_063.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add9se_063.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add9se_063", 
+        "params": {
+         "area": "56.8", 
+         "delay": "0.47", 
+         "ep%": "87.50", 
+         "mae%": "0.34", 
+         "mre%": "7.97", 
+         "pwr": "0.025", 
+         "wce%": "0.68", 
+         "wcre%": "700.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add9se_0DV.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add9se_0DV.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add9se_0DV", 
+        "params": {
+         "area": "14.1", 
+         "delay": "0.13", 
+         "ep%": "99.53", 
+         "mae%": "7.19", 
+         "mre%": "69.54", 
+         "pwr": "0.0046", 
+         "wce%": "24.80", 
+         "wcre%": "7000.00"
+        }, 
+        "references": []
+       }
+      ], 
+      "license": "The MIT License", 
+      "references": []
+     }, 
+     {
+      "description": "Pareto optimal subset (MSE vs power)", 
+      "figure": "adders/9_signed_extended/pareto_pwr_mse/fig.png", 
+      "folder": "adders/9_signed_extended/pareto_pwr_mse", 
+      "instances": [
+       {
+        "files": [
+         {
+          "file": "add9se_07Y.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add9se_07Y.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add9se_07Y", 
+        "params": {
+         "area": "83.5", 
+         "delay": "0.71", 
+         "ep%": "0.00", 
+         "mae%": "0.00", 
+         "mre%": "0.00", 
+         "pwr": "0.039", 
+         "wce%": "0.00", 
+         "wcre%": "0.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add9se_0E4.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add9se_0E4.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add9se_0E4", 
+        "params": {
+         "area": "70.4", 
+         "delay": "0.60", 
+         "ep%": "68.75", 
+         "mae%": "0.088", 
+         "mre%": "2.06", 
+         "pwr": "0.033", 
+         "wce%": "0.20", 
+         "wcre%": "100.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add9se_077.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add9se_077.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add9se_077", 
+        "params": {
+         "area": "65.7", 
+         "delay": "0.55", 
+         "ep%": "87.50", 
+         "mae%": "0.15", 
+         "mre%": "3.42", 
+         "pwr": "0.030", 
+         "wce%": "0.29", 
+         "wcre%": "200.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add9se_0DX.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add9se_0DX.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add9se_0DX", 
+        "params": {
+         "area": "59.1", 
+         "delay": "0.47", 
+         "ep%": "84.38", 
+         "mae%": "0.23", 
+         "mre%": "5.20", 
+         "pwr": "0.025", 
+         "wce%": "0.68", 
+         "wcre%": "350.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add9se_07F.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add9se_07F.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add9se_07F", 
+        "params": {
+         "area": "52.6", 
+         "delay": "0.43", 
+         "ep%": "94.14", 
+         "mae%": "0.47", 
+         "mre%": "9.31", 
+         "pwr": "0.024", 
+         "wce%": "1.37", 
+         "wcre%": "500.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add9se_036.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add9se_036.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add9se_036", 
+        "params": {
+         "area": "44.6", 
+         "delay": "0.38", 
+         "ep%": "96.88", 
+         "mae%": "0.86", 
+         "mre%": "18.00", 
+         "pwr": "0.019", 
+         "wce%": "2.54", 
+         "wcre%": "1800.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add9se_056.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add9se_056.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add9se_056", 
+        "params": {
+         "area": "39.0", 
+         "delay": "0.31", 
+         "ep%": "99.12", 
+         "mae%": "1.52", 
+         "mre%": "34.40", 
+         "pwr": "0.016", 
+         "wce%": "3.52", 
+         "wcre%": "2300.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add9se_048.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add9se_048.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add9se_048", 
+        "params": {
+         "area": "32.4", 
+         "delay": "0.24", 
+         "ep%": "98.97", 
+         "mae%": "2.49", 
+         "mre%": "55.73", 
+         "pwr": "0.012", 
+         "wce%": "6.25", 
+         "wcre%": "5500.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add9se_0AL.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add9se_0AL.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add9se_0AL", 
+        "params": {
+         "area": "25.3", 
+         "delay": "0.17", 
+         "ep%": "99.24", 
+         "mae%": "3.92", 
+         "mre%": "74.66", 
+         "pwr": "0.0067", 
+         "wce%": "12.40", 
+         "wcre%": "9100.00"
+        }, 
+        "references": []
+       }, 
+       {
+        "files": [
+         {
+          "file": "add9se_0DV.v", 
+          "type": "Verilog file"
+         }, 
+         {
+          "file": "add9se_0DV.c", 
+          "type": "C file"
+         }
+        ], 
+        "name": "add9se_0DV", 
+        "params": {
+         "area": "14.1", 
+         "delay": "0.13", 
+         "ep%": "99.53", 
+         "mae%": "7.19", 
+         "mre%": "69.54", 
+         "pwr": "0.0046", 
+         "wce%": "24.80", 
+         "wcre%": "7000.00"
+        }, 
+        "references": []
+       }
+      ], 
+      "license": "The MIT License", 
+      "references": []
+     }
+    ], 
+    "description": "9-bit unsigned adders (no overflow)", 
+    "folder": "adders/9_signed_extended", 
+    "items": 45
+   }
+  ], 
+  "description": "Adders (signed, no overflow)", 
+  "folder": "adders", 
+  "id": 4, 
+  "items": 91
+ }, 
+ {
+  "datasets": [
+   {
+    "bitwidth": 8, 
+    "datasets": [
+     {
+      "description": "Pareto optimal subset (MAE vs power)", 
       "figure": "adders/8_unsigned/pareto_pwr_mae/fig.png", 
       "folder": "adders/8_unsigned/pareto_pwr_mae", 
       "instances": [

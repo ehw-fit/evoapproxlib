@@ -5,20 +5,20 @@ This is a GitHub repository of EvoApproxLib LITE version. The library consists o
 ![Library usage](fig/library.png)
 
 ## Reference
-This library is licenced under [MIT licence](LICENSE.md). If you use the library in your research, please refer the following paper:
+This library is licenced under [MIT licence](LICENCE.md). If you use the library in your research, please refer the following paper:
 
-V. Mrazek, R. Hrbacek, Z. Vasicek and L. Sekanina, EvoApprox8b: Library of approximate adders and multipliers for circuit design and benchmarking of approximation methods. Design, Automation & Test in Europe Conference & Exhibition (DATE), 2017, Lausanne, 2017, pp. 258-261. doi: [10.23919/DATE.2017.7926993](https://dx.doi.org/10.23919/DATE.2017.7926993)
+V. Mrazek, R. Hrbacek, Z. Vasicek and L. Sekanina, EvoApprox8b: Library of approximate adders and multipliers for circuit design and benchmarking of approximation methods. Design, Automation & Test in Europe Conference & Exhibition (DATE), 2017, Lausanne, 2017, pp. 258-261. doi: [10.23919/DATE.2017.7926993](https://dx.doi.org/10.23919/DATE.2017.7926993) 
 ```bibtex
 @INPROCEEDINGS{evoapprox16,
-    author={V. Mrazek and R. Hrbacek and Z. Vasicek and L. Sekanina},
-    booktitle={Design, Automation Test in Europe Conference Exhibition (DATE), 2017},
-    title={EvoApprox8b: Library of approximate adders and multipliers for circuit design and benchmarking of approximation methods},
-    year={2017},
-    volume={},
-    number={},
-    pages={258-261},
-    doi={10.23919/DATE.2017.7926993},
-    ISSN={1558-1101},
+    author={V. Mrazek and R. Hrbacek and Z. Vasicek and L. Sekanina}, 
+    booktitle={Design, Automation Test in Europe Conference Exhibition (DATE), 2017}, 
+    title={EvoApprox8b: Library of approximate adders and multipliers for circuit design and benchmarking of approximation methods}, 
+    year={2017}, 
+    volume={}, 
+    number={}, 
+    pages={258-261}, 
+    doi={10.23919/DATE.2017.7926993}, 
+    ISSN={1558-1101}, 
     month={March},}
 ```
 
@@ -27,6 +27,7 @@ The library is a collection of circuits published in the following papers:
   - V. Mrazek, R. Hrbacek, Z. Vasicek and L. Sekanina, "EvoApprox8b: Library of approximate adders and multipliers for circuit design and benchmarking of approximation methods". Design, Automation & Test in Europe Conference & Exhibition (DATE), 2017, Lausanne, 2017, pp. 258-261. doi: [10.23919/DATE.2017.7926993](https://dx.doi.org/10.23919/DATE.2017.7926993)
   - V. Mrazek, S. S. Sarwar, L. Sekanina, Z. Vasicek and K. Roy, "Design of power-efficient approximate multipliers for approximate artificial neural networks," 2016 IEEE/ACM International Conference on Computer-Aided Design (ICCAD), Austin, TX, 2016, pp. 1-7. doi: [10.1145/2966986.2967021](https://dx.doi.org/10.1145/2966986.2967021)
   - V. Mrazek, Z. Vasicek, L. Sekanina, H. Jiang and J. Han, "Scalable Construction of Approximate Multipliers With Formally Guaranteed Worst Case Error" in IEEE Transactions on Very Large Scale Integration (VLSI) Systems, vol. 26, no. 11, pp. 2572-2576, Nov. 2018. doi: [10.1109/TVLSI.2018.2856362](https://dx.doi.org/10.1109/TVLSI.2018.2856362)
+
 
 ## Usage in Python
 To use the models from Python, it is possible to generate and compile binary extensions using cython.
@@ -75,6 +76,26 @@ for name, module in eal.multiplers['16x16_signed'].items():
 ```
 
 ## Circuits
+### Adders (signed, with overflow)
+ - 8-bit unsigned adders (with overflow)
+   - [Pareto optimal subset (MAE vs power)](adders/8_signed/pareto_pwr_mae/README.md) - 9 circuits
+   - [Pareto optimal subset (WCE vs power)](adders/8_signed/pareto_pwr_wce/README.md) - 9 circuits
+   - [Pareto optimal subset (MRE vs power)](adders/8_signed/pareto_pwr_mre/README.md) - 8 circuits
+   - [Pareto optimal subset (EP vs power)](adders/8_signed/pareto_pwr_ep/README.md) - 7 circuits
+   - [Pareto optimal subset (MSE vs power)](adders/8_signed/pareto_pwr_mse/README.md) - 10 circuits
+### Adders (signed, no overflow)
+ - 8-bit unsigned adders (no overflow)
+   - [Pareto optimal subset (MAE vs power)](adders/8_signed_extended/pareto_pwr_mae/README.md) - 10 circuits
+   - [Pareto optimal subset (WCE vs power)](adders/8_signed_extended/pareto_pwr_wce/README.md) - 10 circuits
+   - [Pareto optimal subset (MRE vs power)](adders/8_signed_extended/pareto_pwr_mre/README.md) - 9 circuits
+   - [Pareto optimal subset (EP vs power)](adders/8_signed_extended/pareto_pwr_ep/README.md) - 7 circuits
+   - [Pareto optimal subset (MSE vs power)](adders/8_signed_extended/pareto_pwr_mse/README.md) - 10 circuits
+ - 9-bit unsigned adders (no overflow)
+   - [Pareto optimal subset (MAE vs power)](adders/9_signed_extended/pareto_pwr_mae/README.md) - 9 circuits
+   - [Pareto optimal subset (WCE vs power)](adders/9_signed_extended/pareto_pwr_wce/README.md) - 10 circuits
+   - [Pareto optimal subset (MRE vs power)](adders/9_signed_extended/pareto_pwr_mre/README.md) - 8 circuits
+   - [Pareto optimal subset (EP vs power)](adders/9_signed_extended/pareto_pwr_ep/README.md) - 8 circuits
+   - [Pareto optimal subset (MSE vs power)](adders/9_signed_extended/pareto_pwr_mse/README.md) - 10 circuits
 ### Adders (unsigned)
  - 8-bit unsigned adders
    - [Pareto optimal subset (MAE vs power)](adders/8_unsigned/pareto_pwr_mae/README.md) - 10 circuits
