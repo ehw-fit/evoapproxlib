@@ -13572,6 +13572,7 @@
      "datasets": [
       {
        "bitwidth": 8, 
+       "signed": true,
        "datasets": [
         {
          "description": "Pareto optimal subset (MAE vs power)", 
@@ -14805,6 +14806,7 @@
       }, 
       {
        "bitwidth": 12, 
+       "signed": true,
        "datasets": [
         {
          "description": "Pareto optimal subset (MAE vs power)", 
@@ -16098,6 +16100,7 @@
       }, 
       {
        "bitwidth": 16, 
+       "signed": true,
        "datasets": [
         {
          "description": "Pareto optimal subset (MAE vs power)", 
