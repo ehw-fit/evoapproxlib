@@ -3,9 +3,9 @@
 * When used, please cite the following article(s):  
 * This file contains a circuit from a sub-set of pareto optimal circuits with respect to the pwr and ep parameters
 ***/
-// MAE% = 0.78 %
+// MAE% = 1.56 %
 // MAE = 2.0 
-// WCE% = 2.34 %
+// WCE% = 4.69 %
 // WCE = 6.0 
 // WCRE% = 300.00 %
 // EP% = 71.48 %

@@ -15,10 +15,10 @@ Parameters of selected circuits
 | add8u_5LT | 0.33 | 1.37 | 71.88 | 0.91 | 6.0 |  [[Verilog](add8u_5LT.v)] [[Verilog<sub>PDK45</sub>](add8u_5LT_pdk45.v)] [[C](add8u_5LT.c)] |
 | add8u_5HQ | 0.68 | 2.93 | 85.74 | 1.80 | 24 |  [[Verilog](add8u_5HQ.v)] [[Verilog<sub>PDK45</sub>](add8u_5HQ_pdk45.v)] [[C](add8u_5HQ.c)] |
 | add8u_5SY | 1.05 | 3.12 | 94.14 | 2.93 | 44 |  [[Verilog](add8u_5SY.v)] [[Verilog<sub>PDK45</sub>](add8u_5SY_pdk45.v)] [[C](add8u_5SY.c)] |
-| add8u_099 | 2.03 | 6.64 | 97.07 | 6.23 | 164 |  [[Verilog](add8u_099.v)]  [[C](add8u_099.c)] |
+| add8u_8LL | 1.97 | 6.25 | 96.97 | 6.16 | 154 |  [[Verilog](add8u_8LL.v)]  [[C](add8u_8LL.c)] |
 | add8u_006 | 4.92 | 17.97 | 98.77 | 14.58 | 960 |  [[Verilog](add8u_006.v)]  [[C](add8u_006.c)] |
-| add8u_08V | 9.88 | 30.47 | 99.45 | 24.87 | 3803 |  [[Verilog](add8u_08V.v)]  [[C](add8u_08V.c)] |
-| add8u_063 | 15.29 | 47.66 | 99.61 | 37.63 | 9126 |  [[Verilog](add8u_063.v)]  [[C](add8u_063.c)] |
+| add8u_8ES | 8.28 | 25.59 | 99.24 | 25.01 | 2692 |  [[Verilog](add8u_8ES.v)]  [[C](add8u_8ES.c)] |
+| add8u_88L | 19.67 | 50.39 | 99.77 | 49.16 | 14074 |  [[Verilog](add8u_88L.v)]  [[C](add8u_88L.c)] |
     
 Parameters
 --------------

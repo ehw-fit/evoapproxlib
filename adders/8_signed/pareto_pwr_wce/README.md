@@ -1,7 +1,7 @@
 
 Selected circuits
 ===================
- - **Circuit**: 8-bit unsigned adders (with overflow)
+ - **Circuit**: 8-bit signed adders (with overflow)
  - **Selection criteria**: pareto optimal sub-set wrt. pwr and wce parameters
 
 Parameters of selected circuits
@@ -10,14 +10,15 @@ Parameters of selected circuits
 | Circuit name | MAE<sub>%</sub> | WCE<sub>%</sub> | EP<sub>%</sub> | MRE<sub>%</sub> | MSE | Download |
 | --- |  --- | --- | --- | --- | --- | --- | 
 | add8s_83C | 0.00 | 0.00 | 0.00 | 0.00 | 0 |  [[Verilog](add8s_83C.v)]  [[C](add8s_83C.c)] |
-| add8s_7TG | 0.098 | 0.20 | 50.00 | 2.60 | 0.5 |  [[Verilog](add8s_7TG.v)]  [[C](add8s_7TG.c)] |
-| add8s_7XE | 0.29 | 0.59 | 75.00 | 8.47 | 3.5 |  [[Verilog](add8s_7XE.v)]  [[C](add8s_7XE.c)] |
-| add8s_80T | 0.47 | 1.17 | 71.88 | 11.01 | 9.8 |  [[Verilog](add8s_80T.v)]  [[C](add8s_80T.c)] |
-| add8s_6FC | 0.70 | 1.95 | 83.20 | 8.59 | 4.6 |  [[Verilog](add8s_6FC.v)]  [[C](add8s_6FC.c)] |
-| add8s_6QC | 1.68 | 3.91 | 94.40 | 22.33 | 25 |  [[Verilog](add8s_6QC.v)]  [[C](add8s_6QC.c)] |
-| add8s_6YE | 3.20 | 7.03 | 97.20 | 39.40 | 89 |  [[Verilog](add8s_6YE.v)]  [[C](add8s_6YE.c)] |
-| add8s_6NS | 5.94 | 14.06 | 98.65 | 74.21 | 313 |  [[Verilog](add8s_6NS.v)]  [[C](add8s_6NS.c)] |
-| add8s_7PP | 11.11 | 25.00 | 99.48 | 99.98 | 4551 |  [[Verilog](add8s_7PP.v)]  [[C](add8s_7PP.c)] |
+| add8s_6X7 | 0.39 | 0.78 | 50.00 | 2.62 | 0.5 |  [[Verilog](add8s_6X7.v)]  [[C](add8s_6X7.c)] |
+| add8s_6SN | 0.78 | 1.56 | 49.74 | 4.35 | 2.0 |  [[Verilog](add8s_6SN.v)]  [[C](add8s_6SN.c)] |
+| add8s_6FC | 1.41 | 3.91 | 83.20 | 8.59 | 4.6 |  [[Verilog](add8s_6FC.v)]  [[C](add8s_6FC.c)] |
+| add8s_6ZP | 2.50 | 5.47 | 87.50 | 18.19 | 16 |  [[Verilog](add8s_6ZP.v)]  [[C](add8s_6ZP.c)] |
+| add8s_6PM | 3.75 | 9.38 | 93.75 | 26.40 | 35 |  [[Verilog](add8s_6PM.v)]  [[C](add8s_6PM.c)] |
+| add8s_6X9 | 7.97 | 19.53 | 96.88 | 61.40 | 158 |  [[Verilog](add8s_6X9.v)]  [[C](add8s_6X9.c)] |
+| add8s_6J2 | 12.27 | 33.59 | 98.52 | 75.00 | 343 |  [[Verilog](add8s_6J2.v)]  [[C](add8s_6J2.c)] |
+| add8s_6T8 | 18.28 | 54.69 | 98.52 | 67.56 | 839 |  [[Verilog](add8s_6T8.v)]  [[C](add8s_6T8.c)] |
+| add8s_6HF | 44.45 | 100.00 | 99.48 | 99.98 | 4551 |  [[Verilog](add8s_6HF.v)]  [[C](add8s_6HF.c)] |
     
 Parameters
 --------------

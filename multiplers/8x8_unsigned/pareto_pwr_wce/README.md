@@ -18,7 +18,7 @@ Parameters of selected circuits
 | mul8u_17KS | 0.56 | 2.41 | 98.99 | 10.85 | 209723 |  [[Verilog](mul8u_17KS.v)]  [[C](mul8u_17KS.c)] |
 | mul8u_JV3 | 2.15 | 8.21 | 99.16 | 39.78 | 30865.11e2 |  [[Verilog](mul8u_JV3.v)]  [[C](mul8u_JV3.c)] |
 | mul8u_17QU | 8.01 | 27.24 | 99.22 | 59.69 | 42811.074e3 |  [[Verilog](mul8u_17QU.v)]  [[C](mul8u_17QU.c)] |
-| mul8u_199Z | 24.81 | 99.22 | 99.22 | 100.00 | 47164.981e4 |  [[Verilog](mul8u_199Z.v)]  [[C](mul8u_199Z.c)] |
+| mul8u_E9R | 24.81 | 99.22 | 99.22 | 100.00 | 47164.981e4 |  [[Verilog](mul8u_E9R.v)]  [[C](mul8u_E9R.c)] |
     
 Parameters
 --------------

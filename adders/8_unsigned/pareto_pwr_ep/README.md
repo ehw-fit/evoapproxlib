@@ -12,11 +12,12 @@ Parameters of selected circuits
 | add8u_0FP | 0.00 | 0.00 | 0.00 | 0.00 | 0 |  [[Verilog](add8u_0FP.v)]  [[C](add8u_0FP.c)] |
 | add8u_5R3 | 0.039 | 0.20 | 25.00 | 0.14 | 0.2 |  [[Verilog](add8u_5R3.v)] [[Verilog<sub>PDK45</sub>](add8u_5R3_pdk45.v)] [[C](add8u_5R3.c)] |
 | add8u_5NQ | 0.16 | 0.98 | 34.38 | 0.40 | 2.5 |  [[Verilog](add8u_5NQ.v)] [[Verilog<sub>PDK45</sub>](add8u_5NQ_pdk45.v)] [[C](add8u_5NQ.c)] |
-| add8u_5QL | 0.16 | 0.59 | 43.75 | 0.40 | 1.5 |  [[Verilog](add8u_5QL.v)] [[Verilog<sub>PDK45</sub>](add8u_5QL_pdk45.v)] [[C](add8u_5QL.c)] |
-| add8u_00Y | 0.76 | 3.91 | 49.22 | 1.95 | 56 |  [[Verilog](add8u_00Y.v)]  [[C](add8u_00Y.c)] |
-| add8u_5ME | 0.35 | 1.37 | 71.88 | 0.94 | 6.5 |  [[Verilog](add8u_5ME.v)] [[Verilog<sub>PDK45</sub>](add8u_5ME_pdk45.v)] [[C](add8u_5ME.c)] |
-| add8u_5G6 | 0.72 | 2.93 | 85.94 | 1.91 | 26 |  [[Verilog](add8u_5G6.v)] [[Verilog<sub>PDK45</sub>](add8u_5G6_pdk45.v)] [[C](add8u_5G6.c)] |
-| add8u_063 | 15.29 | 47.66 | 99.61 | 37.63 | 9126 |  [[Verilog](add8u_063.v)]  [[C](add8u_063.c)] |
+| add8u_8MK | 0.39 | 1.56 | 46.88 | 1.04 | 10 |  [[Verilog](add8u_8MK.v)]  [[C](add8u_8MK.c)] |
+| add8u_8FF | 0.74 | 3.71 | 57.81 | 1.89 | 46 |  [[Verilog](add8u_8FF.v)]  [[C](add8u_8FF.c)] |
+| add8u_8FD | 1.54 | 8.59 | 59.96 | 3.76 | 190 |  [[Verilog](add8u_8FD.v)]  [[C](add8u_8FD.c)] |
+| add8u_8KJ | 1.56 | 6.25 | 78.91 | 3.97 | 124 |  [[Verilog](add8u_8KJ.v)]  [[C](add8u_8KJ.c)] |
+| add8u_8BB | 3.20 | 19.34 | 89.23 | 7.47 | 745 |  [[Verilog](add8u_8BB.v)]  [[C](add8u_8BB.c)] |
+| add8u_88L | 19.67 | 50.39 | 99.77 | 49.16 | 14074 |  [[Verilog](add8u_88L.v)]  [[C](add8u_88L.c)] |
     
 Parameters
 --------------

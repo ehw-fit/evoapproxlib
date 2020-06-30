@@ -16,7 +16,7 @@ Parameters of selected circuits
 | add12u_013 | 0.21 | 0.82 | 97.84 | 0.58 | 474 |  [[Verilog](add12u_013.v)]  [[C](add12u_013.c)] |
 | add12u_0HR | 0.50 | 1.67 | 99.28 | 1.39 | 2518 |  [[Verilog](add12u_0HR.v)]  [[C](add12u_0HR.c)] |
 | add12u_2PX | 1.62 | 4.49 | 99.81 | 4.44 | 24176 |  [[Verilog](add12u_2PX.v)]  [[C](add12u_2PX.c)] |
-| add12u_04U | 3.20 | 7.71 | 99.91 | 8.54 | 92047 |  [[Verilog](add12u_04U.v)]  [[C](add12u_04U.c)] |
+| add12u_4M3 | 4.81 | 14.84 | 99.93 | 13.00 | 231551 |  [[Verilog](add12u_4M3.v)]  [[C](add12u_4M3.c)] |
 | add12u_2MB | 12.50 | 25.00 | 100.00 | 30.62 | 13015.54e2 |  [[Verilog](add12u_2MB.v)]  [[C](add12u_2MB.c)] |
     
 Parameters

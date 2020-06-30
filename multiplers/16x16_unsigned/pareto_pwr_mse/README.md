@@ -18,7 +18,7 @@ Parameters of selected circuits
 | mul16u_8VH | 0.011 | 0.058 | 100.00 | 0.46 | 32818.049e7 |  [[Verilog](mul16u_8VH.v)]  [[C](mul16u_8VH.c)] |
 | mul16u_GPE | 0.16 | 0.63 | 100.00 | 3.06 | 55158.891e9 |  [[Verilog](mul16u_GPE.v)] [[Verilog<sub>PDK45</sub>](mul16u_GPE_pdk45.v)] [[C](mul16u_GPE.c)] |
 | mul16u_H6G | 1.76 | 7.03 | 100.00 | 19.30 | 73909.015e11 |  [[Verilog](mul16u_H6G.v)] [[Verilog<sub>PDK45</sub>](mul16u_H6G_pdk45.v)] [[C](mul16u_H6G.c)] |
-| mul16u_G24 | 15.62 | 62.50 | 100.00 | 79.49 | 71651.74e13 |  [[Verilog](mul16u_G24.v)]  [[C](mul16u_G24.c)] |
+| mul16u_G9P | 15.62 | 62.50 | 100.00 | 79.49 | 71651.74e13 |  [[Verilog](mul16u_G9P.v)]  [[C](mul16u_G9P.c)] |
     
 Parameters
 --------------

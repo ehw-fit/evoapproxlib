@@ -9,7 +9,7 @@ Parameters of selected circuits
 
 | Circuit name | MAE<sub>%</sub> | WCE<sub>%</sub> | EP<sub>%</sub> | MRE<sub>%</sub> | MSE | Download |
 | --- |  --- | --- | --- | --- | --- | --- | 
-| mul12u_1BG | 0.00 | 0.00 | 0.00 | 0.00 | 0 |  [[Verilog](mul12u_1BG.v)] [[Verilog<sub>PDK45</sub>](mul12u_1BG_pdk45.v)] [[C](mul12u_1BG.c)] |
+| mul12u_342 | 0.00 | 0.00 | 0.00 | 0.00 | 0 |  [[Verilog](mul12u_342.v)] [[Verilog<sub>PDK45</sub>](mul12u_342_pdk45.v)] [[C](mul12u_342.c)] |
 | mul12u_2EQ | 0.0061 | 0.024 | 49.99 | 0.12 | 27951.787e2 |  [[Verilog](mul12u_2EQ.v)] [[Verilog<sub>PDK45</sub>](mul12u_2EQ_pdk45.v)] [[C](mul12u_2EQ.c)] |
 | mul12u_2EP | 0.0061 | 0.024 | 62.49 | 0.12 | 27962.037e2 |  [[Verilog](mul12u_2EP.v)] [[Verilog<sub>PDK45</sub>](mul12u_2EP_pdk45.v)] [[C](mul12u_2EP.c)] |
 | mul12u_2FN | 0.018 | 0.073 | 74.98 | 0.32 | 19566.251e3 |  [[Verilog](mul12u_2FN.v)] [[Verilog<sub>PDK45</sub>](mul12u_2FN_pdk45.v)] [[C](mul12u_2FN.c)] |
@@ -22,7 +22,6 @@ Parameters
 
 References
 --------------
-   - V. Mrazek, Z. Vasicek and R. Hrbacek, "Role of circuit representation in evolutionary design of energy-efficient approximate circuits" in IET Computers & Digital Techniques, vol. 12, no. 4, pp. 139-149, 7 2018. doi: [10.1049/iet-cdt.2017.0188](https://dx.doi.org/10.1049/iet-cdt.2017.0188)
    - V. Mrazek, Z. Vasicek, L. Sekanina, H. Jiang and J. Han, "Scalable Construction of Approximate Multipliers With Formally Guaranteed Worst Case Error" in IEEE Transactions on Very Large Scale Integration (VLSI) Systems, vol. 26, no. 11, pp. 2572-2576, Nov. 2018. doi: [10.1109/TVLSI.2018.2856362](https://dx.doi.org/10.1109/TVLSI.2018.2856362)
 
              

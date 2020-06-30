@@ -9,6 +9,7 @@ Parameters of selected circuits
 
 | Circuit name | MAE<sub>%</sub> | WCE<sub>%</sub> | EP<sub>%</sub> | MRE<sub>%</sub> | MSE | Download |
 | --- |  --- | --- | --- | --- | --- | --- | 
+| add16u_1E2 | 0.00 | 0.00 | 0.00 | 0.00 | 0 |  [[Verilog](add16u_1E2.v)]  [[C](add16u_1E2.c)] |
 | add16u_0NK | 0.002 | 0.0061 | 88.28 | 0.0054 | 10 |  [[Verilog](add16u_0NK.v)]  [[C](add16u_0NK.c)] |
 | add16u_0Q7 | 0.0063 | 0.018 | 96.88 | 0.018 | 96 |  [[Verilog](add16u_0Q7.v)]  [[C](add16u_0Q7.c)] |
 | add16u_0QC | 0.019 | 0.068 | 98.83 | 0.054 | 980 |  [[Verilog](add16u_0QC.v)]  [[C](add16u_0QC.c)] |

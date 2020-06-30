@@ -15,7 +15,7 @@ Parameters of selected circuits
 | mul8u_ZFB | 0.059 | 0.45 | 69.26 | 0.80 | 3147 |  [[Verilog](mul8u_ZFB.v)]  [[C](mul8u_ZFB.c)] |
 | mul8u_12N4 | 0.43 | 2.15 | 87.31 | 4.20 | 139814 |  [[Verilog](mul8u_12N4.v)]  [[C](mul8u_12N4.c)] |
 | mul8u_QKX | 5.09 | 49.23 | 97.47 | 21.95 | 34405.106e3 |  [[Verilog](mul8u_QKX.v)]  [[C](mul8u_QKX.c)] |
-| mul8u_199Z | 24.81 | 99.22 | 99.22 | 100.00 | 47164.981e4 |  [[Verilog](mul8u_199Z.v)]  [[C](mul8u_199Z.c)] |
+| mul8u_E9R | 24.81 | 99.22 | 99.22 | 100.00 | 47164.981e4 |  [[Verilog](mul8u_E9R.v)]  [[C](mul8u_E9R.c)] |
     
 Parameters
 --------------

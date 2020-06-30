@@ -15,7 +15,7 @@ Parameters of selected circuits
 | add12u_1QE | 0.049 | 0.098 | 96.88 | 0.14 | 21 |  [[Verilog](add12u_1QE.v)] [[Verilog<sub>PDK45</sub>](add12u_1QE_pdk45.v)] [[C](add12u_1QE.c)] |
 | add12u_0XE | 0.13 | 0.44 | 97.22 | 0.37 | 180 |  [[Verilog](add12u_0XE.v)]  [[C](add12u_0XE.c)] |
 | add12u_1SA | 0.39 | 0.78 | 99.95 | 1.08 | 1242 |  [[Verilog](add12u_1SA.v)] [[Verilog<sub>PDK45</sub>](add12u_1SA_pdk45.v)] [[C](add12u_1SA.c)] |
-| add12u_3NY | 0.78 | 1.56 | 99.90 | 2.15 | 4990 |  [[Verilog](add12u_3NY.v)] [[Verilog<sub>PDK45</sub>](add12u_3NY_pdk45.v)] [[C](add12u_3NY.c)] |
+| add12u_4X2 | 0.98 | 3.78 | 99.57 | 2.64 | 10471 |  [[Verilog](add12u_4X2.v)]  [[C](add12u_4X2.c)] |
 | add12u_04U | 3.20 | 7.71 | 99.91 | 8.54 | 92047 |  [[Verilog](add12u_04U.v)]  [[C](add12u_04U.c)] |
 | add12u_1KC | 6.25 | 12.50 | 100.00 | 16.24 | 325756 |  [[Verilog](add12u_1KC.v)] [[Verilog<sub>PDK45</sub>](add12u_1KC_pdk45.v)] [[C](add12u_1KC.c)] |
 | add12u_2MB | 12.50 | 25.00 | 100.00 | 30.62 | 13015.54e2 |  [[Verilog](add12u_2MB.v)]  [[C](add12u_2MB.c)] |
