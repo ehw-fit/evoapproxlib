@@ -173,29 +173,29 @@ for name, module in eal.multiplers['16x16_signed'].items():
    - [Pareto optimal subset (EP vs power)](adders/8_signed/pareto_pwr_ep/README.md) - 7 circuits
    - [Pareto optimal subset (MSE vs power)](adders/8_signed/pareto_pwr_mse/README.md) - 10 circuits
  - 8-bit signed adders (no overflow)
-   - [Pareto optimal subset (MAE vs power)](adders/8_signed/extended_pareto_pwr_mae/README.md) - 10 circuits
-   - [Pareto optimal subset (WCE vs power)](adders/8_signed/extended_pareto_pwr_wce/README.md) - 9 circuits
-   - [Pareto optimal subset (MRE vs power)](adders/8_signed/extended_pareto_pwr_mre/README.md) - 10 circuits
-   - [Pareto optimal subset (EP vs power)](adders/8_signed/extended_pareto_pwr_ep/README.md) - 8 circuits
-   - [Pareto optimal subset (MSE vs power)](adders/8_signed/extended_pareto_pwr_mse/README.md) - 10 circuits
+   - [Pareto optimal subset (MAE vs power)](adders/8_signed_extended/pareto_pwr_mae/README.md) - 10 circuits
+   - [Pareto optimal subset (WCE vs power)](adders/8_signed_extended/pareto_pwr_wce/README.md) - 9 circuits
+   - [Pareto optimal subset (MRE vs power)](adders/8_signed_extended/pareto_pwr_mre/README.md) - 10 circuits
+   - [Pareto optimal subset (EP vs power)](adders/8_signed_extended/pareto_pwr_ep/README.md) - 8 circuits
+   - [Pareto optimal subset (MSE vs power)](adders/8_signed_extended/pareto_pwr_mse/README.md) - 10 circuits
  - 9-bit signed adders (no overflow)
-   - [Pareto optimal subset (MAE vs power)](adders/9_signed/extended_pareto_pwr_mae/README.md) - 9 circuits
-   - [Pareto optimal subset (WCE vs power)](adders/9_signed/extended_pareto_pwr_wce/README.md) - 10 circuits
-   - [Pareto optimal subset (MRE vs power)](adders/9_signed/extended_pareto_pwr_mre/README.md) - 8 circuits
-   - [Pareto optimal subset (EP vs power)](adders/9_signed/extended_pareto_pwr_ep/README.md) - 8 circuits
-   - [Pareto optimal subset (MSE vs power)](adders/9_signed/extended_pareto_pwr_mse/README.md) - 10 circuits
+   - [Pareto optimal subset (MAE vs power)](adders/9_signed_extended/pareto_pwr_mae/README.md) - 9 circuits
+   - [Pareto optimal subset (WCE vs power)](adders/9_signed_extended/pareto_pwr_wce/README.md) - 10 circuits
+   - [Pareto optimal subset (MRE vs power)](adders/9_signed_extended/pareto_pwr_mre/README.md) - 8 circuits
+   - [Pareto optimal subset (EP vs power)](adders/9_signed_extended/pareto_pwr_ep/README.md) - 8 circuits
+   - [Pareto optimal subset (MSE vs power)](adders/9_signed_extended/pareto_pwr_mse/README.md) - 10 circuits
  - 12-bit signed adders (no overflow)
-   - [Pareto optimal subset (MAE vs power)](adders/12_signed/extended_pareto_pwr_mae/README.md) - 9 circuits
-   - [Pareto optimal subset (WCE vs power)](adders/12_signed/extended_pareto_pwr_wce/README.md) - 7 circuits
-   - [Pareto optimal subset (MRE vs power)](adders/12_signed/extended_pareto_pwr_mre/README.md) - 9 circuits
-   - [Pareto optimal subset (EP vs power)](adders/12_signed/extended_pareto_pwr_ep/README.md) - 7 circuits
-   - [Pareto optimal subset (MSE vs power)](adders/12_signed/extended_pareto_pwr_mse/README.md) - 10 circuits
+   - [Pareto optimal subset (MAE vs power)](adders/12_signed_extended/pareto_pwr_mae/README.md) - 9 circuits
+   - [Pareto optimal subset (WCE vs power)](adders/12_signed_extended/pareto_pwr_wce/README.md) - 7 circuits
+   - [Pareto optimal subset (MRE vs power)](adders/12_signed_extended/pareto_pwr_mre/README.md) - 9 circuits
+   - [Pareto optimal subset (EP vs power)](adders/12_signed_extended/pareto_pwr_ep/README.md) - 7 circuits
+   - [Pareto optimal subset (MSE vs power)](adders/12_signed_extended/pareto_pwr_mse/README.md) - 10 circuits
  - 16-bit signed adders (no overflow)
-   - [Pareto optimal subset (MAE vs power)](adders/16_signed/extended_pareto_pwr_mae/README.md) - 9 circuits
-   - [Pareto optimal subset (WCE vs power)](adders/16_signed/extended_pareto_pwr_wce/README.md) - 8 circuits
-   - [Pareto optimal subset (MRE vs power)](adders/16_signed/extended_pareto_pwr_mre/README.md) - 9 circuits
-   - [Pareto optimal subset (EP vs power)](adders/16_signed/extended_pareto_pwr_ep/README.md) - 7 circuits
-   - [Pareto optimal subset (MSE vs power)](adders/16_signed/extended_pareto_pwr_mse/README.md) - 10 circuits
+   - [Pareto optimal subset (MAE vs power)](adders/16_signed_extended/pareto_pwr_mae/README.md) - 9 circuits
+   - [Pareto optimal subset (WCE vs power)](adders/16_signed_extended/pareto_pwr_wce/README.md) - 8 circuits
+   - [Pareto optimal subset (MRE vs power)](adders/16_signed_extended/pareto_pwr_mre/README.md) - 9 circuits
+   - [Pareto optimal subset (EP vs power)](adders/16_signed_extended/pareto_pwr_ep/README.md) - 7 circuits
+   - [Pareto optimal subset (MSE vs power)](adders/16_signed_extended/pareto_pwr_mse/README.md) - 10 circuits
 ### Multipliers (signed)
  - 8-bit signed multiplier
    - [Pareto optimal subset (MAE vs power)](multiplers/8x8_signed/pareto_pwr_mae/README.md) - 8 circuits

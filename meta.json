@@ -19266,8 +19266,8 @@
     "datasets": [
      {
       "description": "Pareto optimal subset (MAE vs power)", 
-      "figure": "adders/8_signed/extended_pareto_pwr_mae/fig.png", 
-      "folder": "adders/8_signed/extended_pareto_pwr_mae", 
+      "figure": "adders/8_signed_extended/pareto_pwr_mae/fig.png", 
+      "folder": "adders/8_signed_extended/pareto_pwr_mae", 
       "instances": [
        {
         "files": [
@@ -19515,8 +19515,8 @@
      }, 
      {
       "description": "Pareto optimal subset (WCE vs power)", 
-      "figure": "adders/8_signed/extended_pareto_pwr_wce/fig.png", 
-      "folder": "adders/8_signed/extended_pareto_pwr_wce", 
+      "figure": "adders/8_signed_extended/pareto_pwr_wce/fig.png", 
+      "folder": "adders/8_signed_extended/pareto_pwr_wce", 
       "instances": [
        {
         "files": [
@@ -19740,8 +19740,8 @@
      }, 
      {
       "description": "Pareto optimal subset (MRE vs power)", 
-      "figure": "adders/8_signed/extended_pareto_pwr_mre/fig.png", 
-      "folder": "adders/8_signed/extended_pareto_pwr_mre", 
+      "figure": "adders/8_signed_extended/pareto_pwr_mre/fig.png", 
+      "folder": "adders/8_signed_extended/pareto_pwr_mre", 
       "instances": [
        {
         "files": [
@@ -19989,8 +19989,8 @@
      }, 
      {
       "description": "Pareto optimal subset (EP vs power)", 
-      "figure": "adders/8_signed/extended_pareto_pwr_ep/fig.png", 
-      "folder": "adders/8_signed/extended_pareto_pwr_ep", 
+      "figure": "adders/8_signed_extended/pareto_pwr_ep/fig.png", 
+      "folder": "adders/8_signed_extended/pareto_pwr_ep", 
       "instances": [
        {
         "files": [
@@ -20190,8 +20190,8 @@
      }, 
      {
       "description": "Pareto optimal subset (MSE vs power)", 
-      "figure": "adders/8_signed/extended_pareto_pwr_mse/fig.png", 
-      "folder": "adders/8_signed/extended_pareto_pwr_mse", 
+      "figure": "adders/8_signed_extended/pareto_pwr_mse/fig.png", 
+      "folder": "adders/8_signed_extended/pareto_pwr_mse", 
       "instances": [
        {
         "files": [
@@ -20439,7 +20439,7 @@
      }
     ], 
     "description": "8-bit signed adders (no overflow)", 
-    "folder": "adders/8_signed", 
+    "folder": "adders/8_signed_extended", 
     "items": 47, 
     "output_bitwidth": 9, 
     "signed": true
@@ -20449,8 +20449,8 @@
     "datasets": [
      {
       "description": "Pareto optimal subset (MAE vs power)", 
-      "figure": "adders/9_signed/extended_pareto_pwr_mae/fig.png", 
-      "folder": "adders/9_signed/extended_pareto_pwr_mae", 
+      "figure": "adders/9_signed_extended/pareto_pwr_mae/fig.png", 
+      "folder": "adders/9_signed_extended/pareto_pwr_mae", 
       "instances": [
        {
         "files": [
@@ -20674,8 +20674,8 @@
      }, 
      {
       "description": "Pareto optimal subset (WCE vs power)", 
-      "figure": "adders/9_signed/extended_pareto_pwr_wce/fig.png", 
-      "folder": "adders/9_signed/extended_pareto_pwr_wce", 
+      "figure": "adders/9_signed_extended/pareto_pwr_wce/fig.png", 
+      "folder": "adders/9_signed_extended/pareto_pwr_wce", 
       "instances": [
        {
         "files": [
@@ -20923,8 +20923,8 @@
      }, 
      {
       "description": "Pareto optimal subset (MRE vs power)", 
-      "figure": "adders/9_signed/extended_pareto_pwr_mre/fig.png", 
-      "folder": "adders/9_signed/extended_pareto_pwr_mre", 
+      "figure": "adders/9_signed_extended/pareto_pwr_mre/fig.png", 
+      "folder": "adders/9_signed_extended/pareto_pwr_mre", 
       "instances": [
        {
         "files": [
@@ -21124,8 +21124,8 @@
      }, 
      {
       "description": "Pareto optimal subset (EP vs power)", 
-      "figure": "adders/9_signed/extended_pareto_pwr_ep/fig.png", 
-      "folder": "adders/9_signed/extended_pareto_pwr_ep", 
+      "figure": "adders/9_signed_extended/pareto_pwr_ep/fig.png", 
+      "folder": "adders/9_signed_extended/pareto_pwr_ep", 
       "instances": [
        {
         "files": [
@@ -21325,8 +21325,8 @@
      }, 
      {
       "description": "Pareto optimal subset (MSE vs power)", 
-      "figure": "adders/9_signed/extended_pareto_pwr_mse/fig.png", 
-      "folder": "adders/9_signed/extended_pareto_pwr_mse", 
+      "figure": "adders/9_signed_extended/pareto_pwr_mse/fig.png", 
+      "folder": "adders/9_signed_extended/pareto_pwr_mse", 
       "instances": [
        {
         "files": [
@@ -21574,7 +21574,7 @@
      }
     ], 
     "description": "9-bit signed adders (no overflow)", 
-    "folder": "adders/9_signed", 
+    "folder": "adders/9_signed_extended", 
     "items": 45, 
     "output_bitwidth": 10, 
     "signed": true
@@ -21584,8 +21584,8 @@
     "datasets": [
      {
       "description": "Pareto optimal subset (MAE vs power)", 
-      "figure": "adders/12_signed/extended_pareto_pwr_mae/fig.png", 
-      "folder": "adders/12_signed/extended_pareto_pwr_mae", 
+      "figure": "adders/12_signed_extended/pareto_pwr_mae/fig.png", 
+      "folder": "adders/12_signed_extended/pareto_pwr_mae", 
       "instances": [
        {
         "files": [
@@ -21809,8 +21809,8 @@
      }, 
      {
       "description": "Pareto optimal subset (WCE vs power)", 
-      "figure": "adders/12_signed/extended_pareto_pwr_wce/fig.png", 
-      "folder": "adders/12_signed/extended_pareto_pwr_wce", 
+      "figure": "adders/12_signed_extended/pareto_pwr_wce/fig.png", 
+      "folder": "adders/12_signed_extended/pareto_pwr_wce", 
       "instances": [
        {
         "files": [
@@ -21986,8 +21986,8 @@
      }, 
      {
       "description": "Pareto optimal subset (MRE vs power)", 
-      "figure": "adders/12_signed/extended_pareto_pwr_mre/fig.png", 
-      "folder": "adders/12_signed/extended_pareto_pwr_mre", 
+      "figure": "adders/12_signed_extended/pareto_pwr_mre/fig.png", 
+      "folder": "adders/12_signed_extended/pareto_pwr_mre", 
       "instances": [
        {
         "files": [
@@ -22211,8 +22211,8 @@
      }, 
      {
       "description": "Pareto optimal subset (EP vs power)", 
-      "figure": "adders/12_signed/extended_pareto_pwr_ep/fig.png", 
-      "folder": "adders/12_signed/extended_pareto_pwr_ep", 
+      "figure": "adders/12_signed_extended/pareto_pwr_ep/fig.png", 
+      "folder": "adders/12_signed_extended/pareto_pwr_ep", 
       "instances": [
        {
         "files": [
@@ -22388,8 +22388,8 @@
      }, 
      {
       "description": "Pareto optimal subset (MSE vs power)", 
-      "figure": "adders/12_signed/extended_pareto_pwr_mse/fig.png", 
-      "folder": "adders/12_signed/extended_pareto_pwr_mse", 
+      "figure": "adders/12_signed_extended/pareto_pwr_mse/fig.png", 
+      "folder": "adders/12_signed_extended/pareto_pwr_mse", 
       "instances": [
        {
         "files": [
@@ -22637,7 +22637,7 @@
      }
     ], 
     "description": "12-bit signed adders (no overflow)", 
-    "folder": "adders/12_signed", 
+    "folder": "adders/12_signed_extended", 
     "items": 42, 
     "output_bitwidth": 13, 
     "signed": true
@@ -22647,8 +22647,8 @@
     "datasets": [
      {
       "description": "Pareto optimal subset (MAE vs power)", 
-      "figure": "adders/16_signed/extended_pareto_pwr_mae/fig.png", 
-      "folder": "adders/16_signed/extended_pareto_pwr_mae", 
+      "figure": "adders/16_signed_extended/pareto_pwr_mae/fig.png", 
+      "folder": "adders/16_signed_extended/pareto_pwr_mae", 
       "instances": [
        {
         "files": [
@@ -22872,8 +22872,8 @@
      }, 
      {
       "description": "Pareto optimal subset (WCE vs power)", 
-      "figure": "adders/16_signed/extended_pareto_pwr_wce/fig.png", 
-      "folder": "adders/16_signed/extended_pareto_pwr_wce", 
+      "figure": "adders/16_signed_extended/pareto_pwr_wce/fig.png", 
+      "folder": "adders/16_signed_extended/pareto_pwr_wce", 
       "instances": [
        {
         "files": [
@@ -23073,8 +23073,8 @@
      }, 
      {
       "description": "Pareto optimal subset (MRE vs power)", 
-      "figure": "adders/16_signed/extended_pareto_pwr_mre/fig.png", 
-      "folder": "adders/16_signed/extended_pareto_pwr_mre", 
+      "figure": "adders/16_signed_extended/pareto_pwr_mre/fig.png", 
+      "folder": "adders/16_signed_extended/pareto_pwr_mre", 
       "instances": [
        {
         "files": [
@@ -23298,8 +23298,8 @@
      }, 
      {
       "description": "Pareto optimal subset (EP vs power)", 
-      "figure": "adders/16_signed/extended_pareto_pwr_ep/fig.png", 
-      "folder": "adders/16_signed/extended_pareto_pwr_ep", 
+      "figure": "adders/16_signed_extended/pareto_pwr_ep/fig.png", 
+      "folder": "adders/16_signed_extended/pareto_pwr_ep", 
       "instances": [
        {
         "files": [
@@ -23475,8 +23475,8 @@
      }, 
      {
       "description": "Pareto optimal subset (MSE vs power)", 
-      "figure": "adders/16_signed/extended_pareto_pwr_mse/fig.png", 
-      "folder": "adders/16_signed/extended_pareto_pwr_mse", 
+      "figure": "adders/16_signed_extended/pareto_pwr_mse/fig.png", 
+      "folder": "adders/16_signed_extended/pareto_pwr_mse", 
       "instances": [
        {
         "files": [
@@ -23724,7 +23724,7 @@
      }
     ], 
     "description": "16-bit signed adders (no overflow)", 
-    "folder": "adders/16_signed", 
+    "folder": "adders/16_signed_extended", 
     "items": 43, 
     "output_bitwidth": 17, 
     "signed": true
