@@ -207,7 +207,9 @@
          "wce%": "6.25", 
          "wcre%": "3100.00"
         }, 
-        "references": []
+        "references": [
+         2
+        ]
        }, 
        {
         "files": [
@@ -255,7 +257,9 @@
          "wce%": "25.59", 
          "wcre%": "10000.00"
         }, 
-        "references": []
+        "references": [
+         2
+        ]
        }, 
        {
         "files": [
@@ -279,13 +283,16 @@
          "wce%": "50.39", 
          "wcre%": "6300.00"
         }, 
-        "references": []
+        "references": [
+         2
+        ]
        }
       ], 
       "license": "The MIT License", 
       "references": [
        "V. Mrazek, Z. Vasicek and R. Hrbacek, \"Role of circuit representation in evolutionary design of energy-efficient approximate circuits\" in IET Computers & Digital Techniques, vol. 12, no. 4, pp. 139-149, 7 2018. doi: 10.1049/iet-cdt.2017.0188", 
-       "V. Mrazek, R. Hrbacek, Z. Vasicek and L. Sekanina, \"EvoApprox8b: Library of approximate adders and multipliers for circuit design and benchmarking of approximation methods\". Design, Automation & Test in Europe Conference & Exhibition (DATE), 2017, Lausanne, 2017, pp. 258-261. doi: 10.23919/DATE.2017.7926993"
+       "V. Mrazek, R. Hrbacek, Z. Vasicek and L. Sekanina, \"EvoApprox8b: Library of approximate adders and multipliers for circuit design and benchmarking of approximation methods\". Design, Automation & Test in Europe Conference & Exhibition (DATE), 2017, Lausanne, 2017, pp. 258-261. doi: 10.23919/DATE.2017.7926993", 
+       "V. Mrazek, L. Sekanina, Z. Vasicek \"Libraries of Approximate Circuits: Automated Design and Application in CNN Accelerators\" IEEE Journal on Emerging and Selected Topics in Circuits and Systems, Vol 10, No 4, 2020"
       ]
      }, 
      {
@@ -503,7 +510,9 @@
          "wce%": "19.14", 
          "wcre%": "3400.00"
         }, 
-        "references": []
+        "references": [
+         2
+        ]
        }, 
        {
         "files": [
@@ -533,7 +542,8 @@
       "license": "The MIT License", 
       "references": [
        "V. Mrazek, Z. Vasicek and R. Hrbacek, \"Role of circuit representation in evolutionary design of energy-efficient approximate circuits\" in IET Computers & Digital Techniques, vol. 12, no. 4, pp. 139-149, 7 2018. doi: 10.1049/iet-cdt.2017.0188", 
-       "V. Mrazek, R. Hrbacek, Z. Vasicek and L. Sekanina, \"EvoApprox8b: Library of approximate adders and multipliers for circuit design and benchmarking of approximation methods\". Design, Automation & Test in Europe Conference & Exhibition (DATE), 2017, Lausanne, 2017, pp. 258-261. doi: 10.23919/DATE.2017.7926993"
+       "V. Mrazek, R. Hrbacek, Z. Vasicek and L. Sekanina, \"EvoApprox8b: Library of approximate adders and multipliers for circuit design and benchmarking of approximation methods\". Design, Automation & Test in Europe Conference & Exhibition (DATE), 2017, Lausanne, 2017, pp. 258-261. doi: 10.23919/DATE.2017.7926993", 
+       "V. Mrazek, L. Sekanina, Z. Vasicek \"Libraries of Approximate Circuits: Automated Design and Application in CNN Accelerators\" IEEE Journal on Emerging and Selected Topics in Circuits and Systems, Vol 10, No 4, 2020"
       ]
      }, 
      {
@@ -709,7 +719,9 @@
          "wce%": "6.05", 
          "wcre%": "800.00"
         }, 
-        "references": []
+        "references": [
+         2
+        ]
        }, 
        {
         "files": [
@@ -759,7 +771,9 @@
          "wce%": "29.10", 
          "wcre%": "6400.00"
         }, 
-        "references": []
+        "references": [
+         2
+        ]
        }, 
        {
         "files": [
@@ -783,13 +797,16 @@
          "wce%": "50.39", 
          "wcre%": "6300.00"
         }, 
-        "references": []
+        "references": [
+         2
+        ]
        }
       ], 
       "license": "The MIT License", 
       "references": [
        "V. Mrazek, Z. Vasicek and R. Hrbacek, \"Role of circuit representation in evolutionary design of energy-efficient approximate circuits\" in IET Computers & Digital Techniques, vol. 12, no. 4, pp. 139-149, 7 2018. doi: 10.1049/iet-cdt.2017.0188", 
-       "V. Mrazek, R. Hrbacek, Z. Vasicek and L. Sekanina, \"EvoApprox8b: Library of approximate adders and multipliers for circuit design and benchmarking of approximation methods\". Design, Automation & Test in Europe Conference & Exhibition (DATE), 2017, Lausanne, 2017, pp. 258-261. doi: 10.23919/DATE.2017.7926993"
+       "V. Mrazek, R. Hrbacek, Z. Vasicek and L. Sekanina, \"EvoApprox8b: Library of approximate adders and multipliers for circuit design and benchmarking of approximation methods\". Design, Automation & Test in Europe Conference & Exhibition (DATE), 2017, Lausanne, 2017, pp. 258-261. doi: 10.23919/DATE.2017.7926993", 
+       "V. Mrazek, L. Sekanina, Z. Vasicek \"Libraries of Approximate Circuits: Automated Design and Application in CNN Accelerators\" IEEE Journal on Emerging and Selected Topics in Circuits and Systems, Vol 10, No 4, 2020"
       ]
      }, 
      {
@@ -905,7 +922,9 @@
          "wce%": "1.56", 
          "wcre%": "66.67"
         }, 
-        "references": []
+        "references": [
+         2
+        ]
        }, 
        {
         "files": [
@@ -929,7 +948,9 @@
          "wce%": "3.71", 
          "wcre%": "50.00"
         }, 
-        "references": []
+        "references": [
+         2
+        ]
        }, 
        {
         "files": [
@@ -953,7 +974,9 @@
          "wce%": "8.59", 
          "wcre%": "66.67"
         }, 
-        "references": []
+        "references": [
+         2
+        ]
        }, 
        {
         "files": [
@@ -977,7 +1000,9 @@
          "wce%": "6.25", 
          "wcre%": "400.00"
         }, 
-        "references": []
+        "references": [
+         2
+        ]
        }, 
        {
         "files": [
@@ -1001,7 +1026,9 @@
          "wce%": "19.34", 
          "wcre%": "1000.00"
         }, 
-        "references": []
+        "references": [
+         2
+        ]
        }, 
        {
         "files": [
@@ -1025,13 +1052,16 @@
          "wce%": "50.39", 
          "wcre%": "6300.00"
         }, 
-        "references": []
+        "references": [
+         2
+        ]
        }
       ], 
       "license": "The MIT License", 
       "references": [
        "V. Mrazek, Z. Vasicek and R. Hrbacek, \"Role of circuit representation in evolutionary design of energy-efficient approximate circuits\" in IET Computers & Digital Techniques, vol. 12, no. 4, pp. 139-149, 7 2018. doi: 10.1049/iet-cdt.2017.0188", 
-       "V. Mrazek, R. Hrbacek, Z. Vasicek and L. Sekanina, \"EvoApprox8b: Library of approximate adders and multipliers for circuit design and benchmarking of approximation methods\". Design, Automation & Test in Europe Conference & Exhibition (DATE), 2017, Lausanne, 2017, pp. 258-261. doi: 10.23919/DATE.2017.7926993"
+       "V. Mrazek, R. Hrbacek, Z. Vasicek and L. Sekanina, \"EvoApprox8b: Library of approximate adders and multipliers for circuit design and benchmarking of approximation methods\". Design, Automation & Test in Europe Conference & Exhibition (DATE), 2017, Lausanne, 2017, pp. 258-261. doi: 10.23919/DATE.2017.7926993", 
+       "V. Mrazek, L. Sekanina, Z. Vasicek \"Libraries of Approximate Circuits: Automated Design and Application in CNN Accelerators\" IEEE Journal on Emerging and Selected Topics in Circuits and Systems, Vol 10, No 4, 2020"
       ]
      }, 
      {
@@ -1309,7 +1339,9 @@
          "wce%": "25.59", 
          "wcre%": "10000.00"
         }, 
-        "references": []
+        "references": [
+         2
+        ]
        }, 
        {
         "files": [
@@ -1333,13 +1365,16 @@
          "wce%": "50.39", 
          "wcre%": "6300.00"
         }, 
-        "references": []
+        "references": [
+         2
+        ]
        }
       ], 
       "license": "The MIT License", 
       "references": [
        "V. Mrazek, Z. Vasicek and R. Hrbacek, \"Role of circuit representation in evolutionary design of energy-efficient approximate circuits\" in IET Computers & Digital Techniques, vol. 12, no. 4, pp. 139-149, 7 2018. doi: 10.1049/iet-cdt.2017.0188", 
-       "V. Mrazek, R. Hrbacek, Z. Vasicek and L. Sekanina, \"EvoApprox8b: Library of approximate adders and multipliers for circuit design and benchmarking of approximation methods\". Design, Automation & Test in Europe Conference & Exhibition (DATE), 2017, Lausanne, 2017, pp. 258-261. doi: 10.23919/DATE.2017.7926993"
+       "V. Mrazek, R. Hrbacek, Z. Vasicek and L. Sekanina, \"EvoApprox8b: Library of approximate adders and multipliers for circuit design and benchmarking of approximation methods\". Design, Automation & Test in Europe Conference & Exhibition (DATE), 2017, Lausanne, 2017, pp. 258-261. doi: 10.23919/DATE.2017.7926993", 
+       "V. Mrazek, L. Sekanina, Z. Vasicek \"Libraries of Approximate Circuits: Automated Design and Application in CNN Accelerators\" IEEE Journal on Emerging and Selected Topics in Circuits and Systems, Vol 10, No 4, 2020"
       ]
      }
     ], 
@@ -1550,7 +1585,9 @@
          "wce%": "3.78", 
          "wcre%": "6300.00"
         }, 
-        "references": []
+        "references": [
+         1
+        ]
        }, 
        {
         "files": [
@@ -1635,7 +1672,8 @@
       ], 
       "license": "The MIT License", 
       "references": [
-       "V. Mrazek, Z. Vasicek and R. Hrbacek, \"Role of circuit representation in evolutionary design of energy-efficient approximate circuits\" in IET Computers & Digital Techniques, vol. 12, no. 4, pp. 139-149, 7 2018. doi: 10.1049/iet-cdt.2017.0188"
+       "V. Mrazek, Z. Vasicek and R. Hrbacek, \"Role of circuit representation in evolutionary design of energy-efficient approximate circuits\" in IET Computers & Digital Techniques, vol. 12, no. 4, pp. 139-149, 7 2018. doi: 10.1049/iet-cdt.2017.0188", 
+       "V. Mrazek, L. Sekanina, Z. Vasicek \"Libraries of Approximate Circuits: Automated Design and Application in CNN Accelerators\" IEEE Journal on Emerging and Selected Topics in Circuits and Systems, Vol 10, No 4, 2020"
       ]
      }, 
      {
@@ -2098,7 +2136,9 @@
          "wce%": "14.84", 
          "wcre%": "3300.00"
         }, 
-        "references": []
+        "references": [
+         1
+        ]
        }, 
        {
         "files": [
@@ -2129,7 +2169,8 @@
       ], 
       "license": "The MIT License", 
       "references": [
-       "V. Mrazek, Z. Vasicek and R. Hrbacek, \"Role of circuit representation in evolutionary design of energy-efficient approximate circuits\" in IET Computers & Digital Techniques, vol. 12, no. 4, pp. 139-149, 7 2018. doi: 10.1049/iet-cdt.2017.0188"
+       "V. Mrazek, Z. Vasicek and R. Hrbacek, \"Role of circuit representation in evolutionary design of energy-efficient approximate circuits\" in IET Computers & Digital Techniques, vol. 12, no. 4, pp. 139-149, 7 2018. doi: 10.1049/iet-cdt.2017.0188", 
+       "V. Mrazek, L. Sekanina, Z. Vasicek \"Libraries of Approximate Circuits: Automated Design and Application in CNN Accelerators\" IEEE Journal on Emerging and Selected Topics in Circuits and Systems, Vol 10, No 4, 2020"
       ]
      }, 
      {
@@ -2189,7 +2230,9 @@
          "wce%": "0.049", 
          "wcre%": "50.00"
         }, 
-        "references": []
+        "references": [
+         1
+        ]
        }, 
        {
         "files": [
@@ -2213,7 +2256,9 @@
          "wce%": "0.78", 
          "wcre%": "50.00"
         }, 
-        "references": []
+        "references": [
+         1
+        ]
        }, 
        {
         "files": [
@@ -2237,7 +2282,9 @@
          "wce%": "0.24", 
          "wcre%": "50.00"
         }, 
-        "references": []
+        "references": [
+         1
+        ]
        }, 
        {
         "files": [
@@ -2261,7 +2308,9 @@
          "wce%": "0.78", 
          "wcre%": "66.67"
         }, 
-        "references": []
+        "references": [
+         1
+        ]
        }, 
        {
         "files": [
@@ -2285,7 +2334,9 @@
          "wce%": "0.29", 
          "wcre%": "66.67"
         }, 
-        "references": []
+        "references": [
+         1
+        ]
        }, 
        {
         "files": [
@@ -2309,7 +2360,9 @@
          "wce%": "0.81", 
          "wcre%": "200.00"
         }, 
-        "references": []
+        "references": [
+         1
+        ]
        }, 
        {
         "files": [
@@ -2364,7 +2417,8 @@
       ], 
       "license": "The MIT License", 
       "references": [
-       "V. Mrazek, Z. Vasicek and R. Hrbacek, \"Role of circuit representation in evolutionary design of energy-efficient approximate circuits\" in IET Computers & Digital Techniques, vol. 12, no. 4, pp. 139-149, 7 2018. doi: 10.1049/iet-cdt.2017.0188"
+       "V. Mrazek, Z. Vasicek and R. Hrbacek, \"Role of circuit representation in evolutionary design of energy-efficient approximate circuits\" in IET Computers & Digital Techniques, vol. 12, no. 4, pp. 139-149, 7 2018. doi: 10.1049/iet-cdt.2017.0188", 
+       "V. Mrazek, L. Sekanina, Z. Vasicek \"Libraries of Approximate Circuits: Automated Design and Application in CNN Accelerators\" IEEE Journal on Emerging and Selected Topics in Circuits and Systems, Vol 10, No 4, 2020"
       ]
      }, 
      {
@@ -2688,7 +2742,9 @@
          "wce%": "0.00", 
          "wcre%": "0.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -2736,7 +2792,9 @@
          "wce%": "0.019", 
          "wcre%": "1300.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -2884,7 +2942,9 @@
        }
       ], 
       "license": "The MIT License", 
-      "references": []
+      "references": [
+       "V. Mrazek, L. Sekanina, Z. Vasicek \"Libraries of Approximate Circuits: Automated Design and Application in CNN Accelerators\" IEEE Journal on Emerging and Selected Topics in Circuits and Systems, Vol 10, No 4, 2020"
+      ]
      }, 
      {
       "description": "Pareto optimal subset (WCE vs power)", 
@@ -2913,7 +2973,9 @@
          "wce%": "0.00", 
          "wcre%": "0.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -3133,7 +3195,9 @@
        }
       ], 
       "license": "The MIT License", 
-      "references": []
+      "references": [
+       "V. Mrazek, L. Sekanina, Z. Vasicek \"Libraries of Approximate Circuits: Automated Design and Application in CNN Accelerators\" IEEE Journal on Emerging and Selected Topics in Circuits and Systems, Vol 10, No 4, 2020"
+      ]
      }, 
      {
       "description": "Pareto optimal subset (MRE vs power)", 
@@ -3162,7 +3226,9 @@
          "wce%": "0.00", 
          "wcre%": "0.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -3186,7 +3252,9 @@
          "wce%": "0.0015", 
          "wcre%": "100.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -3382,7 +3450,9 @@
        }
       ], 
       "license": "The MIT License", 
-      "references": []
+      "references": [
+       "V. Mrazek, L. Sekanina, Z. Vasicek \"Libraries of Approximate Circuits: Automated Design and Application in CNN Accelerators\" IEEE Journal on Emerging and Selected Topics in Circuits and Systems, Vol 10, No 4, 2020"
+      ]
      }, 
      {
       "description": "Pareto optimal subset (EP vs power)", 
@@ -3411,7 +3481,9 @@
          "wce%": "0.00", 
          "wcre%": "0.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -3435,7 +3507,9 @@
          "wce%": "0.0031", 
          "wcre%": "50.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -3459,7 +3533,9 @@
          "wce%": "0.0076", 
          "wcre%": "50.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -3483,7 +3559,9 @@
          "wce%": "0.0031", 
          "wcre%": "66.67"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -3507,7 +3585,9 @@
          "wce%": "0.049", 
          "wcre%": "66.67"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -3531,7 +3611,9 @@
          "wce%": "0.32", 
          "wcre%": "200.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -3555,7 +3637,9 @@
          "wce%": "6.46", 
          "wcre%": "1600.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -3583,7 +3667,9 @@
        }
       ], 
       "license": "The MIT License", 
-      "references": []
+      "references": [
+       "V. Mrazek, L. Sekanina, Z. Vasicek \"Libraries of Approximate Circuits: Automated Design and Application in CNN Accelerators\" IEEE Journal on Emerging and Selected Topics in Circuits and Systems, Vol 10, No 4, 2020"
+      ]
      }, 
      {
       "description": "Pareto optimal subset (MSE vs power)", 
@@ -3612,7 +3698,9 @@
          "wce%": "0.00", 
          "wcre%": "0.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -3832,7 +3920,9 @@
        }
       ], 
       "license": "The MIT License", 
-      "references": []
+      "references": [
+       "V. Mrazek, L. Sekanina, Z. Vasicek \"Libraries of Approximate Circuits: Automated Design and Application in CNN Accelerators\" IEEE Journal on Emerging and Selected Topics in Circuits and Systems, Vol 10, No 4, 2020"
+      ]
      }
     ], 
     "description": "16-bit unsigned adders", 
@@ -10532,7 +10622,7 @@
       ], 
       "license": "The MIT License", 
       "references": [
-       "V. Mrazek, L. Sekanina and Z. Vasicek, \"Libraries of Approximate Circuits: Design and Application in CNN Accelerators\""
+       "V. Mrazek, L. Sekanina, Z. Vasicek \"Libraries of Approximate Circuits: Automated Design and Application in CNN Accelerators\" IEEE Journal on Emerging and Selected Topics in Circuits and Systems, Vol 10, No 4, 2020"
       ]
      }, 
      {
@@ -10829,7 +10919,7 @@
       ], 
       "license": "The MIT License", 
       "references": [
-       "V. Mrazek, L. Sekanina and Z. Vasicek, \"Libraries of Approximate Circuits: Design and Application in CNN Accelerators\""
+       "V. Mrazek, L. Sekanina, Z. Vasicek \"Libraries of Approximate Circuits: Automated Design and Application in CNN Accelerators\" IEEE Journal on Emerging and Selected Topics in Circuits and Systems, Vol 10, No 4, 2020"
       ]
      }, 
      {
@@ -11048,7 +11138,7 @@
       ], 
       "license": "The MIT License", 
       "references": [
-       "V. Mrazek, L. Sekanina and Z. Vasicek, \"Libraries of Approximate Circuits: Design and Application in CNN Accelerators\""
+       "V. Mrazek, L. Sekanina, Z. Vasicek \"Libraries of Approximate Circuits: Automated Design and Application in CNN Accelerators\" IEEE Journal on Emerging and Selected Topics in Circuits and Systems, Vol 10, No 4, 2020"
       ]
      }, 
      {
@@ -11267,7 +11357,7 @@
       ], 
       "license": "The MIT License", 
       "references": [
-       "V. Mrazek, L. Sekanina and Z. Vasicek, \"Libraries of Approximate Circuits: Design and Application in CNN Accelerators\""
+       "V. Mrazek, L. Sekanina, Z. Vasicek \"Libraries of Approximate Circuits: Automated Design and Application in CNN Accelerators\" IEEE Journal on Emerging and Selected Topics in Circuits and Systems, Vol 10, No 4, 2020"
       ]
      }, 
      {
@@ -11538,7 +11628,7 @@
       ], 
       "license": "The MIT License", 
       "references": [
-       "V. Mrazek, L. Sekanina and Z. Vasicek, \"Libraries of Approximate Circuits: Design and Application in CNN Accelerators\""
+       "V. Mrazek, L. Sekanina, Z. Vasicek \"Libraries of Approximate Circuits: Automated Design and Application in CNN Accelerators\" IEEE Journal on Emerging and Selected Topics in Circuits and Systems, Vol 10, No 4, 2020"
       ]
      }
     ], 
@@ -11821,7 +11911,7 @@
       ], 
       "license": "The MIT License", 
       "references": [
-       "V. Mrazek, L. Sekanina and Z. Vasicek, \"Libraries of Approximate Circuits: Design and Application in CNN Accelerators\""
+       "V. Mrazek, L. Sekanina, Z. Vasicek \"Libraries of Approximate Circuits: Automated Design and Application in CNN Accelerators\" IEEE Journal on Emerging and Selected Topics in Circuits and Systems, Vol 10, No 4, 2020"
       ]
      }, 
      {
@@ -12092,7 +12182,7 @@
       ], 
       "license": "The MIT License", 
       "references": [
-       "V. Mrazek, L. Sekanina and Z. Vasicek, \"Libraries of Approximate Circuits: Design and Application in CNN Accelerators\""
+       "V. Mrazek, L. Sekanina, Z. Vasicek \"Libraries of Approximate Circuits: Automated Design and Application in CNN Accelerators\" IEEE Journal on Emerging and Selected Topics in Circuits and Systems, Vol 10, No 4, 2020"
       ]
      }, 
      {
@@ -12337,7 +12427,7 @@
       ], 
       "license": "The MIT License", 
       "references": [
-       "V. Mrazek, L. Sekanina and Z. Vasicek, \"Libraries of Approximate Circuits: Design and Application in CNN Accelerators\""
+       "V. Mrazek, L. Sekanina, Z. Vasicek \"Libraries of Approximate Circuits: Automated Design and Application in CNN Accelerators\" IEEE Journal on Emerging and Selected Topics in Circuits and Systems, Vol 10, No 4, 2020"
       ]
      }, 
      {
@@ -12582,7 +12672,7 @@
       ], 
       "license": "The MIT License", 
       "references": [
-       "V. Mrazek, L. Sekanina and Z. Vasicek, \"Libraries of Approximate Circuits: Design and Application in CNN Accelerators\""
+       "V. Mrazek, L. Sekanina, Z. Vasicek \"Libraries of Approximate Circuits: Automated Design and Application in CNN Accelerators\" IEEE Journal on Emerging and Selected Topics in Circuits and Systems, Vol 10, No 4, 2020"
       ]
      }, 
      {
@@ -12853,7 +12943,7 @@
       ], 
       "license": "The MIT License", 
       "references": [
-       "V. Mrazek, L. Sekanina and Z. Vasicek, \"Libraries of Approximate Circuits: Design and Application in CNN Accelerators\""
+       "V. Mrazek, L. Sekanina, Z. Vasicek \"Libraries of Approximate Circuits: Automated Design and Application in CNN Accelerators\" IEEE Journal on Emerging and Selected Topics in Circuits and Systems, Vol 10, No 4, 2020"
       ]
      }
     ], 
@@ -13025,7 +13115,9 @@
          "wce%": "1.59", 
          "wcre%": "103.12"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -13049,7 +13141,9 @@
          "wce%": "4.00", 
          "wcre%": "150.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -13073,7 +13167,9 @@
          "wce%": "11.94", 
          "wcre%": "806.25"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -13130,7 +13226,7 @@
       ], 
       "license": "The MIT License", 
       "references": [
-       "V. Mrazek, L. Sekanina and Z. Vasicek, \"Libraries of Approximate Circuits: Design and Application in CNN Accelerators\""
+       "V. Mrazek, L. Sekanina, Z. Vasicek \"Libraries of Approximate Circuits: Automated Design and Application in CNN Accelerators\" IEEE Journal on Emerging and Selected Topics in Circuits and Systems, Vol 10, No 4, 2020"
       ]
      }, 
      {
@@ -13342,7 +13438,9 @@
          "wce%": "13.75", 
          "wcre%": "100.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -13366,7 +13464,9 @@
          "wce%": "34.11", 
          "wcre%": "234.38"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -13397,7 +13497,7 @@
       ], 
       "license": "The MIT License", 
       "references": [
-       "V. Mrazek, L. Sekanina and Z. Vasicek, \"Libraries of Approximate Circuits: Design and Application in CNN Accelerators\""
+       "V. Mrazek, L. Sekanina, Z. Vasicek \"Libraries of Approximate Circuits: Automated Design and Application in CNN Accelerators\" IEEE Journal on Emerging and Selected Topics in Circuits and Systems, Vol 10, No 4, 2020"
       ]
      }, 
      {
@@ -13583,7 +13683,9 @@
          "wce%": "1.59", 
          "wcre%": "103.12"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -13666,7 +13768,7 @@
       ], 
       "license": "The MIT License", 
       "references": [
-       "V. Mrazek, L. Sekanina and Z. Vasicek, \"Libraries of Approximate Circuits: Design and Application in CNN Accelerators\""
+       "V. Mrazek, L. Sekanina, Z. Vasicek \"Libraries of Approximate Circuits: Automated Design and Application in CNN Accelerators\" IEEE Journal on Emerging and Selected Topics in Circuits and Systems, Vol 10, No 4, 2020"
       ]
      }, 
      {
@@ -13748,7 +13850,9 @@
          "wce%": "56.25", 
          "wcre%": "99.90"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -13909,7 +14013,7 @@
       ], 
       "license": "The MIT License", 
       "references": [
-       "V. Mrazek, L. Sekanina and Z. Vasicek, \"Libraries of Approximate Circuits: Design and Application in CNN Accelerators\""
+       "V. Mrazek, L. Sekanina, Z. Vasicek \"Libraries of Approximate Circuits: Automated Design and Application in CNN Accelerators\" IEEE Journal on Emerging and Selected Topics in Circuits and Systems, Vol 10, No 4, 2020"
       ]
      }, 
      {
@@ -14095,7 +14199,9 @@
          "wce%": "6.67", 
          "wcre%": "106.25"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -14145,7 +14251,9 @@
          "wce%": "34.11", 
          "wcre%": "234.38"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -14176,7 +14284,7 @@
       ], 
       "license": "The MIT License", 
       "references": [
-       "V. Mrazek, L. Sekanina and Z. Vasicek, \"Libraries of Approximate Circuits: Design and Application in CNN Accelerators\""
+       "V. Mrazek, L. Sekanina, Z. Vasicek \"Libraries of Approximate Circuits: Automated Design and Application in CNN Accelerators\" IEEE Journal on Emerging and Selected Topics in Circuits and Systems, Vol 10, No 4, 2020"
       ]
      }
     ], 
@@ -14244,7 +14352,9 @@
          "wce%": "0.012", 
          "wcre%": "100.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -14372,7 +14482,9 @@
          "wce%": "4.00", 
          "wcre%": "182.35"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -14396,7 +14508,9 @@
          "wce%": "11.49", 
          "wcre%": "300.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -14420,7 +14534,9 @@
          "wce%": "29.46", 
          "wcre%": "700.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -14451,7 +14567,7 @@
       ], 
       "license": "The MIT License", 
       "references": [
-       "V. Mrazek, L. Sekanina and Z. Vasicek, \"Libraries of Approximate Circuits: Design and Application in CNN Accelerators\""
+       "V. Mrazek, L. Sekanina, Z. Vasicek \"Libraries of Approximate Circuits: Automated Design and Application in CNN Accelerators\" IEEE Journal on Emerging and Selected Topics in Circuits and Systems, Vol 10, No 4, 2020"
       ]
      }, 
      {
@@ -14637,7 +14753,9 @@
          "wce%": "3.91", 
          "wcre%": "3100.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -14661,7 +14779,9 @@
          "wce%": "12.89", 
          "wcre%": "3100.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -14685,7 +14805,9 @@
          "wce%": "34.07", 
          "wcre%": "125.20"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -14716,7 +14838,7 @@
       ], 
       "license": "The MIT License", 
       "references": [
-       "V. Mrazek, L. Sekanina and Z. Vasicek, \"Libraries of Approximate Circuits: Design and Application in CNN Accelerators\""
+       "V. Mrazek, L. Sekanina, Z. Vasicek \"Libraries of Approximate Circuits: Automated Design and Application in CNN Accelerators\" IEEE Journal on Emerging and Selected Topics in Circuits and Systems, Vol 10, No 4, 2020"
       ]
      }, 
      {
@@ -14772,7 +14894,9 @@
          "wce%": "0.049", 
          "wcre%": "44.44"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -14796,7 +14920,9 @@
          "wce%": "0.012", 
          "wcre%": "100.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -14950,7 +15076,9 @@
          "wce%": "15.44", 
          "wcre%": "303.12"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -14981,7 +15109,7 @@
       ], 
       "license": "The MIT License", 
       "references": [
-       "V. Mrazek, L. Sekanina and Z. Vasicek, \"Libraries of Approximate Circuits: Design and Application in CNN Accelerators\""
+       "V. Mrazek, L. Sekanina, Z. Vasicek \"Libraries of Approximate Circuits: Automated Design and Application in CNN Accelerators\" IEEE Journal on Emerging and Selected Topics in Circuits and Systems, Vol 10, No 4, 2020"
       ]
      }, 
      {
@@ -15063,7 +15191,9 @@
          "wce%": "1.56", 
          "wcre%": "99.22"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -15224,7 +15354,7 @@
       ], 
       "license": "The MIT License", 
       "references": [
-       "V. Mrazek, L. Sekanina and Z. Vasicek, \"Libraries of Approximate Circuits: Design and Application in CNN Accelerators\""
+       "V. Mrazek, L. Sekanina, Z. Vasicek \"Libraries of Approximate Circuits: Automated Design and Application in CNN Accelerators\" IEEE Journal on Emerging and Selected Topics in Circuits and Systems, Vol 10, No 4, 2020"
       ]
      }, 
      {
@@ -15410,7 +15540,9 @@
          "wce%": "3.91", 
          "wcre%": "3100.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -15434,7 +15566,9 @@
          "wce%": "13.88", 
          "wcre%": "115.82"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -15491,7 +15625,7 @@
       ], 
       "license": "The MIT License", 
       "references": [
-       "V. Mrazek, L. Sekanina and Z. Vasicek, \"Libraries of Approximate Circuits: Design and Application in CNN Accelerators\""
+       "V. Mrazek, L. Sekanina, Z. Vasicek \"Libraries of Approximate Circuits: Automated Design and Application in CNN Accelerators\" IEEE Journal on Emerging and Selected Topics in Circuits and Systems, Vol 10, No 4, 2020"
       ]
      }
     ], 
@@ -15533,7 +15667,9 @@
          "wce%": "0.00", 
          "wcre%": "0.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -15713,7 +15849,9 @@
          "wce%": "9.94", 
          "wcre%": "101.56"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -15737,7 +15875,9 @@
          "wce%": "29.79", 
          "wcre%": "700.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -15768,7 +15908,7 @@
       ], 
       "license": "The MIT License", 
       "references": [
-       "V. Mrazek, L. Sekanina and Z. Vasicek, \"Libraries of Approximate Circuits: Design and Application in CNN Accelerators\""
+       "V. Mrazek, L. Sekanina, Z. Vasicek \"Libraries of Approximate Circuits: Automated Design and Application in CNN Accelerators\" IEEE Journal on Emerging and Selected Topics in Circuits and Systems, Vol 10, No 4, 2020"
       ]
      }, 
      {
@@ -15798,7 +15938,9 @@
          "wce%": "0.00", 
          "wcre%": "0.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -15978,7 +16120,9 @@
          "wce%": "3.88", 
          "wcre%": "100.78"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -16002,7 +16146,9 @@
          "wce%": "11.38", 
          "wcre%": "800.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -16026,7 +16172,9 @@
          "wce%": "30.23", 
          "wcre%": "707.81"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -16057,7 +16205,7 @@
       ], 
       "license": "The MIT License", 
       "references": [
-       "V. Mrazek, L. Sekanina and Z. Vasicek, \"Libraries of Approximate Circuits: Design and Application in CNN Accelerators\""
+       "V. Mrazek, L. Sekanina, Z. Vasicek \"Libraries of Approximate Circuits: Automated Design and Application in CNN Accelerators\" IEEE Journal on Emerging and Selected Topics in Circuits and Systems, Vol 10, No 4, 2020"
       ]
      }, 
      {
@@ -16087,7 +16235,9 @@
          "wce%": "0.00", 
          "wcre%": "0.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -16111,7 +16261,9 @@
          "wce%": "0.024", 
          "wcre%": "44.44"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -16291,7 +16443,9 @@
          "wce%": "13.99", 
          "wcre%": "101.56"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -16322,7 +16476,7 @@
       ], 
       "license": "The MIT License", 
       "references": [
-       "V. Mrazek, L. Sekanina and Z. Vasicek, \"Libraries of Approximate Circuits: Design and Application in CNN Accelerators\""
+       "V. Mrazek, L. Sekanina, Z. Vasicek \"Libraries of Approximate Circuits: Automated Design and Application in CNN Accelerators\" IEEE Journal on Emerging and Selected Topics in Circuits and Systems, Vol 10, No 4, 2020"
       ]
      }, 
      {
@@ -16352,7 +16506,9 @@
          "wce%": "0.00", 
          "wcre%": "0.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -16376,7 +16532,9 @@
          "wce%": "0.20", 
          "wcre%": "96.97"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -16400,7 +16558,9 @@
          "wce%": "12.89", 
          "wcre%": "99.90"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -16535,7 +16695,7 @@
       ], 
       "license": "The MIT License", 
       "references": [
-       "V. Mrazek, L. Sekanina and Z. Vasicek, \"Libraries of Approximate Circuits: Design and Application in CNN Accelerators\""
+       "V. Mrazek, L. Sekanina, Z. Vasicek \"Libraries of Approximate Circuits: Automated Design and Application in CNN Accelerators\" IEEE Journal on Emerging and Selected Topics in Circuits and Systems, Vol 10, No 4, 2020"
       ]
      }, 
      {
@@ -16565,7 +16725,9 @@
          "wce%": "0.00", 
          "wcre%": "0.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -16745,7 +16907,9 @@
          "wce%": "11.68", 
          "wcre%": "301.56"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -16769,7 +16933,9 @@
          "wce%": "30.23", 
          "wcre%": "707.81"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -16800,7 +16966,7 @@
       ], 
       "license": "The MIT License", 
       "references": [
-       "V. Mrazek, L. Sekanina and Z. Vasicek, \"Libraries of Approximate Circuits: Design and Application in CNN Accelerators\""
+       "V. Mrazek, L. Sekanina, Z. Vasicek \"Libraries of Approximate Circuits: Automated Design and Application in CNN Accelerators\" IEEE Journal on Emerging and Selected Topics in Circuits and Systems, Vol 10, No 4, 2020"
       ]
      }
     ], 
@@ -16842,7 +17008,9 @@
          "wce%": "0.00", 
          "wcre%": "0.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -16866,7 +17034,9 @@
          "wce%": "0.0031", 
          "wcre%": "100.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -17020,7 +17190,9 @@
          "wce%": "7.96", 
          "wcre%": "107.62"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -17044,7 +17216,9 @@
          "wce%": "25.20", 
          "wcre%": "6325.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -17075,7 +17249,7 @@
       ], 
       "license": "The MIT License", 
       "references": [
-       "V. Mrazek, L. Sekanina and Z. Vasicek, \"Libraries of Approximate Circuits: Design and Application in CNN Accelerators\""
+       "V. Mrazek, L. Sekanina, Z. Vasicek \"Libraries of Approximate Circuits: Automated Design and Application in CNN Accelerators\" IEEE Journal on Emerging and Selected Topics in Circuits and Systems, Vol 10, No 4, 2020"
       ]
      }, 
      {
@@ -17105,7 +17279,9 @@
          "wce%": "0.00", 
          "wcre%": "0.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -17285,7 +17461,9 @@
          "wce%": "9.76", 
          "wcre%": "135.16"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -17309,7 +17487,9 @@
          "wce%": "30.62", 
          "wcre%": "301.56"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -17340,7 +17520,7 @@
       ], 
       "license": "The MIT License", 
       "references": [
-       "V. Mrazek, L. Sekanina and Z. Vasicek, \"Libraries of Approximate Circuits: Design and Application in CNN Accelerators\""
+       "V. Mrazek, L. Sekanina, Z. Vasicek \"Libraries of Approximate Circuits: Automated Design and Application in CNN Accelerators\" IEEE Journal on Emerging and Selected Topics in Circuits and Systems, Vol 10, No 4, 2020"
       ]
      }, 
      {
@@ -17370,7 +17550,9 @@
          "wce%": "0.00", 
          "wcre%": "0.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -17394,7 +17576,9 @@
          "wce%": "0.0061", 
          "wcre%": "22.22"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -17607,7 +17791,7 @@
       ], 
       "license": "The MIT License", 
       "references": [
-       "V. Mrazek, L. Sekanina and Z. Vasicek, \"Libraries of Approximate Circuits: Design and Application in CNN Accelerators\""
+       "V. Mrazek, L. Sekanina, Z. Vasicek \"Libraries of Approximate Circuits: Automated Design and Application in CNN Accelerators\" IEEE Journal on Emerging and Selected Topics in Circuits and Systems, Vol 10, No 4, 2020"
       ]
      }, 
      {
@@ -17637,7 +17821,9 @@
          "wce%": "0.00", 
          "wcre%": "0.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -17739,7 +17925,9 @@
          "wce%": "0.78", 
          "wcre%": "800.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -17822,7 +18010,7 @@
       ], 
       "license": "The MIT License", 
       "references": [
-       "V. Mrazek, L. Sekanina and Z. Vasicek, \"Libraries of Approximate Circuits: Design and Application in CNN Accelerators\""
+       "V. Mrazek, L. Sekanina, Z. Vasicek \"Libraries of Approximate Circuits: Automated Design and Application in CNN Accelerators\" IEEE Journal on Emerging and Selected Topics in Circuits and Systems, Vol 10, No 4, 2020"
       ]
      }, 
      {
@@ -17852,7 +18040,9 @@
          "wce%": "0.00", 
          "wcre%": "0.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -17876,7 +18066,9 @@
          "wce%": "0.0031", 
          "wcre%": "100.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -18030,7 +18222,9 @@
          "wce%": "3.75", 
          "wcre%": "109.38"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -18054,7 +18248,9 @@
          "wce%": "11.27", 
          "wcre%": "200.20"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -18078,7 +18274,9 @@
          "wce%": "30.62", 
          "wcre%": "700.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -18109,7 +18307,7 @@
       ], 
       "license": "The MIT License", 
       "references": [
-       "V. Mrazek, L. Sekanina and Z. Vasicek, \"Libraries of Approximate Circuits: Design and Application in CNN Accelerators\""
+       "V. Mrazek, L. Sekanina, Z. Vasicek \"Libraries of Approximate Circuits: Automated Design and Application in CNN Accelerators\" IEEE Journal on Emerging and Selected Topics in Circuits and Systems, Vol 10, No 4, 2020"
       ]
      }
     ], 
@@ -18156,7 +18354,9 @@
          "wce%": "0.00", 
          "wcre%": "0.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -18180,7 +18380,9 @@
          "wce%": "1.56", 
          "wcre%": "100.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -18204,7 +18406,9 @@
          "wce%": "1.56", 
          "wcre%": "66.67"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -18228,7 +18432,9 @@
          "wce%": "3.91", 
          "wcre%": "100.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -18252,7 +18458,9 @@
          "wce%": "5.47", 
          "wcre%": "400.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -18276,7 +18484,9 @@
          "wce%": "9.38", 
          "wcre%": "1100.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -18300,7 +18510,9 @@
          "wce%": "25.00", 
          "wcre%": "1000.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -18324,7 +18536,9 @@
          "wce%": "33.59", 
          "wcre%": "2800.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -18348,7 +18562,9 @@
          "wce%": "72.66", 
          "wcre%": "5600.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -18372,11 +18588,15 @@
          "wce%": "100.00", 
          "wcre%": "200.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }
       ], 
       "license": "The MIT License", 
-      "references": []
+      "references": [
+       "V. Mrazek, L. Sekanina, Z. Vasicek \"Libraries of Approximate Circuits: Automated Design and Application in CNN Accelerators\" IEEE Journal on Emerging and Selected Topics in Circuits and Systems, Vol 10, No 4, 2020"
+      ]
      }, 
      {
       "description": "Pareto optimal subset (WCE vs power)", 
@@ -18405,7 +18625,9 @@
          "wce%": "0.00", 
          "wcre%": "0.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -18429,7 +18651,9 @@
          "wce%": "0.78", 
          "wcre%": "100.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -18453,7 +18677,9 @@
          "wce%": "1.56", 
          "wcre%": "100.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -18477,7 +18703,9 @@
          "wce%": "3.91", 
          "wcre%": "300.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -18501,7 +18729,9 @@
          "wce%": "5.47", 
          "wcre%": "700.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -18525,7 +18755,9 @@
          "wce%": "9.38", 
          "wcre%": "1100.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -18549,7 +18781,9 @@
          "wce%": "19.53", 
          "wcre%": "2500.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -18573,7 +18807,9 @@
          "wce%": "33.59", 
          "wcre%": "2800.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -18597,7 +18833,9 @@
          "wce%": "54.69", 
          "wcre%": "3300.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -18621,11 +18859,15 @@
          "wce%": "100.00", 
          "wcre%": "200.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }
       ], 
       "license": "The MIT License", 
-      "references": []
+      "references": [
+       "V. Mrazek, L. Sekanina, Z. Vasicek \"Libraries of Approximate Circuits: Automated Design and Application in CNN Accelerators\" IEEE Journal on Emerging and Selected Topics in Circuits and Systems, Vol 10, No 4, 2020"
+      ]
      }, 
      {
       "description": "Pareto optimal subset (MRE vs power)", 
@@ -18654,7 +18896,9 @@
          "wce%": "0.00", 
          "wcre%": "0.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -18678,7 +18922,9 @@
          "wce%": "1.56", 
          "wcre%": "66.67"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -18702,7 +18948,9 @@
          "wce%": "3.12", 
          "wcre%": "200.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -18726,7 +18974,9 @@
          "wce%": "10.16", 
          "wcre%": "400.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -18750,7 +19000,9 @@
          "wce%": "15.62", 
          "wcre%": "800.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -18774,7 +19026,9 @@
          "wce%": "23.44", 
          "wcre%": "850.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -18798,7 +19052,9 @@
          "wce%": "54.69", 
          "wcre%": "3300.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -18822,11 +19078,15 @@
          "wce%": "100.00", 
          "wcre%": "200.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }
       ], 
       "license": "The MIT License", 
-      "references": []
+      "references": [
+       "V. Mrazek, L. Sekanina, Z. Vasicek \"Libraries of Approximate Circuits: Automated Design and Application in CNN Accelerators\" IEEE Journal on Emerging and Selected Topics in Circuits and Systems, Vol 10, No 4, 2020"
+      ]
      }, 
      {
       "description": "Pareto optimal subset (EP vs power)", 
@@ -18855,7 +19115,9 @@
          "wce%": "0.00", 
          "wcre%": "0.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -18879,7 +19141,9 @@
          "wce%": "1.56", 
          "wcre%": "100.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -18903,7 +19167,9 @@
          "wce%": "12.50", 
          "wcre%": "1600.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -18927,7 +19193,9 @@
          "wce%": "100.00", 
          "wcre%": "6400.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -18951,7 +19219,9 @@
          "wce%": "4.69", 
          "wcre%": "300.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -18975,7 +19245,9 @@
          "wce%": "100.00", 
          "wcre%": "6200.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -18999,11 +19271,15 @@
          "wce%": "100.00", 
          "wcre%": "200.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }
       ], 
       "license": "The MIT License", 
-      "references": []
+      "references": [
+       "V. Mrazek, L. Sekanina, Z. Vasicek \"Libraries of Approximate Circuits: Automated Design and Application in CNN Accelerators\" IEEE Journal on Emerging and Selected Topics in Circuits and Systems, Vol 10, No 4, 2020"
+      ]
      }, 
      {
       "description": "Pareto optimal subset (MSE vs power)", 
@@ -19032,7 +19308,9 @@
          "wce%": "0.00", 
          "wcre%": "0.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -19056,7 +19334,9 @@
          "wce%": "1.56", 
          "wcre%": "66.67"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -19080,7 +19360,9 @@
          "wce%": "3.91", 
          "wcre%": "300.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -19104,7 +19386,9 @@
          "wce%": "5.47", 
          "wcre%": "400.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -19128,7 +19412,9 @@
          "wce%": "10.16", 
          "wcre%": "400.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -19152,7 +19438,9 @@
          "wce%": "14.06", 
          "wcre%": "1500.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -19176,7 +19464,9 @@
          "wce%": "35.16", 
          "wcre%": "1650.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -19200,7 +19490,9 @@
          "wce%": "54.69", 
          "wcre%": "3300.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -19224,7 +19516,9 @@
          "wce%": "84.38", 
          "wcre%": "6500.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -19248,11 +19542,15 @@
          "wce%": "100.00", 
          "wcre%": "200.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }
       ], 
       "license": "The MIT License", 
-      "references": []
+      "references": [
+       "V. Mrazek, L. Sekanina, Z. Vasicek \"Libraries of Approximate Circuits: Automated Design and Application in CNN Accelerators\" IEEE Journal on Emerging and Selected Topics in Circuits and Systems, Vol 10, No 4, 2020"
+      ]
      }
     ], 
     "description": "8-bit signed adders (with overflow)", 
@@ -19291,7 +19589,9 @@
          "wce%": "0.00", 
          "wcre%": "0.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -19315,7 +19615,9 @@
          "wce%": "0.39", 
          "wcre%": "50.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -19339,7 +19641,9 @@
          "wce%": "0.78", 
          "wcre%": "100.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -19363,7 +19667,9 @@
          "wce%": "1.17", 
          "wcre%": "200.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -19387,7 +19693,9 @@
          "wce%": "2.73", 
          "wcre%": "350.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -19411,7 +19719,9 @@
          "wce%": "3.52", 
          "wcre%": "700.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -19435,7 +19745,9 @@
          "wce%": "6.25", 
          "wcre%": "1500.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -19459,7 +19771,9 @@
          "wce%": "12.50", 
          "wcre%": "3100.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -19483,7 +19797,9 @@
          "wce%": "26.17", 
          "wcre%": "6300.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -19507,11 +19823,15 @@
          "wce%": "50.00", 
          "wcre%": "9700.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }
       ], 
       "license": "The MIT License", 
-      "references": []
+      "references": [
+       "V. Mrazek, L. Sekanina, Z. Vasicek \"Libraries of Approximate Circuits: Automated Design and Application in CNN Accelerators\" IEEE Journal on Emerging and Selected Topics in Circuits and Systems, Vol 10, No 4, 2020"
+      ]
      }, 
      {
       "description": "Pareto optimal subset (WCE vs power)", 
@@ -19540,7 +19860,9 @@
          "wce%": "0.00", 
          "wcre%": "0.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -19564,7 +19886,9 @@
          "wce%": "0.39", 
          "wcre%": "100.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -19588,7 +19912,9 @@
          "wce%": "0.78", 
          "wcre%": "100.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -19612,7 +19938,9 @@
          "wce%": "1.56", 
          "wcre%": "400.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -19636,7 +19964,9 @@
          "wce%": "3.12", 
          "wcre%": "700.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -19660,7 +19990,9 @@
          "wce%": "6.25", 
          "wcre%": "1500.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -19684,7 +20016,9 @@
          "wce%": "12.50", 
          "wcre%": "3100.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -19708,7 +20042,9 @@
          "wce%": "26.17", 
          "wcre%": "6300.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -19732,11 +20068,15 @@
          "wce%": "50.00", 
          "wcre%": "9700.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }
       ], 
       "license": "The MIT License", 
-      "references": []
+      "references": [
+       "V. Mrazek, L. Sekanina, Z. Vasicek \"Libraries of Approximate Circuits: Automated Design and Application in CNN Accelerators\" IEEE Journal on Emerging and Selected Topics in Circuits and Systems, Vol 10, No 4, 2020"
+      ]
      }, 
      {
       "description": "Pareto optimal subset (MRE vs power)", 
@@ -19765,7 +20105,9 @@
          "wce%": "0.00", 
          "wcre%": "0.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -19789,7 +20131,9 @@
          "wce%": "0.39", 
          "wcre%": "50.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -19813,7 +20157,9 @@
          "wce%": "0.78", 
          "wcre%": "100.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -19837,7 +20183,9 @@
          "wce%": "1.17", 
          "wcre%": "200.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -19861,7 +20209,9 @@
          "wce%": "2.73", 
          "wcre%": "350.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -19885,7 +20235,9 @@
          "wce%": "7.42", 
          "wcre%": "750.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -19909,7 +20261,9 @@
          "wce%": "12.50", 
          "wcre%": "3100.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -19933,7 +20287,9 @@
          "wce%": "50.00", 
          "wcre%": "6350.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -19957,7 +20313,9 @@
          "wce%": "50.00", 
          "wcre%": "9500.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -19981,11 +20339,15 @@
          "wce%": "50.00", 
          "wcre%": "9700.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }
       ], 
       "license": "The MIT License", 
-      "references": []
+      "references": [
+       "V. Mrazek, L. Sekanina, Z. Vasicek \"Libraries of Approximate Circuits: Automated Design and Application in CNN Accelerators\" IEEE Journal on Emerging and Selected Topics in Circuits and Systems, Vol 10, No 4, 2020"
+      ]
      }, 
      {
       "description": "Pareto optimal subset (EP vs power)", 
@@ -20014,7 +20376,9 @@
          "wce%": "0.00", 
          "wcre%": "0.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -20038,7 +20402,9 @@
          "wce%": "0.78", 
          "wcre%": "100.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -20062,7 +20428,9 @@
          "wce%": "0.78", 
          "wcre%": "100.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -20086,7 +20454,9 @@
          "wce%": "0.78", 
          "wcre%": "200.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -20110,7 +20480,9 @@
          "wce%": "1.17", 
          "wcre%": "200.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -20134,7 +20506,9 @@
          "wce%": "1.56", 
          "wcre%": "300.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -20158,7 +20532,9 @@
          "wce%": "3.12", 
          "wcre%": "700.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -20182,11 +20558,15 @@
          "wce%": "50.00", 
          "wcre%": "9700.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }
       ], 
       "license": "The MIT License", 
-      "references": []
+      "references": [
+       "V. Mrazek, L. Sekanina, Z. Vasicek \"Libraries of Approximate Circuits: Automated Design and Application in CNN Accelerators\" IEEE Journal on Emerging and Selected Topics in Circuits and Systems, Vol 10, No 4, 2020"
+      ]
      }, 
      {
       "description": "Pareto optimal subset (MSE vs power)", 
@@ -20215,7 +20595,9 @@
          "wce%": "0.00", 
          "wcre%": "0.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -20239,7 +20621,9 @@
          "wce%": "0.39", 
          "wcre%": "50.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -20263,7 +20647,9 @@
          "wce%": "0.39", 
          "wcre%": "100.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -20287,7 +20673,9 @@
          "wce%": "0.78", 
          "wcre%": "100.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -20311,7 +20699,9 @@
          "wce%": "1.56", 
          "wcre%": "400.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -20335,7 +20725,9 @@
          "wce%": "3.91", 
          "wcre%": "800.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -20359,7 +20751,9 @@
          "wce%": "6.64", 
          "wcre%": "1600.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -20383,7 +20777,9 @@
          "wce%": "13.28", 
          "wcre%": "3100.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -20407,7 +20803,9 @@
          "wce%": "25.00", 
          "wcre%": "6300.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -20431,11 +20829,15 @@
          "wce%": "50.00", 
          "wcre%": "9700.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }
       ], 
       "license": "The MIT License", 
-      "references": []
+      "references": [
+       "V. Mrazek, L. Sekanina, Z. Vasicek \"Libraries of Approximate Circuits: Automated Design and Application in CNN Accelerators\" IEEE Journal on Emerging and Selected Topics in Circuits and Systems, Vol 10, No 4, 2020"
+      ]
      }
     ], 
     "description": "8-bit signed adders (no overflow)", 
@@ -20474,7 +20876,9 @@
          "wce%": "0.00", 
          "wcre%": "0.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -20498,7 +20902,9 @@
          "wce%": "0.39", 
          "wcre%": "100.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -20522,7 +20928,9 @@
          "wce%": "0.78", 
          "wcre%": "400.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -20546,7 +20954,9 @@
          "wce%": "1.37", 
          "wcre%": "350.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -20570,7 +20980,9 @@
          "wce%": "2.93", 
          "wcre%": "800.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -20594,7 +21006,9 @@
          "wce%": "6.05", 
          "wcre%": "850.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -20618,7 +21032,9 @@
          "wce%": "12.11", 
          "wcre%": "1800.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -20642,7 +21058,9 @@
          "wce%": "24.61", 
          "wcre%": "4000.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -20666,11 +21084,15 @@
          "wce%": "49.61", 
          "wcre%": "7000.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }
       ], 
       "license": "The MIT License", 
-      "references": []
+      "references": [
+       "V. Mrazek, L. Sekanina, Z. Vasicek \"Libraries of Approximate Circuits: Automated Design and Application in CNN Accelerators\" IEEE Journal on Emerging and Selected Topics in Circuits and Systems, Vol 10, No 4, 2020"
+      ]
      }, 
      {
       "description": "Pareto optimal subset (WCE vs power)", 
@@ -20699,7 +21121,9 @@
          "wce%": "0.00", 
          "wcre%": "0.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -20723,7 +21147,9 @@
          "wce%": "0.20", 
          "wcre%": "100.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -20747,7 +21173,9 @@
          "wce%": "0.59", 
          "wcre%": "200.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -20771,7 +21199,9 @@
          "wce%": "0.98", 
          "wcre%": "500.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -20795,7 +21225,9 @@
          "wce%": "1.95", 
          "wcre%": "600.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -20819,7 +21251,9 @@
          "wce%": "3.12", 
          "wcre%": "1000.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -20843,7 +21277,9 @@
          "wce%": "7.03", 
          "wcre%": "2300.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -20867,7 +21303,9 @@
          "wce%": "12.50", 
          "wcre%": "3400.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -20891,7 +21329,9 @@
          "wce%": "26.17", 
          "wcre%": "7400.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -20915,11 +21355,15 @@
          "wce%": "49.61", 
          "wcre%": "7000.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }
       ], 
       "license": "The MIT License", 
-      "references": []
+      "references": [
+       "V. Mrazek, L. Sekanina, Z. Vasicek \"Libraries of Approximate Circuits: Automated Design and Application in CNN Accelerators\" IEEE Journal on Emerging and Selected Topics in Circuits and Systems, Vol 10, No 4, 2020"
+      ]
      }, 
      {
       "description": "Pareto optimal subset (MRE vs power)", 
@@ -20948,7 +21392,9 @@
          "wce%": "0.00", 
          "wcre%": "0.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -20972,7 +21418,9 @@
          "wce%": "0.20", 
          "wcre%": "100.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -20996,7 +21444,9 @@
          "wce%": "0.59", 
          "wcre%": "200.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -21020,7 +21470,9 @@
          "wce%": "1.37", 
          "wcre%": "350.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -21044,7 +21496,9 @@
          "wce%": "2.93", 
          "wcre%": "800.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -21068,7 +21522,9 @@
          "wce%": "6.84", 
          "wcre%": "2600.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -21092,7 +21548,9 @@
          "wce%": "13.67", 
          "wcre%": "6500.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -21116,11 +21574,15 @@
          "wce%": "49.61", 
          "wcre%": "7000.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }
       ], 
       "license": "The MIT License", 
-      "references": []
+      "references": [
+       "V. Mrazek, L. Sekanina, Z. Vasicek \"Libraries of Approximate Circuits: Automated Design and Application in CNN Accelerators\" IEEE Journal on Emerging and Selected Topics in Circuits and Systems, Vol 10, No 4, 2020"
+      ]
      }, 
      {
       "description": "Pareto optimal subset (EP vs power)", 
@@ -21149,7 +21611,9 @@
          "wce%": "0.00", 
          "wcre%": "0.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -21173,7 +21637,9 @@
          "wce%": "0.78", 
          "wcre%": "100.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -21197,7 +21663,9 @@
          "wce%": "1.56", 
          "wcre%": "800.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -21221,7 +21689,9 @@
          "wce%": "0.78", 
          "wcre%": "400.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -21245,7 +21715,9 @@
          "wce%": "6.25", 
          "wcre%": "3200.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -21269,7 +21741,9 @@
          "wce%": "3.12", 
          "wcre%": "800.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -21293,7 +21767,9 @@
          "wce%": "1.37", 
          "wcre%": "700.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -21317,11 +21793,15 @@
          "wce%": "49.61", 
          "wcre%": "7000.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }
       ], 
       "license": "The MIT License", 
-      "references": []
+      "references": [
+       "V. Mrazek, L. Sekanina, Z. Vasicek \"Libraries of Approximate Circuits: Automated Design and Application in CNN Accelerators\" IEEE Journal on Emerging and Selected Topics in Circuits and Systems, Vol 10, No 4, 2020"
+      ]
      }, 
      {
       "description": "Pareto optimal subset (MSE vs power)", 
@@ -21350,7 +21830,9 @@
          "wce%": "0.00", 
          "wcre%": "0.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -21374,7 +21856,9 @@
          "wce%": "0.39", 
          "wcre%": "100.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -21398,7 +21882,9 @@
          "wce%": "0.59", 
          "wcre%": "200.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -21422,7 +21908,9 @@
          "wce%": "1.37", 
          "wcre%": "350.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -21446,7 +21934,9 @@
          "wce%": "2.73", 
          "wcre%": "500.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -21470,7 +21960,9 @@
          "wce%": "5.08", 
          "wcre%": "1800.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -21494,7 +21986,9 @@
          "wce%": "7.03", 
          "wcre%": "2300.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -21518,7 +22012,9 @@
          "wce%": "12.50", 
          "wcre%": "5500.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -21542,7 +22038,9 @@
          "wce%": "24.80", 
          "wcre%": "9100.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -21566,11 +22064,15 @@
          "wce%": "49.61", 
          "wcre%": "7000.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }
       ], 
       "license": "The MIT License", 
-      "references": []
+      "references": [
+       "V. Mrazek, L. Sekanina, Z. Vasicek \"Libraries of Approximate Circuits: Automated Design and Application in CNN Accelerators\" IEEE Journal on Emerging and Selected Topics in Circuits and Systems, Vol 10, No 4, 2020"
+      ]
      }
     ], 
     "description": "9-bit signed adders (no overflow)", 
@@ -21609,7 +22111,9 @@
          "wce%": "0.024", 
          "wcre%": "50.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -21633,7 +22137,9 @@
          "wce%": "0.024", 
          "wcre%": "100.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -21657,7 +22163,9 @@
          "wce%": "0.049", 
          "wcre%": "100.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -21681,7 +22189,9 @@
          "wce%": "0.098", 
          "wcre%": "400.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -21705,7 +22215,9 @@
          "wce%": "0.22", 
          "wcre%": "700.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -21729,7 +22241,9 @@
          "wce%": "0.51", 
          "wcre%": "2000.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -21753,7 +22267,9 @@
          "wce%": "0.46", 
          "wcre%": "1800.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -21777,7 +22293,9 @@
          "wce%": "1.15", 
          "wcre%": "3300.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -21801,11 +22319,15 @@
          "wce%": "2.10", 
          "wcre%": "6400.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }
       ], 
       "license": "The MIT License", 
-      "references": []
+      "references": [
+       "V. Mrazek, L. Sekanina, Z. Vasicek \"Libraries of Approximate Circuits: Automated Design and Application in CNN Accelerators\" IEEE Journal on Emerging and Selected Topics in Circuits and Systems, Vol 10, No 4, 2020"
+      ]
      }, 
      {
       "description": "Pareto optimal subset (WCE vs power)", 
@@ -21834,7 +22356,9 @@
          "wce%": "0.024", 
          "wcre%": "100.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -21858,7 +22382,9 @@
          "wce%": "0.049", 
          "wcre%": "100.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -21882,7 +22408,9 @@
          "wce%": "0.098", 
          "wcre%": "300.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -21906,7 +22434,9 @@
          "wce%": "0.22", 
          "wcre%": "900.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -21930,7 +22460,9 @@
          "wce%": "0.46", 
          "wcre%": "1800.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -21954,7 +22486,9 @@
          "wce%": "1.15", 
          "wcre%": "3300.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -21978,11 +22512,15 @@
          "wce%": "2.10", 
          "wcre%": "6400.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }
       ], 
       "license": "The MIT License", 
-      "references": []
+      "references": [
+       "V. Mrazek, L. Sekanina, Z. Vasicek \"Libraries of Approximate Circuits: Automated Design and Application in CNN Accelerators\" IEEE Journal on Emerging and Selected Topics in Circuits and Systems, Vol 10, No 4, 2020"
+      ]
      }, 
      {
       "description": "Pareto optimal subset (MRE vs power)", 
@@ -22011,7 +22549,9 @@
          "wce%": "0.024", 
          "wcre%": "50.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -22035,7 +22575,9 @@
          "wce%": "0.024", 
          "wcre%": "100.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -22059,7 +22601,9 @@
          "wce%": "0.049", 
          "wcre%": "100.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -22083,7 +22627,9 @@
          "wce%": "0.098", 
          "wcre%": "300.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -22107,7 +22653,9 @@
          "wce%": "0.22", 
          "wcre%": "700.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -22131,7 +22679,9 @@
          "wce%": "0.51", 
          "wcre%": "2000.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -22155,7 +22705,9 @@
          "wce%": "1.15", 
          "wcre%": "3300.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -22179,7 +22731,9 @@
          "wce%": "1.61", 
          "wcre%": "6400.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -22203,11 +22757,15 @@
          "wce%": "2.10", 
          "wcre%": "6400.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }
       ], 
       "license": "The MIT License", 
-      "references": []
+      "references": [
+       "V. Mrazek, L. Sekanina, Z. Vasicek \"Libraries of Approximate Circuits: Automated Design and Application in CNN Accelerators\" IEEE Journal on Emerging and Selected Topics in Circuits and Systems, Vol 10, No 4, 2020"
+      ]
      }, 
      {
       "description": "Pareto optimal subset (EP vs power)", 
@@ -22236,7 +22794,9 @@
          "wce%": "0.20", 
          "wcre%": "400.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -22260,7 +22820,9 @@
          "wce%": "0.024", 
          "wcre%": "50.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -22284,7 +22846,9 @@
          "wce%": "0.024", 
          "wcre%": "100.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -22308,7 +22872,9 @@
          "wce%": "0.049", 
          "wcre%": "200.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -22332,7 +22898,9 @@
          "wce%": "0.098", 
          "wcre%": "300.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -22356,7 +22924,9 @@
          "wce%": "0.22", 
          "wcre%": "800.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -22380,11 +22950,15 @@
          "wce%": "2.10", 
          "wcre%": "6400.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }
       ], 
       "license": "The MIT License", 
-      "references": []
+      "references": [
+       "V. Mrazek, L. Sekanina, Z. Vasicek \"Libraries of Approximate Circuits: Automated Design and Application in CNN Accelerators\" IEEE Journal on Emerging and Selected Topics in Circuits and Systems, Vol 10, No 4, 2020"
+      ]
      }, 
      {
       "description": "Pareto optimal subset (MSE vs power)", 
@@ -22413,7 +22987,9 @@
          "wce%": "0.024", 
          "wcre%": "50.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -22437,7 +23013,9 @@
          "wce%": "0.024", 
          "wcre%": "100.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -22461,7 +23039,9 @@
          "wce%": "0.049", 
          "wcre%": "100.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -22485,7 +23065,9 @@
          "wce%": "0.098", 
          "wcre%": "400.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -22509,7 +23091,9 @@
          "wce%": "0.098", 
          "wcre%": "300.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -22533,7 +23117,9 @@
          "wce%": "0.22", 
          "wcre%": "900.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -22557,7 +23143,9 @@
          "wce%": "0.51", 
          "wcre%": "2000.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -22581,7 +23169,9 @@
          "wce%": "0.90", 
          "wcre%": "3500.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -22605,7 +23195,9 @@
          "wce%": "1.61", 
          "wcre%": "6400.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -22629,11 +23221,15 @@
          "wce%": "2.10", 
          "wcre%": "6400.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }
       ], 
       "license": "The MIT License", 
-      "references": []
+      "references": [
+       "V. Mrazek, L. Sekanina, Z. Vasicek \"Libraries of Approximate Circuits: Automated Design and Application in CNN Accelerators\" IEEE Journal on Emerging and Selected Topics in Circuits and Systems, Vol 10, No 4, 2020"
+      ]
      }
     ], 
     "description": "12-bit signed adders (no overflow)", 
@@ -22672,7 +23268,9 @@
          "wce%": "0.0015", 
          "wcre%": "50.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -22696,7 +23294,9 @@
          "wce%": "0.0015", 
          "wcre%": "100.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -22720,7 +23320,9 @@
          "wce%": "0.0031", 
          "wcre%": "100.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -22744,7 +23346,9 @@
          "wce%": "0.0061", 
          "wcre%": "400.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -22768,7 +23372,9 @@
          "wce%": "0.015", 
          "wcre%": "800.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -22792,7 +23398,9 @@
          "wce%": "0.035", 
          "wcre%": "2100.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -22816,7 +23424,9 @@
          "wce%": "0.027", 
          "wcre%": "1700.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -22840,7 +23450,9 @@
          "wce%": "0.058", 
          "wcre%": "3100.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -22864,11 +23476,15 @@
          "wce%": "0.13", 
          "wcre%": "6300.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }
       ], 
       "license": "The MIT License", 
-      "references": []
+      "references": [
+       "V. Mrazek, L. Sekanina, Z. Vasicek \"Libraries of Approximate Circuits: Automated Design and Application in CNN Accelerators\" IEEE Journal on Emerging and Selected Topics in Circuits and Systems, Vol 10, No 4, 2020"
+      ]
      }, 
      {
       "description": "Pareto optimal subset (WCE vs power)", 
@@ -22897,7 +23513,9 @@
          "wce%": "0.0015", 
          "wcre%": "100.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -22921,7 +23539,9 @@
          "wce%": "0.0031", 
          "wcre%": "100.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -22945,7 +23565,9 @@
          "wce%": "0.0061", 
          "wcre%": "400.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -22969,7 +23591,9 @@
          "wce%": "0.021", 
          "wcre%": "900.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -22993,7 +23617,9 @@
          "wce%": "0.027", 
          "wcre%": "1700.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -23017,7 +23643,9 @@
          "wce%": "0.058", 
          "wcre%": "3100.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -23041,7 +23669,9 @@
          "wce%": "0.099", 
          "wcre%": "5300.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -23065,11 +23695,15 @@
          "wce%": "0.13", 
          "wcre%": "6300.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }
       ], 
       "license": "The MIT License", 
-      "references": []
+      "references": [
+       "V. Mrazek, L. Sekanina, Z. Vasicek \"Libraries of Approximate Circuits: Automated Design and Application in CNN Accelerators\" IEEE Journal on Emerging and Selected Topics in Circuits and Systems, Vol 10, No 4, 2020"
+      ]
      }, 
      {
       "description": "Pareto optimal subset (MRE vs power)", 
@@ -23098,7 +23732,9 @@
          "wce%": "0.0015", 
          "wcre%": "50.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -23122,7 +23758,9 @@
          "wce%": "0.0031", 
          "wcre%": "100.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -23146,7 +23784,9 @@
          "wce%": "0.0031", 
          "wcre%": "100.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -23170,7 +23810,9 @@
          "wce%": "0.0061", 
          "wcre%": "400.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -23194,7 +23836,9 @@
          "wce%": "0.015", 
          "wcre%": "500.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -23218,7 +23862,9 @@
          "wce%": "0.035", 
          "wcre%": "2100.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -23242,7 +23888,9 @@
          "wce%": "0.058", 
          "wcre%": "2100.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -23266,7 +23914,9 @@
          "wce%": "0.058", 
          "wcre%": "3100.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -23290,11 +23940,15 @@
          "wce%": "0.13", 
          "wcre%": "6300.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }
       ], 
       "license": "The MIT License", 
-      "references": []
+      "references": [
+       "V. Mrazek, L. Sekanina, Z. Vasicek \"Libraries of Approximate Circuits: Automated Design and Application in CNN Accelerators\" IEEE Journal on Emerging and Selected Topics in Circuits and Systems, Vol 10, No 4, 2020"
+      ]
      }, 
      {
       "description": "Pareto optimal subset (EP vs power)", 
@@ -23323,7 +23977,9 @@
          "wce%": "0.012", 
          "wcre%": "100.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -23347,7 +24003,9 @@
          "wce%": "0.0046", 
          "wcre%": "75.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -23371,7 +24029,9 @@
          "wce%": "0.0015", 
          "wcre%": "100.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -23395,7 +24055,9 @@
          "wce%": "0.0031", 
          "wcre%": "100.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -23419,7 +24081,9 @@
          "wce%": "0.0076", 
          "wcre%": "300.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -23443,7 +24107,9 @@
          "wce%": "0.0061", 
          "wcre%": "400.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -23467,11 +24133,15 @@
          "wce%": "0.13", 
          "wcre%": "6300.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }
       ], 
       "license": "The MIT License", 
-      "references": []
+      "references": [
+       "V. Mrazek, L. Sekanina, Z. Vasicek \"Libraries of Approximate Circuits: Automated Design and Application in CNN Accelerators\" IEEE Journal on Emerging and Selected Topics in Circuits and Systems, Vol 10, No 4, 2020"
+      ]
      }, 
      {
       "description": "Pareto optimal subset (MSE vs power)", 
@@ -23500,7 +24170,9 @@
          "wce%": "0.0015", 
          "wcre%": "50.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -23524,7 +24196,9 @@
          "wce%": "0.0015", 
          "wcre%": "100.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -23548,7 +24222,9 @@
          "wce%": "0.0031", 
          "wcre%": "100.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -23572,7 +24248,9 @@
          "wce%": "0.0076", 
          "wcre%": "400.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -23596,7 +24274,9 @@
          "wce%": "0.0061", 
          "wcre%": "400.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -23620,7 +24300,9 @@
          "wce%": "0.021", 
          "wcre%": "900.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -23644,7 +24326,9 @@
          "wce%": "0.027", 
          "wcre%": "1700.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -23668,7 +24352,9 @@
          "wce%": "0.058", 
          "wcre%": "2100.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -23692,7 +24378,9 @@
          "wce%": "0.058", 
          "wcre%": "3100.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }, 
        {
         "files": [
@@ -23716,11 +24404,15 @@
          "wce%": "0.13", 
          "wcre%": "6300.00"
         }, 
-        "references": []
+        "references": [
+         0
+        ]
        }
       ], 
       "license": "The MIT License", 
-      "references": []
+      "references": [
+       "V. Mrazek, L. Sekanina, Z. Vasicek \"Libraries of Approximate Circuits: Automated Design and Application in CNN Accelerators\" IEEE Journal on Emerging and Selected Topics in Circuits and Systems, Vol 10, No 4, 2020"
+      ]
      }
     ], 
     "description": "16-bit signed adders (no overflow)", 
