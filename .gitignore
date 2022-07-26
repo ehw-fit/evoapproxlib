@@ -5,3 +5,6 @@
 
 __pycache__
 cython/*
+
+adders_*
+multipliers_*

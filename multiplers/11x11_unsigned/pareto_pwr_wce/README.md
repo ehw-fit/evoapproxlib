@@ -9,14 +9,14 @@ Parameters of selected circuits
 
 | Circuit name | MAE<sub>%</sub> | WCE<sub>%</sub> | EP<sub>%</sub> | MRE<sub>%</sub> | MSE | Download |
 | --- |  --- | --- | --- | --- | --- | --- | 
-| mul11u_001 | 0.00 | 0.00 | 0.00 | 0.00 | 0 |  [[Verilog](mul11u_001.v)]  [[C](mul11u_001.c)] |
-| mul11u_003 | 0.019 | 0.094 | 99.75 | 0.84 | 10235.081e2 |  [[Verilog](mul11u_003.v)]  [[C](mul11u_003.c)] |
-| mul11u_07G | 0.019 | 0.098 | 99.71 | 0.80 | 10360.917e2 |  [[Verilog](mul11u_07G.v)]  [[C](mul11u_07G.c)] |
-| mul11u_0CV | 0.034 | 0.20 | 99.84 | 1.15 | 31888.497e2 |  [[Verilog](mul11u_0CV.v)]  [[C](mul11u_0CV.c)] |
-| mul11u_0CY | 0.09 | 0.47 | 99.87 | 3.00 | 22556.998e3 |  [[Verilog](mul11u_0CY.v)]  [[C](mul11u_0CY.c)] |
-| mul11u_06R | 0.18 | 0.99 | 99.88 | 4.96 | 89807.495e3 |  [[Verilog](mul11u_06R.v)]  [[C](mul11u_06R.c)] |
-| mul11u_0F3 | 0.38 | 1.99 | 99.89 | 9.18 | 40139.971e4 |  [[Verilog](mul11u_0F3.v)]  [[C](mul11u_0F3.c)] |
-| mul11u_0DX | 1.18 | 6.03 | 99.90 | 19.95 | 37290.89e5 |  [[Verilog](mul11u_0DX.v)]  [[C](mul11u_0DX.c)] |
+| mul11u_003 | 0.00 | 0.00 | 0.00 | 0.00 | 0 |  [[Verilog](mul11u_003.v)]  [[C](mul11u_003.c)] |
+| mul11u_01Z | 0.019 | 0.094 | 99.75 | 0.84 | 10235.081e2 |  [[Verilog](mul11u_01Z.v)]  [[C](mul11u_01Z.c)] |
+| mul11u_00H | 0.019 | 0.098 | 99.71 | 0.80 | 10360.917e2 |  [[Verilog](mul11u_00H.v)]  [[C](mul11u_00H.c)] |
+| mul11u_03N | 0.034 | 0.20 | 99.84 | 1.15 | 31888.497e2 |  [[Verilog](mul11u_03N.v)]  [[C](mul11u_03N.c)] |
+| mul11u_05D | 0.09 | 0.47 | 99.87 | 3.00 | 22556.998e3 |  [[Verilog](mul11u_05D.v)]  [[C](mul11u_05D.c)] |
+| mul11u_067 | 0.18 | 0.99 | 99.88 | 4.96 | 89807.495e3 |  [[Verilog](mul11u_067.v)]  [[C](mul11u_067.c)] |
+| mul11u_097 | 0.38 | 1.99 | 99.89 | 9.18 | 40139.971e4 |  [[Verilog](mul11u_097.v)]  [[C](mul11u_097.c)] |
+| mul11u_09Z | 1.18 | 6.03 | 99.90 | 19.95 | 37290.89e5 |  [[Verilog](mul11u_09Z.v)]  [[C](mul11u_09Z.c)] |
     
 Parameters
 --------------

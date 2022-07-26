@@ -9,16 +9,16 @@ Parameters of selected circuits
 
 | Circuit name | MAE<sub>%</sub> | WCE<sub>%</sub> | EP<sub>%</sub> | MRE<sub>%</sub> | MSE | Download |
 | --- |  --- | --- | --- | --- | --- | --- | 
-| mul8x5u_4E8 | 0.00 | 0.00 | 0.00 | 0.00 | 0 |  [[Verilog](mul8x5u_4E8.v)]  [[C](mul8x5u_4E8.c)] |
-| mul8x5u_0CF | 0.0015 | 0.049 | 3.12 | 0.031 | 0.5 |  [[Verilog](mul8x5u_0CF.v)]  [[C](mul8x5u_0CF.c)] |
-| mul8x5u_00N | 0.0031 | 0.012 | 25.00 | 0.10 | 0.25 |  [[Verilog](mul8x5u_00N.v)]  [[C](mul8x5u_00N.c)] |
-| mul8x5u_5R9 | 0.0092 | 0.024 | 50.00 | 0.28 | 1.2 |  [[Verilog](mul8x5u_5R9.v)]  [[C](mul8x5u_5R9.c)] |
-| mul8x5u_44H | 0.027 | 0.073 | 70.31 | 0.79 | 9.2 |  [[Verilog](mul8x5u_44H.v)]  [[C](mul8x5u_44H.c)] |
-| mul8x5u_31H | 0.089 | 0.28 | 85.94 | 2.15 | 86 |  [[Verilog](mul8x5u_31H.v)]  [[C](mul8x5u_31H.c)] |
-| mul8x5u_5HE | 0.29 | 1.09 | 93.44 | 5.70 | 892 |  [[Verilog](mul8x5u_5HE.v)]  [[C](mul8x5u_5HE.c)] |
-| mul8x5u_2Y9 | 0.94 | 3.77 | 95.37 | 15.13 | 9467 |  [[Verilog](mul8x5u_2Y9.v)]  [[C](mul8x5u_2Y9.c)] |
-| mul8x5u_0N9 | 3.81 | 15.44 | 96.37 | 38.51 | 154036 |  [[Verilog](mul8x5u_0N9.v)]  [[C](mul8x5u_0N9.c)] |
-| mul8x5u_541 | 24.12 | 96.50 | 96.50 | 100.00 | 70690.462e2 |  [[Verilog](mul8x5u_541.v)]  [[C](mul8x5u_541.c)] |
+| mul8x5u_4HF | 0.00 | 0.00 | 0.00 | 0.00 | 0 |  [[Verilog](mul8x5u_4HF.v)]  [[C](mul8x5u_4HF.c)] |
+| mul8x5u_1JZ | 0.0015 | 0.049 | 3.12 | 0.031 | 0.5 |  [[Verilog](mul8x5u_1JZ.v)]  [[C](mul8x5u_1JZ.c)] |
+| mul8x5u_2BB | 0.0031 | 0.012 | 25.00 | 0.10 | 0.25 |  [[Verilog](mul8x5u_2BB.v)]  [[C](mul8x5u_2BB.c)] |
+| mul8x5u_5VH | 0.0092 | 0.024 | 50.00 | 0.28 | 1.2 |  [[Verilog](mul8x5u_5VH.v)]  [[C](mul8x5u_5VH.c)] |
+| mul8x5u_47N | 0.027 | 0.073 | 70.31 | 0.79 | 9.2 |  [[Verilog](mul8x5u_47N.v)]  [[C](mul8x5u_47N.c)] |
+| mul8x5u_34Z | 0.089 | 0.28 | 85.94 | 2.15 | 86 |  [[Verilog](mul8x5u_34Z.v)]  [[C](mul8x5u_34Z.c)] |
+| mul8x5u_4U7 | 0.29 | 1.09 | 93.44 | 5.70 | 892 |  [[Verilog](mul8x5u_4U7.v)]  [[C](mul8x5u_4U7.c)] |
+| mul8x5u_3LT | 0.94 | 3.77 | 95.37 | 15.13 | 9467 |  [[Verilog](mul8x5u_3LT.v)]  [[C](mul8x5u_3LT.c)] |
+| mul8x5u_1QQ | 3.81 | 15.44 | 96.37 | 38.51 | 154036 |  [[Verilog](mul8x5u_1QQ.v)]  [[C](mul8x5u_1QQ.c)] |
+| mul8x5u_4PP | 24.12 | 96.50 | 96.50 | 100.00 | 70690.462e2 |  [[Verilog](mul8x5u_4PP.v)]  [[C](mul8x5u_4PP.c)] |
     
 Parameters
 --------------
