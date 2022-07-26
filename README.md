@@ -1,4 +1,7 @@
 # EvoApproxLib
+
+New version was published: see [branch v2022](https://github.com/ehw-fit/evoapproxlib/tree/v2022)
+
 ###### library of approximate arithmetic circuits
 This is a GitHub repository of EvoApproxLib LITE version. The library consists of hardware and software models of approximate circuits that are designed to be easily used in arbitrary application. Web-based GUI and the full version of EvoApproxLib can be found on [our websites](https://ehw.fit.vutbr.cz/evoapprox)
 
