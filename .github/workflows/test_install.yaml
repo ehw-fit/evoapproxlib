@@ -1,0 +1,21 @@
+name: Test Install
+on: [push]
+jobs:
+    build:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v3
+            - name: Install Python
+              uses: actions/setup-python@v4
+              with:
+                  python-version: '3.9'
+            - name: Install Cython
+              run: pip install cython
+            - name: Create Package
+              run: python3 make_cython.py
+            - name: Build and Install
+              run: |
+                  cd cython
+                  python3 setup.py build_ext
+                  python3 setup.py install
