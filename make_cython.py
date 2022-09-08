@@ -40,7 +40,8 @@ def find_func(name, c_file):
     name = re.escape(name)
     m = re.search(r'\n.+\s' + name + r'\s*\(.+\)\s*\{', contents)
     if m:
-        return re.sub(r'\)\s*\{$', ')', m.group(0)).strip()
+        m = re.sub(r'\)\s*\{$', ')', m.group(0)).strip()
+        return re.sub(r'\/\*[\w\d -]*\*\/', '', m)
 
 def alias_func(func):
     return re.sub(r'^([a-zA-Z0-9_]+)\s+([a-zA-Z0-9_]+)', r'\1 c_\2 "\2" ', func)
@@ -103,6 +104,7 @@ def main():
 
             with open(pyxfile, 'w') as pyx:
                 pyx.write(f'# from {path.relative_to(root)}\n')
+                pyx.write('# cython: language_level=3\n')
                 pyx.write('from libc.stdint cimport *\n')
                 pyx.write('\n')
                 pyx.write('cdef extern:\n')
