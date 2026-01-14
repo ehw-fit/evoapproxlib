@@ -40,7 +40,11 @@ def find_func(name, c_file):
     name = re.escape(name)
     m = re.search(r'\n.+\s' + name + r'\s*\(.+\)\s*\{', contents)
     if m:
-        return re.sub(r'\)\s*\{$', ')', m.group(0)).strip()
+        # clean up the function signature
+        result = re.sub(r'\)\s*\{$', ')', m.group(0)).strip()
+        # remove C-style comments if any
+        result = re.sub(r'/\*.*?\*/', '', result)
+        return result
 
 def alias_func(func):
     return re.sub(r'^([a-zA-Z0-9_]+)\s+([a-zA-Z0-9_]+)', r'\1 c_\2 "\2" ', func)
